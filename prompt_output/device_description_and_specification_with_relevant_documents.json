@@ -1,0 +1,92 @@
+{
+    "requirements": [
+        {
+            "requirement": "General Device Information",
+            "reference": "MDR Annex II, Section 1.1(a)[1]",
+            "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
+            "relevant_documents": [
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip",
+                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf"
+            ],
+            "overall_compliance_grade": "",
+            "detailed_compliance_explanation": "",
+            "sub_requirements": [
+                {
+                    "description": "Clearly state the product or trade name as it will appear on the market.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
+                },
+                {
+                    "description": "Include any alternative names or identifiers used in marketing or distribution.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
+                },
+                {
+                    "description": "Provide a concise general description of the device, including its intended purpose.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
+                },
+                {
+                    "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
+                }
+            ]
+        },
+        {
+            "requirement": "Unique Device Identification (UDI)",
+            "reference": "MDR Annex II, Section 1.1(b)[2]",
+            "description": "This requirement ensures the assignment and documentation of the Basic UDI-DI in compliance with MDR standards, including the format, structure, issuing agency, and any additional identifiers that support traceability.",
+            "relevant_documents": [
+                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip",
+                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
+            ],
+            "overall_compliance_grade": "",
+            "detailed_compliance_explanation": "",
+            "sub_requirements": [
+                {
+                    "description": "Assign the Basic UDI-DI in accordance with the requirements of Part C of Annex VI.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Verify that the Basic UDI-DI is assigned according to the following criteria: it must be unique to the device model, issued by an accredited issuing agency, and follow the format and structure specified in Part C of Annex VI. Check if the UDI-DI includes a device identifier (DI) and a production identifier (PI). If all criteria are met, it is compliant. If some criteria are not fully met, it is partly compliant. If the UDI-DI is missing or does not follow the required format, it is non-compliant."
+                },
+                {
+                    "description": "Provide the format and structure of the Basic UDI-DI.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the format and structure of the Basic UDI-DI are provided and match the specifications in Part C of Annex VI. The UDI-DI should include both a device identifier (DI) and a production identifier (PI). If the format and structure are correct, it is compliant. If there are minor deviations, it is partly compliant. If the format and structure are missing or incorrect, it is non-compliant."
+                },
+                {
+                    "description": "Include the issuing agency for the UDI and any relevant registration numbers.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Ensure that the issuing agency for the UDI is included, along with any relevant registration numbers. The issuing agency must be accredited and recognized. If the issuing agency and registration numbers are correctly provided, it is compliant. If either is missing or incorrect, it is partly compliant. If neither is provided, it is non-compliant."
+                },
+                {
+                    "description": "If applicable, provide a clear identification by means of product code, catalogue number, or other unambiguous references that allow traceability.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check for the presence of product codes, catalogue numbers, or other unambiguous references that allow traceability. These identifiers should be clear and match the device documentation. If all identifiers are present and clear, it is compliant. If some identifiers are missing or unclear, it is partly compliant. If not applicable, mark it as non-applicable. If missing, it is non-compliant."
+                }
+            ]
+        }
+    ]
+}
