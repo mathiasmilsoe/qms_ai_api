@@ -4,7 +4,7 @@ from create_assistant_with_files import create_assistant_with_file_search, uploa
 from spinner import spinner_loader  # Import the spinner_loader function
 import time  # Import the time module
 
-def create_mdr_expert():
+async def create_mdr_expert():
     # Start the timer
     start_time = time.time()
     
@@ -13,13 +13,13 @@ def create_mdr_expert():
 
     try:
         # Step 2: Create an assistant called 'mdr_expert' with access to the specified MDR document
-        mdr_expert = create_assistant_with_file_search("mdr_expert", base_instruction, model)
+        mdr_expert = await create_assistant_with_file_search("mdr_expert", base_instruction, model) 
 
         # Step 3: Upload files and add them to the vector store
-        mdr_vector_store = upload_files_and_add_to_vector_store("mdr_vector_store", [mdr_path])
+        mdr_vector_store = await upload_files_and_add_to_vector_store("mdr_vector_store", [mdr_path])
 
         # Step 5: Update MDR expert assistant
-        mdr_expert = update_assistant_to_use_vector_store(mdr_expert, mdr_vector_store)
+        mdr_expert = await update_assistant_to_use_vector_store(mdr_expert, mdr_vector_store)
 
     finally:
         # Stop the spinner after the task is completed

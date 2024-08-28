@@ -1,0 +1,27 @@
+sign_in_secrets/
+lumidocs-firebase-adminsdk-u1zng-28193d06db.json
+
+# Node modules
+client/node_modules/
+
+# Build directory
+client/build/
+
+# Dependency directories
+client/.pnp
+client/.pnp.js
+
+# Testing
+client/coverage/
+
+# Environment variables
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*

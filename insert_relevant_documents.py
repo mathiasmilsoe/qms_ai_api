@@ -2,15 +2,13 @@ from base_variables import base_instruction, model, list_of_files, number_of_doc
 from create_assistant_with_files import create_assistant_with_file_search, create_thread, create_run_and_get_output, upload_files_and_add_to_vector_store, update_assistant_to_use_vector_store
 from report_category_sections.device_description_and_specification import device_description_and_specification
 from report_category_sections.information_supplied_by_manufacturer import information_supplied_by_manufacturer
-from openai import OpenAI
 import json
 import os
 from spinner import spinner_loader  # Import the spinner_loader function from spinner.py
 import time  # Import the time module
 
-client = OpenAI()
 
-def insert_relevant_documents(requirement_category, mdr_expert):
+async def insert_relevant_documents(requirement_category, mdr_expert):
     # Start the timer
     start_time = time.time()
     
@@ -29,15 +27,15 @@ def insert_relevant_documents(requirement_category, mdr_expert):
     )
     
     # Start the spinner
-    loader_text = f"Inserting relevant documents for {requirement_category}"
+    loader_text = f"Inserting relevant documents"
     stop_spinner_event, spinner_thread = spinner_loader(loader_text)
 
     try:
         # Create a new thread with the instructions
-        thread_add_relevant_documents = create_thread(f"{base_instruction}. {instruction}")
+        thread_add_relevant_documents = await create_thread(f"{base_instruction}. {instruction}")
 
         # Create run and get output
-        output = create_run_and_get_output(thread_add_relevant_documents, mdr_expert)
+        output = await create_run_and_get_output(thread_add_relevant_documents, mdr_expert, f"insert relevant documents {requirement_category}")
         # print(output)
 
         # Extract and clean the JSON content from the output
@@ -69,4 +67,4 @@ def insert_relevant_documents(requirement_category, mdr_expert):
 
         # Calculate the elapsed time
         elapsed_time = time.time() - start_time
-        print(f"Completed in {elapsed_time:.2f} seconds: {loader_text}")  # Print a completion message with time taken
+        print(f"Completed in {elapsed_time:.2f} seconds: {loader_text} for {requirement_category}")  # Print a completion message with time taken

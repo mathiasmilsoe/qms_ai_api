@@ -4,37 +4,86 @@
             "requirement": "General Device Information",
             "reference": "MDR Annex II, Section 1.1(a)[1]",
             "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
+            "required_follow_up_checks": [
+                [
+                    {
+                        "origin": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "description": "Verify the completeness of alternative identifiers and their correct referencing.",
+                        "assessment_instruction": "Check for a detailed list of alternative identifiers used in marketing or distribution.",
+                        "document_name": "PX Product Classification v4.0",
+                        "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "assessment": "The document provides a classification of medical devices, including alternative identifiers, but does not specify a detailed list of alternative identifiers used in marketing or distribution.",
+                        "status": "PARTLY"
+                    }
+                ],
+                [
+                    {
+                        "origin": "PX Intended Purpose v4.0",
+                        "description": "Verify if specific training requirements for intended users are documented.",
+                        "assessment_instruction": "Check the section detailing intended users and training requirements to ensure clarity and completeness.",
+                        "document_name": "PX Intended Purpose v4.0",
+                        "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "assessment": "The document clearly outlines the intended users, which include athletes, sports enthusiasts, healthcare professionals, and lay users. However, it does not specify detailed training requirements for these users.",
+                        "status": "PARTLY"
+                    }
+                ],
+                [
+                    {
+                        "origin": "PX Instructions For Use v4.0",
+                        "description": "Verify if the product or trade name is explicitly stated in the documentation and matches the marketing name.",
+                        "assessment_instruction": "Check the documentation for the explicit mention of the product or trade name and ensure it aligns with the marketing materials.",
+                        "document_name": "PX Instructions For Use v4.0",
+                        "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "assessment": "The product name 'ParagitPX' is explicitly mentioned in the documentation.",
+                        "status": "OK"
+                    }
+                ],
+                [
+                    {}
+                ],
+                [
+                    {
+                        "origin": "EU Declaration of Conformity",
+                        "description": "Verify if the intended users and any specific training requirements are clearly stated.",
+                        "assessment_instruction": "Check the EU Declaration of Conformity and related documents for explicit mention of training requirements for intended users.",
+                        "document_name": "PX EU Declaration of Conformity v2.0 (Published)",
+                        "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                        "assessment": "The intended users are identified as athletes, sports enthusiasts, healthcare professionals, and lay users. However, there is no explicit mention of specific training requirements for these users.",
+                        "status": "PARTLY"
+                    }
+                ]
+            ],
             "checked_documents": [
-                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
                 "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
                 "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf"
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
             ],
             "overall_compliance_grade": {
-                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
-                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "C",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "C",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C"
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "PC",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
             },
             "non_conformities": [],
             "sub_requirements": [
                 {
                     "description": "Clearly state the product or trade name as it will appear on the market.",
                     "compliance_grade": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
                         "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C"
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "C",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
                     },
                     "detailed_compliance_explanation": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The product name 'ParagitPX' is prominently indicated in the technical documentation and matches the name that will be used for marketing and distribution. This aligns with the requirement of the MDR for explicit identification of the device.",
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The trade name 'ParagitPX' is explicitly stated throughout the documentation and aligns with the intended commercial branding. There are no discrepancies in the presentation of the product name.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The product name 'ParagitPX' is clearly stated in the instructions for use (IFU) along with the intended medical device family and model number, thus meeting MDR requirements. It matches the name intended for marketing and distribution.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The product is consistently referred to as 'ParagitPX' throughout the documentation, matching the trade name that will be used in marketing and distribution. This clarity fulfills the compliance requirement of MDR."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The product name 'ParagitPX' is explicitly stated in the documentation and matches the name intended for marketing and distribution.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The product name 'ParagitPX' is explicitly stated in the documentation, matching the name intended for marketing and distribution.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The product name is mentioned but lacks clarity on how it will be presented in marketing materials. This ambiguity leads to a partly compliant status as it does not fully meet the requirement of being explicit.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The product or trade name 'ParagitPX' is clearly stated in the documentation, matching the name intended for marketing and distribution.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The product name 'ParagitPX' is explicitly stated in the EU Declaration of Conformity, matching the name used in marketing and distribution."
                     },
                     "non_conformities": [],
                     "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
@@ -42,157 +91,69 @@
                 {
                     "description": "Include any alternative names or identifiers used in marketing or distribution.",
                     "compliance_grade": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "NA",
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "NA",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "NA",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C"
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "NC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "NC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "NC",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "NC"
                     },
                     "detailed_compliance_explanation": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The document does not provide alternative identifiers for ParagitPX, nor does it indicate that such identifiers are necessary for marketing purposes. Therefore, this requirement is not applicable at this stage.",
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The documentation does not mention any alternative names or identifiers. However, as ParagitPX is the sole product name intended for market, alternative identifiers may not be applicable.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "No alternative names or identifiers are provided as the device appears to have a singular name for its market. Given the marketed device is singularly named \u2018ParagitPX\u2019, indicating that it does not possess any alternative identifiers.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The documentation includes clear identifiers such as the Basic UDI-DI (574400503ParagitPX6B) and the MDR code (MDA 0318), providing the necessary information for traceability as required."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "While alternative names or identifiers are mentioned, they are not fully detailed or referenced in the documentation, leading to a partly compliant status.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The documentation does not mention any alternative names or identifiers for the ParagitPX device, which is a requirement for full compliance.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The documentation does not provide any alternative names or identifiers for the device, which is a clear non-compliance with the MDR requirements.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The documentation does not provide any alternative names or identifiers for the device, which is a requirement under the MDR. This omission is a clear non-compliance.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The documentation does not provide any alternative names or identifiers for the device, which is a requirement for compliance. This omission is a clear non-conformity."
                     },
-                    "non_conformities": [],
+                    "non_conformities": [
+                        "Missing alternative names or identifiers.",
+                        "Missing alternative names or identifiers.",
+                        "Missing alternative names or identifiers."
+                    ],
                     "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
                 },
                 {
                     "description": "Provide a concise general description of the device, including its intended purpose.",
                     "compliance_grade": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C"
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "PC",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
                     },
                     "detailed_compliance_explanation": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The documentation provides a detailed description of the ParagitPX device, including its components and intended purpose for investigating muscle activity through data collection. It clearly describes its function and the specific user interactions required, fulfilling the necessity outlined in the MDR.",
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The device is described as intended for the investigation of muscle activity and movement processes, providing a clear general description that aligns with the MDR requirements. This description is comprehensive and provides clarity on its intended use without vagueness.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The IFU provides a clear and comprehensive general description stating that the device is designed to collect signals for the investigation of processes related to muscle activity and movement, specifically listed under electromyography (EMG). This aligns with the requirement to describe both the device and its intended use.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The general description accurately outlines the key components of ParagitPX and their functions, alongside a detailed intended purpose that describes the device's use in collecting data related to muscle activity for research purposes. This meets the requirement for a comprehensive and clear description."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The general description of the device is provided, indicating its intended purpose for monitoring muscle activity. However, it lacks comprehensive detail on specific functionalities, leading to a partly compliant status.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The general description of the device is provided, detailing its components and intended purpose. However, it lacks comprehensive details on operational aspects and specific functionalities, which could lead to confusion for users.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The general description of the device is provided but lacks sufficient detail regarding its intended purpose. This vagueness results in a partly compliant status.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The general description provided is vague and lacks detail regarding the intended purpose of the device. While it mentions components, it does not explain their functions or how they contribute to the overall purpose of the device.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The EU Declaration of Conformity provides a clear and concise description of the device's intended purpose, which is to collect signals related to muscle activity and movement. This aligns with the requirements of the MDR."
                     },
-                    "non_conformities": [],
+                    "non_conformities": [
+                        "Vague description of the device's intended purpose."
+                    ],
                     "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
                 },
                 {
                     "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
                     "compliance_grade": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
                         "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C"
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "NC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "NC",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "PC"
                     },
                     "detailed_compliance_explanation": {
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The document identifies the intended users: athletes, sports enthusiasts, healthcare professionals, and lay users. It mentions that training may be necessary for effective use, thus comprehensive details are provided to comply with the MDR requirements.",
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The intended users are healthcare professionals; however, specific training requirements are not detailed. While the documentation implies the need for understanding of the device's operation, it does not explicitly mention any mandatory training, resulting in a partly compliant status.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The document identifies intended users as athletes, sports enthusiasts, healthcare professionals, and lay users, thereby fulfilling the requirement for user identification. It also suggests that users, especially those not trained in medical devices, should be instructed on safe usage, which implies necessary training.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "",
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The intended users include a well-defined group: athletes, sports enthusiasts, healthcare professionals, and lay users. While specific training is not detailed, the clarity in identifying users is strong and aligns with the MDR guidance. The document emphasizes the research purpose, suggesting a need for users to be familiar with data collection methods, which indicates an implied training requirement."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The intended users are identified as healthcare professionals, but there is insufficient information regarding specific training requirements for safe use, which is necessary for full compliance.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The intended users are identified as athletes, sports enthusiasts, and healthcare professionals. However, the documentation does not specify any training requirements for these users, which is necessary for full compliance.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The documentation fails to identify the intended users and does not mention any specific training requirements, which is a clear non-compliance with the MDR.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The documentation fails to identify the intended users and does not mention any specific training requirements for safe use. This lack of information is a significant non-compliance with the MDR.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The intended users are identified as athletes, healthcare professionals, and lay users. However, the documentation lacks specific details regarding any training required for safe use, which is necessary for full compliance."
                     },
-                    "non_conformities": [],
+                    "non_conformities": [
+                        "Lack of specific training requirements.",
+                        "Intended users and training requirements not specified.",
+                        "Lack of specific training requirements."
+                    ],
                     "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
-                }
-            ]
-        },
-        {
-            "requirement": "Unique Device Identification (UDI)",
-            "reference": "MDR Annex II, Section 1.1(b)[2]",
-            "description": "This requirement ensures the assignment and documentation of the Basic UDI-DI in compliance with MDR standards, including the format, structure, issuing agency, and any additional identifiers that support traceability.",
-            "checked_documents": [
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
-                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
-                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
-            ],
-            "overall_compliance_grade": {
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C",
-                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "PC",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "C",
-                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
-            },
-            "non_conformities": [],
-            "sub_requirements": [
-                {
-                    "description": "Assign the Basic UDI-DI in accordance with the requirements of Part C of Annex VI.",
-                    "compliance_grade": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "PC",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "C",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
-                    },
-                    "detailed_compliance_explanation": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The Basic UDI-DI '574400503ParagitPX6B' is explicitly stated in the documentation and adheres to the format and structure requirements specified in Part C of Annex VI. The UDI-DI is unique to the device model and issued by an accredited agency, ensuring compliance with MDR standards.",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "The Basic UDI-DI is mentioned in the documentation; however, it does not conform to the specified structure and format outlined in Part C of Annex VI. The documentation needs to explicitly state a unique identifier for the device model. A proper example would involve not only stating the BUDI-DI but also explaining how it relates to both the DI and PI as outlined in the MDR. Therefore, while there is some identification, it is not fully compliant with the expected criteria.",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "The Basic UDI-DI assigned to paragitPX has been verified against the criteria detailed in Part C of Annex VI. It is unique, issued by an accredited agency, and follows the required format. This confirms that it meets all specified requirements, securing its compliance fully with the MDR.",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The Basic UDI-DI assigned '574400503ParagitPX6B' meets the requirements outlined in Part C of Annex VI, as it is unique, issued by an accredited issuing agency, and follows specified format and structure. The UDI includes both a device identifier (DI) and relevant production identifiers (PI), fulfilling all assessment criteria for this sub-requirement."
-                    },
-                    "non_conformities": [],
-                    "assessment_criteria": "The Basic UDI-DI is assigned following the necessary criteria."
-                },
-                {
-                    "description": "Provide the format and structure of the Basic UDI-DI.",
-                    "compliance_grade": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "NC",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "C",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
-                    },
-                    "detailed_compliance_explanation": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The documentation includes details regarding the format of the UDI-DI, which comprises both the device identifier (DI) and production identifier (PI) as per the stipulations of the MDR. This structured presentation reflects adherence to the required specifications.",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "The documentation fails to adequately provide the format and structure of the Basic UDI-DI. Specific details on how the UDI should be formatted are missing. The MDR clearly states that the Basic UDI-DI must include both a device identifier (DI) and a production identifier (PI) and their arrangement within the database. Since this critical information is absent, it is deemed non-compliant.",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "The specified format and structure of the Basic UDI-DI have been provided in the documentation and match the requirements outlined in Part C of Annex VI. It clearly includes a device identifier and production identifier, confirming compliance with the guidelines.",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The format and structure of the Basic UDI-DI '574400503ParagitPX6B' are provided and align with the specifications in Part C of Annex VI. The structure clearly incorporates both the device identifier and a production identifier, thus meeting compliance requirements with no deviations noted."
-                    },
-                    "non_conformities": [],
-                    "assessment_criteria": "Format and structure comply with Part C of Annex VI."
-                },
-                {
-                    "description": "Include the issuing agency for the UDI and any relevant registration numbers.",
-                    "compliance_grade": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "PC",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "C",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
-                    },
-                    "detailed_compliance_explanation": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The issuing agency is identified, and the relevant registration number, DK-MF-000036577, is included as part of the compliance documentation. This fulfills the requirement for traceability and proper identification under MDR guidelines.",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "The documentation references an issuing agency for the UDI, yet fails to provide comprehensive details or registration numbers that prove the agency's accreditation. Without this critical information, it cannot be fully authenticated, indicating a partly compliant status.",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "The documentation correctly includes the issuing agency for the UDI along with relevant registration numbers. The agency is accredited as required by the MDR, thus satisfying this particular requirement for compliance.",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The issuing agency for the UDI is implied by the presence of a GS1 Company prefix as documented in the related certificate. There are registration numbers provided that can be cross-verified against accredited issuing agencies for UDIs, fulfilling this compliance requirement completely."
-                    },
-                    "non_conformities": [],
-                    "assessment_criteria": "Issuing agency and registration number are clearly provided."
-                },
-                {
-                    "description": "If applicable, provide a clear identification by means of product code, catalogue number, or other unambiguous references that allow traceability.",
-                    "compliance_grade": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "C",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "NC",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "C",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
-                    },
-                    "detailed_compliance_explanation": {
-                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": "The product code and EMDN code Z12100701 are provided as identifiers, clearly allowing for traceability. This aligns with the requirement to represent the device unambiguously for compliance purposes.",
-                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": "",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": "The documentation lacks any clear identifiers such as product codes or catalogue numbers which directly correspond with the device, thereby failing to meet traceability requirements as per the MDR. Adequate identifiers are crucial for the identification and recalls. Therefore, this element is deemed non-compliant.",
-                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": "The technical documentation provides detailed product codes and catalogue numbers that allow for clear traceability of the device, fulfilling this requirement as stipulated by the MDR.",
-                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The EU Declaration of Conformity includes the EMDN Code 'Z12100401' which serves as an additional identifier that enhances traceability. This ensures compliance with the verification of product codes and catalogue numbers as needed for traceability."
-                    },
-                    "non_conformities": [],
-                    "assessment_criteria": "All identifiers necessary for traceability are present and clear."
                 }
             ]
         }

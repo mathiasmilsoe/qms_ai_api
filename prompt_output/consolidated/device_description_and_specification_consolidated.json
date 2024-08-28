@@ -8,99 +8,143 @@
                 "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
                 "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
                 "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip",
-                "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf"
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
             ],
             "individual_document_grades": {
                 "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
-                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
                 "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "NC",
-                "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "C"
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "PC",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
             },
             "individual_document_grades_explanations": {
-                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "Partly Compliant: The document states the product name but lacks explicit detail in the description of intended users.",
-                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "Compliant: This document provides a comprehensive and clear description of the device's intended purpose.",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "Partly Compliant: While it includes essential information, some clarity regarding training for users is lacking.",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "Non-Compliant: The product label does not clearly state the product name as it will appear on the market.",
-                "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "Compliant: This document lists the product and intended users appropriately."
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The document provides a classification of medical devices, including alternative identifiers, but does not specify a detailed list of alternative identifiers used in marketing or distribution, leading to a partly compliant status.",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The document clearly outlines the intended users, which include athletes, sports enthusiasts, healthcare professionals, and lay users. However, it does not specify detailed training requirements for these users, resulting in a partly compliant status.",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The product name 'ParagitPX' is explicitly mentioned in the documentation, meeting the requirement for clarity.",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The document is still in draft form and does not provide sufficient information regarding alternative identifiers or intended users, leading to a partly compliant status.",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The intended users are clearly identified, and the document is fully compliant as it meets the requirement for clarity and completeness."
             },
             "overall_compliance_grade": "Partly Compliant (PC)",
-            "datiled_compliance_explanation": "The requirement for 'General Device Information' has been assessed based upon five relevant documents. The majority of the documentation partially meets the standards set forth by MDR Annex II, Section 1.1(a)[1]. The 'PX Product Classification' document was partly compliant as it stated the product name, yet details on the intended users were insufficient. The 'PX Intended Purpose' document met all necessary explanations regarding the device's purpose thus categorized as compliant. By contrast, the 'PX Instructions For Use' document contained vital information but lacked clarity regarding required user training, marking it partly compliant. The notably deficient 'PX Product Label' draft failed to state the product name clearly as it will appear on the market, designating it as non-compliant. Lastly, the post-market surveillance plan properly identified the product and users, ensuring compliance. Therefore, due to the collection of partly compliant and non-compliant documentation, the overall requirement classification is deemed partly compliant. If this requirement remains non-compliant, it could lead to regulatory penalties, improper device usage, safety risks, and potential withdrawal from the market. Suggestions for improvement include revising the product label to clearly state the name and detailing intended users and necessary training within the instructions.",
+            "datiled_compliance_explanation": "The assessment of the General Device Information requirement indicates that while some aspects are met, there are significant gaps that prevent full compliance. The documents checked include the PX Product Classification v4.0, which provides a classification of the device but lacks a detailed list of alternative identifiers, resulting in a partly compliant status. The PX Intended Purpose v4.0 outlines intended users but fails to specify training requirements, also leading to a partly compliant status. The PX Instructions For Use v4.0 explicitly states the product name 'ParagitPX', which is compliant. However, the draft status of the PX Product Label v2.1 indicates that it does not meet the necessary requirements for marketing. The EU Declaration of Conformity is fully compliant, clearly identifying intended users. Overall, the requirement is partly met due to the lack of detailed alternative identifiers and specific training requirements. Non-compliance in these areas can lead to regulatory scrutiny, potential market access issues, and increased liability risks. To improve compliance, it is recommended to provide a comprehensive list of alternative identifiers and clearly outline any training requirements for intended users.",
             "non_conformities": [
-                "The 'PX Product Label v2.1 (Draft)' fails to meet regulatory standards as it does not clearly state the product or trade name, which is critical for identification and market distribution.",
-                "In 'PX Instructions For Use v4.0', there is an inadequate explanation of necessary training for users, which could result in improper usage and misinterpretation of the device's capabilities."
+                "Missing detailed list of alternative identifiers used in marketing or distribution.",
+                "Lack of specific training requirements for intended users.",
+                "Draft status of the product label indicates incomplete information."
+            ],
+            "task_list": [
+                {
+                    "title": "Compile a detailed list of alternative identifiers",
+                    "short_description": "Create a comprehensive list of all alternative names or identifiers used in marketing or distribution for the ParagitPX device.",
+                    "user_input": ""
+                },
+                {
+                    "title": "Define training requirements for intended users",
+                    "short_description": "Document specific training requirements for each category of intended users, ensuring clarity and completeness.",
+                    "user_input": ""
+                },
+                {
+                    "title": "Finalize the product label documentation",
+                    "short_description": "Complete the draft product label to ensure it meets all regulatory requirements and includes necessary information.",
+                    "user_input": ""
+                }
+            ],
+            "required_follow_up_checks": [
+                {
+                    "origin": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                    "description": "Verify the completeness of alternative identifiers and their correct referencing.",
+                    "assessment_instruction": "Check for a detailed list of alternative identifiers used in marketing or distribution.",
+                    "document_name": "PX Product Classification v4.0",
+                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                    "assessment": "The document provides a classification of medical devices, including alternative identifiers, but does not specify a detailed list of alternative identifiers used in marketing or distribution.",
+                    "status": "PARTLY"
+                },
+                {
+                    "origin": "PX Intended Purpose v4.0",
+                    "description": "Verify if specific training requirements for intended users are documented.",
+                    "assessment_instruction": "Check the section detailing intended users and training requirements to ensure clarity and completeness.",
+                    "document_name": "PX Intended Purpose v4.0",
+                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                    "assessment": "The document clearly outlines the intended users, which include athletes, sports enthusiasts, healthcare professionals, and lay users. However, it does not specify detailed training requirements for these users.",
+                    "status": "PARTLY"
+                },
+                {
+                    "origin": "EU Declaration of Conformity",
+                    "description": "Verify if the intended users and any specific training requirements are clearly stated.",
+                    "assessment_instruction": "Check the EU Declaration of Conformity and related documents for explicit mention of training requirements for intended users.",
+                    "document_name": "PX EU Declaration of Conformity v2.0 (Published)",
+                    "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                    "assessment": "The intended users are identified as athletes, sports enthusiasts, healthcare professionals, and lay users. However, there is no explicit mention of specific training requirements for these users.",
+                    "status": "PARTLY"
+                }
             ],
             "sub_requirements": [
                 {
                     "description": "Clearly state the product or trade name as it will appear on the market.",
                     "individual_document_grades": {
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "C",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
                         "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "NC",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "PC"
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "C",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
                     },
-                    "overall_sub_req_compliance_grade": "Partly Compliant (PC)",
-                    "detailed_compliance_explanation": "This sub-requirement is assessed based on the clarity and presence of the product name across various documents. The 'PX Product Classification' and 'PX Intended Purpose' documents partially comply by stating the product name but provided insufficient detail related to alternative identifiers. The 'PX Instructions For Use' also does not explicitly address the name's visibility. The 'PX Product Label' document was found non-compliant as it failed to identify the product name clearly, which is crucial. The documentation from post-market surveillance was partly compliant as it does mention the product but doesn't clarify the branding context as required. The aggregate effect of these assessments results in a partly compliant classification due to significant shortfalls in clearly stating the product name.",
+                    "overall_sub_req_compliance_grade": "Compliant (C)",
+                    "detailed_compliance_explanation": "The product name 'ParagitPX' is explicitly stated in all relevant documentation, including the EU Declaration of Conformity and the Instructions for Use. This consistent naming across documents ensures clarity and compliance with the MDR requirements. The only document that presents a partly compliant status is the Instructions for Use, which lacks clarity on how the name will be presented in marketing materials. However, since other documents confirm the product name, the overall compliance for this sub-requirement is deemed compliant.",
                     "detailed_compliance_explanation_individual_docs": {
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "Partly Compliant: The product name is mentioned but lacks alternative identifiers.",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "Partly Compliant: The product name is referenced but with minimal context.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "Partly Compliant: Name is included, but details are not clarified.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "Non-Compliant: The product name is missing from the label, preventing market recognition.",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "Partly Compliant: The product name is stated but without comprehensive detailing."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The product name 'ParagitPX' is explicitly stated in the documentation and matches the name intended for marketing and distribution.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The product name 'ParagitPX' is explicitly stated in the documentation, matching the name intended for marketing and distribution.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The product name is mentioned but lacks clarity on how it will be presented in marketing materials. This ambiguity leads to a partly compliant status as it does not fully meet the requirement of being explicit.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The product or trade name 'ParagitPX' is clearly stated in the documentation, matching the name intended for marketing and distribution.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The product name 'ParagitPX' is explicitly stated in the EU Declaration of Conformity, matching the name used in marketing and distribution."
                     },
-                    "non_conformities": [
-                        "The absence of clear references to the product name in the 'PX Product Label v2.1 (Draft)' directly conflicts with MDR requirements, as customers require this information to properly identify the product.",
-                        "Insufficient articulation of the product name context and associated identifiers as seen in the 'PX Product Classification' and 'PX Intended Purpose' documents could lead to confusion in the marketplace."
-                    ],
-                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If no description is provided, it is non-compliant."
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
                 },
                 {
                     "description": "Include any alternative names or identifiers used in marketing or distribution.",
                     "individual_document_grades": {
                         "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "NC",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "PC"
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "NC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "NC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "NC",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "NC"
                     },
-                    "overall_sub_req_compliance_grade": "Partly Compliant (PC)",
-                    "detailed_compliance_explanation": "This sub-requirement's evaluation shows that, while some documents mention alternative identifiers, consistency and completeness across all checked documents remain an issue. The 'PX Intended Purpose' document is compliant, citing alternative identifiers sufficiently. However, 'PX Product Classification' and 'PX Instructions For Use' documents provided limited references that are vague and lack adequate detail. Contrarily, the 'PX Product Label' fails entirely to mention such names, rendering it non-compliant. The post-market document was partly compliant by mentioning identifiers in narrative but again without robust clarity. Thus, this sub-requirement is only partly compliant due to varying levels of disclosure among documents.",
+                    "overall_sub_req_compliance_grade": "Non-Compliant (NC)",
+                    "detailed_compliance_explanation": "The documentation fails to provide a comprehensive list of alternative names or identifiers for the ParagitPX device. While the PX Product Classification v4.0 mentions some alternative identifiers, it lacks a detailed reference list. The other documents do not mention any alternative names or identifiers, which is a clear non-compliance with the MDR requirements. This omission can lead to confusion in the market and regulatory challenges, as the absence of alternative identifiers can hinder traceability and proper identification of the device.",
                     "detailed_compliance_explanation_individual_docs": {
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "Partly Compliant: Some alternative identifiers are mentioned but are not comprehensively detailed.",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "Compliant: Adequate detail regarding alternative identifiers is provided.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "Partly Compliant: References to identifiers present but are not clear.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "Non-Compliant: Does not include any alternative names or identifiers.",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "Partly Compliant: Alternatives mentioned, but context is lacking."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "While alternative names or identifiers are mentioned, they are not fully detailed or referenced in the documentation, leading to a partly compliant status.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The documentation does not mention any alternative names or identifiers for the ParagitPX device, which is a requirement for full compliance.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The documentation does not provide any alternative names or identifiers for the device, which is a clear non-compliance with the MDR requirements.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The documentation does not provide any alternative names or identifiers for the device, which is a requirement under the MDR. This omission is a clear non-compliance.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The documentation does not provide any alternative names or identifiers for the device, which is a requirement for compliance. This omission is a clear non-conformity."
                     },
                     "non_conformities": [
-                        "'PX Product Label v2.1 (Draft)' omission of alternative identifiers violates MDR requirements as it contributes to lack of product traceability and identification in the market.",
-                        "Vague references to alternative identifiers in the 'PX Product Classification' and 'PX Instructions For Use' documents do not satisfy regulatory standards for clarity and accuracy."
+                        "Missing alternative names or identifiers.",
+                        "Missing alternative names or identifiers.",
+                        "Missing alternative names or identifiers."
                     ],
                     "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
                 },
                 {
                     "description": "Provide a concise general description of the device, including its intended purpose.",
                     "individual_document_grades": {
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "C",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
                         "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "PC",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "C"
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "PC",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "C"
                     },
                     "overall_sub_req_compliance_grade": "Partly Compliant (PC)",
-                    "detailed_compliance_explanation": "The evaluation of this sub-requirement indicates that while the majority of documents provide a clear description of the device and its intended purpose, the overall contextual clarity is not met across all sources. Both the 'PX Product Classification' and 'PX Intended Purpose' documents robustly provide clear descriptions, qualifying them as fully compliant. However, the 'PX Instructions for Use' and 'PX Product Label' documents fall short due to only vague descriptions. As such, the overall sub-requirement grade reflects a partly compliant status due to these inconsistencies in effectiveness and clarity within the documentation provided.",
+                    "detailed_compliance_explanation": "The general description of the device is provided in multiple documents, indicating its intended purpose for monitoring muscle activity. However, the descriptions lack comprehensive detail on specific functionalities, leading to a partly compliant status. The EU Declaration of Conformity provides a clear and concise description of the device's intended purpose, which aligns with the requirements of the MDR. The other documents, while mentioning the intended purpose, do not provide sufficient detail regarding operational aspects, which could lead to confusion for users.",
                     "detailed_compliance_explanation_individual_docs": {
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "Compliant: Comprehensive description and intended use are provided clearly.",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "Compliant: Details the device's purpose clearly.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "Partly Compliant: Contains description but lacks specificity and clarity.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "Partly Compliant: General description provided but lacks detail regarding intended purpose.",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "Compliant: Clear description of device and intended use provided."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The general description of the device is provided, indicating its intended purpose for monitoring muscle activity. However, it lacks comprehensive detail on specific functionalities, leading to a partly compliant status.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The general description of the device is provided, detailing its components and intended purpose. However, it lacks comprehensive details on operational aspects and specific functionalities, which could lead to confusion for users.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The general description of the device is provided but lacks sufficient detail regarding its intended purpose. This vagueness results in a partly compliant status.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The general description provided is vague and lacks detail regarding the intended purpose of the device. While it mentions components, it does not explain their functions or how they contribute to the overall purpose of the device.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The EU Declaration of Conformity provides a clear and concise description of the device's intended purpose, which is to collect signals related to muscle activity and movement. This aligns with the requirements of the MDR."
                     },
                     "non_conformities": [
-                        "The brief and vague description within the 'PX Instructions For Use' hinders users' understanding of the device's capabilities, leading to potential misuse.",
-                        "The lack of detailed purpose specification in the 'PX Product Label v2.1 (Draft)' would contribute to misunderstandings regarding the device's application, violating compliance expectations."
+                        "Vague description of the device's intended purpose."
                     ],
                     "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
                 },
@@ -108,23 +152,24 @@
                     "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
                     "individual_document_grades": {
                         "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "PC",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "C",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "PC",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "PC",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "C"
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "PC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "NC",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "NC",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "PC"
                     },
                     "overall_sub_req_compliance_grade": "Partly Compliant (PC)",
-                    "detailed_compliance_explanation": "The analysis of this sub-requirement shows discrepancies in identifying intended users across various documents. The 'PX Intended Purpose' and post-market documentation succeed in clarifying intended users effectively, thus warranting compliance. Others, such as the 'PX Product Classification', report intended users but lack sufficient context regarding user-specific training needs, marking it as partly compliant. The other documents similarly do not adequately list training requirements for the intended users, leading to an overall partly compliant status. The lack of required training details could pose significant risks when healthcare professionals or patients do not fully understand how to safely operate the device.",
+                    "detailed_compliance_explanation": "The intended users are identified in several documents, including athletes, sports enthusiasts, and healthcare professionals. However, there is insufficient information regarding specific training requirements for safe use, which is necessary for full compliance. The documentation fails to identify the intended users and does not mention any specific training requirements in the Instructions for Use and Product Label documents, leading to a partly compliant status overall.",
                     "detailed_compliance_explanation_individual_docs": {
-                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "Partly Compliant: Intended users are identified, but training specifications are missing.",
-                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "Compliant: Clearly indicates intended users.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "Partly Compliant: Identifies users but offers insufficient clarity on required training.",
-                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": "Partly Compliant: Intended users mentioned, but lack detail on training needs.",
-                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf": "Compliant: Appropriately identifies users and training requirements."
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": "The intended users are identified as healthcare professionals, but there is insufficient information regarding specific training requirements for safe use, which is necessary for full compliance.",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": "The intended users are identified as athletes, sports enthusiasts, and healthcare professionals. However, the documentation does not specify any training requirements for these users, which is necessary for full compliance.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": "The documentation fails to identify the intended users and does not mention any specific training requirements, which is a clear non-compliance with the MDR.",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": "The documentation fails to identify the intended users and does not mention any specific training requirements for safe use. This lack of information is a significant non-compliance with the MDR.",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": "The intended users are identified as athletes, healthcare professionals, and lay users. However, the documentation lacks specific details regarding any training required for safe use, which is necessary for full compliance."
                     },
                     "non_conformities": [
-                        "Lack of detailed identification of specific training requirements in most documents, particularly within the 'PX Product Classification', could result in incorrect use of the medical device if users are not properly informed.",
-                        "Ambiguities in either the identification of intended users or training requirements may lead to improper usage and safety concerns, as insufficient training could pose risks related to device operation."
+                        "Lack of specific training requirements.",
+                        "Intended users and training requirements not specified.",
+                        "Lack of specific training requirements."
                     ],
                     "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
                 }

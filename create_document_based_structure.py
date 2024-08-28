@@ -35,6 +35,7 @@ def process_and_save_document_based_structure(name):
                 "relevant_documents": requirement["relevant_documents"],
                 "overall_compliance_grade": requirement["overall_compliance_grade"],
                 "detailed_compliance_explanation": requirement["detailed_compliance_explanation"],
+                "required_follow_up_checks": requirement["required_follow_up_checks"],
                 "sub_requirements": requirement["sub_requirements"]
             }
             document_based_structure[document].append(requirement_copy)
@@ -77,6 +78,7 @@ def convert_document_to_requirement_based(requirement_name):
                         "requirement": req_name,
                         "reference": assessment["reference"],
                         "description": assessment["description"],
+                        "required_follow_up_checks": [],
                         "checked_documents": [],
                         "overall_compliance_grade": {},
                         "non_conformities": [],
@@ -88,6 +90,7 @@ def convert_document_to_requirement_based(requirement_name):
                 req_entry = requirements_map[req_name]
                 req_entry["checked_documents"].append(document)
                 req_entry["overall_compliance_grade"][document] = assessment["overall_compliance_grade"]
+                req_entry["required_follow_up_checks"].append(assessment["required_follow_up_checks"])
 
                 for sub_req in assessment["sub_requirements"]:
                     existing_sub_req = next((sr for sr in req_entry["sub_requirements"] if sr["description"] == sub_req["description"]), None)

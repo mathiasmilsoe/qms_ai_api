@@ -1,243 +1,291 @@
 {
-    "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": [
-        {}
-    ],
     "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf": [
-        {}
-    ],
-    "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": [
-        {}
-    ],
-    "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip": [
         {
             "requirement": "General Device Information",
             "reference": "MDR Annex II, Section 1.1(a)[1]",
             "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
             "relevant_documents": [
-                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
                 "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
                 "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
-                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft).zip",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf"
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
             ],
-            "overall_compliance_grade": "",
-            "detailed_compliance_explanation": "",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The technical documentation provides a product name, 'ParagitPX', which is clearly stated and matches the name intended for marketing. However, while alternative identifiers are mentioned, they are not fully detailed in the documentation, leading to a partly compliant status. The general description of the device is provided, indicating its intended purpose for monitoring muscle activity, but lacks comprehensive detail on specific functionalities. The intended users are identified as healthcare professionals, but there is insufficient information regarding specific training requirements for safe use, which is necessary for full compliance.",
+            "required_follow_up_checks": [
+                {
+                    "origin": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                    "description": "Verify the completeness of alternative identifiers and their correct referencing.",
+                    "assessment_instruction": "Check for a detailed list of alternative identifiers used in marketing or distribution.",
+                    "document_name": "PX Product Classification v4.0",
+                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                    "assessment": "The document provides a classification of medical devices, including alternative identifiers, but does not specify a detailed list of alternative identifiers used in marketing or distribution.",
+                    "status": "PARTLY"
+                }
+            ],
             "sub_requirements": [
                 {
                     "description": "Clearly state the product or trade name as it will appear on the market.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The product name 'ParagitPX' is explicitly stated in the documentation and matches the name intended for marketing and distribution.",
                     "non_conformities": [],
                     "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
                 },
                 {
                     "description": "Include any alternative names or identifiers used in marketing or distribution.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "While alternative names or identifiers are mentioned, they are not fully detailed or referenced in the documentation, leading to a partly compliant status.",
                     "non_conformities": [],
                     "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
                 },
                 {
                     "description": "Provide a concise general description of the device, including its intended purpose.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The general description of the device is provided, indicating its intended purpose for monitoring muscle activity. However, it lacks comprehensive detail on specific functionalities, leading to a partly compliant status.",
                     "non_conformities": [],
                     "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
                 },
                 {
                     "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The intended users are identified as healthcare professionals, but there is insufficient information regarding specific training requirements for safe use, which is necessary for full compliance.",
                     "non_conformities": [],
                     "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
                 }
             ]
         }
     ],
-    "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf": [
-        {},
-        {}
-    ],
-    "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip": [
+    "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf": [
         {
-            "requirement": "Unique Device Identification (UDI)",
-            "reference": "MDR Annex II, Section 1.1(b)[2]",
-            "description": "This requirement ensures the assignment and documentation of the Basic UDI-DI in compliance with MDR standards, including the format, structure, issuing agency, and any additional identifiers that support traceability.",
+            "requirement": "General Device Information",
+            "reference": "MDR Annex II, Section 1.1(a)[1]",
+            "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
             "relevant_documents": [
-                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
-                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
-            ],
-            "overall_compliance_grade": "",
-            "detailed_compliance_explanation": "",
-            "sub_requirements": [
-                {
-                    "description": "Assign the Basic UDI-DI in accordance with the requirements of Part C of Annex VI.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
-                    "non_conformities": [],
-                    "assessment_criteria": "Verify that the Basic UDI-DI is assigned according to the following criteria: it must be unique to the device model, issued by an accredited issuing agency, and follow the format and structure specified in Part C of Annex VI. Check if the UDI-DI includes a device identifier (DI) and a production identifier (PI). If all criteria are met, it is compliant. If some criteria are not fully met, it is partly compliant. If the UDI-DI is missing or does not follow the required format, it is non-compliant."
-                },
-                {
-                    "description": "Provide the format and structure of the Basic UDI-DI.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
-                    "non_conformities": [],
-                    "assessment_criteria": "Check if the format and structure of the Basic UDI-DI are provided and match the specifications in Part C of Annex VI. The UDI-DI should include both a device identifier (DI) and a production identifier (PI). If the format and structure are correct, it is compliant. If there are minor deviations, it is partly compliant. If the format and structure are missing or incorrect, it is non-compliant."
-                },
-                {
-                    "description": "Include the issuing agency for the UDI and any relevant registration numbers.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
-                    "non_conformities": [],
-                    "assessment_criteria": "Ensure that the issuing agency for the UDI is included, along with any relevant registration numbers. The issuing agency must be accredited and recognized. If the issuing agency and registration numbers are correctly provided, it is compliant. If either is missing or incorrect, it is partly compliant. If neither is provided, it is non-compliant."
-                },
-                {
-                    "description": "If applicable, provide a clear identification by means of product code, catalogue number, or other unambiguous references that allow traceability.",
-                    "compliance_grade": "",
-                    "detailed_compliance_explanation": "",
-                    "non_conformities": [],
-                    "assessment_criteria": "Check for the presence of product codes, catalogue numbers, or other unambiguous references that allow traceability. These identifiers should be clear and match the device documentation. If all identifiers are present and clear, it is compliant. If some identifiers are missing or unclear, it is partly compliant. If not applicable, mark it as non-applicable. If missing, it is non-compliant."
-                }
-            ]
-        }
-    ],
-    "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf": [
-        {
-            "requirement": "Unique Device Identification (UDI)",
-            "reference": "MDR Annex II, Section 1.1(b)[2]",
-            "description": "This requirement ensures the assignment and documentation of the Basic UDI-DI in compliance with MDR standards, including the format, structure, issuing agency, and any additional identifiers that support traceability.",
-            "relevant_documents": [
-                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
                 "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
             ],
             "overall_compliance_grade": "PC",
-            "detailed_compliance_explanation": "The current documentation related to Unique Device Identification (UDI) demonstrates partial compliance with MDR requirements. Although the Basic UDI-DI is alluded to, the documentation does not explicitly define its assignment in accordance with the specified format and structure outlined in Annex VI. For instance, it fails to distinctively indicate how the Basic UDI-DI is linked to the Device Identifier (DI) and Production Identifier (PI), both of which are critical for ensuring effective traceability. A thorough compliance would require an explicit declaration of the Basic UDI-DI, encompassing specifications such as device model, alongside clear descriptions of its relation to both the DI and PI, which is currently inadequately addressed. Moreover, while an issuing agency is noted, the lack of documented proof of its recognition and accreditation raises substantial concerns regarding the credibility of the assigned UDI. Hence, fundamental deficiencies preclude a full compliance designation, though some measures point towards a step in the right direction.",
+            "detailed_compliance_explanation": "The documentation provides a product name, 'ParagitPX', and describes its intended use for data collection on muscle activation and movement. However, while it mentions intended users (athletes, healthcare professionals), it lacks clarity on specific training requirements for safe use. The general description of the device is present but could be more detailed regarding its operation and features. Therefore, it is assessed as partly compliant due to these gaps.",
+            "required_follow_up_checks": [
+                {
+                    "origin": "PX Intended Purpose v4.0",
+                    "description": "Verify if specific training requirements for intended users are documented.",
+                    "assessment_instruction": "Check the section detailing intended users and training requirements to ensure clarity and completeness.",
+                    "document_name": "PX Intended Purpose v4.0",
+                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                    "assessment": "The document clearly outlines the intended users, which include athletes, sports enthusiasts, healthcare professionals, and lay users. However, it does not specify detailed training requirements for these users.",
+                    "status": "PARTLY"
+                }
+            ],
             "sub_requirements": [
                 {
-                    "description": "Assign the Basic UDI-DI in accordance with the requirements of Part C of Annex VI.",
-                    "compliance_grade": "PC",
-                    "detailed_compliance_explanation": "The documentation refers to the Basic UDI-DI but lacks complete details as mandated by Part C of Annex VI. The required structure and format are not fully met, as the Basic UDI-DI ought to uniquely identify the device model and clarify its connections to the Device Identifier (DI) and Production Identifier (PI). An example of compliant documentation would clearly delineate the Basic UDI-DI and articulate the relationships with DI and PI, ensuring interoperability among identifiers. As the current documents fail to provide these definitions and relationships, the assessment remains partly compliant.",
+                    "description": "Clearly state the product or trade name as it will appear on the market.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The product name 'ParagitPX' is explicitly stated in the documentation, matching the name intended for marketing and distribution.",
                     "non_conformities": [],
-                    "assessment_criteria": "Verify that the Basic UDI-DI is assigned according to the following criteria: it must be unique to the device model, issued by an accredited issuing agency, and follow the format and structure specified in Part C of Annex VI. Check if the UDI-DI includes a device identifier (DI) and a production identifier (PI). If all criteria are met, it is compliant. If some criteria are not fully met, it is partly compliant. If the UDI-DI is missing or does not follow the required format, it is non-compliant."
+                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
                 },
                 {
-                    "description": "Provide the format and structure of the Basic UDI-DI.",
+                    "description": "Include any alternative names or identifiers used in marketing or distribution.",
                     "compliance_grade": "NC",
-                    "detailed_compliance_explanation": "The documentation is deficient in providing necessary details pertaining to the format and structure of the Basic UDI-DI, aspects that are integral as mandated by Annex VI of the MDR. This annex is explicit in requiring both the Device Identifier (DI) and the Production Identifier (PI) to be components of the Basic UDI-DI, complete with a thorough elucidation of how these elements should be represented. A compliant submission would stipulate the exact format utilized for the UDI-DI and clarify its relation to both DI and PI. The absence of this fundamental information leads to a classification of non-compliance.",
-                    "non_conformities": [],
-                    "assessment_criteria": "Check if the format and structure of the Basic UDI-DI are provided and match the specifications in Part C of Annex VI. The UDI-DI should include both a device identifier (DI) and a production identifier (PI). If the format and structure are correct, it is compliant. If there are minor deviations, it is partly compliant. If the format and structure are missing or incorrect, it is non-compliant."
+                    "detailed_compliance_explanation": "The documentation does not mention any alternative names or identifiers for the ParagitPX device, which is a requirement for full compliance.",
+                    "non_conformities": [
+                        "Missing alternative names or identifiers."
+                    ],
+                    "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
                 },
                 {
-                    "description": "Include the issuing agency for the UDI and any relevant registration numbers.",
+                    "description": "Provide a concise general description of the device, including its intended purpose.",
                     "compliance_grade": "PC",
-                    "detailed_compliance_explanation": "While the documentation contains a reference to the issuing agency responsible for the UDI, it lacks comprehensive details and supporting registration numbers that would validate the agency's accreditation status. For instance, if GS1 is specified as the issuing agency, additional supporting documentation such as a certification confirming its UDI-accreditation should be presented. The absence of such verification undermines the credibility of the UDI assignment and results in a partly compliant classification due to inadequate credentialing.",
+                    "detailed_compliance_explanation": "The general description of the device is provided, detailing its components and intended purpose. However, it lacks comprehensive details on operational aspects and specific functionalities, which could lead to confusion for users.",
                     "non_conformities": [],
-                    "assessment_criteria": "Ensure that the issuing agency for the UDI is included, along with any relevant registration numbers. The issuing agency must be accredited and recognized. If the issuing agency and registration numbers are correctly provided, it is compliant. If either is missing or incorrect, it is partly compliant. If neither is provided, it is non-compliant."
+                    "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
                 },
                 {
-                    "description": "If applicable, provide a clear identification by means of product code, catalogue number, or other unambiguous references that allow traceability.",
-                    "compliance_grade": "NC",
-                    "detailed_compliance_explanation": "The documentation fails to provide any identifying references such as product codes or catalogue numbers that are crucial for establishing a direct link to the medical device itself. This lack of essential information severely undermines compliance with the traceability requirements dictated by the MDR. Adequate documentation should explicitly reference product codes or catalogue numbers correlated with the device to facilitate efficient identification and recall processes. The absence of these identifiers leads to a classification of non-compliance, as it directly conflicts with essential traceability expectations.",
-                    "non_conformities": [],
-                    "assessment_criteria": "Check for the presence of product codes, catalogue numbers, or other unambiguous references that allow traceability. These identifiers should be clear and match the device documentation. If all identifiers are present and clear, it is compliant. If some identifiers are missing or unclear, it is partly compliant. If not applicable, mark it as non-applicable. If missing, it is non-compliant."
+                    "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The intended users are identified as athletes, sports enthusiasts, and healthcare professionals. However, the documentation does not specify any training requirements for these users, which is necessary for full compliance.",
+                    "non_conformities": [
+                        "Lack of specific training requirements."
+                    ],
+                    "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
                 }
             ]
         }
     ],
-    "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf": [
+    "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf": [
         {
-            "requirement": "Unique Device Identification (UDI)",
-            "reference": "MDR Annex II, Section 1.1(b)[2]",
-            "description": "This requirement ensures the assignment and documentation of the Basic UDI-DI in compliance with MDR standards, including the format, structure, issuing agency, and any additional identifiers that support traceability.",
+            "requirement": "General Device Information",
+            "reference": "MDR Annex II, Section 1.1(a)[1]",
+            "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
             "relevant_documents": [
-                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
                 "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
             ],
-            "overall_compliance_grade": "C",
-            "detailed_compliance_explanation": "The technical documentation confirms that the paragitPX device has been assigned a Basic UDI-DI, which meets the requirements laid out in MDR Annex II, Section 1.1(b)[2]. Specifically, the Basic UDI-DI is issued by a recognized accredited agency, ensuring its uniqueness to the specific model in question. Documentation includes a comprehensive format that adheres to Part C of Annex VI of the MDR, which necessitates the presence of a device identifier (DI) and a production identifier (PI) within the UDI, thereby adequately supporting traceability as mandated in the regulation. For instance, an excerpt from the documentation provides the UDI-DI example, demonstrating its structure and compliance with the identifiable qualities needed for traceability as outlined by the regulation.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The technical documentation provides some essential information about the device, including the product name and intended purpose. However, there are gaps in the clarity and completeness of the descriptions. For instance, while the product name is mentioned, it lacks explicit confirmation of how it will appear on the market. Additionally, alternative identifiers are not clearly listed, which is a requirement under the MDR. The general description of the device is provided but could be more detailed to ensure that all intended users and necessary training are adequately covered. Therefore, the overall compliance is assessed as partly compliant.",
+            "required_follow_up_checks": [
+                {
+                    "origin": "PX Instructions For Use v4.0",
+                    "description": "Verify if the product or trade name is explicitly stated in the documentation and matches the marketing name.",
+                    "assessment_instruction": "Check the documentation for the explicit mention of the product or trade name and ensure it aligns with the marketing materials.",
+                    "document_name": "PX Instructions For Use v4.0",
+                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                    "assessment": "The product name 'ParagitPX' is explicitly mentioned in the documentation.",
+                    "status": "OK"
+                }
+            ],
             "sub_requirements": [
                 {
-                    "description": "Assign the Basic UDI-DI in accordance with the requirements of Part C of Annex VI.",
-                    "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The assignment of the Basic UDI-DI has been confirmed to align with Part C of Annex VI of the MDR. The relevant documentation indicates that the Basic UDI-DI is unique to the paragitPX model and is assigned by an accredited agency, reaffirming adherence to the statutory requirements. Specifically, the documentation articulates the unique characteristics of the UDI-DI, confirming compliance with the requisite criteria that it must include a device identifier (DI) and a production identifier (PI). Hence, this aspect is fully compliant with the MDR.",
+                    "description": "Clearly state the product or trade name as it will appear on the market.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The product name is mentioned but lacks clarity on how it will be presented in marketing materials. This ambiguity leads to a partly compliant status as it does not fully meet the requirement of being explicit.",
                     "non_conformities": [],
-                    "assessment_criteria": "Verify that the Basic UDI-DI is assigned according to the following criteria: it must be unique to the device model, issued by an accredited issuing agency, and follow the format and structure specified in Part C of Annex VI. Check if the UDI-DI includes a device identifier (DI) and a production identifier (PI). If all criteria are met, it is compliant. If some criteria are not fully met, it is partly compliant. If the UDI-DI is missing or does not follow the required format, it is non-compliant."
+                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
                 },
                 {
-                    "description": "Provide the format and structure of the Basic UDI-DI.",
-                    "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The documentation effectively outlines the format and structure of the Basic UDI-DI, aligning with the specifications laid out in Part C of Annex VI. It explicitly delineates both the device identifier and production identifier components that are integral to the UDI format. For example, the specified structure includes an alphanumeric string that accurately demarcates the identifiers, confirming regulatory compliance. This clarity validates that the format adheres directly to the expected guidelines.",
+                    "description": "Include any alternative names or identifiers used in marketing or distribution.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not provide any alternative names or identifiers for the device, which is a clear non-compliance with the MDR requirements.",
                     "non_conformities": [],
-                    "assessment_criteria": "Check if the format and structure of the Basic UDI-DI are provided and match the specifications in Part C of Annex VI. The UDI-DI should include both a device identifier (DI) and a production identifier (PI). If the format and structure are correct, it is compliant. If there are minor deviations, it is partly compliant. If the format and structure are missing or incorrect, it is non-compliant."
+                    "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
                 },
                 {
-                    "description": "Include the issuing agency for the UDI and any relevant registration numbers.",
-                    "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The technical documentation successfully contains the details of the issuing agency for the UDI, including its official registration numbers, as required by the MDR. The issuing agency has been validated as accredited, reflecting compliance with the relevant regulatory standards. This inclusion promotes transparency and enhances traceability\u2014both critical components of regulatory adherence.",
+                    "description": "Provide a concise general description of the device, including its intended purpose.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The general description of the device is provided but lacks sufficient detail regarding its intended purpose. This vagueness results in a partly compliant status.",
                     "non_conformities": [],
-                    "assessment_criteria": "Ensure that the issuing agency for the UDI is included, along with any relevant registration numbers. The issuing agency must be accredited and recognized. If the issuing agency and registration numbers are correctly provided, it is compliant. If either is missing or incorrect, it is partly compliant. If neither is provided, it is non-compliant."
+                    "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
                 },
                 {
-                    "description": "If applicable, provide a clear identification by means of product code, catalogue number, or other unambiguous references that allow traceability.",
-                    "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The technical documentation clearly presents product codes and catalogue numbers enabling the clear traceability of the paragitPX device, thereby fulfilling the traceability requirement as outlined by the MDR. These identifiers are distinctly stated in the accompanying documentation, eliminating any ambiguity about the product referenced. For instance, the unique product codes correlate directly with the UDI-DI, reinforcing both traceability compliance and regulatory obligations.",
+                    "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation fails to identify the intended users and does not mention any specific training requirements, which is a clear non-compliance with the MDR.",
                     "non_conformities": [],
-                    "assessment_criteria": "Check for the presence of product codes, catalogue numbers, or other unambiguous references that allow traceability. These identifiers should be clear and match the device documentation. If all identifiers are present and clear, it is compliant. If some identifiers are missing or unclear, it is partly compliant. If not applicable, mark it as non-applicable. If missing, it is non-compliant."
+                    "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
+                }
+            ]
+        }
+    ],
+    "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf": [
+        {
+            "requirement": "General Device Information",
+            "reference": "MDR Annex II, Section 1.1(a)[1]",
+            "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
+            "relevant_documents": [
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
+            ],
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The documentation provides some essential information about the ParagitPX device, including its intended purpose and trade name. However, it lacks clarity on alternative identifiers and does not specify the necessary training for intended users. For instance, while the product label mentions the 'Recording Unit' and 'Electrode/Flex Adapter', it does not provide a comprehensive description of these components or their intended use. This vagueness leads to a partly compliant status as per MDR requirements.",
+            "required_follow_up_checks": [
+                {}
+            ],
+            "sub_requirements": [
+                {
+                    "description": "Clearly state the product or trade name as it will appear on the market.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The product or trade name 'ParagitPX' is clearly stated in the documentation, matching the name intended for marketing and distribution.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
+                },
+                {
+                    "description": "Include any alternative names or identifiers used in marketing or distribution.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not provide any alternative names or identifiers for the device, which is a requirement under the MDR. This omission is a clear non-compliance.",
+                    "non_conformities": [
+                        "Missing alternative names or identifiers."
+                    ],
+                    "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
+                },
+                {
+                    "description": "Provide a concise general description of the device, including its intended purpose.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The general description provided is vague and lacks detail regarding the intended purpose of the device. While it mentions components, it does not explain their functions or how they contribute to the overall purpose of the device.",
+                    "non_conformities": [
+                        "Vague description of the device's intended purpose."
+                    ],
+                    "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
+                },
+                {
+                    "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation fails to identify the intended users and does not mention any specific training requirements for safe use. This lack of information is a significant non-compliance with the MDR.",
+                    "non_conformities": [
+                        "Intended users and training requirements not specified."
+                    ],
+                    "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
                 }
             ]
         }
     ],
     "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf": [
         {
-            "requirement": "Unique Device Identification (UDI)",
-            "reference": "MDR Annex II, Section 1.1(b)[2]",
-            "description": "This requirement ensures the assignment and documentation of the Basic UDI-DI in compliance with MDR standards, including the format, structure, issuing agency, and any additional identifiers that support traceability.",
+            "requirement": "General Device Information",
+            "reference": "MDR Annex II, Section 1.1(a)[1]",
+            "description": "This requirement involves providing essential information about the medical device, including the product or trade name, any alternative identifiers, a general description of the device and its intended purpose, as well as identifying the intended users and any necessary training for safe use.",
             "relevant_documents": [
-                "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published).zip",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
-                "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
-                "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
                 "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
             ],
             "overall_compliance_grade": "C",
-            "detailed_compliance_explanation": "The Basic UDI-DI is clearly assigned as '574400503ParagitPX6B' in the EU Declaration of Conformity. This UDI follows the format requirements specified in MDR Annex VI, reflecting the necessary structure and ensuring it is unique to the device model. The UI-DI encompasses both the device identifier (DI) and the production identifier (PI), which are essential for traceability as mandated by MDR. Upon thorough review, all established criteria outlining the requirements for compliance with UDI specifications have been met.",
+            "detailed_compliance_explanation": "The EU Declaration of Conformity for the Paragit PX device provides a clear statement of the product name, 'ParagitPX', which aligns with the marketing name. It also includes the intended purpose, which is to collect signals related to muscle activity and movement, thus fulfilling the requirement for a general description. The intended users are identified as athletes, healthcare professionals, and lay users, which meets the requirement for identifying intended users. However, while the document mentions that the device is for research purposes, it lacks explicit details on any specific training required for safe use, which could be seen as a gap. Overall, the documentation is comprehensive and meets the majority of the requirements outlined in the MDR.",
+            "required_follow_up_checks": [
+                {
+                    "origin": "EU Declaration of Conformity",
+                    "description": "Verify if the intended users and any specific training requirements are clearly stated.",
+                    "assessment_instruction": "Check the EU Declaration of Conformity and related documents for explicit mention of training requirements for intended users.",
+                    "document_name": "PX EU Declaration of Conformity v2.0 (Published)",
+                    "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                    "assessment": "The intended users are identified as athletes, sports enthusiasts, healthcare professionals, and lay users. However, there is no explicit mention of specific training requirements for these users.",
+                    "status": "PARTLY"
+                }
+            ],
             "sub_requirements": [
                 {
-                    "description": "Assign the Basic UDI-DI in accordance with the requirements of Part C of Annex VI.",
+                    "description": "Clearly state the product or trade name as it will appear on the market.",
                     "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The Basic UDI-DI '574400503ParagitPX6B' is assigned in conformity with the criteria of Part C of Annex VI of the MDR. It is unique to the model and issued by an accredited issuing agency, evidenced by the accompanying GS1 Company prefix document. This UDI-DI conforms to the necessary format and structure requirements set out in the regulations. Specifically, it integrates the device identifier (DI) and relevant production identifiers (PI), fulfilling all the assessment criteria for this sub-requirement.",
+                    "detailed_compliance_explanation": "The product name 'ParagitPX' is explicitly stated in the EU Declaration of Conformity, matching the name used in marketing and distribution.",
                     "non_conformities": [],
-                    "assessment_criteria": "Verify that the Basic UDI-DI is assigned according to the following criteria: it must be unique to the device model, issued by an accredited issuing agency, and follow the format and structure specified in Part C of Annex VI. Check if the UDI-DI includes a device identifier (DI) and a production identifier (PI). If all criteria are met, it is compliant. If some criteria are not fully met, it is partly compliant. If the UDI-DI is missing or does not follow the required format, it is non-compliant."
+                    "assessment_criteria": "Check if the product or trade name is explicitly stated in the documentation. It should match the name that will be used in marketing and distribution. If the name is missing or does not match, it is non-compliant. If the name is present but unclear, it is partly compliant. If the name is not applicable (e.g., for prototypes), mark it as non-applicable."
                 },
                 {
-                    "description": "Provide the format and structure of the Basic UDI-DI.",
-                    "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The document adequately specifies the format and structure of the Basic UDI-DI '574400503ParagitPX6B'. This structure aligns with the requirements in Part C of Annex VI, which mandates the inclusion of both a device identifier and a production identifier. There are no discrepancies noted, and the provided UDI-DI adheres to all relevant standards, thereby ensuring full compliance within this criterion.",
-                    "non_conformities": [],
-                    "assessment_criteria": "Check if the format and structure of the Basic UDI-DI are provided and match the specifications in Part C of Annex VI. The UDI-DI should include both a device identifier (DI) and a production identifier (PI). If the format and structure are correct, it is compliant. If there are minor deviations, it is partly compliant. If the format and structure are missing or incorrect, it is non-compliant."
+                    "description": "Include any alternative names or identifiers used in marketing or distribution.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not provide any alternative names or identifiers for the device, which is a requirement for compliance. This omission is a clear non-conformity.",
+                    "non_conformities": [
+                        "Missing alternative names or identifiers."
+                    ],
+                    "assessment_criteria": "Verify if alternative names or identifiers are listed. If they are present and correctly referenced, it is compliant. If they are missing or incorrect, it is non-compliant. If the device does not have alternative names, it is non-applicable."
                 },
                 {
-                    "description": "Include the issuing agency for the UDI and any relevant registration numbers.",
+                    "description": "Provide a concise general description of the device, including its intended purpose.",
                     "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The issuing agency for the UDI is documented through the inclusion of a GS1 Company prefix in the accompanying certificate. This confirms the UDI-DI '574400503ParagitPX6B' was issued by an accredited agency, and relevant registration numbers can be verified against recognized UDI issuers. This documentation fulfills the compliance requirement adequately.",
+                    "detailed_compliance_explanation": "The EU Declaration of Conformity provides a clear and concise description of the device's intended purpose, which is to collect signals related to muscle activity and movement. This aligns with the requirements of the MDR.",
                     "non_conformities": [],
-                    "assessment_criteria": "Ensure that the issuing agency for the UDI is included, along with any relevant registration numbers. The issuing agency must be accredited and recognized. If the issuing agency and registration numbers are correctly provided, it is compliant. If either is missing or incorrect, it is partly compliant. If neither is provided, it is non-compliant."
+                    "assessment_criteria": "Ensure the general description of the device is provided and includes its intended purpose. If the description is comprehensive and clear, it is compliant. If the description is vague or incomplete, it is partly compliant. If no description is provided, it is non-compliant."
                 },
                 {
-                    "description": "If applicable, provide a clear identification by means of product code, catalogue number, or other unambiguous references that allow traceability.",
-                    "compliance_grade": "C",
-                    "detailed_compliance_explanation": "The EU Declaration of Conformity includes the EMDN Code 'Z12100401', which serves as a clear identifier to enhance product traceability. This complies with the MDR requirements ensuring that medical devices can be accurately tracked and traced throughout their lifecycle. The EMDN Code provides the necessary clarity in identification, thus contributing positively to overall compliance.",
-                    "non_conformities": [],
-                    "assessment_criteria": "Check for the presence of product codes, catalogue numbers, or other unambiguous references that allow traceability. These identifiers should be clear and match the device documentation. If all identifiers are present and clear, it is compliant. If some identifiers are missing or unclear, it is partly compliant. If not applicable, mark it as non-applicable. If missing, it is non-compliant."
+                    "description": "Identify the intended users (e.g., healthcare professionals, patients) and any specific training required for use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The intended users are identified as athletes, healthcare professionals, and lay users. However, the documentation lacks specific details regarding any training required for safe use, which is necessary for full compliance.",
+                    "non_conformities": [
+                        "Lack of specific training requirements."
+                    ],
+                    "assessment_criteria": "Check if the intended users are identified and if any specific training requirements are mentioned. If both are clearly stated, it is compliant. If either the users or the training requirements are missing or unclear, it is partly compliant. If neither is provided, it is non-compliant."
                 }
             ]
         }

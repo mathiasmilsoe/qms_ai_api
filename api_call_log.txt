@@ -1,0 +1,17 @@
+Total Prompt Tokens: 5074, Total Completion Tokens: 4529, Total Tokens: 9603
+{
+    "create_assistant_with_file_search": [],
+    "upload_files_and_add_to_vector_store": [],
+    "update_assistant_to_use_vector_store": [],
+    "create_thread": [],
+    "create_run_and_get_output": [
+        {
+            "timestamp": "2024-08-28 06:26:43.256728+00:00",
+            "description": "consolidate requirements",
+            "prompt_tokens": 5074,
+            "completion_tokens": 4529,
+            "total_tokens": 9603
+        }
+    ],
+    "add_message_to_thread": []
+}
