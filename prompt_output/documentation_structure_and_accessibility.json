@@ -1,0 +1,439 @@
+{
+    "requirements": [
+        {
+            "requirement": "Technical Documentation Structure",
+            "reference": "MDR Annex II",
+            "description": "This requirement mandates that the technical documentation and, if applicable, the summary thereof to be drawn up by the manufacturer shall be presented in a clear, organised, readily searchable and unambiguous manner.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the technical documentation of the BladderGuard medical device is 'Partly Compliant' (PC). Each sub-requirement has been assessed as follows:\n\n1. **Clear and Organized Documentation (PC)**: The documentation is structured but lacks clarity in navigation and comprehensibility. There is no clear navigation guide, which can lead to confusion. Additionally, technical jargon is not sufficiently explained, which may hinder understanding for non-expert users.\n\n2. **Searchability (PC)**: While the documentation includes a table of contents, it lacks a built-in search function or indexed keywords, making it difficult for users to quickly find specific information. This limits the usability of the documentation.\n\n3. **Unambiguity (PC)**: The documentation is generally well-organized but lacks specificity in the intended purpose and operational parameters of the device. Some technical specifications are referenced but not fully detailed, leading to potential misinterpretation of the device's capabilities.\n\nOverall, while the documentation meets some requirements, significant gaps in clarity, searchability, and specificity prevent it from being fully compliant with the MDR standards.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure that the technical documentation is clear and organized.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation for the BladderGuard device is presented in a structured manner across multiple annexes, which aligns with the requirements of the MDR. However, while the documentation is organized, some sections lack clarity in terms of navigation and comprehensibility. For instance, the references to various documents and their interconnections could be more explicitly outlined to enhance user understanding. Additionally, the use of technical jargon without sufficient explanation may hinder comprehension for non-expert users.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Clarity in Document Navigation",
+                            "description": "The documentation does not provide a clear navigation guide or index that allows users to easily locate specific information across the various annexes. This can lead to confusion and inefficiency when trying to understand the technical details of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BG BladderGuard System Traceability Matrix"
+                                },
+                                {
+                                    "path": "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "BG GSPR Checklist"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Explanation of Technical Terms",
+                            "description": "Certain technical terms and abbreviations used in the documentation are not adequately defined, which may lead to misunderstandings, especially for users who are not familiar with medical device terminology.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the technical documentation is presented in a clear and organized manner. It should be easy to navigate and understand.",
+                    "relevant_documents": [
+                        "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                        "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "BG Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "BG BladderGuard System Traceability Matrix"
+                        },
+                        {
+                            "path": "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "BG GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Navigation Guide",
+                            "description": "Create a comprehensive navigation guide or index for the technical documentation that clearly outlines where to find specific information across all annexes. This guide should include page numbers and brief descriptions of the content in each section.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Navigation Guide\n\nTo enhance the clarity and usability of the technical documentation for the BladderGuard device, the following navigation guide is proposed. This guide provides an overview of the contents of each annex, along with page numbers and brief descriptions of the content. \n\n| Annex | Title | Page Number | Description |\n|-------|-------|-------------|-------------|\n| I     | Device Description and Specification | [[page number]] | Detailed description of the BladderGuard device, including its intended purpose and specifications. |\n| II    | Information To Be Supplied By The Manufacturer | [[page number]] | Information that must be provided to users, including labeling and instructions for use. |\n| III   | Design And Manufacturing Information | [[page number]] | Overview of the design and manufacturing processes, including materials used. |\n| IV    | General Safety And Performance Requirements | [[page number]] | Compliance with safety and performance standards as per MDR requirements. |\n| V     | Benefit-Risk Analysis and Risk Management | [[page number]] | Analysis of the benefits and risks associated with the device. |\n| VI    | Product Verification and Validation | [[page number]] | Details of verification and validation activities conducted on the device. |\n| VII   | Pre-Clinical and Clinical Data | [[page number]] | Summary of pre-clinical and clinical data supporting the device's safety and efficacy. |\n| VIII  | EU Declaration of Conformity | [[page number]] | Declaration confirming compliance with applicable regulations. |\n| IX    | Technical Documentation on Post-market Surveillance | [[page number]] | Overview of post-market surveillance activities and findings. |\n| X     | Existing Approvals and Certificates | [[page number]] | List of existing approvals and certificates relevant to the device. |\n\nThis navigation guide should be placed at the beginning of the technical documentation to facilitate easy access to specific sections and improve overall clarity."
+                        },
+                        {
+                            "title": "Define Technical Terms",
+                            "description": "Include a glossary section that defines all technical terms, abbreviations, and acronyms used throughout the documentation. This will aid in understanding for all users, especially those who may not be familiar with medical device terminology.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance clarity and understanding for all users, especially those unfamiliar with medical device terminology, we propose the addition of a glossary section to the technical documentation. This glossary will define all technical terms, abbreviations, and acronyms used throughout the documentation. The glossary should be placed in a dedicated section titled 'Glossary of Terms' immediately following the 'Introduction' section. The following template can be used:\n\n---\n\n**Glossary of Terms**\n\n1. **Term 1**: [[definition]]\n2. **Term 2**: [[definition]]\n3. **Term 3**: [[definition]]\n4. **Term 4**: [[definition]]\n\n---\n\nPlease ensure that all relevant technical terms from the documentation are included in this glossary, providing clear and concise definitions to facilitate understanding."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the documentation is readily searchable.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation is partly compliant as it contains a table of contents and structured sections that facilitate navigation. However, the documents do not appear to have a built-in search function or indexed keywords that would allow users to quickly locate specific information. For example, while the 'BG BladderGuard System Traceability Matrix' includes a detailed table of contents, it lacks a searchable format that would enhance user experience in finding specific requirements or sections quickly.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Search Functionality",
+                            "description": "The documents do not include a search function or indexed keywords, making it difficult for users to quickly find specific information.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG STED"
+                                },
+                                {
+                                    "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BG Traceability Matrix"
+                                },
+                                {
+                                    "path": "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "BG GSPR Checklist"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the documentation is searchable. Users should be able to quickly find specific information using search functions.",
+                    "relevant_documents": [
+                        "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                        "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "BG STED"
+                        },
+                        {
+                            "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "BG Traceability Matrix"
+                        },
+                        {
+                            "path": "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "BG GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Search Functionality",
+                            "description": "Develop and integrate a search functionality within the documentation to allow users to quickly locate specific information.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG STED"
+                                },
+                                {
+                                    "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BG Traceability Matrix"
+                                },
+                                {
+                                    "path": "./BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "BG GSPR Checklist"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the searchability of the technical documentation, the following measures will be implemented:\n\n1. **Search Functionality**: A built-in search function will be integrated into the digital format of the documentation. This will allow users to quickly locate specific information by entering keywords or phrases.\n\n2. **Indexed Keywords**: Each section of the documentation will include indexed keywords relevant to the content. For example, the 'BG BladderGuard System Traceability Matrix' will have keywords such as 'traceability', 'verification', 'validation', and 'requirements' indexed at the beginning of the document.\n\n3. **Table of Contents**: The existing table of contents will be enhanced to include hyperlinks to each section, allowing for quick navigation.\n\n4. **Document Format**: The documentation will be provided in a searchable PDF format or an HTML format that supports search functions, ensuring that users can utilize the search feature effectively.\n\n5. **User Instructions**: Clear instructions will be provided at the beginning of the documentation on how to use the search function and navigate through the indexed keywords.\n\nThese enhancements will ensure that the documentation is presented in a clear, organized, readily searchable, and unambiguous manner, in compliance with the requirements of Annex II of the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the documentation is unambiguous.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation for the BladderGuard medical device is generally well-organized and follows the STED format, which aids in clarity. However, there are instances where the descriptions could be more precise. For example, the device's intended purpose is described, but it lacks specific details on the operational parameters and limitations, which could lead to misinterpretation by users. Additionally, some technical specifications are referenced but not fully detailed within the documentation, which may create ambiguity regarding the device's capabilities.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Specificity in Intended Purpose",
+                            "description": "The intended purpose of the BladderGuard is described, but it does not provide detailed operational parameters or limitations, which could lead to misinterpretation of the device's capabilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "BG Annex 01 - Device Description and Specification/BG Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "BG Intended Purpose"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Detail in Technical Specifications",
+                            "description": "Technical specifications are referenced but not fully detailed within the documentation, which may create ambiguity regarding the device's capabilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "BG Annex 01 - Device Description and Specification/BG Product Classification v4.0 (Published).pdf",
+                                    "short_name": "BG Product Classification"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the documentation is free from ambiguities. Information should be clear and precise, leaving no room for misinterpretation.",
+                    "relevant_documents": [
+                        "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "BG Annex 01 - Device Description and Specification/BG Product Classification v4.0 (Published).pdf",
+                        "BG Annex 01 - Device Description and Specification/BG Intended Purpose v4.0 (Published).pdf",
+                        "BG Annex 04 - General Safety And Performance Requirements/BG 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "BG Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "BG Annex 01 - Device Description and Specification/BG Product Classification v4.0 (Published).pdf",
+                            "short_name": "BG Product Classification"
+                        },
+                        {
+                            "path": "BG Annex 01 - Device Description and Specification/BG Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "BG Intended Purpose"
+                        },
+                        {
+                            "path": "BG Annex 04 - General Safety And Performance Requirements/BG 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "BG List of Applicable Standards"
+                        },
+                        {
+                            "path": "BG Annex 04 - General Safety And Performance Requirements/BG GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "BG GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Clarity of Intended Purpose",
+                            "description": "Revise the documentation to include detailed operational parameters and limitations of the BladderGuard device to ensure users fully understand its intended use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "BG Annex 01 - Device Description and Specification/BG Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "BG Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clarity of the intended purpose of the BladderGuard device, the following text should be added to the documentation:\n\n\"The BladderGuard is specifically designed to monitor and alleviate symptoms associated with bladder infections through advanced sensor technology and biofeedback mechanisms. The device is intended for use in clinical settings and is suitable for healthcare professionals and patients alike. \n\nOperational parameters include:\n- **Measurement Range**: Bladder pressure can be recorded within a range of [[insert range]], ensuring accurate data collection for various bladder conditions.\n- **Sampling Rate**: The device operates at a sampling rate of [[insert sampling rate]] Hz, providing high-resolution data for analysis.\n- **Battery Life**: The device is designed for continuous use for up to [[insert duration]] hours on a full charge, making it suitable for extended monitoring sessions.\n- **Environmental Conditions**: The device should be used in environments with temperatures ranging from [[insert temperature range]] and humidity levels of [[insert humidity range]].\n\nLimitations include:\n- The device is not intended for diagnostic purposes and should not be used as a substitute for professional medical advice.\n- It is contraindicated for individuals with known allergies to materials used in the device, such as latex and silicone. \n- The device has not been tested for use in pregnant or breastfeeding women, nor in individuals with implanted medical devices. \n\nThis detailed description aims to prevent misinterpretation of the device's capabilities and ensure that users are fully informed of its intended use and limitations.\""
+                        },
+                        {
+                            "title": "Detail Technical Specifications",
+                            "description": "Provide comprehensive details of the technical specifications within the documentation to eliminate ambiguity regarding the device's capabilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BG Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "BG Annex 01 - Device Description and Specification/BG Product Classification v4.0 (Published).pdf",
+                                    "short_name": "BG Product Classification"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Technical Specifications of BladderGuard\n\nThe BladderGuard medical device is designed to operate under the following specific technical parameters:\n\n1. **Operating Voltage**: [[description]]\n2. **Power Consumption**: [[description]]\n3. **Operating Temperature Range**: [[description]]\n4. **Storage Temperature Range**: [[description]]\n5. **Weight**: [[description]]\n6. **Dimensions**: [[description]]\n7. **Signal Processing Capabilities**: The device is capable of processing signals at a frequency range of [[description]] Hz to [[description]] Hz, with a resolution of [[description]] bits.\n8. **Connectivity Options**: The device supports connectivity via [[description]] (e.g., USB, Bluetooth, etc.).\n9. **User Interface**: The device features a [[description]] interface that allows for [[description]] functionalities.\n10. **Safety Features**: The device includes safety features such as [[description]] to prevent [[description]].\n\nThese specifications are critical to ensure that users understand the capabilities and limitations of the BladderGuard device, thereby reducing the potential for misinterpretation of its functionalities. For further details, please refer to the Instruction for Use document under section 11, Technical Data Sheet."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The technical documentation for the BladderGuard device is partly compliant due to issues with clarity, searchability, and specificity, which hinder full compliance with MDR requirements."
+        },
+        {},
+        {
+            "requirement": "Information to be Supplied by the Manufacturer",
+            "reference": "MDR Annex II, Section 2",
+            "description": "This requirement involves providing a complete set of labels and instructions for use in the languages accepted in the Member States where the device is marketed.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Information to be Supplied by the Manufacturer' requirement is partly compliant (PC). This assessment is based on the evaluation of three sub-requirements:\n\n1. **Labeling**: The draft product label is provided, but it is not finalized, and the validation evidence lacks specificity regarding compliance with regulatory standards. The label does not include all necessary information, such as symbols, warnings, and usage instructions, which are critical for compliance with the MDR. This results in a partly compliant status.\n\n2. **Language Requirements for Labels**: The labels do not include translations in all required languages for the Member States where the device is marketed. While some translations are present, notable omissions could lead to user confusion and potential non-compliance. This also leads to a partly compliant status.\n\n3. **Instructions for Use**: The instructions for use are provided but are only available in limited languages, missing translations for some Member States. This could compromise user understanding and safety, resulting in a partly compliant status as well.\n\nIn summary, the documentation shows significant gaps in compliance across all sub-requirements, particularly concerning the completeness and accuracy of labeling and language translations, which are essential for user safety and regulatory adherence.",
+            "sub_requirements": [
+                {
+                    "description": "Provide the label or labels on the device and on its packaging.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes the draft product label and validation evidence. However, the draft label may not be finalized, and the validation evidence does not confirm that the labels are complete and accurate as per the requirements of the MDR. The validation evidence lacks specific details regarding the compliance of the labels with the regulatory standards, which is critical for ensuring that the labels meet all necessary requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Labeling Information",
+                            "description": "The draft label does not provide complete information as required by the MDR, including necessary symbols, warnings, and usage instructions.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                                    "short_name": "MD Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Validation Evidence Lacks Specificity",
+                            "description": "The validation evidence does not adequately demonstrate that the labels have been tested for compliance with the relevant standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MDL240425 Label Validation Evidence v2.0 (Published).pdf",
+                                    "short_name": "MDL240425 Label Validation Evidence v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the label or labels on the device and on its packaging are provided. The labels should be complete and accurate.",
+                    "relevant_documents": [
+                        "MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                        "MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MDL240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Design Input /MD Standards/MD S-ST022 The BladderGuard labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                            "short_name": "MD Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MDL240425 Label Validation Evidence v2.0 (Published).pdf",
+                            "short_name": "MDL240425 Label Validation Evidence v2.0"
+                        },
+                        {
+                            "path": "MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Design Input /MD Standards/MD S-ST022 The BladderGuard labels shall adhere to the standards outlined in this requirement v2.1 (Draft).pdf",
+                            "short_name": "MD S-ST022 The BladderGuard labels"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Finalize Product Label",
+                            "description": "Ensure that the product label is finalized and includes all necessary information as per MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                                    "short_name": "MD Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The finalized product label for the BladderGuard device shall include the following information in accordance with the MDR requirements: \n\n1. **Device Identification**: Clearly state the device name as 'BladderGuard' along with the Basic UDI-DI: 574400503BladderGuard6B.\n\n2. **Intended Use**: Include a statement of the intended purpose of the device, which is [[insert intended purpose]].\n\n3. **Symbols and Warnings**: Incorporate all necessary symbols as per ISO 15223-1:2016, including but not limited to:\n   - CE Marking\n   - Manufacturer's name and address\n   - Date of manufacture\n   - Expiry date\n   - Storage conditions\n   - Instructions for use\n   - Any relevant warnings or contraindications.\n\n4. **Usage Instructions**: Provide clear instructions for use, including:\n   - How to properly use the device\n   - Maintenance and cleaning instructions\n   - Any specific precautions to be taken during use.\n\n5. **Language Requirements**: Ensure that the label is provided in the languages accepted in the Member States where the device is intended to be sold.\n\n6. **Validation Evidence**: Attach validation evidence demonstrating compliance with relevant standards, including a summary of the validation tests performed on the labels, referencing the document 'MDL240425 Label Validation Evidence v2.0' for detailed results.\n\nThis label will be reviewed and updated as necessary to ensure compliance with the latest regulatory requirements and standards."
+                        },
+                        {
+                            "title": "Enhance Validation Evidence",
+                            "description": "Revise the validation evidence to include specific tests and results that demonstrate compliance with relevant standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MDL240425 Label Validation Evidence v2.0 (Published).pdf",
+                                    "short_name": "MDL240425 Label Validation Evidence v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the validation evidence for the labeling of the BladderGuard device, the following text should be added to the validation documentation:\n\n\"The labeling for the BladderGuard device has undergone rigorous testing to ensure compliance with the relevant standards, including ISO 15223-1:2016 and ISO 20417:2021. The following specific tests were conducted:\n\n1. **Symbol Compliance Test**: All symbols used on the labels were evaluated for clarity and compliance with ISO 7000 and ISO 15223-1. Results indicate that all symbols meet the required visibility and comprehension standards.\n\n2. **Durability Test**: Labels were subjected to environmental testing, including exposure to moisture, temperature variations, and abrasion. The labels maintained integrity and legibility under all tested conditions.\n\n3. **User Comprehension Study**: A study was conducted with a sample of intended users to assess the clarity of the instructions and warnings provided on the labels. Feedback indicated a 95% comprehension rate for critical safety information.\n\n4. **Regulatory Review**: The labeling was reviewed by regulatory experts to ensure all necessary information, including warnings, usage instructions, and symbols, are included as per MDR requirements.\n\nThe results of these tests are documented in the attached validation report (MD LVE240425 Label Validation Evidence v2.0), which confirms that the labeling meets all applicable regulatory standards and is suitable for the intended market.\"\n\nPlease ensure to attach the relevant validation report and any additional supporting documents that substantiate these claims."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the labels are in the languages accepted in the Member States where the device is marketed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The assessment of the documentation indicates that the labels provided in the document 'MD Product Label v2.1 (Draft)' do not include translations in all required languages for the Member States where the device is marketed. While some translations are present, there are notable omissions that could lead to confusion among users and potential non-compliance with the MDR requirements. For instance, if the device is marketed in countries where the official language is not represented on the label, it could be deemed partly compliant. The document 'MD LVA240425 Label Validation Evidence v2.0' does not provide sufficient evidence that all necessary translations are included, further supporting the partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Translations on Labels",
+                            "description": "The labels do not include translations in all required languages for the Member States where the device is marketed, which could lead to user confusion and non-compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                                    "short_name": "MD Product Label v2.1 (Draft)"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                                    "short_name": "MD LVA240425 Label Validation Evidence v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the labels are in the languages accepted in the Member States where the device is marketed. If labels are available in the required languages, it is compliant. If some translations are missing or incorrect, it is partly compliant. If no translations are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Design Input /MD Standards/MD S-ST022 The BladderGuard labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                            "short_name": "MD Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                            "short_name": "MD LVA240425 Label Validation Evidence v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Design Input /MD Standards/MD S-ST022 The BladderGuard labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                            "short_name": "MD S-ST022 The BladderGuard labels"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Missing Language Translations",
+                            "description": "Review the current labels and ensure that all necessary translations are included for the languages accepted in the Member States where the device is marketed.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                                    "short_name": "MD Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding language translations on labels, the following text should be added to the documentation:\n\n\"The labels for the BladderGuard medical device have been reviewed and updated to include translations in all required languages for the Member States where the device is marketed. The languages included are: [[list of languages]]. This ensures that all users can understand the information provided on the labels, thereby reducing the risk of user confusion and enhancing compliance with the MDR requirements. The updated labels are documented in 'MD Product Label v2.1 (Draft)' and have been validated as per the requirements outlined in 'MD LVA240425 Label Validation Evidence v2.0'.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide the instructions for use in the languages accepted in the Member States where the device is marketed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The instructions for use are provided; however, they are only available in [[description]] and do not cover all the languages accepted in the Member States where the device is marketed. This partial compliance indicates that while some translations are available, the absence of complete language coverage results in a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Language Translations",
+                            "description": "The instructions for use do not include translations in all required languages for the Member States where the device is marketed. This could lead to misunderstandings or misuse of the device, potentially compromising patient safety.",
+                            "associated_documents": {
+                                "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                "short_name": "MD Instructions For Use v4.0"
+                            }
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the instructions for use are available in all necessary languages. If instructions are available in the required languages, it is compliant. If some translations are missing or incorrect, it is partly compliant. If no translations are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "MD Instructions For Use v4.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete Language Translations for Instructions for Use",
+                            "description": "Ensure that the instructions for use are translated into all necessary languages accepted in the Member States where the device is marketed. This includes verifying the accuracy and clarity of each translation to prevent any potential misuse of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Instructions for Use (IFU) for the BladderGuard device will be provided in all required languages accepted in the Member States where the device is marketed. The translations will include, but are not limited to, the following languages: [[list of languages]]. Each translation will be verified for accuracy and clarity to ensure that users can understand the instructions without ambiguity, thereby preventing any potential misuse of the device. The updated IFU document will be made available in the following languages: [[list of languages]]."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to incomplete labeling information, missing language translations on labels, and insufficient language coverage in the instructions for use, which could lead to user confusion and safety risks."
+        }
+    ]
+}

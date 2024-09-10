@@ -1,5 +1,5 @@
 from insert_relevant_documents import insert_relevant_documents
-from base_variables import base_instruction, model, mdr_path
+from base_variables import base_instruction, model, mdr_path, traceability_matrix_path, sted_path
 from create_assistant_with_files import create_assistant_with_file_search, upload_files_and_add_to_vector_store, update_assistant_to_use_vector_store
 from spinner import spinner_loader  # Import the spinner_loader function
 import time  # Import the time module
@@ -16,7 +16,7 @@ async def create_mdr_expert():
         mdr_expert = await create_assistant_with_file_search("mdr_expert", base_instruction, model) 
 
         # Step 3: Upload files and add them to the vector store
-        mdr_vector_store = await upload_files_and_add_to_vector_store("mdr_vector_store", [mdr_path])
+        mdr_vector_store = await upload_files_and_add_to_vector_store("mdr_vector_store", [mdr_path, sted_path, traceability_matrix_path])
 
         # Step 5: Update MDR expert assistant
         mdr_expert = await update_assistant_to_use_vector_store(mdr_expert, mdr_vector_store)

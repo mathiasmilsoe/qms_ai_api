@@ -1,9 +1,9 @@
-# from openai import OpenAI
 from datetime import datetime, timedelta, timezone
 from openai import AsyncOpenAI
 import asyncio
 import json
 import random
+from base_variables import decoding_results
 
 client = AsyncOpenAI()
 
@@ -67,7 +67,11 @@ async def get_estimated_token_usage_in_last_60_seconds():
 
     return estimated_token_usage
 
-async def create_assistant_with_file_search(name, instructions, model): 
+async def create_assistant_with_file_search(name, instructions, model):
+    # Check if name exceeds 256 characters and truncate if necessary
+    if len(name) > 256:
+        name = name[:256]
+
     assistant = await client.beta.assistants.create(
         name=name,
         instructions=instructions,
@@ -77,16 +81,25 @@ async def create_assistant_with_file_search(name, instructions, model):
     )
 
     return assistant
-
-async def upload_files_and_add_to_vector_store(name, file_paths): 
     
+async def upload_files_and_add_to_vector_store(name, file_paths):
+    # Check if name exceeds 256 characters and truncate if necessary
+    if len(name) > 256:
+        name = name[:256]
+
     vector_store = await client.beta.vector_stores.create(name=name)
 
+    # Open files in binary mode and create file streams
     file_streams = [open(path, "rb") for path in file_paths]
 
+    # Upload files to the vector store and poll for completion
     await client.beta.vector_stores.file_batches.upload_and_poll(
-    vector_store_id=vector_store.id, files=file_streams
+        vector_store_id=vector_store.id, files=file_streams
     )
+
+    # Close the file streams to release resources
+    for file_stream in file_streams:
+        file_stream.close()
 
     return vector_store
 
@@ -98,15 +111,20 @@ async def update_assistant_to_use_vector_store(assistant, vector_store):
 
     return assistant
 
-async def create_thread(instruction): 
-    
+async def create_thread(instruction):
+    # Check the length of the instruction
+    if len(instruction) > 256000:
+        # Truncate the instruction to the first 250,000 characters
+        instruction = instruction[:250000]
+
+    # Create a thread with the (potentially truncated) instruction
     thread = await client.beta.threads.create(
-    messages=[
-        {
-        "role": "user",
-        "content": instruction,
-        }
-    ]
+        messages=[
+            {
+                "role": "user",
+                "content": instruction,
+            }
+        ]
     )
 
     return thread
@@ -122,7 +140,6 @@ async def create_run_and_get_output(thread, assistant, description):
         try:
             # Calculate estimated token usage for the last 60 seconds
             estimated_token_usage = await get_estimated_token_usage_in_last_60_seconds()
-            print(f"Estimated Token Usage in Last 60 Seconds: {estimated_token_usage}")
 
             # If thresholds are exceeded, wait for a random period between 1 and 3 minutes
             if estimated_token_usage > token_threshold:
@@ -152,8 +169,10 @@ async def create_run_and_get_output(thread, assistant, description):
                     "completion_tokens": completion_tokens,
                     "total_tokens": total_tokens
                 })
-            else:
-                print("No usage data in run response.")
+                
+                # Print the total tokens used across all runs
+                total_tokens_used = sum(entry.get("total_tokens", 0) for entry in api_call_log["create_run_and_get_output"])
+                print(f"Total tokens used so far: {total_tokens_used}")
 
             if run.status == 'completed':
                 messages = await client.beta.threads.messages.list(thread_id=thread.id)
@@ -185,7 +204,6 @@ async def create_run_and_get_output(thread, assistant, description):
                     retry_count += 1
                     if retry_count < max_retry_count:
                         wait_time = 60
-                        print(f"Rate limit reached. Waiting for {wait_time} seconds before retrying... (Attempt {retry_count})")
                         await asyncio.sleep(wait_time)
                     else:
                         print(f"Maximum retries reached. Exiting after {retry_count} attempts.")
@@ -196,14 +214,77 @@ async def create_run_and_get_output(thread, assistant, description):
             print(f"An unexpected error occurred: {e}")
             raise
 
-    return processed_data
+    # Parse the message content as JSON
+    json_content = {}
+    try:
+        # Check if the output message has the expected format
+        if "message" in processed_data and processed_data["message"]:
+            # Extract the JSON-like content
+            json_string = processed_data["message"]
+            
+            # Ensure it starts and ends correctly for JSON format
+            if json_string.startswith("```json") and json_string.endswith("```"):
+                json_string = json_string.strip("```json").strip("```").strip()
+                
+                # Attempt to load the JSON content
+                json_content = json.loads(json_string)
+                decoding_results["success"] += 1
+            else:
+                decoding_results["failures"] += 1
+                decoding_results["failures_details"].append({
+                    "error": "Invalid JSON format",
+                    "raw_output": processed_data["message"]
+                })
+        else:
+            decoding_results["failures"] += 1
+            decoding_results["failures_details"].append({
+                "error": "Empty or no output message",
+                "raw_output": processed_data["message"]
+            })
+    except json.JSONDecodeError as e:
+        decoding_results["failures"] += 1
+        decoding_results["failures_details"].append({
+            "error": str(e),
+            "raw_output": processed_data["message"]
+        })
+        json_content = {}
+    except Exception as e:
+        decoding_results["failures"] += 1
+        decoding_results["failures_details"].append({
+            "error": str(e),
+            "raw_output": processed_data["message"]
+        })
+        json_content = {}
+
+    # Return both the raw message and the JSON content
+    return {"raw_output": processed_data["message"], "json_content": json_content}
+
+
+def log_decoding_issues(decoding_results, file_path="decoding_issues.txt"):
+    try:
+        with open(file_path, 'a') as log_file:
+            # Log the summary of decoding results
+            log_file.write(f"Successful Decodings: {decoding_results['success']}\n")
+            log_file.write(f"Failed Decodings: {decoding_results['failures']}\n")
+
+            # Log details of each failed decoding attempt
+            for failure in decoding_results["failures_details"]:
+                log_file.write(f"Error: {failure['error']}\n")
+                log_file.write(f"Raw Output: {failure['raw_output']}\n\n")
+
+        print(f"Decoding issues logged to {file_path}")
+    except Exception as e:
+        print(f"An error occurred while logging decoding issues: {e}")
+
 
 async def add_message_to_thread(thread, content):
-
     message = await client.beta.threads.messages.create(
-    thread_id=thread.id,
-    role="user",
-    content=content
+        thread_id=thread.id,
+        role="user",
+        content=content
     )
 
     return message
+
+# Example usage
+# asyncio.run(main_function())

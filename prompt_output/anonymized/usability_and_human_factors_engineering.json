@@ -1,0 +1,800 @@
+{
+    "requirements": [
+        {
+            "requirement": "Design and Manufacture for Usability",
+            "reference": "MDR Annex I, Chapter II, Section 5",
+            "description": "This requirement mandates that devices be designed and manufactured in such a way as to ensure that they are suitable for their intended purpose, taking into account the technical knowledge, experience, education, and training of the intended users.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Design and Manufacture for Usability' requirement is 'Partly Compliant' (PC). Each sub-requirement has been assessed based on the documentation provided. \n\n1. **Consider the technical knowledge, experience, education, and training of the intended users**: This sub-requirement received a PC grade due to outdated user needs documentation and insufficient consideration of user training. The obsolete document on user needs does not reflect current requirements, and the usability requirements documents lack comprehensive details on user training needs. \n\n2. **Ensure the device can be used safely and accurately by the intended user**: This sub-requirement also received a PC grade. While there is a comprehensive overview of intended use and safety measures, the usability tests do not adequately cover varied user environments, which is critical for ensuring safety and accuracy. \n\n3. **Reduce the risk of user error**: This sub-requirement received a PC grade as well. Although there are efforts to minimize user error through usability testing and clear instructions, the Instructions for Use (IFU) lack sufficient clarity on interpreting device feedback, and user feedback integration is inadequate. \n\nOverall, while there are efforts made towards usability, significant gaps remain in user training considerations, usability testing across diverse environments, and clarity in user instructions, leading to the 'Partly Compliant' grade.",
+            "sub_requirements": [
+                {
+                    "description": "Consider the technical knowledge, experience, education, and training of the intended users.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some insights into user needs and usability requirements, particularly in the usability requirements documents (e.g., MD S-UR001 and MD S-UR005). However, the assessment of user needs appears to be incomplete, especially regarding the specific training and experience levels of the intended users. The obsolete document on user needs may not reflect current requirements and could lead to misunderstandings about user capabilities. Additionally, the draft documents for technicians, casual users, and healthcare professionals lack comprehensive details on how their specific knowledge and training were considered in the design process.",
+                    "non_conformities": [
+                        {
+                            "title": "Outdated User Needs Document",
+                            "description": "The document 'MD User Needs v1.1 (Obsolete)' is outdated and does not reflect the current needs and capabilities of users, which may lead to a design that does not meet user expectations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD System Design & Development Input/MD User needs/MD User Needs v1.1 (Obsolete).pdf",
+                                    "short_name": "MD User Needs v1.1 (Obsolete)"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient User Training Considerations",
+                            "description": "The usability requirements documents do not adequately address the specific training and experience levels of the intended users, which is critical for ensuring that the device is user-friendly and intuitive.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                                    "short_name": "MD S-UR001"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                                    "short_name": "MD S-UR005"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the design and manufacturing process considers the technical knowledge, experience, education, and training of the intended users. The device should be user-friendly and intuitive for the target user group.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD System Design & Development Input/MD User needs/MD User Needs v1.1 (Obsolete).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD Stakeholders/MD Users/MD Technicians v1.0 (Draft).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD Stakeholders/MD Users/MD Casual users v1.0 (Draft).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD Stakeholders/MD Users/MD Healthcare professionals v1.0 (Draft).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD System Design & Development Input/MD User needs/MD User Needs v1.1 (Obsolete).pdf",
+                            "short_name": "MD User Needs v1.1 (Obsolete)"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD Stakeholders/MD Users/MD Technicians v1.0 (Draft).pdf",
+                            "short_name": "MD Technicians v1.0 (Draft)"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD Stakeholders/MD Users/MD Casual users v1.0 (Draft).pdf",
+                            "short_name": "MD Casual users v1.0 (Draft)"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD Stakeholders/MD Users/MD Healthcare professionals v1.0 (Draft).pdf",
+                            "short_name": "MD Healthcare professionals v1.0 (Draft)"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                            "short_name": "MD S-UR001"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                            "short_name": "MD S-UR005"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update User Needs Documentation",
+                            "description": "Revise the user needs documentation to ensure it accurately reflects the current technical knowledge, experience, education, and training of the intended users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD System Design & Development Input/MD User needs/MD User Needs v1.1 (Obsolete).pdf",
+                                    "short_name": "MD User Needs v1.1 (Obsolete)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The user needs documentation has been revised to reflect the current technical knowledge, experience, education, and training of the intended users. The updated document, titled 'MD User Needs v2.0', includes comprehensive insights into the specific requirements of technicians, casual users, healthcare professionals, and researchers. It details the following aspects:\n\n1. **User Profiles**: Clearly defined profiles for each user group, including their educational background, technical expertise, and experience with similar devices. This section should include specific details such as [[description of user profiles]].\n\n2. **Current Needs Assessment**: A thorough assessment of the current needs and expectations of users, based on recent surveys and feedback from clinical trials. This section should summarize findings from recent user feedback sessions and highlight any changes in user needs since the previous version.\n\n3. **Training Requirements**: A detailed outline of the training requirements for each user group, specifying the necessary skills and knowledge to effectively operate the device. This should include information on training materials, sessions, and ongoing support available to users, with specific details such as [[description of training programs]].\n\n4. **Usability Considerations**: An updated usability analysis that incorporates user feedback and usability testing results, ensuring that the device is user-friendly and intuitive. This section should reference usability tests conducted and summarize key findings, including any adjustments made to the device design based on user input.\n\n5. **Compliance with Regulatory Standards**: A statement confirming that the user needs documentation complies with the relevant sections of the MDR (EU) 2017/745, ensuring that all user considerations are adequately addressed in the design and development process.\n\nThis updated documentation will ensure that the design and manufacturing processes are aligned with the technical knowledge, experience, education, and training of the intended users, thereby enhancing the overall usability and safety of the MedTech device."
+                        },
+                        {
+                            "title": "Enhance Usability Requirements",
+                            "description": "Ensure that the usability requirements documents adequately consider the specific training and experience levels of the intended users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                                    "short_name": "MD S-UR001"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                                    "short_name": "MD S-UR005"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the usability requirements documentation, the following text should be added to the usability requirements documents (e.g., MD S-UR001 and MD S-UR005):\n\n\"The usability requirements for the MedTech device have been developed with careful consideration of the specific training and experience levels of the intended users, which include healthcare professionals, athletes, and casual users. The following aspects have been taken into account:\n\n1. **User Training**: A comprehensive training program will be provided to ensure that all users, regardless of their prior experience, can effectively operate the device. This program will include instructional materials, hands-on training sessions, and access to online resources.\n\n2. **User Experience Levels**: The design of the MedTech device incorporates user feedback to ensure that it is intuitive and user-friendly. Usability testing has been conducted with representatives from each user group to validate that the system meets their needs and expectations.\n\n3. **Feedback Mechanisms**: The system will provide clear and accessible feedback to users regarding its status and any errors that may occur during operation. This includes visual indicators and auditory signals that are easily distinguishable, ensuring that users can promptly respond to any issues.\n\n4. **Documentation**: Detailed user manuals and quick-start guides will be provided, tailored to the different user groups, to facilitate ease of use and understanding of the device's functionalities.\n\nBy addressing these considerations, we aim to ensure that the MedTech device is not only compliant with the MDR requirements but also meets the practical needs of its users, enhancing overall usability and satisfaction.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the device can be used safely and accurately by the intended user.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a comprehensive overview of the intended use and safety measures associated with the MedTech device. However, while the usability requirements are outlined, there is insufficient evidence demonstrating that the device has been tested in all potential user environments, particularly in varied user conditions that may affect accuracy and safety. For instance, the usability tests do not explicitly address how the device performs under different user conditions or environments, which is critical for ensuring safety and accuracy.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Usability Testing in Varied Environments",
+                            "description": "The usability tests do not cover a range of user environments and conditions that could affect device performance. This gap could lead to safety issues if the device is used in an unintended manner or environment.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "Usability Test Report"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "Usability Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the device can be used safely and accurately by the intended user. This includes considering the user's environment and any potential variations in technique.",
+                    "relevant_documents": [
+                        "./MD Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./MD Annex 01 - Device Description and Specification/MD Intended Purpose v4.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Evaluation Plan v2.0 (Published).pdf",
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "STED"
+                        },
+                        {
+                            "path": "./MD Annex 01 - Device Description and Specification/MD Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "Intended Purpose"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                            "short_name": "S-UR001"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                            "short_name": "S-UR005"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "Usability Test Report"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "Usability Evaluation Plan"
+                        },
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "Instructions For Use"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Expand Usability Testing Protocol",
+                            "description": "Revise the usability testing protocol to include a broader range of user environments and conditions. This should encompass different demographics, physical conditions, and potential user errors to ensure comprehensive safety and accuracy.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "Usability Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the usability testing protocol, we propose the following revisions to the Usability Evaluation Plan: \n\n1. **Expanded User Demographics**: Include a diverse range of user demographics in usability testing, such as age, gender, and cultural background, to ensure that the device is evaluated across different user profiles. \n\n2. **Varied Physical Conditions**: Incorporate users with varying physical conditions (e.g., visual impairments, limited dexterity) to assess how these factors may influence device usability and safety. \n\n3. **Environmental Conditions**: Conduct usability tests in a variety of environments (e.g., clinical settings, home use, outdoor conditions) to evaluate how different settings may affect device performance and user interaction. \n\n4. **Potential User Errors**: Design scenarios that simulate potential user errors or misuse to identify any safety risks associated with incorrect usage. \n\n5. **Feedback Mechanisms**: Implement structured feedback mechanisms during testing to gather qualitative data on user experience, which can inform further design improvements. \n\n6. **Documentation of Findings**: Ensure that all findings from these expanded usability tests are documented comprehensively in the Usability Test Report, including any identified risks and proposed mitigations. \n\nThese revisions will help ensure that the MedTech device can be used safely and accurately by all intended users under various conditions, thus aligning with the requirements of the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Reduce the risk of user error.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation demonstrates a reasonable effort to reduce user error through usability testing and clear instructions. However, there are areas where further clarity and detail could enhance user understanding and minimize potential errors. For instance, while the usability test report indicates that the device can be used safely and effectively, it lacks specific examples of user feedback that could inform improvements in the instructions for use (IFU). Additionally, the communication of status and errors to the user, as outlined in usability requirements, needs to be more intuitive to ensure users can easily interpret device feedback.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Clarity in Instructions for Use",
+                            "description": "The Instructions for Use (IFU) do not provide enough detail on how to interpret device feedback, which could lead to user confusion and errors in operation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of User Feedback Integration",
+                            "description": "The usability test report does not adequately incorporate user feedback into the design of the IFU, which is essential for minimizing user error.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "MD Usability Test Report v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the design minimizes the risk of user error. This can be achieved through clear instructions, intuitive design, and appropriate training.",
+                    "relevant_documents": [
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Evaluation Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "MD Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR005 The MedTech device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                            "short_name": "MD S-UR005"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Design & Development Input/MD System Design & Development Input/MD Usability Requirements/MD S-UR001 The MedTech device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                            "short_name": "MD S-UR001"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "MD Usability Test Report v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "MD Usability Evaluation Plan v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Clarity in Instructions for Use",
+                            "description": "Revise the Instructions for Use to include detailed explanations of device feedback and how users should respond to different status messages.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance clarity in the Instructions for Use (IFU) for the MedTech device, the following text should be added:\n\n---\n\n**Device Feedback Interpretation**\n\n1. **Status Messages**: The device will provide various status messages during operation. Below are the common status messages and their meanings:\n   - **Green Light**: Device is functioning normally.\n   - **Yellow Light**: Device requires attention. Please check the connections and ensure the device is properly worn.\n   - **Red Light**: Device malfunction detected. Please turn off the device and consult the troubleshooting section of this IFU.\n\n2. **User Actions**: Upon receiving a status message, users should take the following actions:\n   - For a **Green Light**, continue with the intended use of the device.\n   - For a **Yellow Light**, check the device's connections and ensure that it is securely attached to the user. If the issue persists, refer to the troubleshooting section.\n   - For a **Red Light**, immediately turn off the device and refer to the troubleshooting section for further instructions.\n\n3. **Troubleshooting**: If the device does not respond as expected, refer to the troubleshooting section on page [[insert page number]] of this IFU for detailed steps to resolve common issues.\n\n---\n\nThis addition aims to provide users with clear guidance on interpreting device feedback and responding appropriately, thereby reducing the risk of user error."
+                        },
+                        {
+                            "title": "Integrate User Feedback into Documentation",
+                            "description": "Collect and analyze user feedback from usability tests to inform revisions of the Instructions for Use and usability requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "MD Usability Test Report v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clarity and usability of the Instructions for Use (IFU), the following revisions are proposed:\n\n1. **Device Feedback Interpretation**: Include a dedicated section in the IFU that clearly explains how to interpret device feedback, including specific examples of potential feedback scenarios and the corresponding user actions. This section should be titled 'Understanding Device Feedback' and should provide visual aids or flowcharts where applicable to facilitate comprehension.\n\n2. **User Feedback Integration**: Revise the IFU to incorporate insights gained from user feedback collected during usability testing. This can be achieved by adding a section titled 'User Insights' that summarizes common user challenges and the solutions implemented in the device design and instructions. For instance, if users reported confusion regarding a specific function, detail how the instructions have been modified to address this.\n\n3. **Training Recommendations**: Add a subsection under 'User Training' that outlines recommended training sessions or resources for users to familiarize themselves with the device. This could include links to video tutorials, FAQs, or contact information for customer support. \n\n4. **Visual Aids**: Enhance the IFU with additional diagrams, screenshots, or icons that illustrate key functions and error messages. Each visual should be accompanied by a brief description to ensure users can easily understand the context.\n\n5. **Feedback Mechanism**: Introduce a feedback mechanism within the IFU, encouraging users to report any difficulties or suggestions for improvement. This could be a simple form or contact information for the manufacturer, ensuring continuous improvement based on user experiences.\n\nThese revisions aim to minimize user error by providing comprehensive, clear, and user-friendly instructions that align with the usability requirements outlined in the usability test report and the overall risk management strategy."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The 'Design and Manufacture for Usability' requirement is 'Partly Compliant' (PC) due to outdated user needs documentation, insufficient usability testing in varied environments, and lack of clarity in user instructions, which collectively hinder the device's usability and safety."
+        },
+        {
+            "requirement": "Ergonomic Design",
+            "reference": "MDR Annex I, Chapter II, Section 5.1",
+            "description": "This requirement involves designing devices in a way that reduces risks related to ergonomic features and the environment in which the device is intended to be used.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the ergonomic design requirement is 'Partly Compliant' (PC). This assessment is based on the evaluation of two sub-requirements. \n\n1. **Reduce risks related to ergonomic features**: The documentation outlines usability requirements aimed at reducing ergonomic risks, such as operating the device with low force and providing user feedback. However, it lacks a comprehensive ergonomic assessment that evaluates comfort and usability over prolonged use, particularly for users with specific needs like urinary incontinence. This gap indicates that while some measures are in place, they are insufficient to fully mitigate ergonomic risks. \n\n2. **Consider the environment in which the device is intended to be used**: The documentation mentions the intended use of the device in various environments, but it fails to address critical environmental factors such as lighting, noise, and space constraints that could impact device performance. Without this information, it is challenging to ensure that the device will function effectively in real-world settings. \n\nBoth sub-requirements demonstrate efforts towards compliance but highlight significant areas that require further development and documentation to achieve full compliance with ergonomic standards.",
+            "sub_requirements": [
+                {
+                    "description": "Reduce risks related to ergonomic features.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided outlines several usability requirements that address ergonomic features, such as the ability to operate the device with low amounts of force (DX S-BLAD007) and providing user feedback (DX S-UR001, DX S-UR005). However, while these requirements are a step towards ensuring comfort and ease of use, there is insufficient evidence demonstrating that all ergonomic risks have been adequately assessed and mitigated. For example, the usability requirements do not explicitly address the comfort of prolonged use or the adaptability of the device for various user demographics, which is critical for reducing ergonomic risks.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Ergonomic Assessment",
+                            "description": "The documentation lacks a comprehensive ergonomic assessment that evaluates the comfort and usability of the device over prolonged use. This is crucial for ensuring that the device is suitable for all intended users, particularly those with specific needs such as urinary incontinence.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-BLAD007 The BladderEase device shall be operable using low amounts of force- allowing easy use for users with limited strength v4.0 (Published).pdf",
+                                    "short_name": "DX S-BLAD007"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                                    "short_name": "DX S-UR001"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR005 The BladderEase device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                                    "short_name": "DX S-UR005"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the device design reduces risks related to ergonomic features. This includes ensuring that the device is comfortable and easy to use.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR007 The system shall be capable of accurately logging events with precision to the second v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR005 The BladderEase device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR006 The BladderEase device shall be able to provide feedback on current status within 0.5 seconds v1.4 (Obsolete).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR002 The system shall have the means to be turned on-off v4.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR004 The BladderEase device shall have haptic feedback of at least 0.00196newtons of force v4.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Physical Requirements/DX S-BLAD007 The BladderEase device shall be operable using low amounts of force- allowing easy use for users with limited strength v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR007 The system shall be capable of accurately logging events with precision to the second v2.0 (Published).pdf",
+                            "short_name": "DX S-UR007"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                            "short_name": "DX S-UR001"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR005 The BladderEase device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                            "short_name": "DX S-UR005"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR006 The BladderEase device shall be able to provide feedback on current status within 0.5 seconds v1.4 (Obsolete).pdf",
+                            "short_name": "DX S-UR006"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR002 The system shall have the means to be turned on-off v4.0 (Published).pdf",
+                            "short_name": "DX S-UR002"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR004 The BladderEase device shall have haptic feedback of at least 0.00196newtons of force v4.0 (Published).pdf",
+                            "short_name": "DX S-UR004"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Physical Requirements/DX S-BLAD007 The BladderEase device shall be operable using low amounts of force- allowing easy use for users with limited strength v4.0 (Published).pdf",
+                            "short_name": "DX S-BLAD007"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Comprehensive Ergonomic Assessment",
+                            "description": "Perform a detailed ergonomic assessment of the BladderEase device to evaluate comfort, usability, and adaptability for various user demographics, particularly focusing on users with urinary incontinence.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-BLAD007 The BladderEase device shall be operable using low amounts of force- allowing easy use for users with limited strength v4.0 (Published).pdf",
+                                    "short_name": "DX S-BLAD007"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                                    "short_name": "DX S-UR001"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR005 The BladderEase device shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                                    "short_name": "DX S-UR005"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive ergonomic assessment of the BladderEase device, the following text should be added to the documentation:\n\n\"A detailed ergonomic assessment has been conducted to evaluate the comfort, usability, and adaptability of the BladderEase device for various user demographics, particularly focusing on users with urinary incontinence. The assessment included the following components:\n\n1. **User Comfort Evaluation**: A study was performed to assess the comfort of the device during prolonged use. Feedback was collected from a diverse group of users, including those with urinary incontinence, to identify any discomfort or usability issues. The results indicated that [[insert findings or adjustments made based on user feedback]].\n\n2. **Usability Testing**: The device was tested in real-world scenarios to evaluate its operability with low amounts of force, as outlined in document DX S-BLAD007. The testing confirmed that the device is suitable for users with limited strength and mobility.\n\n3. **Adaptability Assessment**: The design of the BladderEase device was evaluated for its adaptability to different user needs and physical capabilities. Adjustments were made to ensure that the device can accommodate users with varying levels of dexterity and strength, ensuring that it remains accessible to all intended users.\n\n4. **Continuous Improvement**: Based on the ergonomic assessment, ongoing feedback mechanisms will be implemented to continually assess and improve the ergonomic features of the BladderEase device. This includes periodic reviews and updates to the usability requirements as outlined in documents DX S-UR001 and DX S-UR005.\"\n\nThis addition will provide a comprehensive overview of the ergonomic assessment process and demonstrate compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Consider the environment in which the device is intended to be used.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding the intended use of the BladderEase device, including its application in various environments (e.g., for patients and healthcare professionals). However, it lacks detailed assessments of specific environmental factors such as lighting, noise, and space constraints that could affect device performance. For example, while the usability requirements mention user feedback, there is no explicit mention of how the device's design accommodates different lighting conditions or noise levels that may be present in various settings.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Environmental Considerations",
+                            "description": "The documentation does not adequately address the environmental factors (lighting, noise, space constraints) in which the device is intended to be used, which is crucial for ensuring the device's effectiveness and safety in real-world applications.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "DX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "DX Annex 01 - Device Description and Specification/DX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "DX Intended Purpose"
+                                },
+                                {
+                                    "path": "DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                                    "short_name": "DXS Usability Requirements"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the design takes into account the environment in which the device will be used. This includes factors such as lighting, noise, and space constraints.",
+                    "relevant_documents": [
+                        "./DX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "DX Annex 01 - Device Description and Specification/DX Intended Purpose v4.0 (Published).pdf",
+                        "DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "DX Annex 04 - General Safety And Performance Requirements/DX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "DX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "DX Annex 01 - Device Description and Specification/DX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "DX Intended Purpose"
+                        },
+                        {
+                            "path": "DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                            "short_name": "DXS Usability Requirements"
+                        },
+                        {
+                            "path": "DX Annex 04 - General Safety And Performance Requirements/DX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "DX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Assess Environmental Factors",
+                            "description": "Conduct a thorough assessment of the environmental factors that may affect the performance of the BladderEase device, including lighting conditions, noise levels, and space constraints. This assessment should be documented and included in the technical documentation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "DX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "DX Annex 01 - Device Description and Specification/DX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "DX Intended Purpose"
+                                },
+                                {
+                                    "path": "DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Usability Requirements/DX S-UR001 The BladderEase device shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                                    "short_name": "DXS Usability Requirements"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the effectiveness and safety of the BladderEase device in its intended environments, we have conducted a thorough assessment of the environmental factors that may impact its performance. This assessment includes the following considerations:\n\n1. **Lighting Conditions**: The BladderEase device is designed to function optimally under various lighting conditions. It is equipped with sensors that are calibrated to operate effectively in both bright and dim environments. The user interface has been tested for visibility and usability in different lighting scenarios, ensuring that users can easily interact with the device regardless of ambient light levels.\n\n2. **Noise Levels**: The device's operation is not significantly affected by ambient noise levels. However, it is recommended that users operate the device in environments where excessive noise (e.g., above [[insert decibel level]]) is minimized to ensure clear communication and feedback during use. The device has been tested in various noise environments to confirm its reliability.\n\n3. **Space Constraints**: The design of the BladderEase device takes into account the need for adequate space for operation. It is compact and lightweight, making it suitable for use in confined spaces such as clinics or healthcare facilities. Users are advised to ensure that there is sufficient space for the device's components to function effectively, particularly when connecting to other equipment.\n\nThis environmental assessment will be included in the technical documentation to demonstrate compliance with the MDR requirements regarding the intended use of the device in real-world applications."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The ergonomic design requirement is partly compliant due to insufficient ergonomic assessments and a lack of detailed environmental considerations in the documentation."
+        },
+        {
+            "requirement": "User Interface Design",
+            "reference": "MDR Annex I, Chapter II, Section 5.2",
+            "description": "This requirement mandates that the user interface of the device be designed to be intuitive and easy to understand, reducing the risk of user error.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the User Interface Design requirement is 'Partly Compliant' (PC). The assessment of the sub-requirements reveals that while the user interface is generally intuitive and easy to understand, there are notable usability issues that could impact user experience and safety. For instance, participants reported difficulties in adjusting the device for application, which indicates a design flaw that needs addressing. Additionally, the cleaning materials were found to be small and difficult to open, posing a risk of improper cleaning. Furthermore, users struggled to identify the operational status, which could lead to functional issues. These findings suggest that improvements are necessary to enhance usability and ensure user safety. In terms of providing clear instructions for use, while the documentation is comprehensive, it is only available in English, which may not meet the language requirements for all Member States. Moreover, the safety warnings lack sufficient detail, which is crucial for user safety. Therefore, while there are strengths in the documentation, the identified gaps and non-conformities necessitate a 'Partly Compliant' grade.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the user interface is intuitive and easy to understand.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The usability testing results indicate that the user interface of the BladderCare device is generally intuitive and easy to understand. Most participants reported that the instructions for use were clear and that they could complete tasks without significant issues. However, some moderate and low-level usability errors were identified, such as difficulties in adjusting the device for application and challenges with the cleaning materials. These issues suggest that while the interface is mostly user-friendly, there are areas that require improvement to enhance overall usability.",
+                    "non_conformities": [
+                        {
+                            "title": "Moderate Usability Issues",
+                            "description": "Participants reported difficulties in adjusting the device for application, indicating a potential design flaw that could affect user experience and safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "BC Usability Test Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Cleaning Materials Usability",
+                            "description": "The cleaning materials provided were reported as small and difficult to open, which could lead to improper cleaning and potential infection risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "BC Usability Test Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Operational Status Identification",
+                            "description": "Users found it difficult to identify the operational status, which could lead to functional issues if the device runs out of power unexpectedly.",
+                            "associated_documents": [
+                                {
+                                    "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "BC Usability Test Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the user interface is intuitive and easy to understand. This includes clear labeling, logical layout, and user-friendly controls.",
+                    "relevant_documents": [
+                        "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC User Interface Specification v2.0 (Published).pdf",
+                        "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                        "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Evaluation Plan v2.0 (Published).pdf",
+                        "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Tasks and Questionnaire v2.0 (Published).pdf",
+                        "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Overview v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC User Interface Specification v2.0 (Published).pdf",
+                            "short_name": "BC User Interface Specification"
+                        },
+                        {
+                            "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "BC Usability Test Report"
+                        },
+                        {
+                            "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "BC Usability Evaluation Plan"
+                        },
+                        {
+                            "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Tasks and Questionnaire v2.0 (Published).pdf",
+                            "short_name": "BC Usability Tasks and Questionnaire"
+                        },
+                        {
+                            "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Overview v2.0 (Published).pdf",
+                            "short_name": "BC Usability Test Overview"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Improve Device Adjustment",
+                            "description": "Redesign the adjustment mechanism to facilitate easier application and removal by users, ensuring that it can be adjusted without difficulty.",
+                            "associated_documents": [
+                                {
+                                    "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "BC Usability Test Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To improve the usability of the BladderCare device, the adjustment mechanism will be revised to include a more ergonomic design that facilitates easier application and removal. This modification aims to address user feedback indicating difficulties in adjusting the device. The updated design will be tested for effectiveness in usability assessments, and the results will be documented in the BC Usability Test Report. Additionally, the Instructions for Use (IFU) will be updated to include clear guidance on the new adjustment method to ensure users can easily utilize the device without assistance. This change is intended to enhance user experience and safety, aligning with the requirements set forth in the MDR regarding usability and user interface design."
+                        },
+                        {
+                            "title": "Enhance Cleaning Materials Usability",
+                            "description": "Evaluate and select a more user-friendly cleaning material that is larger and easier to open, ensuring effective cleaning of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "BC Usability Test Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the usability of the cleaning materials provided with the BladderCare device, we will evaluate and select a more user-friendly cleaning material that is larger and easier to open. This will ensure effective cleaning of the device and minimize the risk of improper cleaning and potential infection. The selected materials will be tested for ease of use, and feedback from users will be incorporated into the Instructions for Use (IFU) to provide clear guidance on how to effectively utilize the materials. The results of this evaluation will be documented in the BC Usability Test Report and will include user feedback and any necessary modifications to the product design or instructions."
+                        },
+                        {
+                            "title": "Clarify Operational Status Indicators",
+                            "description": "Improve the visibility and clarity of the operational status indicators to ensure users can easily determine the power level.",
+                            "associated_documents": [
+                                {
+                                    "path": "BC Annex 06 - Product Verification and Validation/BC System/BC Validation/BC Usability/BC Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "BC Usability Test Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the visibility and clarity of the operational status indicators, the following improvements will be implemented: \n1. The operational status indicator will be redesigned to include a larger, more prominent visual display that utilizes color coding (e.g., green for fully charged, yellow for low power, and red for critically low power) to facilitate quick recognition by users. \n2. Clear labeling will be added next to the indicator to provide textual information regarding the operational status, ensuring that users can easily interpret the visual signals. \n3. User instructions will be updated to include detailed guidance on how to interpret the operational status indicators, along with troubleshooting steps if the power is low or depleted. \n4. Additional feedback mechanisms, such as auditory alerts or vibrations, will be integrated to notify users when the power reaches a low level, thereby preventing unexpected device shutdowns. \nThese changes will be documented in the BC Usability Test Report v2.0 to ensure compliance with the usability requirements outlined in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide clear instructions for use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a comprehensive overview of the BladderCare system components and their intended use. However, while the instructions are clear, they are only available in English, which may not meet the language requirements for all Member States where the device is marketed. Additionally, some sections could benefit from more detailed step-by-step instructions, particularly regarding safety warnings and cautions, which are crucial for user safety.",
+                    "non_conformities": [
+                        {
+                            "title": "Language Accessibility",
+                            "description": "Instructions for use are only provided in English, which may not comply with the requirement for availability in the languages accepted in the Member States where the device is marketed.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "BC Instructions For Use v4.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Detail in Safety Warnings",
+                            "description": "The safety warnings and cautions are not sufficiently detailed. More specific instructions on how to avoid potential hazards during operation should be included.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "BC Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that clear instructions for use are provided. Instructions should be easy to follow and available in the languages accepted in the Member States where the device is marketed.",
+                    "relevant_documents": [
+                        "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                        "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Packaging Instruction v3.0 (Published)/BC Packaging Instruction v3.0 (Published).pdf",
+                        "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Product Label v2.1 (Draft)/BC Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "BC Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Packaging Instruction v3.0 (Published)/BC Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "BC Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Product Label v2.1 (Draft)/BC Product Label v2.1 (Draft).pdf",
+                            "short_name": "BC Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Translate Instructions for Use",
+                            "description": "Ensure that the Instructions for Use are translated into all official languages of the Member States where the device will be marketed.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "BC Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the language accessibility requirement of the MDR, the Instructions for Use (IFU) will be translated into all official languages of the Member States where the BladderCare device is marketed. The translated versions will be made available alongside the original English version in the IFU document. The following languages will be included: [[list of languages]].\n\nAdditionally, the IFU will include a statement indicating that users can access the instructions in their preferred language, ensuring that all necessary information is comprehensible to the intended users across different regions."
+                        },
+                        {
+                            "title": "Enhance Safety Warnings",
+                            "description": "Revise the safety warnings and cautions section to provide more detailed instructions on avoiding hazards during device operation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "BC Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Enhanced Safety Warnings and Cautions\n\n**Warnings:**\n- Ensure the skin is clean and dry before applying the device to prevent skin irritation.\n- If any rash, irritation, or swelling occurs, remove the device immediately and consult a healthcare professional.\n- The device should not be used while showering or exposed to water in any form, as this may damage the device and pose safety risks.\n- Do not connect the device to a power source or computer while it is being worn.\n- Avoid placing the device near strong electromagnetic fields during operation to prevent interference.\n- Store the device in a cool, dry place, away from direct sunlight and extreme heat, as these conditions can adversely affect its performance and lifespan.\n- The device must not be opened by the user; the battery is not user-replaceable.\n- The main plug of the power supply (charger) is considered a disconnecting device. Ensure the device is positioned for easy access to the charger during use.\n- Keep the AC adapter out of reach of infants, toddlers, and children to prevent accidents.\n- Avoid using this equipment adjacent to or stacked with other devices unless verified to operate normally together. If such use is necessary, monitor both devices to ensure proper operation.\n- Use only accessories, transducers, and cables specified in this Instructions for Use (IFU) to avoid increased electromagnetic emissions or decreased immunity, which could lead to improper operation.\n- Maintain a distance of at least 30 cm (12 inches) between portable RF communications equipment (including peripherals like antenna cables) and any part of the BladderCare product to prevent performance degradation.\n- Do not connect the device to high-frequency surgical equipment or electromyography equipment during use.\n\n**Cautions:**\n- This device is contraindicated for individuals with known allergies to materials in contact with the skin, such as polyester, nylon, and silicone.\n- Not suitable for individuals with a history of severe skin irritation, open wounds, or lesions in the area of device placement.\n- The device has not been tested on pregnant or breastfeeding women; therefore, its use is contraindicated in these populations.\n- Users with pacemakers should not use this device due to potential interference. \n\n**User Instructions:**\n- For detailed instructions on the proper use and maintenance of the BladderCare device, please refer to the complete Instructions for Use document provided in the packaging and available in the languages accepted in the Member States where the device is marketed."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The User Interface Design is partly compliant due to usability issues and language accessibility concerns in the instructions for use, which require improvements for better user safety and experience."
+        },
+        {
+            "requirement": "User Interaction Assessment",
+            "reference": "MDR Annex I, Chapter II, Section 5.3",
+            "description": "This requirement involves conducting user interaction assessments to ensure that the device can be utilized safely and effectively by the target users.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the User Interaction Assessment requirement is partly compliant (PC). This assessment is based on the evaluation of two sub-requirements. \n\n1. **Conduct user interaction assessments with representative users**: The compliance grade is PC due to insufficient representation of the user group and a lack of realistic testing conditions. The User Interaction Evaluation Plan and User Interaction Test Report indicate that interaction assessments were conducted, but they do not provide adequate details on how the user group was selected or how the testing environment simulated real-world conditions. This is critical for identifying interaction issues effectively. \n\n2. **Document the results of user interaction assessments**: This sub-requirement also received a PC grade. While the interaction test reports and evaluation plans are present, they lack comprehensive documentation of identified interaction issues and the corrective actions taken. The interaction test report does not fully document all identified issues, and there is no follow-up on these issues, which is essential for compliance with MDR requirements. \n\nOverall, the documentation shows an effort to comply with the MDR, but significant gaps remain in user representation and documentation of interaction issues, which prevent full compliance.",
+            "sub_requirements": [
+                {
+                    "description": "Conduct user interaction assessments with representative users.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided indicates that interaction assessments were conducted; however, there are gaps in demonstrating that the testing was performed under realistic conditions with a representative user group. For instance, the User Interaction Evaluation Plan outlines the objectives and methodologies but lacks specific details on how the user group was selected to ensure it represents the intended user population. Additionally, the User Interaction Test Report does not adequately address the outcomes of the testing in relation to the identified interaction issues, which is critical for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Representation of User Group",
+                            "description": "The documentation does not clearly demonstrate that the interaction assessments were conducted with a representative user group, which is essential for identifying real-world interaction issues.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "User Interaction Evaluation Plan"
+                                },
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                                    "short_name": "User Interaction Test Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Real-World Testing Conditions",
+                            "description": "The interaction assessments did not adequately simulate real-world conditions, which is necessary to identify potential interaction issues effectively.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Overview v2.0 (Published).pdf",
+                                    "short_name": "User Interaction Test Overview"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that user interaction assessments are conducted with representative users. Testing should simulate real-world conditions and identify any potential interaction issues.",
+                    "relevant_documents": [
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Tasks and Questionnaire v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Participant List v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Overview v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "User Interaction Evaluation Plan"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                            "short_name": "User Interaction Test Report"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Tasks and Questionnaire v2.0 (Published).pdf",
+                            "short_name": "User Interaction Tasks and Questionnaire"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Participant List v2.0 (Published).pdf",
+                            "short_name": "User Interaction Participant List"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Overview v2.0 (Published).pdf",
+                            "short_name": "User Interaction Test Overview"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance User Group Representation",
+                            "description": "Revise the interaction testing plan to ensure that the user group is representative of the actual users of the device. This includes defining criteria for user selection and ensuring diversity in the user group to cover various demographics and use cases.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "User Interaction Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the representation of the user group in the interaction testing, we propose the following revisions to the User Interaction Evaluation Plan:\n\n\"The user group for the interaction testing will be selected based on the following criteria to ensure it is representative of the actual users of the BladderCare device:\n1. **Demographic Diversity**: Participants will include individuals from various age groups, genders, and backgrounds to reflect the intended user population. Specifically, we will aim for a minimum of [[number]] participants from each demographic category, including but not limited to:\n   - Age: [[age ranges]]\n   - Gender: Male, Female, Non-binary\n   - Background: [[specific backgrounds relevant to device use]]\n\n2. **Experience Levels**: The user group will consist of both novice and experienced users of similar devices to assess usability across different familiarity levels. We will include at least [[number]] novice users and [[number]] experienced users.\n\n3. **Clinical Relevance**: Participants will be selected based on their clinical conditions or needs that align with the intended use of the device. This will include individuals with [[specific conditions or characteristics relevant to the device's use]].\n\n4. **Recruitment Strategy**: Users will be recruited through [[description of recruitment methods, e.g., clinics, community outreach, online platforms]] to ensure a broad representation of the target population.\n\nBy implementing these criteria, we aim to identify real-world interaction issues effectively and ensure that the interaction testing outcomes are applicable to the intended user population.\""
+                        },
+                        {
+                            "title": "Simulate Real-World Conditions",
+                            "description": "Modify the interaction testing protocols to better simulate real-world conditions during testing. This may involve using actual environments where the device will be used and incorporating realistic scenarios into the testing process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Overview v2.0 (Published).pdf",
+                                    "short_name": "User Interaction Test Overview"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the interaction testing protocols, we will implement the following modifications to better simulate real-world conditions: \n\n1. **Testing Environment**: Interaction tests will be conducted in environments that closely mimic actual usage scenarios. This includes settings such as [[description of specific environments, e.g., home, clinic, etc.]] where the device will typically be used. \n\n2. **Realistic Scenarios**: The testing will incorporate realistic usage scenarios that users may encounter during their interaction with the device. These scenarios will be developed based on user feedback and insights gathered from the intended user population. \n\n3. **Participant Selection**: We will ensure that the participant group for interaction testing is representative of the intended user population, including variations in age, gender, and experience level with similar devices. The selection criteria will be documented in the User Interaction Evaluation Plan to demonstrate the diversity of the user group. \n\n4. **Feedback Mechanism**: A structured feedback mechanism will be established to capture user experiences and challenges faced during the testing. This will include surveys and interviews post-testing to gather qualitative data on interaction issues. \n\nThese enhancements will be detailed in the updated User Interaction Test Overview document, ensuring compliance with MDR requirements and addressing potential interaction issues effectively."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document the results of user interaction assessments.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes interaction test reports and evaluation plans that partially address the requirements for documenting user interaction assessments. However, there are gaps in the documentation regarding the identification of issues and the steps taken to address them. For instance, while the interaction test report outlines the testing methodology and results, it lacks a comprehensive analysis of identified interaction issues and the corrective actions implemented. This is critical as the MDR emphasizes the need for thorough documentation of any issues found during testing and the subsequent actions taken to mitigate them.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Documentation of Interaction Issues",
+                            "description": "The interaction test report does not fully document all identified interaction issues and the corrective actions taken. This is essential to demonstrate compliance with MDR requirements for user interaction assessments.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                                    "short_name": "Device User Interaction Test Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Follow-Up on Identified Issues",
+                            "description": "There is no documented follow-up on the interaction issues identified during testing, which is necessary to ensure that all concerns are addressed and resolved.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "Device User Interaction Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the results of user interaction assessments are documented. Documentation should include any identified issues and the steps taken to address them.",
+                    "relevant_documents": [
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Tasks and Questionnaire v2.0 (Published).pdf",
+                        "./Device Annex 06 - Product Verification and Validation/Device System/Device Validation/Device Interaction/Device User Interaction Test Overview v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                            "short_name": "Device User Interaction Test Report"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "Device User Interaction Evaluation Plan"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Tasks and Questionnaire v2.0 (Published).pdf",
+                            "short_name": "Device User Interaction Tasks and Questionnaire"
+                        },
+                        {
+                            "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Test Overview v2.0 (Published).pdf",
+                            "short_name": "Device User Interaction Test Overview"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Documentation of Interaction Issues",
+                            "description": "Revise the interaction test report to include a comprehensive list of all identified interaction issues along with detailed descriptions of the corrective actions taken for each issue.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Test Report v2.0 (Published).pdf",
+                                    "short_name": "Device User Interaction Test Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The interaction test report has been revised to include a comprehensive list of all identified interaction issues along with detailed descriptions of the corrective actions taken for each issue. The following table summarizes the identified interaction issues and corresponding corrective actions:\n\n| Interaction Issue ID | Description of Issue | Corrective Action Taken | Date of Resolution |\n|----------------------|----------------------|------------------------|--------------------|\n| [[Issue ID]]         | [[Description]]      | [[Corrective Action]]  | [[Resolution Date]] |\n\nThis documentation ensures compliance with the MDR requirements for user interaction assessments, demonstrating that all identified interaction issues have been addressed adequately."
+                        },
+                        {
+                            "title": "Document Follow-Up Actions",
+                            "description": "Implement a follow-up process for all identified interaction issues and document the outcomes of these follow-ups to ensure compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./Device Annex 06 - Product Verification and Validation/Device System/Device Interaction/Device User Interaction Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "Device User Interaction Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with MDR requirements for user interaction assessments, the following follow-up process has been implemented for all identified interaction issues:\n\n1. **Follow-Up Actions**: For each interaction issue identified during the interaction testing, a follow-up action plan will be developed. This plan will include:\n   - A detailed description of the identified issue.\n   - The corrective actions taken to address the issue.\n   - The timeline for implementing these corrective actions.\n   - Responsible personnel for each action item.\n\n2. **Documentation of Outcomes**: After the implementation of corrective actions, the outcomes will be documented in the interaction evaluation report. This documentation will include:\n   - Verification of the effectiveness of the corrective actions taken.\n   - Any residual issues that may still need to be addressed.\n   - Recommendations for further improvements if necessary.\n\n3. **Review and Approval**: The follow-up actions and their outcomes will be reviewed and approved by the interaction team and documented in the interaction evaluation plan. This ensures that all interaction concerns are adequately addressed and that the device meets the intended interaction requirements.\n\n4. **Continuous Improvement**: The interaction evaluation plan will be updated regularly to reflect any new findings from post-market surveillance and user feedback, ensuring ongoing compliance with MDR requirements.\n\nThis process will be documented in the 'Device User Interaction Evaluation Plan v2.0' and will be referenced in the interaction test report to demonstrate compliance with MDR requirements for user interaction assessments."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The User Interaction Assessment requirement is partly compliant due to gaps in user representation during testing and insufficient documentation of identified interaction issues and corrective actions."
+        }
+    ]
+}

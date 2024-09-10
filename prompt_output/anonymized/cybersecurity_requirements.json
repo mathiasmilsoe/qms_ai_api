@@ -1,0 +1,1032 @@
+{
+    "requirements": [
+        {
+            "requirement": "Protection against Unauthorized Access",
+            "reference": "MDR Annex I, Chapter II, Section 17.4",
+            "description": "This requirement ensures that medical devices are designed and manufactured in such a way as to protect against unauthorized access that could hinder the device from functioning as intended.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the requirement 'Protection against Unauthorized Access' is partly compliant (PC). Each sub-requirement has been assessed as follows: \n\n1. **Implement access control mechanisms**: This sub-requirement is graded as partly compliant (PC) due to insufficient documentation of access control mechanisms, particularly regarding two-factor authentication and testing procedures. The relevant documents do not provide comprehensive details on how access is restricted based on user roles. \n\n2. **Ensure secure communication channels**: This sub-requirement is also graded as partly compliant (PC) because the documentation lacks specific details on encryption protocols (e.g., SSL/TLS) for secure communication. Furthermore, there is no evidence of security testing related to these channels, which is critical for compliance. \n\n3. **Protect data integrity and confidentiality**: This sub-requirement is graded as partly compliant (PC) due to the presence of an obsolete safety requirements document, which raises concerns about current encryption measures. Additionally, there is insufficient detail on access controls and a lack of evidence for data security assessments, which are necessary to ensure data integrity and confidentiality. \n\nIn summary, while some measures are in place, significant gaps in documentation and testing exist across all sub-requirements, leading to the overall grade of partly compliant.",
+            "sub_requirements": [
+                {
+                    "description": "Implement access control mechanisms.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation reviewed indicates that some access control mechanisms are in place, such as user authentication protocols. However, there is insufficient detail regarding the implementation of two-factor authentication and the testing of these mechanisms. For instance, while the Device Architecture document outlines user roles, it does not specify how access is restricted based on these roles or the methods used for authentication.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Documentation of Access Control Mechanisms",
+                            "description": "The documentation lacks comprehensive details on the access control mechanisms, particularly regarding the implementation of two-factor authentication and the testing of these mechanisms.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device v2.0 (Published).pdf",
+                                    "short_name": " Device v2.0"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": " 2024-04-03 Device Architecture v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that access control mechanisms such as passwords, biometrics, or two-factor authentication are implemented. Check for documentation and testing of these mechanisms.",
+                    "relevant_documents": [
+                        "./ Annex 03 - Design And Manufacturing Information/ Device v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240424 Device Verification report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Device v2.0 (Published).pdf",
+                            "short_name": " Device v2.0"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Architecture v2.0"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Maintenance Plan v2.0"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Configuration Record v2.0"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": " VER240403-01 Verification Plan v2.0"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240424 Device Verification report v2.0 (Published).pdf",
+                            "short_name": " VER240424 Device Verification report v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Documentation of Access Control Mechanisms",
+                            "description": "Revise the technical documentation to include detailed descriptions of the access control mechanisms implemented, including two-factor authentication processes and their testing.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device v2.0 (Published).pdf",
+                                    "short_name": " Device v2.0"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": " 2024-04-03 Device Architecture v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Access Control Mechanisms\n\nThe access control mechanisms implemented in the BladderCare device system are designed to ensure that only authorized personnel can access sensitive data and functionalities. The following mechanisms are in place:\n\n1. **User Authentication**: Each user must authenticate using a unique username and password. Passwords must meet the following criteria:\n   - Minimum length of [[number]] characters.\n   - Must include at least one uppercase letter, one lowercase letter, one number, and one special character.\n\n2. **Two-Factor Authentication (2FA)**: To enhance security, two-factor authentication is implemented. Users are required to provide a second form of verification, which can be either:\n   - A time-based one-time password (TOTP) generated by an authenticator app.\n   - A verification code sent via SMS to the registered mobile number.\n\n3. **Role-Based Access Control (RBAC)**: Access to the system is restricted based on user roles. The following roles are defined:\n   - **Administrator**: Full access to all system functionalities.\n   - **User**: Limited access to functionalities relevant to their role.\n   - **Guest**: Read-only access to certain data.\n   Access rights are assigned based on the user's role, ensuring that users can only access information necessary for their duties.\n\n4. **Testing of Access Control Mechanisms**: The access control mechanisms, including 2FA, have undergone rigorous testing to ensure their effectiveness. Testing procedures include:\n   - **Penetration Testing**: Conducted by an external security firm to identify vulnerabilities in the access control system.\n   - **User Acceptance Testing (UAT)**: Involving a group of end-users to validate the usability and effectiveness of the access control mechanisms.\n   - **Regular Audits**: Scheduled audits to review access logs and ensure compliance with access control policies.\n\n5. **Documentation**: Detailed documentation of the access control mechanisms, including the implementation process and testing results, is maintained in the following documents:\n   -  Device v2.0\n   -  2024-04-03 Device Architecture v2.0\n\nThis comprehensive approach to access control ensures compliance with the requirements of MDR (EU) 2017/745 and enhances the overall security of the BladderCare device system."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure secure communication channels.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a general overview of the software architecture and maintenance plans, but lacks specific details on the implementation of secure communication channels. While the Device Architecture document outlines the system's design, it does not explicitly mention the use of encryption protocols such as SSL/TLS for secure communication. The Device Verification Plan and Verification Report do not address security testing related to communication channels, which is critical for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Encryption Protocols Specification",
+                            "description": "The documentation does not specify the encryption protocols (e.g., SSL/TLS) used for secure communication channels, which is a requirement under the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": " 2024-04-03 Device Architecture v2.0"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                                    "short_name": " 2024-04-03 Device Verification Plan v2.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Security Testing Documentation",
+                            "description": "The Device Verification Report does not include any evidence of security testing related to the communication channels, which is necessary to demonstrate compliance with the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240424 Device Verification report v2.0 (Published).pdf",
+                                    "short_name": " VER240424 Device Verification report v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that communication channels are secured using encryption protocols (e.g., SSL/TLS). Verify through security testing and documentation.",
+                    "relevant_documents": [
+                        "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240424 Device Verification report v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ 2024-04-03 Device Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Architecture v2.0"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Maintenance Plan v2.0"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Configuration Record v2.0"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240424 Device Verification report v2.0 (Published).pdf",
+                            "short_name": " VER240424 Device Verification report v2.0"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                            "short_name": " 2024-04-03 Device Verification Plan v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Define Encryption Protocols",
+                            "description": "Specify the encryption protocols (e.g., SSL/TLS) that will be used for secure communication channels in the software architecture.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": " 2024-04-03 Device Architecture v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the section detailing secure communication channels within the software architecture, please include the following text:\n\n\"The software architecture employs secure communication channels utilizing encryption protocols such as SSL (Secure Sockets Layer) and TLS (Transport Layer Security) to ensure the confidentiality and integrity of data transmitted between devices and servers. The implementation of these protocols is critical for protecting sensitive information and maintaining compliance with the Medical Device Regulation (MDR) requirements. The specific versions of SSL/TLS used are [[insert specific versions here]], and the configuration settings are documented in the Device Architecture document ( 2024-04-03 Device Architecture v2.0).\""
+                        },
+                        {
+                            "title": "Conduct Security Testing",
+                            "description": "Perform security testing to validate the effectiveness of the implemented encryption protocols and document the results.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Design Verification/ VER240424 Device Verification report v2.0 (Published).pdf",
+                                    "short_name": " VER240424 Device Verification report v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding secure communication channels, the following text should be added to the documentation:\n\n\"The secure communication channels implemented in the BladderCare device system utilize the following encryption protocols: SSL/TLS. These protocols ensure that all data transmitted between the device and external systems is encrypted, thereby safeguarding against unauthorized access and ensuring data integrity. The specific versions of the protocols used are [[insert specific versions here]].\"\n\nAdditionally, to address the security testing documentation, the following text should be included:\n\n\"Security testing was conducted to validate the effectiveness of the implemented encryption protocols. The testing included vulnerability assessments, penetration testing, and verification of the encryption mechanisms in place. The results of these tests are documented in the VER240424 Device Verification Report v2.0, confirming that the encryption protocols meet the necessary security standards for compliance with the MDR. All test evidence is reviewed, approved, and uploaded to the Ins2Outsl platform for traceability and verification purposes.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Protect data integrity and confidentiality.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that the BladderCare system must exclusively store personal data in an encrypted format, which aligns with the requirement to protect data integrity and confidentiality. However, the document titled 'S Safety Requirements' is marked as obsolete, which raises concerns about the current applicability of the encryption measures. Additionally, while the device architecture document outlines some security features, it lacks detailed information on access controls and data security assessments, which are critical for full compliance with the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Obsolete Safety Requirements Document",
+                            "description": "The document 'S Safety Requirements' is marked as obsolete, which raises questions about the current encryption measures and their effectiveness in protecting data integrity and confidentiality.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Design & Development Input/ Device Design & Development Input/ Device Design Input /S Safety Requirements/ S-SR002 The BladderCare system must exclusively store personal data in an encrypted format v1.3 (Obsolete).pdf",
+                                    "short_name": "S Safety Requirements"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Access Control Details",
+                            "description": "The device architecture document does not provide sufficient details on access controls, which are necessary to ensure that only authorized personnel can access sensitive data.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "Device Architecture"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Data Security Assessments",
+                            "description": "There is no evidence of data security assessments being conducted, which is required to verify that data integrity and confidentiality are maintained.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Device Maintenance Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that data integrity and confidentiality are maintained through encryption and access controls. Verify through data security assessments.",
+                    "relevant_documents": [
+                        "./ Annex 03 - Design And Manufacturing Information/ Design & Development Input/ Device Design & Development Input/ Device Design Input /S Safety Requirements/ S-SR002 The BladderCare system must exclusively store personal data in an encrypted format v1.3 (Obsolete).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Biological Evaluation/ Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Device System/ Device System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Design & Development Input/ Device Design & Development Input/ Device Design Input /S Safety Requirements/ S-SR002 The BladderCare system must exclusively store personal data in an encrypted format v1.3 (Obsolete).pdf",
+                            "short_name": "S Safety Requirements"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": "Device Architecture"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Device Maintenance Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Biological Evaluation/ Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Device System/ Device System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Safety Requirements Document",
+                            "description": "Revise the 'S Safety Requirements' document to ensure it reflects current encryption standards and practices for data protection.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Design & Development Input/ Device Design & Development Input/ Device Design Input /S Safety Requirements/ S-SR002 The BladderCare system must exclusively store personal data in an encrypted format v1.3 (Obsolete).pdf",
+                                    "short_name": "S Safety Requirements"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The S Safety Requirements document has been revised to reflect current encryption standards and practices for data protection. The updated requirement is as follows:\n\n**S S-SR002**: The BladderCare system must exclusively store personal data in an encrypted format using AES-256 encryption standards, ensuring that all data at rest and in transit is protected against unauthorized access. This requirement is in compliance with the General Data Protection Regulation (GDPR) and aligns with the latest cybersecurity best practices. The encryption methods and their implementation will be regularly reviewed and updated to maintain compliance with evolving standards and regulations. \n\nThis document will be reviewed annually or whenever significant changes to the system architecture or data handling processes occur, ensuring continuous alignment with applicable data protection laws and standards. \n\nThe traceability of this requirement is documented in the traceability matrix, ensuring that all related design and development activities are aligned with this safety requirement."
+                        },
+                        {
+                            "title": "Implement Access Control Protocols",
+                            "description": "Develop and implement detailed access control protocols to ensure that only authorized personnel can access sensitive data.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "Device Architecture"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the security of sensitive data access within the BladderCare system, we propose the following access control protocols: \n\n1. **User Authentication**: All users must authenticate their identity using multi-factor authentication (MFA) before accessing sensitive data. This includes a combination of passwords, biometric verification, or security tokens.\n\n2. **Role-Based Access Control (RBAC)**: Access to sensitive data will be restricted based on user roles. Each role will have predefined permissions that limit access to only the necessary data required for their job functions. \n\n3. **Audit Logging**: All access to sensitive data will be logged, including user identity, timestamp, and action taken. These logs will be reviewed regularly to detect any unauthorized access attempts.\n\n4. **Periodic Access Review**: Access permissions will be reviewed on a quarterly basis to ensure that only authorized personnel have access to sensitive data. Any changes in user roles or employment status will trigger an immediate review of access rights.\n\n5. **Training and Awareness**: All personnel with access to sensitive data will undergo regular training on data protection policies and procedures, including the importance of maintaining data confidentiality and integrity.\n\nThese protocols will be documented in the Device Architecture document ( 2024-04-03 Device Architecture v2.0) and will be implemented as part of the system's security measures to ensure compliance with MDR requirements regarding data integrity and confidentiality."
+                        },
+                        {
+                            "title": "Conduct Data Security Assessments",
+                            "description": "Establish a schedule for regular data security assessments to evaluate the effectiveness of data protection measures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Design And Manufacturing Information/ Device/ 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Device Maintenance Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the integrity and confidentiality of data, the following measures will be implemented as part of the Device Maintenance Plan:\n\n1. **Regular Data Security Assessments**: A schedule for regular data security assessments will be established, with assessments conducted at least annually or after significant changes to the system. These assessments will evaluate the effectiveness of encryption measures and access controls in protecting sensitive data. The results of these assessments will be documented and reviewed by the management team to ensure continuous improvement in data security practices.\n\n2. **Access Control Implementation**: Access controls will be detailed in the Device Architecture document, specifying user roles, permissions, and authentication methods to ensure that only authorized personnel can access sensitive data. This will include multi-factor authentication and regular audits of access logs to detect any unauthorized access attempts.\n\n3. **Encryption Standards**: The system will utilize industry-standard encryption protocols (e.g., AES-256) for the storage and transmission of personal data. The effectiveness of these encryption measures will be assessed during the regular data security assessments.\n\n4. **Documentation Updates**: The 'S Safety Requirements' document will be revised to reflect current encryption measures and their effectiveness. This document will no longer be marked as obsolete and will be maintained as a living document that is updated in accordance with changes in technology and regulatory requirements.\n\n5. **Management Review**: The results of the data security assessments and any identified vulnerabilities will be reviewed by the management team during quarterly meetings to ensure that appropriate actions are taken to mitigate risks.\n\nBy implementing these measures, we aim to maintain the highest standards of data integrity and confidentiality in compliance with MDR requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to insufficient documentation and testing of access control mechanisms, lack of specification for secure communication protocols, and concerns regarding the effectiveness of data protection measures."
+        },
+        {
+            "requirement": "Risk Management for Device Safety",
+            "reference": "MDR Annex I, Chapter I, Section 3",
+            "description": "This requirement mandates that manufacturers establish, document, implement, and maintain a risk management system for device safety risks.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Risk Management for Device Safety' requirement is partly compliant (PC). Each sub-requirement has been assessed as follows: \n\n1. **Conduct a safety risk assessment**: This sub-requirement is graded as partly compliant (PC) because while the documentation provides a framework for risk management, it lacks a comprehensive safety risk assessment that explicitly identifies and evaluates risks associated with the BladderGuard Device. The Risk Management Plan mentions safety inputs but does not detail specific identified risks or mitigation strategies. \n\n2. **Implement risk mitigation measures**: This sub-requirement is also graded as partly compliant (PC). The documentation shows a structured approach to risk management, including a risk management plan and report. However, there is insufficient evidence of thorough testing of the mitigation measures across all identified risks. The risk management report indicates that risks are reduced to acceptable levels but lacks detailed verification results for all implemented strategies. \n\n3. **Monitor and review device safety risks**: This sub-requirement is graded as partly compliant (PC) as well. The documentation acknowledges that safety risks are monitored through the Risk Management Plan and Post-Market Surveillance Plan. However, it lacks sufficient detail on the periodicity of risk assessments and updates to the risk management plan, which is critical for continuous monitoring. \n\nOverall, the documentation demonstrates an understanding of the importance of device safety risk management but falls short in providing comprehensive assessments, thorough testing, and defined monitoring procedures, leading to a partly compliant status.",
+            "sub_requirements": [
+                {
+                    "description": "Conduct a safety risk assessment.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for risk management, including safety considerations. However, it lacks a comprehensive safety risk assessment that explicitly identifies and evaluates safety risks associated with the BladderGuard Device. While the Risk Management Plan mentions safety inputs, it does not detail specific identified risks or mitigation strategies related to safety. This gap indicates that while some elements are present, the assessment is not fully compliant with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Safety Risk Assessment",
+                            "description": "The documentation does not provide a detailed safety risk assessment that identifies specific safety threats and vulnerabilities associated with the device. This is critical as it may lead to unaddressed risks that could compromise device safety and effectiveness.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Analysis (device) v4.0 (Published)/ 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that a comprehensive safety risk assessment has been conducted. Check for documentation of identified risks and mitigation strategies.",
+                    "relevant_documents": [
+                        "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Analysis (device) v4.0 (Published)/ 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/S System/S BladderGuard Device System Traceability Matrix v2.1 (Draft).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Software/ 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Analysis (device) v4.0 (Published)/ 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/S System/S BladderGuard Device System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Software/ 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "Software Architecture"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Comprehensive Safety Risk Assessment",
+                            "description": "Develop a detailed safety risk assessment that identifies specific safety threats and vulnerabilities associated with the BladderGuard Device. This assessment should include an evaluation of the likelihood and impact of identified risks, as well as mitigation strategies to address them.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Analysis (device) v4.0 (Published)/ 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The comprehensive safety risk assessment for the BladderGuard Device is documented in the Risk Analysis section of the Risk Management Plan. This assessment identifies specific safety threats and vulnerabilities associated with the device, including but not limited to: mechanical failure, user error, and potential impacts on device performance. Each identified risk is evaluated based on its likelihood and potential impact, categorized as low, medium, or high risk. Mitigation strategies are outlined for each identified risk, including: \n\n1. **Mechanical Failure**: Implement regular maintenance schedules and quality control checks to ensure device integrity.\n2. **User Error**: Provide comprehensive training and user manuals to minimize the risk of incorrect usage.\n3. **Device Performance Impacts**: Conduct routine performance evaluations and software updates to enhance functionality.\n\nThis assessment is aligned with the requirements of EN ISO 14971:2019/A11:2021 and is included in the Risk Management File, ensuring traceability and compliance with MDR requirements. The Risk Management Team will review and update this assessment regularly to reflect any changes in the safety landscape or device functionality."
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement risk mitigation measures.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation demonstrates a structured approach to risk management, including a risk management plan and report. However, while risks are identified and mitigation measures are outlined, there is insufficient evidence of thorough testing of these measures across all identified risks. For example, the risk management report indicates that risks are reduced to acceptable levels, but does not provide detailed verification results for all mitigation strategies implemented. This lack of comprehensive testing documentation leads to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Testing of Risk Mitigation Measures",
+                            "description": "The risk management documentation lacks detailed evidence of testing for all implemented risk mitigation measures, particularly in the context of the verification plan.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./ Annex 06 - Product Verification and Validation/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "Verification Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that appropriate risk mitigation measures are implemented based on the risk assessment. Verify through testing and documentation.",
+                    "relevant_documents": [
+                        "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/ Design Verification/ Test Reports  v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/S System/ Design Verification/ FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/S System/S Validation/ VAP240403 Validation Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Verification Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/ Design Verification/ Test Reports  v2.0 (Published).pdf",
+                            "short_name": "Test Reports"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/S System/ Design Verification/ FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "Final Verification Report"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/S System/S Validation/ VAP240403 Validation Plan v2.0 (Published).pdf",
+                            "short_name": "Validation Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Testing Documentation",
+                            "description": "Revise the verification plan to include comprehensive testing results for all risk mitigation measures implemented. Ensure that each identified risk has corresponding test results that validate the effectiveness of the mitigation strategies.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 06 - Product Verification and Validation/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "Verification Plan"
+                                },
+                                {
+                                    "path": "./ Annex 06 - Product Verification and Validation/ Design Verification/ Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "Test Reports"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the verification plan, the following text should be added:\n\n\"The verification plan has been revised to include comprehensive testing results for all implemented risk mitigation measures. Each identified risk has been subjected to rigorous testing, and the results are documented in the corresponding test reports. For each risk, the following details are provided:\n\n1. **Risk Identification**: [[description of the risk]]\n2. **Mitigation Measure Implemented**: [[description of the mitigation measure]]\n3. **Testing Methodology**: [[description of the testing methodology]]\n4. **Test Results**: [[summary of the test results]]\n5. **Conclusion**: [[conclusion regarding the effectiveness of the mitigation measure]]\n\nThis ensures that all risk mitigation measures are validated and demonstrate compliance with the requirements set forth in the MDR. The detailed test results can be found in the attached Test Reports document ( Test Reports v2.0).\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Monitor and review device safety risks.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that safety risks are acknowledged and monitored through the Risk Management Plan and Post-Market Surveillance Plan. However, there is insufficient detail on the periodicity of risk assessments and updates to the risk management plan, which is critical for continuous monitoring. For example, while the Risk Management Plan mentions the collection of information regarding safety vulnerabilities, it lacks a defined schedule for regular reviews and updates, which is necessary to ensure ongoing compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Periodicity of Risk Assessments",
+                            "description": "The Risk Management Plan does not specify the frequency of periodic risk assessments to monitor safety risks, which is essential for compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Detailed Safety Monitoring Procedures",
+                            "description": "The documentation does not provide detailed procedures for how safety risks will be monitored and reviewed over time, which is necessary for effective risk management.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that safety risks are continuously monitored and reviewed. Verify through periodic risk assessments and updates to the risk management plan.",
+                    "relevant_documents": [
+                        "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Analysis (device) v4.0 (Published)/ 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/S System/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Analysis (device) v4.0 (Published)/ 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/S System/ Design Verification/ VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Verification Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Periodic Risk Assessment Schedule",
+                            "description": "Define and document a schedule for periodic risk assessments specifically focused on safety risks to ensure continuous monitoring and compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure continuous monitoring and compliance with the MDR requirements regarding safety risks, the following periodic risk assessment schedule is established: \n\n1. **Frequency of Risk Assessments**: Safety risk assessments will be conducted at least every [[insert frequency, e.g., six months, annually]] to ensure that all potential vulnerabilities are identified and addressed in a timely manner. \n\n2. **Documentation of Assessments**: Each assessment will be documented in the Risk Management Plan, including the date of the assessment, the personnel involved, the findings, and any actions taken as a result of the assessment. \n\n3. **Review and Update**: The Risk Management Plan will be reviewed and updated following each assessment to reflect any new risks identified and the effectiveness of the risk control measures implemented. \n\n4. **Reporting**: A summary report of the findings from each risk assessment will be prepared and submitted to the relevant stakeholders, including the management team and the notified body, as part of the post-market surveillance activities. \n\nThis schedule will be integrated into the existing Risk Management Plan ( 2024-04-01 Risk Management Plan v3.0) to ensure alignment with the overall risk management strategy."
+                        },
+                        {
+                            "title": "Develop Detailed Safety Monitoring Procedures",
+                            "description": "Create and implement detailed procedures for monitoring and reviewing safety risks, including specific roles and responsibilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 05 - Benefit-Risk Analysis and Risk Management/ 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Safety Monitoring Procedures\n\nTo ensure continuous monitoring and review of safety risks associated with the BladderGuard Device, the following detailed procedures are established:\n\n1. **Periodic Risk Assessments**: Risk assessments will be conducted at a minimum frequency of every [[insert frequency, e.g., six months]] to evaluate the current safety landscape and identify any new vulnerabilities or threats. This schedule will be reviewed annually to ensure its adequacy based on emerging risks and technological advancements.\n\n2. **Roles and Responsibilities**: The following personnel are assigned specific roles in the safety monitoring process:\n   - **Safety Officer**: Responsible for overseeing the implementation of safety measures and conducting risk assessments.\n   - **Quality Assurance Team**: Responsible for integrating safety considerations into the overall quality management system and ensuring compliance with regulatory requirements.\n   - **Engineering Department**: Responsible for maintaining the integrity of the device and promptly addressing any identified vulnerabilities.\n\n3. **Monitoring Procedures**: The following procedures will be implemented to monitor safety risks:\n   - **Incident Reporting**: Establishment of a clear protocol for reporting safety incidents, including a defined escalation path to ensure timely response and mitigation.\n   - **Data Analysis**: Regular analysis of data collected from post-market surveillance activities, customer feedback, and incident reports to identify trends and potential areas of concern.\n\n4. **Documentation and Review**: All findings from risk assessments and monitoring activities will be documented in the Risk Management Plan. This documentation will be reviewed during the annual management review meetings to ensure that safety risks are adequately addressed and that the monitoring procedures remain effective.\n\n5. **Training and Awareness**: All personnel involved in the monitoring of safety risks will undergo regular training to stay updated on the latest safety threats and best practices.\n\nBy implementing these procedures, we aim to ensure that safety risks are effectively monitored and managed in compliance with MDR requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to gaps in the comprehensive safety risk assessment, insufficient testing of risk mitigation measures, and lack of defined periodicity for monitoring safety risks."
+        },
+        {
+            "requirement": "Device Software Updates and Security Enhancements",
+            "reference": "MDR Annex I, Chapter II, Section 17.2",
+            "description": "This requirement ensures that device software updates and security enhancements are managed to address vulnerabilities and improve overall device safety.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Device Software Updates and Security Enhancements' requirement is 'Partly Compliant' (PC). Each sub-requirement has been assessed as follows: \n\n1. **Establish a process for software updates**: This sub-requirement is graded as PC due to the lack of a detailed step-by-step update process. While a Software Maintenance Plan exists, it does not provide comprehensive procedures, timelines, or responsibilities, which are essential for systematic management of updates. \n\n2. **Ensure timely deployment of security enhancements**: This sub-requirement is also graded as PC. The documentation indicates some procedures for maintenance, but it lacks specific timelines and criteria for enhancement deployment. The absence of detailed records in the Software Configuration Record further highlights the need for improvement in this area. \n\n3. **Inform users about software updates**: This sub-requirement is graded as PC as well. While there is some information regarding updates, the documentation does not adequately define how users are informed about updates and lacks specific communication records. This gap could lead to users being unaware of critical updates that may affect device functionality. \n\nOverall, while there are frameworks in place, significant gaps in detail and systematic processes prevent full compliance with the MDR requirements.",
+            "sub_requirements": [
+                {
+                    "description": "Establish a process for software updates.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for managing software updates, including a Software Maintenance Plan that outlines the procedures for handling software changes and updates. However, it lacks detailed documentation of the update process itself, such as specific steps, timelines, and responsibilities for software updates and enhancements. This gap could lead to inconsistencies in how updates are managed and communicated, potentially affecting the safety and performance of the medical device.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Detailed Update Process",
+                            "description": "The documentation does not provide a comprehensive step-by-step process for managing software updates and enhancements, which is critical for ensuring that all updates are conducted systematically and safely.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "Software Development Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that a process for managing software updates and enhancements is established. Check for documentation of the update process.",
+                    "relevant_documents": [
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./ Annex 06 - Device Verification and Validation/S System/S Validation/ 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ VER240424  Software Verification report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "Software Architecture"
+                        },
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "Software Development Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Device Verification and Validation/S System/S Validation/ 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                            "short_name": "Software Validation Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "Software Verification report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Detailed Software Update Process",
+                            "description": "Create a comprehensive document that outlines the step-by-step process for managing software updates and enhancements, including timelines, responsibilities, and communication strategies.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "Software Development Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Software Update Process\n\nThe following detailed process outlines the steps for managing software updates and enhancements for the Device Y system:\n\n1. **Identification of Need for Update**  \n   - Updates may be initiated due to feedback from users, internal testing results, or regulatory requirements.  \n   - The Head of Software Development is responsible for assessing the need for an update based on the feedback received and documented in the QMS Adverse Events Management and QMS Complaint Handling SOPs.\n\n2. **Change Request Submission**  \n   - A formal change request must be submitted using the QMS Request for Change of Software form.  \n   - The request should include a description of the update, the reason for the update, and any potential impacts on the device's performance and safety.\n\n3. **Risk Assessment**  \n   - A risk assessment must be conducted in accordance with the QMS Risk Management process to evaluate the potential risks associated with the update.  \n   - The assessment results should be documented and reviewed by the software development team.\n\n4. **Development and Testing**  \n   - The development team will implement the update according to the Software Development Plan.  \n   - Comprehensive testing must be conducted, including unit testing, integration testing, and system testing, as outlined in the  2024-04-03 Software Validation Plan.\n\n5. **Verification and Validation**  \n   - Verification and validation of the update must be completed before release.  \n   - Results of the verification and validation activities must be documented in the  SVR240425 Software Validation Report.\n\n6. **Approval for Release**  \n   - The CTO and CEO must review and approve the update before it is released to users.  \n   - Approval should be documented in the change request records.\n\n7. **Communication of Update**  \n   - Users must be informed of the update through appropriate communication channels, including email notifications and updates to the user manual.  \n   - The communication should include details of the changes, reasons for the update, and any actions required by the users.\n\n8. **Post-Release Monitoring**  \n   - Following the release of the update, the software will be monitored for any issues or feedback.  \n   - Any adverse events or complaints related to the update must be documented and addressed according to the QMS Handling of Nonconformity procedures.\n\n9. **Documentation**  \n   - All documentation related to the update process, including change requests, risk assessments, testing results, and communication records, must be maintained in accordance with the QMS Document Control procedures.\n\nThis process ensures that software updates are managed systematically and safely, aligning with the requirements set forth in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure timely deployment of security enhancements.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation reviewed indicates that there are procedures in place for software verification and maintenance; however, there is insufficient evidence of a systematic approach to the timely deployment of security enhancements. The Software Maintenance Plan outlines general maintenance activities but lacks specific timelines or criteria for enhancement deployment. Additionally, the Software Configuration Record does not provide clear records of past enhancement deployments or a schedule for future updates, which is essential for compliance with the MDR requirements for addressing vulnerabilities in a timely manner.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Timely Enhancement Deployment Records",
+                            "description": "The Software Maintenance Plan does not specify a timeline or criteria for the deployment of security enhancements, which is critical for ensuring that vulnerabilities are addressed promptly.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "Software Configuration Record"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Enhancement Management Evidence",
+                            "description": "The Software Configuration Record lacks detailed records of previous enhancement deployments and does not demonstrate a systematic approach to managing software updates.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "Software Configuration Record"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that security enhancements are deployed in a timely manner to address vulnerabilities. Verify through enhancement management records and testing.",
+                    "relevant_documents": [
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ 2024-04-03 Software Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "Software Configuration Record"
+                        },
+                        {
+                            "path": "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "Software Verification Report"
+                        },
+                        {
+                            "path": "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Software Verification Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Enhancement Deployment Timeline",
+                            "description": "Develop and document a clear timeline and criteria for the deployment of security enhancements to ensure vulnerabilities are addressed promptly.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the Software Maintenance Plan, add the following section to establish a clear timeline and criteria for the deployment of security enhancements:\n\n---\n\n**Enhancement Deployment Timeline and Criteria**\n\nTo ensure timely deployment of security enhancements, the following criteria and timeline will be adhered to:\n\n1. **Identification of Vulnerabilities**: Security vulnerabilities will be assessed upon discovery, with a priority assigned based on the severity of the risk they pose to the device and its users.\n\n2. **Timeline for Deployment**: \n   - Critical vulnerabilities will be addressed within [[insert number]] days of identification.\n   - High-risk vulnerabilities will be addressed within [[insert number]] days.\n   - Medium-risk vulnerabilities will be addressed within [[insert number]] days.\n   - Low-risk vulnerabilities will be reviewed and scheduled for deployment during the next regular maintenance cycle, which occurs every [[insert frequency]].\n\n3. **Documentation of Enhancement Deployment**: Each enhancement deployment will be documented in the Software Configuration Record, including the date of deployment, the nature of the enhancement, and any relevant testing results.\n\n4. **Review and Update**: This timeline and criteria will be reviewed annually and updated as necessary to reflect best practices and regulatory requirements.\n\n---\n\nThis addition will ensure that the Software Maintenance Plan meets the requirements for timely enhancement deployment as outlined in the MDR."
+                        },
+                        {
+                            "title": "Implement Enhancement Management System",
+                            "description": "Create a systematic approach for managing software updates, including documentation of all enhancement deployments and their impact on system security.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "Software Configuration Record"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Software Maintenance Plan Update\n\nTo ensure timely deployment of security enhancements, the following updates will be made to the Software Maintenance Plan:\n\n1. **Enhancement Deployment Timeline**: All security enhancements will be evaluated and deployed within a maximum of [[number]] days from the identification of a vulnerability. This timeline will be adjusted based on the severity of the vulnerability as follows:\n   - Critical vulnerabilities: Deployment within [[number]] days.\n   - High vulnerabilities: Deployment within [[number]] days.\n   - Medium vulnerabilities: Deployment within [[number]] days.\n   - Low vulnerabilities: Deployment within [[number]] days.\n\n2. **Documentation of Enhancement Deployments**: A detailed record of all enhancement deployments will be maintained, including the following information:\n   - Date of deployment\n   - Description of the enhancement\n   - Impact assessment on system security\n   - Verification of successful deployment\n   - Any residual risks identified post-deployment\n\n3. **Enhancement Management Review**: The Head of Software Development will conduct quarterly reviews of the enhancement management process to ensure compliance with the established timelines and to assess the effectiveness of the enhancements deployed.\n\n4. **Integration with Software Configuration Record**: The Software Configuration Record will be updated to include a section dedicated to tracking all security enhancements applied, including historical data on previous deployments and their outcomes.\n\nThese updates will enhance our systematic approach to managing software updates and ensure compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Inform users about software updates.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding software updates and maintenance procedures, particularly in the 'Software Maintenance Plan' and 'Software Configuration Record'. However, there is insufficient detail on how users are specifically informed about available updates and enhancements. The documents do not clearly outline user communication records or update notifications, which are essential for full compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of User Communication Records",
+                            "description": "The documentation does not include specific records or methods of communication to inform users about software updates and enhancements. This is critical as it directly impacts user safety and device performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                },
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "Software Configuration Record"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Update Notification Procedures",
+                            "description": "The procedures for notifying users about software updates are not adequately defined. This could lead to users being unaware of critical updates that may affect device functionality.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that users are informed about available software updates and enhancements. Verify through user communication records and update notifications.",
+                    "relevant_documents": [
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./ Annex 06 - Device Verification and Validation/S System/S Validation/ 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ 2024-04-03 Software Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "Software Architecture"
+                        },
+                        {
+                            "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "Software Configuration Record"
+                        },
+                        {
+                            "path": "./ Annex 06 - Device Verification and Validation/S System/S Validation/ 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                            "short_name": "Software Validation Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Device Verification and Validation/S System/ Design Verification/ 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Software Verification Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish User Communication Protocols",
+                            "description": "Develop and implement a clear protocol for informing users about software updates and enhancements. This should include methods of communication, frequency of updates, and documentation of user interactions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure effective communication with users regarding software updates and enhancements, the following User Communication Protocol is established:\n\n1. **Methods of Communication**: Users will be informed of software updates through the following channels:\n   - Email notifications sent to registered users.\n   - Updates posted on the official website [[insert website URL]].\n   - Notifications via the device interface when connected to the internet.\n\n2. **Frequency of Updates**: Software updates will be communicated to users as follows:\n   - Critical updates affecting safety or performance will be communicated within 48 hours of release.\n   - Routine updates will be communicated quarterly or as necessary.\n\n3. **Documentation of User Interactions**: All communications regarding software updates will be documented in the User Communication Log. This log will include:\n   - Date of communication.\n   - Method of communication.\n   - Summary of the update.\n   - User feedback or inquiries received.\n\n4. **Feedback Mechanism**: Users will have the opportunity to provide feedback regarding updates through:\n   - A dedicated feedback form available on the website.\n   - Direct email communication to the support team at [[insert support email]].\n\nThis protocol will be reviewed annually and updated as necessary to ensure compliance with MDR requirements and to enhance user engagement."
+                        },
+                        {
+                            "title": "Define Update Notification Procedures",
+                            "description": "Create detailed procedures for notifying users about software updates, including the types of updates that will be communicated and the timeline for notifications.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 03 - Device Design and Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Update Notification Procedures\n\nTo ensure that users are adequately informed about software updates and enhancements, the following procedures will be implemented:\n\n1. **Types of Updates**: Users will be notified of the following types of updates:\n   - Critical updates that affect device safety or performance.\n   - Regular updates that enhance functionality or usability.\n   - Security enhancements that address vulnerabilities.\n\n2. **Notification Timeline**: Notifications will be sent out as follows:\n   - For critical updates, users will be notified within [[number]] days of the update release.\n   - For regular updates, users will receive notifications on a quarterly basis or as needed.\n   - Security enhancements will be communicated immediately upon release.\n\n3. **Communication Methods**: Notifications will be communicated through the following channels:\n   - Email notifications to all registered users.\n   - Updates posted on the official website [[website URL]].\n   - In-app notifications for users who have the software installed.\n\n4. **User Communication Records**: A record of all communications regarding software updates will be maintained, including:\n   - Date of notification.\n   - Type of update communicated.\n   - Method of communication used.\n   - Confirmation of receipt by the user (if applicable).\n\n5. **Feedback Mechanism**: Users will be encouraged to provide feedback regarding the updates through:\n   - A dedicated feedback form accessible via the website.\n   - Direct email communication to the support team at [[support email]].\n\nThis procedure will be reviewed annually to ensure its effectiveness and compliance with regulatory requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The compliance grade is 'Partly Compliant' (PC) due to insufficient detail in processes for software updates, lack of timely enhancement deployment records, and inadequate user communication protocols."
+        },
+        {
+            "requirement": "Incident Response and Management",
+            "reference": "MDR Annex I, Chapter II, Section 17.4",
+            "description": "This requirement mandates that manufacturers establish and maintain an incident response and management process for incidents related to the bladder infection treatment device.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Incident Response and Management' requirement is partly compliant (PC) due to several identified gaps across the sub-requirements. \n\n1. **Develop an incident response plan**: The documentation includes a Post-Market Surveillance Plan (PMS Plan) but lacks a comprehensive incident response plan specifically for incidents related to the bladder infection treatment device. This is critical as it does not detail procedures for detecting, reporting, and responding to incidents, leading to a PC grade. \n\n2. **Conduct incident response training**: While there are plans for training, there is no evidence of training records or incident response drills. This absence indicates that personnel may not be adequately prepared to respond to incidents, thus receiving a PC grade. \n\n3. **Review and update the incident response plan**: The plan is referenced in the PMS and PMCF plans, but there is insufficient evidence of regular reviews or updates based on past incidents. The lack of a clear mechanism for integrating lessons learned further supports the PC grade. \n\nOverall, while there are intentions to comply with the requirements, the lack of comprehensive documentation and evidence of implementation leads to a partly compliant status across all sub-requirements.",
+            "sub_requirements": [
+                {
+                    "description": "Develop an incident response plan.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a Post-Market Surveillance Plan (PMS Plan) that outlines the responsibilities and activities related to post-market clinical follow-up. However, it lacks a comprehensive incident response plan specifically addressing procedures for detecting, reporting, and responding to incidents related to the bladder infection treatment device. While the PMS Plan mentions gathering information on vulnerabilities, it does not detail how incidents will be managed, which is a critical component of an incident response plan.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Incident Response Plan",
+                            "description": "The documentation does not provide a detailed incident response plan that includes procedures for detecting, reporting, and responding to incidents related to the bladder infection treatment device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that an incident response plan is developed and documented. Check for procedures for detecting, reporting, and responding to incidents related to the bladder infection treatment device.",
+                    "relevant_documents": [
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./ Annex 06 - Product Verification and Validation/S System/S Device Y System Traceability Matrix v2.1 (Draft).pdf",
+                        "./ Annex 03 - Design And Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./ Annex 04 - General Safety And Performance Requirements/ GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./ Annex 06 - Product Verification and Validation/S System/S Device Y System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        },
+                        {
+                            "path": "./ Annex 03 - Design And Manufacturing Information/ Software/ 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./ Annex 04 - General Safety And Performance Requirements/ GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Comprehensive Incident Response Plan",
+                            "description": "Create a detailed incident response plan that includes procedures for detecting, reporting, and responding to incidents related to the bladder infection treatment device. This plan should outline the roles and responsibilities of personnel involved in incident management, communication protocols, and steps for post-incident analysis.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Incident Response Plan\n\n#### 1. Purpose\nThe purpose of this Incident Response Plan is to establish a comprehensive framework for detecting, reporting, and responding to incidents affecting the bladder infection treatment device. This plan aims to ensure the safety and security of users and to maintain compliance with the MDR requirements.\n\n#### 2. Scope\nThis plan applies to all personnel involved in the management of incidents related to the bladder infection treatment device.\n\n#### 3. Roles and Responsibilities\n- **Incident Response Team (IRT)**: Responsible for the overall management of incidents related to the bladder infection treatment device.\n  - **Team Lead**: [[Name]] - Oversees incident response activities and communication with stakeholders.\n  - **Technical Lead**: [[Name]] - Manages technical investigations and remediation efforts.\n  - **Compliance Officer**: [[Name]] - Ensures adherence to regulatory requirements and documentation.\n\n#### 4. Incident Detection\n- **Monitoring Tools**: Utilize automated monitoring tools to detect anomalies and potential threats related to the bladder infection treatment device.\n- **Reporting Mechanism**: All personnel must report suspected incidents immediately to the IRT via [[reporting channel]].\n\n#### 5. Incident Reporting\n- **Initial Assessment**: Upon receiving a report, the IRT will conduct an initial assessment to determine the severity and impact of the incident.\n- **Documentation**: All incidents must be documented in the Incident Log, including date, time, nature of the incident, and actions taken.\n\n#### 6. Incident Response Procedures\n- **Containment**: Immediate actions to contain the incident and prevent further damage.\n- **Eradication**: Steps to eliminate the root cause of the incident.\n- **Recovery**: Procedures to restore affected systems and services to normal operation.\n- **Communication**: Notify affected users and relevant authorities as required by law and company policy.\n\n#### 7. Post-Incident Analysis\n- **Review Meeting**: Conduct a review meeting within [[timeframe]] after the incident to discuss lessons learned and improvements to the incident response process.\n- **Report Generation**: A comprehensive incident report will be generated and submitted to the management and relevant stakeholders.\n\n#### 8. Training and Awareness\n- **Regular Training**: All personnel will receive regular training on incident detection and reporting procedures.\n- **Awareness Campaigns**: Conduct awareness campaigns to promote best practices among users and staff.\n\n#### 9. Review and Updates\nThis Incident Response Plan will be reviewed and updated annually or as needed based on changes in regulations, technology, or organizational structure."
+                        }
+                    ]
+                },
+                {
+                    "description": "Conduct incident response training.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that there are plans for post-market surveillance and clinical follow-up, but it lacks specific evidence of training records or incident response drills. While the PMCF and PMS plans outline responsibilities and activities, they do not explicitly confirm that personnel have been trained on the incident response plan or provide records of such training. This gap suggests that while there is an intention to comply, actual implementation and verification are not adequately documented.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Training Records",
+                            "description": "The documentation does not provide evidence of training records for personnel on the incident response plan, which is critical for ensuring preparedness in case of incidents.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": " STED"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Incident Response Drills",
+                            "description": "There is no mention of incident response drills being conducted to verify the effectiveness of the training and preparedness of personnel.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": " STED"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that personnel are trained on the incident response plan. Verify through training records and incident response drills.",
+                    "relevant_documents": [
+                        "./ Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": " STED"
+                        },
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Incident Response Training",
+                            "description": "Develop and implement a comprehensive training program for all personnel on the incident response plan, ensuring that they understand their roles and responsibilities in the event of an incident.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": " STED"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding incident response training, the following text should be added to the technical documentation:\n\n\"All personnel involved in the incident response plan will undergo comprehensive training, which will be documented in training records. These records will include the names of personnel trained, the date of training, the content covered, and the trainer's qualifications. The training will be reviewed and updated annually to reflect any changes in the incident response plan or relevant regulations. \n\nAdditionally, incident response drills will be conducted at least annually to verify the effectiveness of the training and the preparedness of personnel. The results of these drills will be documented, including any identified areas for improvement and subsequent corrective actions taken. This documentation will be maintained as part of the quality management system and made available for review during audits.\"\n\nPlease ensure to replace [[description]] with specific details relevant to your organization, such as the names of responsible personnel and any specific training materials used."
+                        },
+                        {
+                            "title": "Conduct Incident Response Drills",
+                            "description": "Establish a schedule for regular incident response drills to ensure that personnel are prepared to act effectively in the event of an incident.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": " STED"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding incident response training, the following text should be added to the technical documentation:\n\n\"In order to maintain preparedness for potential incidents, a comprehensive training program has been established for all personnel involved in the incident response plan. Training records will be maintained to document the participation and completion of training sessions. These records will include the names of participants, dates of training, topics covered, and the trainer's qualifications. Additionally, incident response drills will be conducted at least [[frequency, e.g., quarterly]] to verify the effectiveness of the training and ensure that personnel are adequately prepared to respond to incidents. The outcomes of these drills will be documented, and any identified areas for improvement will be addressed in subsequent training sessions. The schedule for these drills will be reviewed and updated annually to reflect any changes in personnel or incident response protocols.\"\n\nThis text should be incorporated into the relevant sections of the  STED, PMS Plan, and PMCF Plan to provide clear evidence of training and preparedness activities."
+                        }
+                    ]
+                },
+                {
+                    "description": "Review and update the incident response plan.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The incident response plan is referenced in the post-market surveillance (PMS) and post-market clinical follow-up (PMCF) plans. However, there is insufficient evidence that the plan is regularly reviewed and updated based on lessons learned from incidents. The PMS Plan outlines objectives and responsibilities but lacks specific records of past incidents and how they have influenced updates to the incident response plan. For example, while the PMS Plan mentions the identification of needs for corrective actions, it does not provide a clear mechanism for integrating lessons learned into the incident response plan.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Regular Review Records",
+                            "description": "The documentation does not provide evidence of regular reviews of the incident response plan based on past incidents. This is crucial to ensure that the plan remains effective and relevant.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": " PMS Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Update Mechanism",
+                            "description": "There is no clear mechanism outlined for how lessons learned from incidents are integrated into the incident response plan. This could lead to outdated procedures that do not reflect current risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": " PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": " PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that the incident response plan is regularly reviewed and updated based on lessons learned from incidents. Verify through review records and plan updates.",
+                    "relevant_documents": [
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": " PMS Plan"
+                        },
+                        {
+                            "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": " PMCF Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Regular Review Process",
+                            "description": "Develop and implement a process for the regular review of the incident response plan, ensuring that it is updated based on lessons learned from past incidents.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": " PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the effectiveness and relevance of the incident response plan, a regular review process will be established. The incident response plan will be reviewed at least annually, or more frequently if significant incidents occur. Each review will be documented, including the date of the review, participants involved, and any changes made to the plan based on lessons learned from past incidents. The review records will be maintained as part of the post-market surveillance documentation. Additionally, a mechanism will be implemented to integrate lessons learned from incidents into the incident response plan. This will involve a systematic process for analyzing incidents, identifying corrective actions, and updating the plan accordingly. The responsible personnel for this process will include [[description of responsible personnel]], and the updates will be documented in the PMS Plan ( PMSP230220-01) and PMCF Plan ( PMCF240220-01)."
+                        },
+                        {
+                            "title": "Integrate Lessons Learned",
+                            "description": "Create a mechanism to ensure that lessons learned from incidents are systematically integrated into the incident response plan.",
+                            "associated_documents": [
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": " PMS Plan"
+                                },
+                                {
+                                    "path": "./ Annex 09 - Technical Documentation on Post-market Surveillance/ PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": " PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure that lessons learned from incidents are systematically integrated into the incident response plan, the following mechanism will be established: \n\n1. **Incident Review Meetings**: Following each incident, a review meeting will be convened within [[number]] days to discuss the incident, its causes, and potential improvements to the incident response plan. \n\n2. **Documentation of Lessons Learned**: All lessons learned from these meetings will be documented in a dedicated section of the incident response plan. This documentation will include a summary of the incident, the analysis conducted, and the recommendations for updates to the plan. \n\n3. **Regular Updates**: The incident response plan will be reviewed and updated at least annually, or more frequently if significant incidents occur. Each update will reflect the lessons learned from past incidents and will be documented in the revision history of the plan. \n\n4. **Integration with PMS and PMCF Plans**: The lessons learned will also be integrated into the Post-Market Surveillance (PMS) and Post-Market Clinical Follow-Up (PMCF) plans to ensure that all relevant data informs the incident response strategy. \n\n5. **Responsible Personnel**: The responsibility for overseeing the integration of lessons learned will be assigned to [[name/position]], who will ensure that all updates are communicated to relevant stakeholders and that training is provided as necessary. \n\nThis mechanism will be documented in the  PMS Plan and  PMCF Plan to ensure compliance with MDR requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The compliance status is partly compliant (PC) due to gaps in the incident response plan, lack of training records, and insufficient evidence of regular reviews and updates."
+        }
+    ]
+}

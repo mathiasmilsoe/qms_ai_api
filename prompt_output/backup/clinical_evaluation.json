@@ -1,0 +1,1559 @@
+{
+    "requirements": [
+        {
+            "requirement": "Clinical Evaluation Plan",
+            "reference": "MDR Article 61, Annex XIV Part A",
+            "description": "Manufacturers must plan, conduct, and document a clinical evaluation to confirm conformity with relevant general safety and performance requirements.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the Clinical Evaluation Plan is partly compliant (PC). This assessment is based on the evaluation of four sub-requirements. The first sub-requirement regarding the specification and justification of the level of clinical evidence is graded as partly compliant due to a lack of detailed justification for the required level of evidence. The second sub-requirement, which focuses on conducting a clinical evaluation following a defined and methodologically sound procedure, is also graded as partly compliant because the methodology for data collection and analysis was insufficiently detailed. The third sub-requirement, which requires a critical evaluation of relevant scientific literature and alternative treatment options, is similarly graded as partly compliant due to an inadequate comparison with alternative treatments. Finally, the fourth sub-requirement, which mandates documentation of the clinical evaluation and its results, is compliant as the Clinical Evaluation Report is comprehensive and meets regulatory expectations. The cumulative effect of the non-conformities in the first three sub-requirements leads to an overall grade of partly compliant.",
+            "sub_requirements": [
+                {
+                    "description": "Specify and justify the level of clinical evidence necessary to demonstrate conformity.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report provides a comprehensive assessment of the safety and performance of the Paragit PX device. It references relevant scientific literature and includes a benefit-risk assessment. However, while the report indicates that further clinical investigations are not necessary, it lacks a detailed justification for the level of clinical evidence required for this specific device, particularly in relation to its intended purpose and characteristics. The absence of a clear rationale for the chosen level of evidence may lead to questions regarding the robustness of the clinical data supporting the device's claims.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Justification for Clinical Evidence Level",
+                            "description": "The clinical evaluation report does not adequately specify or justify the level of clinical evidence necessary for the Paragit PX device, which is essential for demonstrating conformity with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the level of clinical evidence is specified, justified, and appropriate for the device's characteristics and intended purpose.",
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Justify Clinical Evidence Level",
+                            "description": "Provide a detailed justification for the level of clinical evidence required for the Paragit PX device, ensuring it aligns with its intended purpose and characteristics as per MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To adequately justify the level of clinical evidence required for the Paragit PX device, the following text should be added to the Clinical Evaluation Report:\n\n\"The level of clinical evidence necessary to demonstrate conformity for the Paragit PX device is determined based on its classification as a Class I medical device under MDR 2017/745, Annex VIII, Rule 13. Given that the device is intended for the collection of signals related to muscle activity and movement for research purposes, the clinical evaluation relies on a comprehensive review of existing literature and data from equivalent devices. This approach is consistent with the guidelines set forth in MEDDEV 2.7/1 Rev. 4, which allows for the use of clinical data derived from scientific literature in lieu of new clinical investigations when sufficient evidence is available. \n\nThe clinical evaluation report references multiple peer-reviewed studies that validate the safety and performance of similar devices, thus supporting the claims made for the Paragit PX. The absence of adverse events reported in the literature further reinforces the conclusion that the existing clinical data is adequate to demonstrate conformity with the General Safety and Performance Requirements (GSPR) outlined in MDR Annex I. \n\nIn summary, the justification for the chosen level of clinical evidence is based on the device's intended purpose, its classification, and the robust scientific literature supporting its safety and efficacy, which collectively affirm that further clinical investigations are not necessary at this stage.\"\n\nThis addition will clarify the rationale behind the level of clinical evidence required and align it with the intended purpose and characteristics of the Paragit PX device."
+                        }
+                    ]
+                },
+                {
+                    "description": "Conduct a clinical evaluation following a defined and methodologically sound procedure.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report for Paragit PX demonstrates a structured approach to clinical evaluation, referencing MEDDEV 2.7/1 and MDR requirements. However, while the report includes a comprehensive literature review and risk assessment, it lacks detailed information on the methodology used for the clinical evaluation, particularly in terms of data collection and analysis. This gap may affect the robustness of the clinical evaluation process, indicating partial compliance with the requirement.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Detailed Methodology in Clinical Evaluation",
+                            "description": "The clinical evaluation report does not provide sufficient detail on the methodology used for data collection and analysis, which is critical for ensuring the evaluation follows a defined and methodologically sound procedure.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure the clinical evaluation follows a defined and methodologically sound procedure.",
+                    "relevant_documents": [
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "Declaration of Interests"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "Literature Search Protocol"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Methodology Documentation",
+                            "description": "Revise the clinical evaluation report to include a detailed methodology section that outlines the data collection and analysis processes used in the clinical evaluation.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Methodology for Clinical Evaluation\n\nThe clinical evaluation of the Paragit PX was conducted following a defined and methodologically sound procedure as outlined below:\n\n1. **Data Collection**: The data collection process involved a systematic literature search conducted using databases such as PubMed (MEDLINE) and Google Scholar. The search strategy was documented in the Literature Search Protocol, which details the inclusion and exclusion criteria for selecting relevant studies. The literature search aimed to identify clinical data related to the safety and performance of the Paragit PX and its equivalent devices.\n\n2. **Data Analysis**: The collected data were analyzed using qualitative and quantitative methods. A critical appraisal of the identified studies was performed to assess their relevance and reliability. The analysis included evaluating the clinical effectiveness and safety of the device, as well as a benefit-risk assessment based on the gathered evidence. The results of this analysis are summarized in the Clinical Evaluation Report, ensuring that the conclusions drawn are supported by robust clinical evidence.\n\n3. **Risk Management Integration**: The clinical evaluation process was integrated with the risk management activities, ensuring that any identified risks associated with the use of the Paragit PX were adequately addressed. This integration is documented in the Risk Management File, which outlines the risk control measures implemented to mitigate potential hazards.\n\n4. **Review and Update Procedures**: The clinical evaluation report will be updated at least every two years or sooner if new clinical data or post-market surveillance information necessitates a revision. This ensures that the clinical evaluation remains current and reflective of the latest evidence.\n\nThis detailed methodology ensures that the clinical evaluation of the Paragit PX meets the requirements set forth in MEDDEV 2.7/1 and the MDR (EU) 2017/745, thereby supporting the device's safety and performance claims."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include a critical evaluation of relevant scientific literature, clinical investigations, and alternative treatment options.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a comprehensive review of scientific literature and clinical data relevant to the Paragit PX device. However, while the Clinical Evaluation Report (CER) includes a literature review and a benefit-risk assessment, it lacks a thorough critical evaluation of alternative treatment options. The CER mentions the absence of adverse events and the effectiveness of the device but does not sufficiently compare these findings with alternative treatments, which is a requirement under the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Critical Evaluation of Alternative Treatments",
+                            "description": "The Clinical Evaluation Report does not adequately compare the Paragit PX with alternative treatment options, which is necessary to fulfill the regulatory requirement for a critical evaluation of alternatives.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the evaluation includes critical assessments of scientific literature, clinical investigations, and alternative treatments.",
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Literature Search Protocol v1.5 (Ready).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Literature Search Protocol"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Literature Search Protocol v1.5 (Ready).pdf",
+                            "short_name": "PX Literature Search Protocol"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Critical Evaluation of Alternative Treatments",
+                            "description": "Conduct a thorough comparison of the Paragit PX with alternative treatment options, including their effectiveness, safety, and clinical outcomes. This should be documented in the Clinical Evaluation Report.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the critical evaluation of alternative treatments in the Clinical Evaluation Report (CER), the following text should be added:\n\n\"In this section, we provide a comprehensive comparison of the Paragit PX with alternative treatment options available in the market. The analysis includes a detailed assessment of the effectiveness, safety, and clinical outcomes of these alternatives. \n\n1. **Alternative Treatment Options**: The following devices were identified as alternatives to the Paragit PX:\n   - **K-MYO from Kinvent Biomecanique**: This device offers similar functionalities in measuring muscle activity and has been shown to be effective in various clinical settings. \n   - **Picoblue from Cometa S.r.l**: Known for its portability and ease of use, this device also provides valuable insights into muscle performance, making it a competitor in the market. \n   - **Sessantaquattro from OTBIOelettronica**: This device is designed for similar applications and has demonstrated effectiveness in clinical trials.\n\n2. **Comparison of Effectiveness**: The Paragit PX has been shown to achieve its intended performance during normal conditions of use, as evidenced by clinical data. In comparison, the alternative devices also demonstrate effective performance, but the Paragit PX offers unique features such as [[specific feature or advantage of Paragit PX]].\n\n3. **Safety Profile**: The safety of the Paragit PX has been confirmed through extensive literature review and post-market surveillance, showing no significant adverse events. In contrast, the alternative devices have reported [[specific safety concerns or incidents related to alternatives]].\n\n4. **Clinical Outcomes**: Clinical studies indicate that the Paragit PX provides superior data quality in measuring muscle activation compared to its counterparts. This is supported by evidence from [[specific studies or data supporting this claim]].\n\n5. **Conclusion**: While alternative treatments provide valuable options, the Paragit PX stands out due to its [[unique selling points or advantages]]. This comprehensive evaluation underscores the importance of the Paragit PX in the current landscape of muscle activity monitoring devices.\"\n\nThis addition will ensure that the CER meets the regulatory requirement for a critical evaluation of alternative treatments, thereby enhancing its compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document the clinical evaluation and its results in a clinical evaluation report.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The clinical evaluation report (CER) for the Paragit PX is comprehensive and aligns with the requirements set forth in the Medical Device Regulation (EU) 2017/745. It includes a thorough analysis of clinical data, a benefit-risk assessment, and a review of the literature concerning similar devices. The report demonstrates that the device meets its intended performance and safety requirements, as evidenced by the extensive literature review and the absence of adverse events reported for equivalent devices. The CER is structured according to MEDDEV 2.7/1 revision 4, ensuring compliance with regulatory expectations.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Verify that the clinical evaluation and its results are documented in a clinical evaluation report.",
+                    "relevant_documents": [
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed) v2.0"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Literature Search Protocol"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Clinical Evaluation Report",
+                            "description": "Ensure that the Clinical Evaluation Report is updated to reflect any new clinical data or changes in the risk management file. This includes reviewing the latest literature and any adverse events reported post-market.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Clinical Evaluation Report (CER) for the Paragit PX has been updated to include the latest clinical data and findings from post-market surveillance activities. The following sections have been revised:\n\n1. **Literature Review**: A comprehensive review of recent literature has been conducted, focusing on studies published since the last update of the CER. This includes an analysis of new clinical data relevant to the performance and safety of the Paragit PX, ensuring that the evidence base is current and robust.\n\n2. **Adverse Events**: The report now includes a summary of any adverse events reported in the post-market phase, including a review of the MAUDE database and other relevant safety databases. No significant safety alerts or recalls related to equivalent devices were identified, reinforcing the safety profile of the Paragit PX.\n\n3. **Risk Management File**: The risk management file has been updated to reflect any new risks identified through post-market surveillance. The benefit-risk assessment has been revisited to ensure that the benefits of the device continue to outweigh any identified risks.\n\n4. **Updates Frequency**: The frequency for updates to the Clinical Evaluation Report is established at every two years or sooner if new information from the Post Market Surveillance (PMS) indicates a need for reevaluation. This ensures ongoing compliance with the requirements set forth in the Medical Device Regulation (EU) 2017/745.\n\n5. **Conclusion**: The updated CER confirms that the Paragit PX continues to meet its intended performance and safety requirements, supported by the latest clinical evidence and risk management assessments. The device remains compliant with the regulatory expectations as outlined in MEDDEV 2.7/1 revision 4 and MDR 2017/745.\n\nThis updated information should be incorporated into the Clinical Evaluation Report to ensure comprehensive documentation and compliance with regulatory standards."
+                        },
+                        {
+                            "title": "Conduct Post-Market Surveillance Review",
+                            "description": "Implement a systematic review of post-market surveillance data to identify any emerging risks or adverse events associated with the Paragit PX. This should include feedback from users and any relevant literature.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Medical Device Regulation (EU) 2017/745, the following text should be added to the Clinical Evaluation Report (CER) under the section 'Post-Market Surveillance Activities':\n\n\"The Post-Market Surveillance (PMS) activities for the Paragit PX will be systematically reviewed at least annually or as specified in the PMS Plan. This review will include an analysis of all relevant data sources, including customer feedback, adverse event reports, field evaluations, and literature reviews. The designated team will be responsible for identifying any emerging risks or adverse events associated with the device, and for updating the Risk Management File (RMF) and Clinical Evaluation Report (CER) accordingly. Furthermore, any significant findings from the PMS review will be communicated to the management team for further action, ensuring continuous monitoring and improvement of the device's safety and performance. The results of these reviews will be documented in the Post Market Surveillance Report, which will be referenced in future updates of the Clinical Evaluation Report.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The Clinical Evaluation Plan is partly compliant due to insufficient justification of clinical evidence, lack of detailed methodology, and inadequate evaluation of alternative treatments, despite having a comprehensive clinical evaluation report."
+        },
+        {
+            "requirement": "Clinical Investigations",
+            "reference": "MDR Article 62, Annex XV",
+            "description": "Clinical investigations must be designed, authorized, conducted, recorded, and reported in accordance with the MDR provisions.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the clinical investigations requirement is partly compliant (PC). This assessment is based on the evaluation of three sub-requirements:\n\n1. **Establish and verify the device's design, manufacture, and performance under normal conditions of use**: This sub-requirement received a grade of PC due to gaps in the verification and validation processes. While the documentation provides a comprehensive overview, it lacks detailed methodologies and acceptance criteria for testing, as well as a clear linkage between risk management and verification activities. Specific documents such as the 'PX FVR240424 Final Verification Report' and 'PX Risk Management Report' highlight these deficiencies.\n\n2. **Establish and verify the clinical benefits and safety of the device**: This sub-requirement also received a grade of PC. The clinical evaluation report presents substantial evidence of safety and performance but lacks detailed references to specific clinical data used to support these claims. The absence of transparency in the clinical data presentation raises concerns about the robustness of the evidence, as noted in the 'PX 2024-03 Clinical Evaluation Report'.\n\n3. **Determine any undesirable side-effects and assess their acceptability**: This sub-requirement is compliant (C). The documentation demonstrates a thorough assessment of undesirable side effects, with no adverse events reported and a positive benefit-risk assessment. The consistency between risk management documentation and clinical data supports this compliance.\n\nOverall, while there are compliant aspects, the gaps identified in the first two sub-requirements prevent a full compliance grade, leading to an overall assessment of partly compliant (PC).",
+            "sub_requirements": [
+                {
+                    "description": "Establish and verify the device's design, manufacture, and performance under normal conditions of use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a comprehensive overview of the device's design, manufacture, and performance. However, there are gaps in the verification and validation processes that need to be addressed. For example, while the verification reports indicate passing results, there is insufficient detail on the specific methodologies used for testing, particularly in relation to the risk management process and the validation of software components. The risk management documentation is present but lacks a clear linkage to the verification activities, which is crucial for establishing compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Detail in Verification Methodologies",
+                            "description": "The verification reports lack detailed methodologies and acceptance criteria for the tests conducted, which is essential for demonstrating compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Clear Linkage Between Risk Management and Verification",
+                            "description": "The risk management documentation does not clearly demonstrate how identified risks were addressed in the verification activities, which is necessary to ensure that all risks have been adequately mitigated.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Report.pdf",
+                                    "short_name": "PX Risk Management Report"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure the investigation establishes and verifies the device's design, manufacture, and performance.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                            "short_name": "PX System Requirements List"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                            "short_name": "PX VAP240403 Validation Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                            "short_name": "PX SVR240425 Software Validation report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Verification Methodologies",
+                            "description": "Revise the verification reports to include detailed methodologies and acceptance criteria for all tests conducted, ensuring that they align with the requirements of the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the verification methodologies in the PX FVR240424 Final Verification Report, the following text should be added:\n\n\"The verification methodologies employed in the testing of the Paragit PX device are detailed as follows:\n\n1. **Basic Safety and Essential Performance Testing**\n   - **Method**: Compliance verification was conducted according to the QMS IEC 60601-1:2006/A2:2021 standard. The testing involved assessing the device's performance under normal conditions of use, including stress testing and environmental simulations.\n   - **Acceptance Criteria**: All results must meet or exceed the requirements outlined in the IEC QMS IEC 60601-1:2006/A2:2021 standard, ensuring that the device operates safely and effectively.\n\n2. **Usability Testing**\n   - **Method**: Usability testing was performed in accordance with the QMS IEC 60601-1-6:2010+AMD1:2013+AMD2:2020 standard. This included user interaction assessments to evaluate the device's ease of use and user satisfaction.\n   - **Acceptance Criteria**: User feedback must indicate a satisfaction rate of at least [[percentage]]%, and all critical usability issues must be resolved prior to market release.\n\n3. **Software Verification**\n   - **Method**: Software verification was conducted according to the QMS IEC 62304:2006/A1:2015 standard. This included unit testing, integration testing, and system testing to ensure software reliability and performance.\n   - **Acceptance Criteria**: All software components must pass the defined test cases with a minimum pass rate of [[percentage]]%.\n\nThese methodologies ensure comprehensive coverage of all aspects of device performance and safety, aligning with the requirements of the MDR. Detailed records of each test, including methodologies, acceptance criteria, and results, are maintained in the PX System Traceability Matrix and the PX Verification Plan (PX VER240403-01).\""
+                        },
+                        {
+                            "title": "Clarify Risk Management Linkage",
+                            "description": "Establish a clear linkage between the risk management documentation and the verification activities to demonstrate that all identified risks have been adequately addressed.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Report.pdf",
+                                    "short_name": "PX Risk Management Report"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To establish a clear linkage between the risk management documentation and the verification activities, the following text should be added to the Risk Management Report and the Final Verification Report:\n\n\"The verification activities conducted for the Paragit PX medical device were directly informed by the risk management process as outlined in the Risk Management Report. Each identified risk was assessed and corresponding verification activities were designed to ensure that these risks were adequately mitigated. Specifically, the following risks were addressed through targeted verification methods:\n\n1. [[Risk Description 1]] - Verification Method: [[Verification Method 1]] - Acceptance Criteria: [[Acceptance Criteria 1]].\n2. [[Risk Description 2]] - Verification Method: [[Verification Method 2]] - Acceptance Criteria: [[Acceptance Criteria 2]].\n\nThis linkage is documented in the PXS ParagitPX System Traceability Matrix, which correlates each risk identified in the Risk Management Report with the respective verification activities and their outcomes. This ensures comprehensive coverage of all identified risks and demonstrates compliance with the requirements of MDR (EU) 2017/745.\"\n\nPlease ensure to fill in the specific risk descriptions, verification methods, and acceptance criteria as applicable."
+                        }
+                    ]
+                },
+                {
+                    "description": "Establish and verify the clinical benefits and safety of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report provides substantial evidence of the clinical safety and performance of the Paragit PX device. It includes a comprehensive literature review and a benefit-risk assessment that supports the claims made about the device. However, while the report indicates that further clinical investigations are not necessary, it lacks detailed information on the specific clinical data used to substantiate these claims, which is critical for full compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Clinical Data Presentation",
+                            "description": "The clinical evaluation report does not provide detailed references to the specific clinical data or studies that were used to support the claims of safety and performance. This lack of transparency can lead to questions about the robustness of the evidence presented.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the investigation establishes and verifies the clinical benefits and safety of the device.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Literature Search Protocol"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Clinical Data Transparency",
+                            "description": "Provide detailed references to the specific clinical studies and data that support the claims of safety and performance in the clinical evaluation report.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the transparency of clinical data presented in the Clinical Evaluation Report (CER) for the Paragit PX device, the following text should be added to the relevant sections of the report:\n\n\"The clinical evaluation report includes detailed references to the specific clinical studies and data that support the claims of safety and performance. A comprehensive literature review was conducted, which is summarized in the 'Literature Review' section. This section includes citations of peer-reviewed articles that demonstrate the efficacy and safety of similar devices, as well as the clinical data obtained from studies directly related to the Paragit PX device. The following key studies and data sources were utilized to substantiate the claims made in this report:\n\n1. [[Study Title 1]] - [[Authors]], [[Year]], [[Journal/Source]], [[Link/DOI]]\n2. [[Study Title 2]] - [[Authors]], [[Year]], [[Journal/Source]], [[Link/DOI]]\n3. [[Study Title 3]] - [[Authors]], [[Year]], [[Journal/Source]], [[Link/DOI]]\n\nThese references provide a robust basis for the claims of safety and performance, ensuring compliance with the requirements set forth in Regulation (EU) 2017/745. Furthermore, the benefit-risk assessment detailed in the report is supported by these clinical data, confirming that the benefits of the Paragit PX device outweigh any associated risks.\""
+                        },
+                        {
+                            "title": "Conduct Additional Clinical Studies",
+                            "description": "If necessary, conduct additional clinical studies to further substantiate the claims made regarding the safety and performance of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the transparency and robustness of the clinical evaluation report, the following text should be added to the Clinical Evaluation Report (CER):\n\n\"The clinical evaluation report includes detailed references to the specific clinical data and studies that substantiate the claims of safety and performance for the Paragit PX device. The following key studies and data sources were utilized in the evaluation:\n\n1. **Study Title**: [[insert study title]]\n   - **Authors**: [[insert authors]]\n   - **Year**: [[insert year]]\n   - **Findings**: [[insert key findings relevant to safety and performance]]\n\n2. **Study Title**: [[insert study title]]\n   - **Authors**: [[insert authors]]\n   - **Year**: [[insert year]]\n   - **Findings**: [[insert key findings relevant to safety and performance]]\n\n3. **Literature Review Summary**: A comprehensive literature review was conducted, including peer-reviewed articles that support the use of EMG and IMU sensors in quantifying muscular performance and movement. The literature search strategy and the criteria for inclusion of studies are detailed in the Literature Search Protocol (see Appendix [[insert appendix number]]).\n\nThis detailed presentation of clinical data ensures that the evidence supporting the claims made about the Paragit PX device is robust and transparent, thereby complying with the requirements set forth in the Medical Device Regulation (EU) 2017/745.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Determine any undesirable side-effects and assess their acceptability.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates a thorough assessment of undesirable side effects associated with the Paragit PX medical device. The Clinical Evaluation Report (CER) indicates that no adverse events were reported in the literature review, and the benefit-risk assessment supports a positive outlook for the device. The risk management documentation is consistent with the clinical data, and all hazards have been adequately covered. The evaluation of post-market surveillance activities also confirms that the risks associated with the device are minimal compared to the potential benefits.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the investigation determines and assesses undesirable side-effects.",
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                            "short_name": "Design Verification"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Clinical Evaluation Report",
+                            "description": "Ensure that the Clinical Evaluation Report is updated with any new clinical data or adverse events that may arise post-market.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the Clinical Evaluation Report (CER), include the following updated text to ensure compliance with MDR requirements regarding undesirable side effects and their assessment:\n\n\"The Clinical Evaluation Report for the Paragit PX medical device has been updated to reflect the latest clinical data and any adverse events reported post-market. As part of our ongoing commitment to patient safety, we have established a systematic process for monitoring and evaluating any new clinical data that may arise. This includes a review of post-market surveillance activities, which are conducted at least annually or more frequently if new information indicates a need for reassessment. \n\nIn the event of any adverse events or undesirable side effects reported, these will be documented, analyzed, and assessed in accordance with the risk management plan. The benefit-risk assessment will be updated to reflect any changes in the safety profile of the device. Furthermore, we will ensure that all relevant stakeholders are informed of any significant findings that may impact the clinical evaluation or the safety and performance of the Paragit PX device. \n\nThe next scheduled update of the Clinical Evaluation Report is set for [[insert date]], or sooner if new information from Post Market Surveillance (PMS) affects the evaluation or its conclusions.\"\n\nThis text should be incorporated into the Clinical Evaluation Report to demonstrate a proactive approach to monitoring and assessing undesirable side effects, thereby aligning with the requirements set forth in MDR (EU) 2017/745."
+                        },
+                        {
+                            "title": "Conduct Regular Risk Assessments",
+                            "description": "Implement a schedule for regular risk assessments to ensure that any new risks associated with the device are identified and mitigated.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure ongoing compliance with the Medical Device Regulation (EU) 2017/745, we will implement a schedule for regular risk assessments of the ParagitPX medical device. These assessments will be conducted at least annually and will include a review of any new risks identified through post-market surveillance, user feedback, and advancements in relevant scientific literature. The outcomes of these assessments will be documented in the Risk Management Report and will inform any necessary updates to the Clinical Evaluation Report and the Instructions for Use (IFU). The Risk Management Plan will be updated accordingly to reflect any changes in risk acceptability criteria and mitigation strategies. The next scheduled risk assessment will take place on [[insert date]]."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to gaps in verification methodologies and clinical data transparency, despite a thorough assessment of undesirable side effects."
+        },
+        {
+            "requirement": "Clinical Evaluation Report",
+            "reference": "MDR Article 61, Annex XIV Part A Section 4",
+            "description": "The clinical evaluation, its results, and the clinical evidence derived from it must be documented in a clinical evaluation report.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The clinical evaluation report for the Paragit PX device demonstrates a solid foundation in compliance with the Medical Device Regulation (EU) 2017/745. It successfully documents the clinical evaluation and its results, earning a compliant grade (C) for this aspect. However, there are notable gaps in the evidence supporting the assessment of conformity, particularly regarding long-term clinical data and post-market surveillance, which leads to a partly compliant grade (PC) for this sub-requirement. Additionally, while the report provides a benefit-risk assessment, it fails to adequately present unfavourable data or potential risks associated with the device, resulting in another partly compliant grade (PC). Overall, the report is well-structured but requires enhancements in the areas of long-term data collection and the inclusion of unfavourable information to achieve full compliance.",
+            "sub_requirements": [
+                {
+                    "description": "Document the clinical evaluation and its results.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The clinical evaluation report for the Paragit PX is comprehensive and adheres to the requirements set forth in the Medical Device Regulation (EU) 2017/745. The report includes a thorough assessment of the clinical data, risk management documentation, and a benefit-risk analysis, demonstrating that the device meets the necessary safety and performance standards. The evaluation is based on a robust literature review and includes evidence of conformity with the General Safety and Performance Requirements (GSPR). For instance, the report confirms that no adverse events were reported for similar devices, reinforcing the safety claims of Paragit PX[0].",
+                    "non_conformities": [],
+                    "assessment_criteria": "Verify that the clinical evaluation and its results are documented.",
+                    "relevant_documents": [
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Literature Search Protocol"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Clinical Evaluation Report",
+                            "description": "Ensure that the Clinical Evaluation Report is updated to reflect any new clinical data or changes in the risk management file that may arise from post-market surveillance activities.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Clinical Evaluation Report (CER) for the Paragit PX has been updated to reflect the latest clinical data and any changes in the risk management file arising from post-market surveillance activities. The report now includes a comprehensive analysis of the data collected from various sources, including customer feedback, adverse event reporting, and literature reviews. The frequency for updating the Clinical Evaluation Report is set at a minimum of every two years or earlier if new information from Post Market Surveillance (PMS) necessitates a review of the evaluation or its conclusions. The updated CER confirms that the Paragit PX continues to meet the General Safety and Performance Requirements (GSPR) as outlined in the Medical Device Regulation (EU) 2017/745. The author of the CER, Dr. Amina Hazmoune, has provided her qualifications and experience in the document titled 'PX CER author CV'. For further details, please refer to the updated sections on Post Market Surveillance Activities and the Benefit-Risk Assessment, which substantiate the ongoing safety and performance claims of the device. All relevant data and analyses are documented in accordance with MEDDEV 2.7/1 revision 4 and the requirements of Annex XIV of the MDR."
+                        },
+                        {
+                            "title": "Conduct Additional Clinical Investigations",
+                            "description": "Plan and execute additional clinical investigations to gather more data on the safety and performance of the Paragit PX, particularly in diverse patient populations.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clinical evaluation documentation, the following text should be added to the Clinical Evaluation Plan:\n\n\"In order to gather comprehensive data on the safety and performance of the Paragit PX, particularly in diverse patient populations, we will conduct additional clinical investigations. These investigations will be designed to assess the device's effectiveness across various demographics, including but not limited to age, gender, and underlying health conditions. The study will follow the guidelines set forth in the MDR and will be conducted in accordance with ethical standards. The results will be documented and analyzed to ensure that the clinical evaluation reflects the real-world usage of the device. The outcomes of these investigations will be integrated into the Clinical Evaluation Report and will inform future updates to the risk management documentation and benefit-risk analysis. The timeline for these investigations will be established as part of the project planning phase, with results expected to be available by [[insert expected date]].\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the clinical evidence supports the assessment of conformity.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report provides a comprehensive assessment of the safety and performance of the Paragit PX device. It references scientific literature and comparative analysis with similar devices, demonstrating that the device achieves its intended performance. However, while the report indicates that further clinical investigations are not necessary, it lacks detailed data on long-term clinical outcomes and user feedback, which are critical for a complete assessment of conformity under MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Long-term Clinical Data",
+                            "description": "The clinical evaluation report does not provide sufficient long-term clinical data or user feedback to fully support the assessment of conformity. This is crucial for understanding the device's performance over time and in real-world settings.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Post-Market Surveillance Data",
+                            "description": "The documentation does not adequately address the collection and analysis of post-market surveillance data, which is essential for ongoing compliance and risk management.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation (STED)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the clinical evidence supports the conformity assessment.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Collect Long-term Clinical Data",
+                            "description": "Develop a strategy for collecting long-term clinical data and user feedback to support the ongoing assessment of the Paragit PX device's performance and safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clinical evaluation report and ensure compliance with the MDR requirements, we propose the following text to be added: \n\n\"In order to support the ongoing assessment of the Paragit PX device's performance and safety, a comprehensive strategy for collecting long-term clinical data and user feedback will be implemented. This strategy will include: \n1. Establishing a cohort of users to participate in longitudinal studies, with follow-up assessments at regular intervals (e.g., 6 months, 12 months, and 24 months post-initial use). \n2. Utilizing surveys and interviews to gather qualitative and quantitative user feedback regarding device usability, effectiveness, and any adverse events experienced during use. \n3. Collaborating with healthcare professionals to monitor and document clinical outcomes associated with the use of the Paragit PX device in real-world settings. \n4. Analyzing collected data to identify trends, potential risks, and areas for improvement, which will be documented in the Clinical Evaluation Report and the Post-Market Surveillance Report. \n5. The results of this long-term data collection will be reviewed and integrated into the clinical evaluation process, ensuring that the device continues to meet safety and performance standards over time. \n\nThis approach aligns with the requirements set forth in the Medical Device Regulation (EU) 2017/745 and will be documented in the updated Clinical Evaluation Report and Post-Market Surveillance Plan.\""
+                        },
+                        {
+                            "title": "Enhance Post-Market Surveillance Plan",
+                            "description": "Revise the post-market surveillance plan to ensure comprehensive data collection and analysis of the device's performance in the market.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation (STED)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Post-Market Surveillance (PMS) plan for the Paragit PX device has been revised to ensure comprehensive data collection and analysis of the device's performance in the market. The PMS plan now includes the following key elements: \n\n1. **Data Collection**: We will systematically collect feedback from users, including adverse event reports, customer complaints, and user satisfaction surveys. This will be done through various channels such as customer service interactions, online surveys, and direct outreach to healthcare professionals using the device.\n\n2. **Data Analysis**: Collected data will be analyzed at least annually to identify trends and potential safety issues. This analysis will include a review of adverse events reported in the MAUDE database and other relevant safety databases to ensure timely identification of any emerging risks associated with the device.\n\n3. **Performance Indicators**: Specific performance indicators will be established to monitor the device's effectiveness and safety in real-world settings. These indicators will include metrics such as user-reported outcomes, device malfunction rates, and any incidents of adverse effects.\n\n4. **Communication Protocols**: We will implement effective communication protocols to ensure that any significant findings from the PMS activities are communicated to relevant stakeholders, including regulatory authorities, healthcare professionals, and users. This will include regular updates to the Clinical Evaluation Report (CER) based on PMS findings.\n\n5. **Continuous Improvement**: The PMS plan will be reviewed and updated regularly to incorporate new information and insights gained from ongoing data collection and analysis. This will ensure that the plan remains relevant and effective in monitoring the device's performance.\n\n6. **Post-Market Clinical Follow-Up (PMCF)**: A PMCF plan will be established to gather additional clinical data on the device's long-term performance and safety. This will include follow-up studies and surveys to assess the device's impact on patient outcomes over time.\n\nThe updated PMS plan is documented in the PX Summary of Technical Documentation (STED) and is in compliance with Article 84 of the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include both favourable and unfavourable data in the technical documentation.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report provides a comprehensive overview of the clinical safety and performance of the Paragit PX device, including a benefit-risk assessment. However, while it mentions the absence of adverse events and provides a positive outlook based on literature review, it lacks detailed discussion of any unfavourable data or potential risks that could arise from the use of the device. For full compliance with MDR requirements, both favourable and unfavourable data should be explicitly included.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Unfavourable Data",
+                            "description": "The clinical evaluation report does not adequately present unfavourable data or potential risks associated with the Paragit PX device. This omission could mislead stakeholders regarding the safety and performance of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure both favourable and unfavourable data are included in the technical documentation.",
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Incorporate Unfavourable Data",
+                            "description": "Revise the clinical evaluation report to include a section that explicitly discusses any unfavourable data or potential risks associated with the Paragit PX device. This should encompass any adverse events reported in the literature, as well as any limitations or uncertainties in the data presented.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Unfavourable Data and Potential Risks\n\nIn accordance with the requirements of the Medical Device Regulation (EU) 2017/745, this section aims to provide a comprehensive overview of both favourable and unfavourable data regarding the Paragit PX device. While the clinical evaluation report has highlighted the absence of adverse events and presented a positive outlook based on literature review, it is essential to explicitly address any unfavourable data or potential risks associated with the device.\n\n#### Identified Risks\n\nA thorough review of the literature has identified several potential risks associated with the use of the Paragit PX device:\n\n1. **User Compliance Risks**: Non-adherence to the Instructions for Use (IFU) may lead to improper device application, potentially resulting in inaccurate data collection or device malfunction.\n2. **Component Failure Risks**: As with any electronic device, there exists a risk of component failure, which could affect the device's performance and reliability.\n3. **Environmental Interference**: The device may be susceptible to interference from external electromagnetic fields, which could impact data accuracy.\n\n#### Literature Review Findings\n\nThe literature review conducted as part of the clinical evaluation has revealed that while no serious adverse events have been reported for similar devices, there are documented instances of minor complications, such as skin irritation from electrode contact. These findings underscore the importance of monitoring user feedback and conducting post-market surveillance to identify any emerging risks.\n\n#### Conclusion\n\nIn conclusion, while the Paragit PX device demonstrates a favourable benefit-risk profile, it is crucial to remain vigilant regarding the identified risks and to implement robust post-market surveillance strategies to mitigate potential adverse effects. Regular updates to the clinical evaluation report will be conducted to reflect any new information or changes in risk assessment as part of our commitment to ensuring the safety and performance of the device.\n\nThis section will be updated as new data becomes available, and it is essential to continuously evaluate the clinical evidence to ensure compliance with MDR requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The clinical evaluation report is partly compliant due to gaps in long-term clinical data and the lack of unfavourable data, despite a solid documentation of clinical evaluation results."
+        },
+        {
+            "requirement": "Post-Market Clinical Follow-Up (PMCF)",
+            "reference": "MDR Article 61, Annex XIV Part B",
+            "description": "PMCF is a continuous process that updates the clinical evaluation and is addressed in the manufacturer's post-market surveillance plan.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the PMCF requirement is Partly Compliant (PC) due to several identified gaps across the sub-requirements. While there is evidence of proactive data collection and monitoring of safety and performance, the documentation lacks comprehensive details in key areas. For instance, the PMCF plan does not include a detailed strategy for ongoing data collection, which is crucial for continuous evaluation of the device's performance. Additionally, while the PMCF activities are outlined, there is no finalized PMCF evaluation report documenting the results of these activities, indicating that execution is still pending. Furthermore, the methodologies for identifying previously unknown side effects and analyzing emergent risks are insufficiently detailed, which could hinder effective monitoring. Overall, while there are efforts in place, the lack of specificity and completeness in the documentation leads to a Partly Compliant status.",
+            "sub_requirements": [
+                {
+                    "description": "Proactively collect and evaluate clinical data from the use of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report demonstrates that clinical data has been collected and evaluated adequately. However, while the report indicates that further clinical investigations are not necessary, it lacks a comprehensive plan for ongoing data collection post-market, which is essential for continuous evaluation of the device's performance and safety. The absence of a defined post-market clinical follow-up (PMCF) plan limits the proactive collection of clinical data after the device is on the market.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of a Comprehensive PMCF Plan",
+                            "description": "The documentation does not include a detailed post-market clinical follow-up (PMCF) plan that outlines how ongoing clinical data will be collected and evaluated after the device is marketed. This is critical for ensuring long-term safety and performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that clinical data is proactively collected and evaluated.",
+                    "relevant_documents": [
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Literature Search Protocol"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Comprehensive PMCF Plan",
+                            "description": "Create a detailed post-market clinical follow-up (PMCF) plan that outlines how clinical data will be collected and evaluated after the device is marketed. This plan should include timelines, methodologies for data collection, and responsibilities for ongoing monitoring.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Post-Market Clinical Follow-Up (PMCF) Plan\n\nThe Post-Market Clinical Follow-Up (PMCF) Plan for the Paragit PX device is designed to ensure the continuous collection and evaluation of clinical data following the device's market introduction. This plan outlines the methodologies, timelines, and responsibilities for ongoing monitoring of the device's safety and performance. \n\n#### Objectives\nThe primary objectives of the PMCF plan include:\n1. To systematically collect clinical data on the long-term safety and performance of the Paragit PX device.\n2. To identify any potential risks or adverse events associated with the device's use in the target population.\n3. To ensure that the clinical benefits of the device continue to outweigh the risks as per the benefit-risk assessment.\n\n#### Methodology\nThe PMCF will employ the following methodologies for data collection:\n- **Surveys and Questionnaires:** Regularly distributed to users to gather feedback on device performance and any adverse events.\n- **Clinical Studies:** Conducting observational studies to assess the device's effectiveness in real-world settings.\n- **Data from Post-Market Surveillance (PMS):** Utilizing data collected through PMS activities, including user complaints and adverse event reports.\n\n#### Timelines\n- **Initial Data Collection:** Commencing within [[insert timeframe, e.g., 6 months]] post-market launch.\n- **Ongoing Data Collection:** Data will be collected continuously, with formal evaluations scheduled every [[insert timeframe, e.g., 12 months]].\n- **Reporting:** PMCF reports will be generated and reviewed annually, or sooner if significant new information arises.\n\n#### Responsibilities\n- **Clinical Affairs Team:** Responsible for the overall management of the PMCF plan, including data collection and analysis.\n- **Regulatory Affairs Team:** Ensures compliance with MDR requirements and timely reporting to the notified body.\n- **Quality Assurance Team:** Monitors the implementation of the PMCF plan and ensures that all data is accurately recorded and reported.\n\nThis PMCF plan will be reviewed and updated as necessary to reflect any changes in clinical practice, user feedback, or regulatory requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Confirm the safety and performance of the device throughout its expected lifetime.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides substantial evidence of the safety and performance of the Paragit PX device, particularly through the Clinical Evaluation Report (CER) and the Post-Market Surveillance Plan (PMSP). The CER indicates that the clinical safety and performance of the device have been demonstrated, and it complies with the regulatory requirements from MDR (EU) 2017/745[0]. However, while the PMCF Plan outlines the necessary activities for ongoing monitoring, it lacks specific timelines for data collection and analysis, which could impact the timely confirmation of safety and performance .",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Detail in PMCF Plan",
+                            "description": "The PMCF Plan does not provide detailed timelines for the collection and analysis of post-market clinical follow-up data, which is essential for ongoing safety and performance verification.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure the PMCF confirms the device's safety and performance.",
+                    "relevant_documents": [
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "Software Verification Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "Final Verification Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                            "short_name": "Software Validation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance PMCF Plan with Detailed Timelines",
+                            "description": "Revise the PMCF Plan to include specific timelines for the collection and analysis of post-market clinical follow-up data to ensure timely confirmation of safety and performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the PMCF Plan, the following detailed timelines for the collection and analysis of post-market clinical follow-up data will be included:\n\n1. **Data Collection Phase**: The collection of post-market clinical follow-up data will commence on [[start date]], with ongoing collection occurring until [[end date]].\n\n2. **Data Analysis Phase**: Data analysis will be conducted in the following phases:\n   - Preliminary analysis will occur at the end of each quarter, starting from [[first analysis date]].\n   - Comprehensive analysis will be conducted at the end of the data collection period, specifically in [[final analysis date]].\n\n3. **Reporting Phase**: The PMCF evaluation report will be prepared and released by [[report release date]]. This report will summarize the findings and will be integrated into the Clinical Evaluation Report (CER) update scheduled for [[CER update date]].\n\nThese timelines will ensure timely confirmation of the safety and performance of the Paragit PX device throughout its expected lifetime."
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify previously unknown side-effects and monitor identified side-effects and contraindications.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates a proactive approach to post-market clinical follow-up (PMCF) and post-market surveillance (PMS). The PMCF Plan outlines activities to gather clinical data and monitor side effects, including customer complaints and adverse events. However, while the PMCF Plan and PMS documentation indicate a structured approach to monitoring, there is insufficient detail on how previously unknown side effects will be identified and monitored effectively. The absence of specific methodologies or tools for side-effect identification limits the compliance status to Partly Compliant.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Detail on Side-Effect Monitoring",
+                            "description": "The PMCF Plan lacks specific methodologies for identifying previously unknown side effects. While it outlines data collection from customer feedback and adverse events, it does not detail how this data will be analyzed or integrated into the clinical evaluation process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the PMCF identifies and monitors side-effects and contraindications.",
+                    "relevant_documents": [
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Side-Effect Monitoring Methodology",
+                            "description": "Develop a comprehensive methodology for identifying and monitoring previously unknown side effects. This should include specific data analysis techniques, frequency of data review, and integration of findings into clinical evaluations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the methodology for identifying and monitoring previously unknown side effects, the following text should be added to the PMCF Plan:\n\n\"The methodology for identifying previously unknown side effects will involve a multi-faceted approach, including:\n\n1. **Data Collection**: Continuous collection of data from various sources, including customer feedback, adverse event reports, and literature reviews of similar devices. This will be supplemented by real-world evidence gathered from clinical settings and registries.\n\n2. **Data Analysis Techniques**: The collected data will be analyzed using statistical methods such as trend analysis and signal detection techniques. Specific tools, such as [[description of software or statistical methods]], will be employed to identify patterns and correlations that may indicate previously unknown side effects.\n\n3. **Frequency of Data Review**: Data will be reviewed on a quarterly basis to ensure timely identification of any emerging side effects. Additionally, a comprehensive annual review will be conducted to assess the overall safety profile of the device.\n\n4. **Integration into Clinical Evaluation**: Findings from the data analysis will be integrated into the clinical evaluation process. This will include updating the Clinical Evaluation Report (CER) and Risk Management File (RMF) as necessary, ensuring that any new risks are adequately addressed and communicated to stakeholders.\n\n5. **Stakeholder Communication**: Regular updates will be provided to relevant stakeholders, including clinical experts and regulatory bodies, to ensure transparency and compliance with MDR requirements. This will include a summary of findings and any necessary actions taken in response to identified side effects.\"\n\nThis comprehensive approach will ensure that the PMCF Plan effectively identifies and monitors side effects, thereby enhancing compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and analyze emergent risks based on factual evidence.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a Risk Management Plan and Report that outlines the identification and analysis of risks associated with the ParagitPX medical device. However, while risks are identified, the analysis lacks sufficient detail on emergent risks based on factual evidence. For instance, the Risk Management Report mentions that all risks are reviewed and reduced to an acceptable level, but it does not explicitly detail how emergent risks are monitored or analyzed over time, particularly in relation to post-market surveillance data. This gap indicates that while there is a framework in place, the execution may not fully comply with the requirement to analyze emergent risks effectively.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Analysis of Emergent Risks",
+                            "description": "The Risk Management Report does not provide a detailed analysis of how emergent risks are identified and monitored based on factual evidence gathered from post-market surveillance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that emergent risks are identified and analyzed.",
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Monitoring of Emergent Risks",
+                            "description": "Develop a systematic approach to monitor and analyze emergent risks based on factual evidence from post-market surveillance data. This should include establishing a feedback loop from post-market data to risk management processes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the monitoring and analysis of emergent risks associated with the ParagitPX medical device, the following systematic approach will be implemented: \n\n1. **Post-Market Surveillance Data Integration**: The data collected from post-market surveillance activities, including customer complaints, adverse events, and real-world evidence, will be systematically reviewed and analyzed to identify any emergent risks. This will ensure that all relevant data is utilized in the risk management process.\n\n2. **Feedback Loop Establishment**: A feedback loop will be established between the post-market surveillance data and the risk management processes. This will involve regular updates to the Risk Management Report based on the findings from the post-market surveillance activities. The updates will include a detailed analysis of any identified emergent risks and the actions taken to mitigate them.\n\n3. **Regular Review Schedule**: The Risk Management Team will conduct a comprehensive review of the emergent risks at least annually, or more frequently if significant new data arises. This review will assess the effectiveness of existing risk control measures and determine if additional actions are necessary.\n\n4. **Documentation of Findings**: All findings from the post-market surveillance data analysis will be documented in the Risk Management Report, including the rationale for any changes made to the risk management strategies. This documentation will be made available for review by the notified body as part of the technical documentation.\n\n5. **Training and Awareness**: All personnel involved in the post-market surveillance and risk management processes will receive training on the importance of identifying and analyzing emergent risks. This will ensure that the team is equipped to recognize potential issues and respond appropriately.\n\nBy implementing this systematic approach, we aim to ensure that emergent risks are effectively identified, monitored, and analyzed based on factual evidence, thereby enhancing the overall safety and performance of the ParagitPX medical device."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the continued acceptability of the benefit-risk ratio.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that the benefit-risk ratio is continuously assessed and that risks are reduced to acceptable levels. However, there are gaps in the documentation regarding the frequency of reviews and updates to the risk management plan, particularly in response to new information or changes in the intended use of the device. For instance, while the Risk Management Report states that risks are reviewed, it lacks a clear timeline for these reviews and how they will be documented. Additionally, the criteria for determining the acceptability of residual risks need to be more explicitly defined.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Defined Review Frequency",
+                            "description": "The documentation does not specify how often the benefit-risk ratio is reviewed and updated, which is critical for ensuring ongoing compliance with the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Unclear Criteria for Risk Acceptability",
+                            "description": "The criteria for determining the acceptability of residual risks are not clearly defined, which can lead to inconsistent evaluations of the benefit-risk ratio.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the benefit-risk ratio is continuously acceptable.",
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "Applicable Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Define Review Frequency for Benefit-Risk Assessment",
+                            "description": "Establish a clear and documented frequency for reviewing the benefit-risk ratio to ensure ongoing compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The benefit-risk ratio will be reviewed and updated at a minimum frequency of [[insert frequency, e.g., annually, bi-annually]] or more frequently if significant new information arises, such as changes in the intended use of the device, new safety information, or changes in the regulatory landscape. The results of each review will be documented in the Risk Management Report and the Risk Management Plan, ensuring that any necessary adjustments to the risk management strategies are made promptly."
+                        },
+                        {
+                            "title": "Clarify Criteria for Risk Acceptability",
+                            "description": "Develop and document clear criteria for determining the acceptability of residual risks to ensure consistent evaluations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The criteria for determining the acceptability of residual risks are defined as follows: \n\n1. **Risk Acceptability Threshold**: Residual risks are considered acceptable if they are deemed insignificant based on the criteria established in the Risk Management Plan. This includes evaluating the severity and probability of harm associated with each identified risk. \n\n2. **Benefit-Risk Analysis**: The acceptability of residual risks must be weighed against the benefits provided by the medical device. Risks that do not significantly impact the overall benefit-risk ratio are considered acceptable. \n\n3. **Regulatory Compliance**: All residual risks must comply with the relevant regulatory standards and guidelines, including but not limited to QMS EN ISO 14971:2019/A11:2021. \n\n4. **Stakeholder Input**: The acceptability of residual risks will also consider feedback from stakeholders, including clinical users and regulatory bodies, to ensure that all perspectives are taken into account. \n\n5. **Documentation and Review**: All decisions regarding risk acceptability must be documented in the Risk Management Report and reviewed periodically to ensure ongoing compliance and relevance. \n\nThis criteria will be reviewed and updated as necessary during the annual review of the Risk Management Plan or in response to significant changes in the device or its intended use. \n\nThese criteria will be integrated into the Risk Management Report and the Risk Management Plan to ensure consistency and clarity in evaluations."
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify possible systematic misuse or off-label use of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a general overview of the intended use and safety measures associated with the ParagitPX device. However, it lacks a comprehensive analysis of potential systematic misuse or off-label use scenarios. While the risk management documentation indicates that risks have been assessed and controlled, specific examples or case studies of misuse or off-label use are not provided, which is essential for full compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of systematic misuse analysis",
+                            "description": "The documentation does not adequately identify or analyze potential systematic misuse or off-label use of the ParagitPX device. This is critical to ensure that all possible risks are addressed and mitigated.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure systematic misuse or off-label use is identified.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "PX List of Applicable Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct a systematic misuse analysis",
+                            "description": "Develop a detailed analysis of potential systematic misuse or off-label use scenarios for the ParagitPX device. This should include a review of literature, user feedback, and expert opinions to identify possible misuse cases.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive risk management and compliance with MDR requirements, the following systematic misuse analysis has been conducted for the ParagitPX device:\n\n### Systematic Misuse Analysis of ParagitPX Device\n\n1. **Potential Misuse Scenarios**:\n   - **Incorrect Usage**: Users may attempt to use the device in a manner not specified in the Instructions for Use (IFU), such as using it for diagnostic purposes rather than for research as intended. \n   - **Improper Maintenance**: Failure to follow maintenance guidelines may lead to device malfunction, affecting data accuracy.\n   - **Environmental Factors**: Using the device in environments with excessive moisture or extreme temperatures may compromise its functionality.\n\n2. **Off-Label Use Cases**:\n   - **Clinical Diagnosis**: Some users may attempt to use the device for clinical diagnosis of muscle disorders, which is outside its intended purpose.\n   - **Non-Research Applications**: Athletes may use the device for performance enhancement without understanding the limitations and intended use.\n\n3. **User Feedback and Literature Review**:\n   - A review of user feedback and relevant literature indicates that users often misunderstand the device's intended purpose, leading to misuse. This has been documented in the attached literature review report, which highlights common misconceptions and misuse cases.\n\n4. **Expert Opinions**:\n   - Consultation with clinical experts has identified key areas where misuse is likely to occur, emphasizing the need for clearer communication in user training and documentation.\n\n5. **Mitigation Strategies**:\n   - **Enhanced User Training**: Implementing comprehensive training programs for users to ensure proper understanding of the device's intended use.\n   - **Clearer Instructions**: Updating the IFU to include explicit warnings against off-label use and misuse scenarios identified in this analysis.\n   - **Post-Market Surveillance**: Ongoing monitoring of user experiences and feedback to adapt training and documentation as necessary.\n\nThis analysis will be reviewed and updated regularly to reflect new findings and user experiences, ensuring that all potential risks associated with systematic misuse or off-label use are adequately addressed."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document the results of PMCF in a PMCF evaluation report.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a PMCF plan that outlines the responsibilities and activities related to post-market clinical follow-up. However, it lacks a finalized PMCF evaluation report that documents the results of the PMCF activities. The PMCF plan indicates that the evaluation report is expected to be prepared by week 50 of 2025, which means that as of now, the results have not yet been documented. This indicates partial compliance with the requirement, as the plan is in place but the execution (the report) is pending.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of PMCF Evaluation Report",
+                            "description": "The PMCF plan outlines the activities but does not include a completed PMCF evaluation report documenting the results of the PMCF activities. This is critical for demonstrating compliance with the MDR requirements for post-market clinical follow-up.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that PMCF results are documented in a PMCF evaluation report.",
+                    "relevant_documents": [
+                        "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMCF Plan"
+                        },
+                        {
+                            "path": "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMSP Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Prepare PMCF Evaluation Report",
+                            "description": "Finalize and document the results of the PMCF activities as outlined in the PMCF plan. This report should summarize the findings, analyze the data collected, and provide conclusions regarding the safety and performance of the ParagitPX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The PMCF Evaluation Report for the ParagitPX device will be finalized and documented as follows: \n\n**PMCF Evaluation Report**  \n**Device Name:** ParagitPX  \n**Manufacturer:** Paragit Neurotech ApS  \n**Report Version:** [[version]]  \n**Date:** [[date]]  \n\n**1. Introduction**  \nThis report summarizes the findings from the post-market clinical follow-up (PMCF) activities conducted as outlined in the PMCF plan (PX PMCF240220-01 PMCF Plan v3.0). The objective of this evaluation is to assess the safety and performance of the ParagitPX device based on the data collected during the PMCF activities.  \n\n**2. PMCF Activities Conducted**  \nThe following activities were undertaken as part of the PMCF:  \n- Summary data of clinically related customer complaints.  \n- Collection of real-world evidence from hospital data.  \n- Evaluation of registries for similar devices.  \n- Summary data of adverse events.  \n- Literature review of equivalent products.  \n- Summary data from PMCF clinical studies.  \n\n**3. Data Analysis**  \nThe data collected from the above activities were analyzed to determine the safety and performance of the ParagitPX device. The analysis included:  \n- [[description of data analysis methods]]  \n- [[summary of findings]]  \n\n**4. Conclusions**  \nBased on the data collected and analyzed, the following conclusions can be drawn regarding the safety and performance of the ParagitPX device:  \n- [[summary of conclusions regarding safety]]  \n- [[summary of conclusions regarding performance]]  \n\n**5. Recommendations**  \nBased on the findings, the following recommendations are made:  \n- [[description of any recommended actions or changes]]  \n\n**6. Future PMCF Activities**  \nFuture PMCF activities will continue to monitor the device's performance and safety, with updates to the PMCF plan as necessary.  \n\nThis report will be reviewed and approved by the relevant stakeholders before submission to the notified body.  \n\n**Prepared by:** [[name]]  \n**Approved by:** [[name]]  \n**Date of Approval:** [[approval date]]"
+                        }
+                    ]
+                },
+                {
+                    "description": "Take into account PMCF conclusions for the clinical evaluation and risk management.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates a reasonable effort to integrate PMCF conclusions into the clinical evaluation and risk management processes. The Clinical Evaluation Report (CER) indicates that the PMCF activities will be evaluated in the next regular review of the CER, which suggests an ongoing commitment to incorporate post-market data into clinical evaluations. However, the explicit linkage between PMCF findings and their impact on clinical evaluation and risk management is not sufficiently detailed, indicating a need for improvement.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Integration of PMCF Findings",
+                            "description": "The documentation lacks explicit details on how PMCF conclusions directly influence the clinical evaluation and risk management processes. This could lead to a disconnect between post-market data and clinical safety assessments.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure PMCF conclusions are considered in clinical evaluation and risk management.",
+                    "relevant_documents": [
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance PMCF Integration",
+                            "description": "Develop a more robust framework for integrating PMCF findings into the clinical evaluation and risk management processes. This should include specific methodologies for assessing how PMCF data influences clinical safety and performance conclusions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the integration of Post-Market Clinical Follow-up (PMCF) findings into the clinical evaluation and risk management processes, the following text should be added to the relevant sections of the Clinical Evaluation Report (CER) and Risk Management Plan (RMP):\n\n\"The conclusions drawn from the PMCF activities, as outlined in the PMCF Plan (PX PMCF240220-01 PMCF Plan v3.0), will be systematically reviewed and integrated into the Clinical Evaluation Report during its regular updates. Specifically, the PMCF findings will be assessed for their impact on the clinical safety and performance conclusions of the Paragit PX device. This assessment will include a detailed analysis of any adverse events, customer feedback, and real-world evidence collected through PMCF activities. The results of this analysis will inform necessary updates to the risk management documentation, ensuring that any identified risks are adequately addressed and that the benefit-risk ratio remains favorable. Furthermore, the PMCF evaluation report will be referenced in the CER, providing a clear linkage between post-market data and clinical safety assessments. This ongoing commitment to integrating PMCF findings into clinical evaluations will enhance the robustness of our clinical evidence and ensure compliance with the requirements set forth in MDR (EU) 2017/745.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The PMCF documentation is Partly Compliant due to gaps in ongoing data collection strategies, lack of finalized evaluation reports, and insufficient detail in methodologies for monitoring side effects and emergent risks."
+        }
+    ]
+}

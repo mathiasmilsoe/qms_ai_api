@@ -1,4 +1,4 @@
-Total Prompt Tokens: 5074, Total Completion Tokens: 4529, Total Tokens: 9603
+Total Prompt Tokens: 480075, Total Completion Tokens: 6456, Total Tokens: 486531
 {
     "create_assistant_with_file_search": [],
     "upload_files_and_add_to_vector_store": [],
@@ -6,11 +6,179 @@ Total Prompt Tokens: 5074, Total Completion Tokens: 4529, Total Tokens: 9603
     "create_thread": [],
     "create_run_and_get_output": [
         {
-            "timestamp": "2024-08-28 06:26:43.256728+00:00",
-            "description": "consolidate requirements",
-            "prompt_tokens": 5074,
-            "completion_tokens": 4529,
-            "total_tokens": 9603
+            "timestamp": "2024-09-08 09:51:50.921224+00:00",
+            "description": "Suggestion for Enhance Warnings on Product Label",
+            "prompt_tokens": 37094,
+            "completion_tokens": 187,
+            "total_tokens": 37281
+        },
+        {
+            "timestamp": "2024-09-08 09:51:51.894764+00:00",
+            "description": "Suggestion for Add Expiry Date Information",
+            "prompt_tokens": 19284,
+            "completion_tokens": 145,
+            "total_tokens": 19429
+        },
+        {
+            "timestamp": "2024-09-08 09:51:52.028833+00:00",
+            "description": "Suggestion for Add Batch Number and Serial Number to Label",
+            "prompt_tokens": 19217,
+            "completion_tokens": 122,
+            "total_tokens": 19339
+        },
+        {
+            "timestamp": "2024-09-08 09:51:52.437495+00:00",
+            "description": "Suggestion for Conduct Language Assessment for Labels",
+            "prompt_tokens": 19182,
+            "completion_tokens": 205,
+            "total_tokens": 19387
+        },
+        {
+            "timestamp": "2024-09-08 09:51:55.374129+00:00",
+            "description": "Suggestion for Revise Intended Purpose Description",
+            "prompt_tokens": 18836,
+            "completion_tokens": 233,
+            "total_tokens": 19069
+        },
+        {
+            "timestamp": "2024-09-08 09:51:57.308104+00:00",
+            "description": "Suggestion for Add Date of Manufacture to Product Label",
+            "prompt_tokens": 18985,
+            "completion_tokens": 91,
+            "total_tokens": 19076
+        },
+        {
+            "timestamp": "2024-09-08 09:51:58.382878+00:00",
+            "description": "Suggestion for Update Standards Reference",
+            "prompt_tokens": 19410,
+            "completion_tokens": 86,
+            "total_tokens": 19496
+        },
+        {
+            "timestamp": "2024-09-08 09:51:58.474448+00:00",
+            "description": "Suggestion for Highlight Critical Warnings in Instructions for Use",
+            "prompt_tokens": 19578,
+            "completion_tokens": 222,
+            "total_tokens": 19800
+        },
+        {
+            "timestamp": "2024-09-08 09:54:02.236689+00:00",
+            "description": "Suggestion for Incorporate Warnings in Packaging Instructions",
+            "prompt_tokens": 19298,
+            "completion_tokens": 269,
+            "total_tokens": 19567
+        },
+        {
+            "timestamp": "2024-09-08 09:54:30.504850+00:00",
+            "description": "Suggestion for Finalize Labeling Standards",
+            "prompt_tokens": 1815,
+            "completion_tokens": 123,
+            "total_tokens": 1938
+        },
+        {
+            "timestamp": "2024-09-08 09:54:48.834736+00:00",
+            "description": "Suggestion for Enhance Product Name Visibility",
+            "prompt_tokens": 18682,
+            "completion_tokens": 153,
+            "total_tokens": 18835
+        },
+        {
+            "timestamp": "2024-09-08 09:55:12.574024+00:00",
+            "description": "Suggestion for Ensure Multilingual Instructions",
+            "prompt_tokens": 19386,
+            "completion_tokens": 150,
+            "total_tokens": 19536
+        },
+        {
+            "timestamp": "2024-09-08 09:55:13.320318+00:00",
+            "description": "Suggestion for Add Maintenance Instructions",
+            "prompt_tokens": 18943,
+            "completion_tokens": 374,
+            "total_tokens": 19317
+        },
+        {
+            "timestamp": "2024-09-08 09:55:13.736125+00:00",
+            "description": "Suggestion for Enhance Hazard Coverage in Instructions",
+            "prompt_tokens": 18957,
+            "completion_tokens": 410,
+            "total_tokens": 19367
+        },
+        {
+            "timestamp": "2024-09-08 09:55:14.497341+00:00",
+            "description": "Suggestion for Add Contact Information",
+            "prompt_tokens": 19086,
+            "completion_tokens": 267,
+            "total_tokens": 19353
+        },
+        {
+            "timestamp": "2024-09-08 09:55:14.705897+00:00",
+            "description": "Suggestion for Develop Troubleshooting Section",
+            "prompt_tokens": 19055,
+            "completion_tokens": 481,
+            "total_tokens": 19536
+        },
+        {
+            "timestamp": "2024-09-08 09:55:14.960294+00:00",
+            "description": "Suggestion for Enhance Safety Instructions",
+            "prompt_tokens": 19267,
+            "completion_tokens": 413,
+            "total_tokens": 19680
+        },
+        {
+            "timestamp": "2024-09-08 09:56:40.193321+00:00",
+            "description": "Suggestion for Enhance Clarity of Illustrations",
+            "prompt_tokens": 19285,
+            "completion_tokens": 413,
+            "total_tokens": 19698
+        },
+        {
+            "timestamp": "2024-09-08 09:56:42.806282+00:00",
+            "description": "Suggestion for Provide Detailed Operational Guidance",
+            "prompt_tokens": 19016,
+            "completion_tokens": 330,
+            "total_tokens": 19346
+        },
+        {
+            "timestamp": "2024-09-08 09:57:01.587651+00:00",
+            "description": "Suggestion for Implement Request System for Paper IFU",
+            "prompt_tokens": 19099,
+            "completion_tokens": 280,
+            "total_tokens": 19379
+        },
+        {
+            "timestamp": "2024-09-08 09:57:01.807981+00:00",
+            "description": "Suggestion for Enhance eIFU Compatibility Information",
+            "prompt_tokens": 19576,
+            "completion_tokens": 152,
+            "total_tokens": 19728
+        },
+        {
+            "timestamp": "2024-09-08 09:57:02.484137+00:00",
+            "description": "Suggestion for Improve Usability of Instructions for Use",
+            "prompt_tokens": 18884,
+            "completion_tokens": 341,
+            "total_tokens": 19225
+        },
+        {
+            "timestamp": "2024-09-08 09:57:04.291811+00:00",
+            "description": "Suggestion for Enhance eIFU Access Instructions",
+            "prompt_tokens": 19325,
+            "completion_tokens": 379,
+            "total_tokens": 19704
+        },
+        {
+            "timestamp": "2024-09-08 09:57:05.342011+00:00",
+            "description": "Suggestion for Define Notification Procedures for eIFU Updates",
+            "prompt_tokens": 19237,
+            "completion_tokens": 401,
+            "total_tokens": 19638
+        },
+        {
+            "timestamp": "2024-09-08 09:57:06.873605+00:00",
+            "description": "Suggestion for Include eIFU in Packaging and Labeling Documents",
+            "prompt_tokens": 19578,
+            "completion_tokens": 229,
+            "total_tokens": 19807
         }
     ],
     "add_message_to_thread": []

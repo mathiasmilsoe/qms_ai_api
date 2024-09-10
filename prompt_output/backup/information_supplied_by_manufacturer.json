@@ -1,0 +1,1274 @@
+{
+    "requirements": [
+        {
+            "requirement": "Labeling Requirements",
+            "reference": "MDR Annex I, Chapter III, Section 23.2",
+            "description": "This requirement involves providing complete and accurate labels for the medical device in the languages accepted in the Member States where the device is marketed.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the labeling requirements of the ParagitPX medical device is partly compliant (PC). The assessment reveals several areas of concern: \n1. **Product Name Visibility**: The product name is present but not prominently displayed, leading to potential confusion (PC). \n2. **Intended Purpose**: The intended purpose is described but lacks specificity regarding clinical indications and target populations, which could lead to misuse (PC). \n3. **Manufacturer's Name and Address**: This information is clearly stated and compliant (C). \n4. **Batch/Serial Number**: The absence of a batch number or serial number is a critical non-compliance issue (NC). \n5. **Date of Manufacture**: The label does not include the date of manufacture, which is required (NC). \n6. **Expiry Date**: There is no mention of an expiry date or a statement indicating no expiry date, which is a significant non-compliance (NC). \n7. **Warnings and Precautions**: Some warnings are included, but they are not comprehensive or conspicuous enough (PC). \n8. **Symbols and Safety Information**: The use of obsolete standards raises concerns, leading to a partly compliant status (PC). \n9. **Language Requirements**: While there is some verification, the documentation does not confirm that labels are provided in all necessary languages (PC). \nOverall, the labeling documentation has several critical gaps that need to be addressed to achieve full compliance with the MDR.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the label includes the product name or trade name.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The label documentation provided in 'PX Product Label v2.1 (Draft)' includes the product name, but it is not prominently displayed or easily identifiable. The name should be consistent with the marketing materials and other documentation. The validation evidence document does not provide sufficient clarity on how the label meets this requirement, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Product Name Visibility",
+                            "description": "The product name is present but not clearly visible or prominent on the label, which may lead to confusion among users.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the product name or trade name is present and clear on the label. It should be consistent with the name used in marketing and documentation.",
+                    "relevant_documents": [
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                            "short_name": "PX LVA240425 Label Validation Evidence v2.0"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                            "short_name": "PX S-ST019 The system shall comply with ISO 15223-1-2021"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement v2.1 (Draft).pdf",
+                            "short_name": "PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Product Name Visibility",
+                            "description": "Revise the label design to ensure that the product name is prominently displayed and easily identifiable.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the visibility of the product name on the label, the following changes will be implemented: \n\n1. The product name 'ParagitPX' will be displayed in a font size of at least [[specify font size]] points, using a bold typeface to ensure prominence. \n2. The color of the product name will contrast significantly with the background color of the label to improve readability. \n3. The product name will be positioned at the top of the label, centered horizontally, to ensure it is the first element noticed by users. \n4. A clear space of at least [[specify measurement]] mm will be maintained around the product name to prevent visual clutter. \n\nThese modifications will ensure that the product name is clearly visible and easily identifiable, aligning with the requirements set forth in the MDR and consistent with marketing materials."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include the intended purpose of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The intended purpose of the ParagitPX device is described in the document 'PX Intended Purpose v4.0'. It specifies that the device is a non-sterile medical device intended for external use only. However, the description lacks specificity regarding the clinical indications or target patient population, which could lead to misuse. The product label document does not provide additional clarity on the intended purpose, further contributing to the ambiguity.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Specificity in Intended Purpose",
+                            "description": "The intended purpose is not detailed enough to prevent misuse. It does not specify the clinical indications or the target patient population.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify if the intended purpose of the device is described on the label. It should be specific enough to avoid misuse.",
+                    "relevant_documents": [
+                        "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose v4.0"
+                        },
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Revise Intended Purpose Description",
+                            "description": "Enhance the description of the intended purpose to include specific clinical indications and target patient populations to avoid misuse.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The intended purpose of the ParagitPX device is to collect signals for the investigation of processes related to muscle activity and movement, specifically through Electromyography (EMG), Inertial Measurement Unit (IMU), and skin impedance measurements. It is designed for external use only and is intended for use by athletes, sports enthusiasts, healthcare professionals, and lay users. The device is suitable for individuals aged [[description: specify age range]] who are seeking to obtain objective and quantitative data on muscle activation, movement patterns, and impedance for research purposes. Clinical indications include but are not limited to: monitoring muscle performance during rehabilitation, assessing muscle activation patterns in sports training, and evaluating neuromuscular function in clinical settings. The device is not intended for diagnostic purposes or for use in critical care environments."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide the manufacturer's name and address.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The manufacturer's name and address are clearly stated in the EU Declaration of Conformity. Specifically, it lists 'Paragit Neurotech, Grundtvigsvej 6a, 1864 Frederiksberg, Denmark' as the manufacturer's address, which is consistent with the requirements of the MDR. This information is accurate and matches official records, fulfilling the compliance criteria.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Ensure the manufacturer's name and address are clearly stated on the label. This information must be accurate and consistent with official records.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "PX EU Declaration of Conformity v2.0 (Published)"
+                        },
+                        {
+                            "path": "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "PX GS1 Company prefix Certificate v2.0 (Published)"
+                        }
+                    ],
+                    "tasks_list": []
+                },
+                {
+                    "description": "Include batch number or serial number for traceability.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The assessment of the documentation revealed that the label does not include a batch number or serial number, which are essential for traceability as per the MDR requirements. The absence of these identifiers means that the device cannot be traced back through the manufacturing process, which is a critical aspect of ensuring safety and compliance. This non-compliance could lead to difficulties in managing recalls or addressing safety issues effectively.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Batch Number or Serial Number",
+                            "description": "The label does not contain a batch number or serial number, which is required for traceability as per MDR Article 27 and Annex I.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if a batch number or serial number is present on the label for traceability. It should allow the device to be traced back through the manufacturing process.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "PX GS1 Company prefix Certificate v2.0 (Published)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX LVE240424 Label Verification Evidence v2.0 (Published)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Batch Number and Serial Number to Label",
+                            "description": "Update the product label to include a batch number and a serial number to ensure compliance with traceability requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with traceability requirements as per MDR Article 27 and Annex I, the following information must be included on the product label: \n\n- Batch Number: [[insert batch number]]\n- Serial Number: [[insert serial number]]\n\nThese identifiers will facilitate the traceability of the device throughout the manufacturing process and ensure effective management of recalls or safety issues if necessary."
+                        }
+                    ]
+                },
+                {
+                    "description": "State the date of manufacture.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The technical documentation does not include the date of manufacture on the product label. This is a critical requirement as per the MDR, which mandates that the date should be presented in an unambiguous and standardized format. The absence of this information could lead to confusion regarding the product's shelf life and traceability, potentially compromising patient safety.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Date of Manufacture",
+                            "description": "The product label does not state the date of manufacture, which is a requirement under the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the date of manufacture is included on the label. The date should be in a format that is unambiguous and standardized.",
+                    "relevant_documents": [
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "PX Annex 08 - EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "PX Annex 08 - EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "EU Declaration of Conformity v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Date of Manufacture to Product Label",
+                            "description": "The product label must include the date of manufacture in a standardized format to comply with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The product label shall include the following statement: 'Date of Manufacture: [[insert date in the format YYYY-MM-DD]]'. This date should be clearly visible, indelible, and presented in a standardized format to ensure unambiguity and compliance with the requirements set forth in the MDR (EU) 2017/745."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide the expiry date or a statement indicating no expiry date if applicable.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The reviewed documents do not contain any information regarding the expiry date of the Paragit PX medical device. Specifically, the Instructions for Use and the Product Label do not mention an expiry date or a statement indicating that there is no expiry date. This is a critical non-conformity as per the MDR requirements, which state that the expiry date must be clearly indicated to ensure user safety and device efficacy.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Expiry Date Information",
+                            "description": "The Instructions for Use and Product Label lack any mention of an expiry date or a statement indicating that there is no expiry date. This omission could lead to confusion regarding the usability of the device over time and may pose risks to patient safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure the expiry date is included, or a statement indicating that there is no expiry date if applicable. The date should be clear and in an accepted format.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "PX EU Declaration of Conformity v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Expiry Date Information",
+                            "description": "Update the Instructions for Use and Product Label to include an expiry date or a statement indicating that there is no expiry date applicable to the Paragit PX medical device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": {
+                                "Instructions for Use": "The Paragit PX medical device has an expiry date of [[expiry date]]. If the device does not have an expiry date, please state: 'This device has no expiry date.'",
+                                "Product Label": "Expiry Date: [[expiry date]] or 'No expiry date applicable.'"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "description": "Include necessary warnings and precautions.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The assessment of the documentation indicates that while some warnings and precautions are included, they are not comprehensive or sufficiently conspicuous. For instance, the 'PX Product Label v2.1 (Draft)' includes basic safety warnings, but lacks specific precautions related to potential misuse or adverse effects that could arise from improper use. Additionally, the 'PX Instructions For Use v4.0 (Published)' provides some instructions but does not highlight critical warnings in a manner that would ensure they are easily noticed by the user. The 'PX Packaging Instruction v3.0 (Published)' does not address warnings at all, which is a significant gap. Therefore, while some elements are present, the overall compliance is partly compliant due to the lack of thoroughness and visibility of the warnings.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Warnings on Product Label",
+                            "description": "The product label does not include specific warnings related to potential misuse or adverse effects. This is critical to ensure user safety and compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Critical Warnings in Instructions for Use",
+                            "description": "The instructions for use do not adequately highlight critical warnings that could prevent misuse. This could lead to serious safety issues and non-compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0 (Published)"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Warnings in Packaging Instructions",
+                            "description": "The packaging instructions do not include any warnings or precautions, which is a significant oversight as it fails to inform users about potential risks associated with the product.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0 (Published)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if all necessary warnings and precautions are included on the label. They should be conspicuous and clear.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0 (Published)"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0 (Published)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Warnings on Product Label",
+                            "description": "Revise the product label to include specific warnings related to potential misuse and adverse effects. Ensure that these warnings are prominently displayed and easily noticeable.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The following warnings and precautions should be added to the product label to enhance user safety and compliance with MDR requirements:\n\n1. **Potential Misuse Warning**: \"This device is intended for use only as directed. Misuse may result in inaccurate readings or device malfunction.\"\n\n2. **Adverse Effects Warning**: \"Users may experience skin irritation or allergic reactions. If any adverse reactions occur, discontinue use immediately and consult a healthcare professional.\"\n\n3. **Usage Precautions**: \"Do not use the device in wet conditions or expose it to water. Ensure that the device is clean and dry before use.\"\n\n4. **Storage Instructions**: \"Store in a cool, dry place away from direct sunlight.\"\n\nThese warnings should be prominently displayed on the label in a clear and legible font, ensuring they are easily noticeable to users. Additionally, consider using symbols or icons to enhance visibility and understanding."
+                        },
+                        {
+                            "title": "Highlight Critical Warnings in Instructions for Use",
+                            "description": "Update the instructions for use to clearly highlight critical warnings that could prevent misuse. Use bold text or colored boxes to make these warnings stand out.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0 (Published)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "Safety Warnings and Cautions\n\n**Critical Warnings:**\n\n- **Do not reuse the Paragit Sleeve (PS) across different patients.** Reusing the PS can lead to loosened electrodes and degraded performance, which may compromise the safety and effectiveness of the device.\n\n- **Ensure that the device is used only as intended.** Misuse of the device may result in inaccurate data collection and potential harm to the user.\n\n- **Consult the instructions for use before operating the device.** Important cautionary information is provided that cannot be presented on the device itself.\n\n- **If the packaging is damaged, do not use the device.** Ensure that the device is intact and has not been compromised before use.\n\n- **Follow all cleaning and maintenance instructions carefully.** Failure to do so may lead to device malfunction or safety hazards.\n\nThese warnings should be prominently displayed in a colored box or bold text to ensure they are easily noticeable by the user."
+                        },
+                        {
+                            "title": "Incorporate Warnings in Packaging Instructions",
+                            "description": "Revise the packaging instructions to include necessary warnings or precautions regarding the handling and use of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0 (Published)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "Warnings and Precautions:\n\n1. **Handling Precautions:**\n   - Ensure that the packaging is not damaged before use. If the packaging is damaged, do not use the device and contact the manufacturer for further instructions.\n   - Handle the device with care to avoid any physical damage that may affect its performance.\n\n2. **User Safety Warnings:**\n   - This device is intended for research purposes only and should not be used for diagnostic or therapeutic purposes.\n   - Users should not attempt to modify or repair the device, as this may result in malfunction or injury.\n   - In case of any discomfort or adverse reactions during use, discontinue use immediately and consult a healthcare professional.\n\n3. **Environmental Precautions:**\n   - Store the device in a cool, dry place away from direct sunlight and extreme temperatures to maintain its integrity and performance.\n   - Dispose of the device and its packaging in accordance with local regulations regarding electronic waste.\n\n4. **Specific Warnings:**\n   - This device contains materials that may cause allergic reactions in sensitive individuals. Users should check for any known allergies to the materials listed in the device specifications.\n   - Do not use the device in environments with high electromagnetic interference, as this may affect its functionality.\n\nThese warnings should be prominently displayed in the packaging instructions to ensure visibility and compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Verify that symbols and safety information are correctly used and internationally recognized.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes references to ISO 15223-1, which is essential for ensuring that symbols and safety information are internationally recognized. However, the document PX S-ST019 is marked as obsolete, which raises concerns about its applicability. Additionally, the draft status of PX S-ST022 and PX Product Label v2.1 indicates that the labeling and symbols may not yet be finalized or compliant with the latest standards. Therefore, while there is some compliance with the requirements, the reliance on outdated and draft documents prevents full compliance.",
+                    "non_conformities": [
+                        {
+                            "title": "Use of Obsolete Standards",
+                            "description": "The document PX S-ST019 references ISO 15223-1-2021 v3.0, which is marked as obsolete. This could lead to the use of outdated symbols and safety information that may not be recognized or accepted in the current regulatory environment.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                                    "short_name": "PX S-ST019"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Draft Labeling Standards",
+                            "description": "The labeling standards outlined in PX S-ST022 and PX Product Label v2.1 are in draft form, which means they have not been finalized and may not meet the compliance requirements set forth in the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                                    "short_name": "PX S-ST022"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that symbols and safety information are appropriately used and are clearly understood. Symbols should comply with ISO 15223-1.",
+                    "relevant_documents": [
+                        "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                            "short_name": "PX S-ST019"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                            "short_name": "PX S-ST022"
+                        },
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Standards Reference",
+                            "description": "Replace the obsolete standard reference in PX S-ST019 with the latest version of ISO 15223-1 to ensure compliance with current regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                                    "short_name": "PX S-ST019"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The system shall comply with ISO 15223-1:2021, \"Medical devices - Symbols to be used with medical device labels and instructions for use - Part 1: General requirements\". This standard is currently recognized and applicable, ensuring that all symbols and safety information used in the labeling of the ParagitPX device are internationally recognized and compliant with the latest regulatory requirements."
+                        },
+                        {
+                            "title": "Finalize Labeling Standards",
+                            "description": "Complete the draft status of PX S-ST022 and PX Product Label v2.1 to ensure that labeling and symbols are compliant with the MDR and ISO standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                                    "short_name": "PX S-ST022"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The labeling standards outlined in PX S-ST022 and PX Product Label v2.1 have been finalized to ensure compliance with the MDR and ISO standards. The symbols and safety information used in the labeling have been updated to reflect the current version of ISO 15223-1:2021, ensuring that they are internationally recognized and understood. The finalized labels will include the following symbols: [[list of symbols]]. All labeling will be reviewed and approved by the regulatory compliance team prior to production to ensure adherence to the latest standards and regulations."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the labels are provided in the languages accepted in the Member States where the device is marketed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The label verification evidence indicates that the labels for the ParagitPX medical device are credible and meet standard requirements. However, the documentation does not explicitly confirm that the labels are provided in all necessary languages for the Member States where the device is marketed. While the verification results are positive, the absence of a comprehensive language assessment leads to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Language Verification",
+                            "description": "The documentation does not provide evidence that the labels are available in all required languages for the Member States where the device is marketed. This is critical as non-compliance could lead to legal issues and market access problems.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                                    "short_name": "PX LVE240424 Label Verification Evidence v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify if labels are available in all necessary languages. If labels are available in the required languages, it is compliant. If some translations are missing or incorrect, it is partly compliant. If no translations are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                            "short_name": "PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX LVE240424 Label Verification Evidence v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Language Assessment for Labels",
+                            "description": "Perform a comprehensive assessment to ensure that all labels for the ParagitPX medical device are provided in the languages accepted in the Member States where the device is marketed.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                                    "short_name": "PX LVE240424 Label Verification Evidence v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Medical Devices Regulation (EU) 2017/745, a comprehensive language assessment has been conducted for the labels of the ParagitPX medical device. The labels are provided in the following languages, which are accepted in the Member States where the device is marketed: [[list of languages]]. This assessment confirms that all necessary translations are accurate and available, thereby mitigating any potential non-conformities related to language accessibility. The verification results are documented in the PX LVE240424 Label Verification Evidence v2.0, which indicates that the labels meet the standard requirements and are credible. For further details, please refer to the attached documents: PX Product Label v2.1 (Draft) and PX LVE240424 Label Verification Evidence v2.0."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The labeling requirements for the ParagitPX medical device are partly compliant due to several critical gaps, including missing batch/serial numbers, absence of expiry date information, and insufficient warnings, while some elements are compliant."
+        },
+        {
+            "requirement": "Instructions for Use (IFU) Requirements",
+            "reference": "MDR Annex I, Chapter III, Section 23.4 and 23.4(h)",
+            "description": "This requirement mandates comprehensive instructions for use of the device, ensuring user safety and effective usage.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the Instructions for Use (IFU) requirements is partly compliant (PC). While some sub-requirements are met with adequate documentation, several critical gaps exist. For instance, the instructions for safe and effective use are present but lack comprehensive safety warnings and troubleshooting guidance, leading to potential misuse. Additionally, while some hazards are addressed, specific scenarios such as misuse or failure modes are not adequately detailed. The documentation does not confirm if instructions are available in all necessary languages, which could lead to user confusion. Furthermore, although some diagrams are included, they lack clarity and comprehensiveness. The maintenance instructions are insufficient, and there is a complete absence of troubleshooting information and contact details for technical support, which are essential for user safety and effective device operation. These deficiencies collectively contribute to the partly compliant status.",
+            "sub_requirements": [
+                {
+                    "description": "Include detailed instructions for the safe and effective use of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some instructions for the safe and effective use of the device, but they are not comprehensive. For example, the 'PX Instructions For Use v4.0' document outlines basic operational steps but lacks detailed safety warnings and troubleshooting guidance that are crucial for ensuring user safety. Additionally, the 'PX Packaging Instruction v3.0' mentions packaging details but does not elaborate on the handling and usage instructions necessary for safe operation. Therefore, while some information is present, it is not sufficient to meet the compliance requirements fully.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Safety Instructions",
+                            "description": "The instructions provided in the 'PX Instructions For Use v4.0' document do not include comprehensive safety warnings or troubleshooting steps necessary for effective use of the device. This could lead to misuse or accidents during operation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Detailed Operational Guidance",
+                            "description": "The 'PX Packaging Instruction v3.0' document provides packaging details but fails to include specific instructions on how to operate the device safely and effectively, which is essential for user compliance and safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if detailed instructions for safe and effective use are included. If instructions are comprehensive and clear, it is compliant. If instructions are vague or incomplete, it is partly compliant. If no instructions are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Safety Instructions",
+                            "description": "Revise the 'PX Instructions For Use v4.0' document to include comprehensive safety warnings, troubleshooting guidance, and detailed operational steps to ensure safe and effective use of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Safety Warnings and Cautions\n\n1. **General Safety Warnings**: \n   - Ensure that the device is used only for its intended purpose as described in the 'Intended Purpose' section of this document. Misuse may lead to inaccurate readings or device malfunction.\n   - Do not use the device if any part is damaged or malfunctioning. Contact customer support for assistance.\n   - The device should not be reused across different patients to prevent cross-contamination and ensure safety.\n\n2. **Electrical Safety**: \n   - The device is powered by a USB-C charger. Ensure that the charger is compatible and in good condition before use. \n   - Avoid using the device in wet or humid conditions to prevent electrical hazards.\n\n3. **Operational Cautions**: \n   - Ensure that the electrodes are properly attached to the skin before use to obtain accurate readings. \n   - Monitor the skin condition where electrodes are applied. If irritation occurs, discontinue use and consult a healthcare professional.\n\n4. **Troubleshooting Guidance**: \n   - If the device fails to power on, check the charger and ensure it is properly connected. If the issue persists, contact customer support.\n   - For inaccurate readings, ensure that the electrodes are securely attached and that the device is calibrated as per the instructions provided.\n\n5. **Maintenance Instructions**: \n   - Clean the device and electrodes after each use according to the cleaning instructions provided in this document to maintain hygiene and performance.\n\n6. **Emergency Procedures**: \n   - In case of an emergency, such as an electrical shock or device malfunction, immediately disconnect the device from the power source and seek medical assistance if necessary.\n\n### Detailed Operational Steps\n\n- **Preparation for Use**: \n   1. Charge the device fully before the first use. \n   2. Ensure all components are clean and dry.\n   3. Attach the electrodes securely to the designated areas on the skin as per the guidelines.\n\n- **Using the Device**: \n   1. Power on the device by pressing the designated button. \n   2. Follow the on-screen instructions to start the recording process. \n   3. Monitor the device during use to ensure proper function and comfort.\n\n- **Post-Use Care**: \n   1. After use, power off the device and disconnect the electrodes. \n   2. Clean the electrodes and device as per the maintenance instructions.\n   3. Store the device in a cool, dry place away from direct sunlight.\n\nThis comprehensive guidance aims to enhance user safety and ensure effective operation of the device."
+                        },
+                        {
+                            "title": "Provide Detailed Operational Guidance",
+                            "description": "Update the 'PX Packaging Instruction v3.0' to include specific instructions on how to operate the device safely and effectively, including any necessary precautions and handling instructions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the 'PX Packaging Instruction v3.0', please include the following detailed operational guidance:\n\n**Operational Instructions for Safe and Effective Use of the ParagitPX Device**\n\n1. **Device Setup**: \n   - Ensure that the workspace is clean and free from any contaminants. \n   - Unpack the device components carefully to avoid damage. \n   - Inspect all components for any visible signs of damage before use.\n\n2. **Connecting the Device**: \n   - Connect the USB-C charger to the device and plug it into a power source. Ensure that the power source is compatible with the device specifications.\n   - Verify that the device is charging by checking the indicator light.\n\n3. **Operational Precautions**: \n   - Do not operate the device in wet or humid conditions to prevent electrical hazards.\n   - Ensure that the device is not exposed to extreme temperatures or direct sunlight during operation.\n   - Always handle the device with dry hands to avoid electrical shock.\n\n4. **Troubleshooting Steps**: \n   - If the device does not power on, check the power connection and ensure that the charger is functioning properly.\n   - If the device malfunctions during use, disconnect it immediately and consult the troubleshooting section in the 'PX Instructions For Use v4.0'.\n\n5. **Post-Use Handling**: \n   - After use, disconnect the device from the power source and clean it according to the cleaning instructions provided in the 'PX Instructions For Use v4.0'.\n   - Store the device in a dry, cool place away from direct sunlight.\n\n6. **User Training**: \n   - Ensure that all users have received proper training on the operation of the device and understand the safety precautions outlined in this document.\n\nPlease replace the existing content in the 'PX Packaging Instruction v3.0' with this comprehensive operational guidance to ensure compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the instructions cover all potential hazards and precautionary measures.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The instructions provided in the 'PX Instructions For Use v4.0' document address several potential hazards and precautionary measures. However, there are notable gaps in the coverage of specific hazards that could arise during the use of the device. For example, while general safety precautions are mentioned, specific scenarios such as misuse or failure modes are not adequately detailed. This leads to a partly compliant status as some hazards are covered, but others are missing or unclear.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Hazard Coverage",
+                            "description": "The instructions do not comprehensively cover all potential hazards associated with the device's use, particularly in scenarios of misuse or failure.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that all potential hazards and precautionary measures are addressed in the instructions. If hazards and precautions are comprehensively covered, it is compliant. If some hazards or precautions are missing or unclear, it is partly compliant. If no hazards or precautions are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist Final v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Hazard Coverage in Instructions",
+                            "description": "Revise the instructions to include detailed descriptions of all potential hazards, including misuse scenarios and failure modes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the 'Instructions for Use' section, please add the following text to enhance hazard coverage:\n\n\"### Potential Hazards and Precautionary Measures\n\n1. **General Safety Precautions**: Always ensure that the device is used in accordance with the intended purpose as described in the product specifications. Misuse of the device may lead to injury or malfunction.\n\n2. **Misuse Scenarios**: \n   - **Incorrect Setup**: Ensure that the device is set up according to the provided instructions. Failure to do so may result in improper functioning or injury. \n   - **Unauthorized Modifications**: Do not modify or attempt to repair the device without manufacturer guidance, as this may compromise safety and effectiveness.\n\n3. **Failure Modes**: \n   - **Power Failure**: In the event of a power failure, the device may not operate as intended. Ensure that backup power sources are available if necessary.\n   - **Component Malfunction**: Regularly inspect the device for any signs of wear or damage. If any components appear damaged, cease use immediately and contact customer support.\n\n4. **Environmental Precautions**: \n   - Avoid exposing the device to extreme temperatures, humidity, or electromagnetic interference, which may affect its performance.\n   - Ensure that the device is kept away from liquids to prevent electrical hazards.\n\n5. **User Training**: Users should receive adequate training on the operation of the device, including how to respond in case of malfunction or emergency situations. \n\n6. **Reporting Incidents**: Any serious incidents related to the device should be reported to the manufacturer and the relevant authorities immediately.\"\n\nPlease ensure to customize the sections marked with [[description]] to reflect specific details relevant to the device and its intended use."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide instructions in the languages accepted in the Member States where the device is marketed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation includes instructions for use and packaging instructions; however, it is unclear if these instructions are available in all necessary languages for the Member States where the device is marketed. For instance, the 'PX Instructions For Use v4.0' document does not specify the languages included, and the 'PX Packaging Instruction v3.0' only mentions compliance with EN ISO standards without detailing language availability. This indicates a potential gap in compliance, as missing translations could lead to user confusion and misuse of the device.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Language Translations",
+                            "description": "The instructions for use and packaging instructions do not explicitly state that they are provided in all required languages for the Member States where the device is marketed. This could lead to non-compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that instructions for use are available in all necessary languages. If instructions are available in the required languages, it is compliant. If some translations are missing or incorrect, it is partly compliant. If no translations are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Ensure Multilingual Instructions",
+                            "description": "Review and update the instructions for use and packaging instructions to ensure they are available in all necessary languages for the Member States where the device is marketed.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The instructions for use and packaging instructions are provided in the following languages, as required by the Member States where the device is marketed: [[list of languages]]. This ensures compliance with the MDR requirements for multilingual documentation. The PX Instructions For Use v4.0 and PX Packaging Instruction v3.0 documents have been updated to explicitly state the availability of these translations."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include illustrations or diagrams to aid understanding if necessary.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation includes some diagrams and illustrations, particularly in the PX Summary of Technical Documentation (STED) v2.0, which depict the key components of the ParagitPX device. However, the clarity and comprehensiveness of these illustrations are questionable. While some diagrams are present, they may not provide sufficient detail or context for all users, particularly those without technical expertise. Therefore, the compliance is graded as partly compliant.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Clarity in Illustrations",
+                            "description": "The diagrams provided in the documentation do not clearly indicate all key parts/components of the device, which may lead to misunderstandings about the device's operation and safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if illustrations or diagrams are provided to aid understanding when necessary. If illustrations are comprehensive and clear, it is compliant. If illustrations are vague or unclear, it is partly compliant. If no illustrations are provided when needed, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "Applicable Standards"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Clarity of Illustrations",
+                            "description": "Revise the existing diagrams and illustrations to ensure they clearly depict all key components and their functions. This should include additional annotations or labels to aid understanding.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clarity of the illustrations and diagrams provided in the technical documentation for the ParagitPX device, we recommend the following revisions: \n\n1. **Add Annotations and Labels**: Each diagram should include clear annotations and labels for all key components of the device. For example, in the diagram depicting the Paragit Recording Unit (PRU), label the sensors for electromyography, movement, and impedance clearly. \n\n2. **Include a Legend**: Introduce a legend that explains any symbols or color codes used in the diagrams. This will assist users in understanding the diagrams without requiring technical expertise. \n\n3. **Provide Contextual Information**: Accompany each diagram with a brief description that explains the function of the depicted components. For instance, 'The Paragit Sleeve (PS) is designed for wearability on upper or lower limbs and is made of breathable, stretchable fabric.' \n\n4. **Use High-Quality Images**: Ensure that all images are of high resolution and clarity to avoid any ambiguity regarding the components. \n\n5. **Simplify Complex Diagrams**: If any diagrams are overly complex, consider breaking them down into simpler parts or providing multiple views to enhance understanding. \n\nBy implementing these changes, the documentation will provide a clearer understanding of the ParagitPX device's components and their functions, thereby improving compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide detailed information on how to install, use, and maintain the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation includes a comprehensive set of instructions for the installation and use of the ParagitPX device. The 'PX Instructions For Use v4.0' document outlines safety warnings, cautions, and symbols necessary for operation. However, it lacks specific detailed steps for maintenance, which is crucial for ensuring the device's longevity and performance. The maintenance section should provide clear guidelines on routine checks, cleaning procedures, and troubleshooting steps.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Maintenance Instructions",
+                            "description": "The 'PX Instructions For Use v4.0' does not include detailed maintenance instructions, which are essential for ensuring the device operates correctly over time.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the IFU include detailed steps for installation, use, and maintenance. Instructions should be easy to follow and comprehensive.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Maintenance Instructions",
+                            "description": "Develop and include a comprehensive section on maintenance in the 'PX Instructions For Use v4.0' document. This section should cover routine maintenance tasks, frequency of maintenance, and any specific tools or materials required.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Maintenance Instructions\n\nTo ensure the optimal performance and longevity of the ParagitPX device, the following maintenance procedures should be adhered to:\n\n1. **Routine Maintenance Tasks**:\n   - **Daily Checks**: Inspect the device for any visible damage or wear. Ensure that all components are securely attached and functioning properly.\n   - **Weekly Cleaning**: Clean the external surfaces of the device using a soft, damp cloth. Avoid using harsh chemicals or abrasive materials that may damage the device.\n   - **Monthly Functional Testing**: Perform a functional test of the device to ensure all features are operating as intended. Document any irregularities.\n\n2. **Frequency of Maintenance**:\n   - Daily checks should be performed before each use.\n   - Weekly cleaning should be done after every use, especially if the device has been exposed to sweat or moisture.\n   - Monthly functional testing should be scheduled at the beginning of each month.\n\n3. **Specific Tools and Materials Required**:\n   - Soft, lint-free cloth for cleaning.\n   - Mild soap solution for disinfecting surfaces.\n   - Calibration tools as specified in the technical documentation.\n\n4. **Troubleshooting Steps**:\n   - If the device fails to power on, check the battery charge and connections.\n   - For connectivity issues, ensure that all cables are securely connected and free from damage.\n   - Refer to the troubleshooting section in the user manual for further guidance on specific error messages or operational issues.\n\nBy following these maintenance instructions, users can help ensure the reliability and effectiveness of the ParagitPX device over time."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include troubleshooting information for common problems and their solutions.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not contain specific troubleshooting information for common problems associated with the ParagitPX device. While the documents provide a general overview of the device and its intended use, they lack practical solutions for potential issues users may encounter. For instance, there is no mention of common errors that users might face during operation or maintenance, nor are there any guidelines on how to resolve these issues. This absence of troubleshooting information could lead to user frustration and improper use of the device, potentially compromising safety and effectiveness.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Troubleshooting Information",
+                            "description": "The documentation fails to provide troubleshooting information for common problems that users may encounter with the ParagitPX device. This is critical for ensuring user safety and effective device operation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation (STED)"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that troubleshooting information for common issues is present and clear. Solutions should be practical and effective.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Troubleshooting Section",
+                            "description": "Create a dedicated section in the documentation that outlines common problems users may face with the ParagitPX device and provides clear, practical solutions for each issue.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation (STED)"
+                                },
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Troubleshooting Section\n\n#### Common Issues and Solutions\n\n1. **Device Does Not Power On**  \n   - **Possible Cause:** Battery may be depleted.  \n   - **Solution:** Charge the ParagitPX using the provided USB-C charger for at least [[duration]] hours. Ensure the charger is properly connected.\n\n2. **Inconsistent Data Collection**  \n   - **Possible Cause:** Poor connection between the Paragit Recording Unit (PRU) and the sleeve or adapter.  \n   - **Solution:** Ensure that the PRU is securely connected to the sleeve or adapter. Check for any visible damage or debris in the connection points.\n\n3. **Electromyography (EMG) Signals Not Detected**  \n   - **Possible Cause:** Incorrect placement of the sleeve or insufficient skin contact.  \n   - **Solution:** Adjust the position of the sleeve to ensure it is snug against the skin. Clean the skin area where the electrodes make contact to improve signal quality.\n\n4. **Device Overheating**  \n   - **Possible Cause:** Extended use or environmental factors.  \n   - **Solution:** Turn off the device and allow it to cool down for at least [[duration]] minutes before resuming use. Avoid using the device in direct sunlight or high-temperature environments.\n\n5. **Data Transfer Issues**  \n   - **Possible Cause:** Faulty USB connection or software issues.  \n   - **Solution:** Check the USB cable for damage and ensure it is properly connected to both the PRU and the computer. Restart the data visualization software and try again.\n\n6. **Skin Irritation or Discomfort**  \n   - **Possible Cause:** Allergic reaction or improper fit of the sleeve.  \n   - **Solution:** Remove the device immediately. If irritation persists, consult a healthcare professional. Ensure the sleeve fits properly and is made of breathable materials.\n\nFor further assistance, please contact Paragit customer support at [[contact information]]."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide contact information for technical support or customer service.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documents reviewed do not contain any contact information for technical support or customer service. This is a critical non-compliance as it prevents users from accessing necessary assistance, which is essential for safe and effective use of the medical device. The absence of this information could lead to misuse or adverse events due to lack of guidance.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Contact Information",
+                            "description": "The documents do not provide any contact details for technical support or customer service, which is a requirement under the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if contact information for technical support or customer service is included. The contact details should be accurate and accessible.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Contact Information",
+                            "description": "Include accurate and accessible contact information for technical support or customer service in the relevant documents.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "For the documents PX Instructions For Use v4.0 and PX Product Label v2.1 (Draft), please include the following contact information for technical support or customer service:\n\n\"For technical support or customer service, please contact:\nParagit Neurotech ApS\nAddress: Grundtvigsvej 6a, 1864 Frederiksberg, Denmark\nEmail: contact@paragit.com\nPhone: [[description]]\nWebsite: https://www.paragit.com/\"\n\nEnsure that this information is clearly visible in both documents to comply with MDR requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The documentation is partly compliant due to several gaps, including insufficient safety instructions, lack of troubleshooting information, and missing contact details for support, which hinder user safety and effective device use."
+        },
+        {
+            "requirement": "Electronic Instructions for Use (eIFU)",
+            "reference": "Regulation (EU) 207/2012",
+            "description": "This requirement pertains to providing electronic instructions for use as an alternative to paper instructions, ensuring accessibility and user convenience.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the eIFU requirement is partly compliant (PC). Each sub-requirement has been assessed as follows: \n1. **Accessibility and User-Friendliness**: The eIFU is accessible but lacks clarity and visual aids, which hinders usability for non-professionals. \n2. **Availability of Access Information**: While there is some information on accessing eIFU, it is vague and lacks specific instructions, leading to confusion. \n3. **User Notification Mechanisms**: There are mechanisms mentioned for updates, but they are not clearly defined, making them unreliable. \n4. **Request System for Paper IFU**: The documentation does not provide a clear process for requesting paper versions, which is required by the MDR. \n5. **Format Accessibility**: The eIFU is in PDF format, generally accessible, but lacks explicit compatibility information for various devices and platforms. Overall, while there are efforts made towards compliance, significant gaps remain in clarity, accessibility, and user support mechanisms.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure that eIFU are easily accessible and user-friendly.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The eIFU provided in the 'PX Instructions For Use v4.0' document is accessible and contains relevant information about the device. However, the usability could be improved as some sections may not be clear to all users, particularly those unfamiliar with medical devices. For instance, while the safety warnings and cautions are listed, the instructions for use could benefit from clearer formatting and more visual aids to enhance user comprehension.",
+                    "non_conformities": [
+                        {
+                            "title": "Usability Issues in Instructions for Use",
+                            "description": "The instructions for use contain complex terminology and lack sufficient visual aids, which may hinder user comprehension, especially for non-professionals.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if eIFU are accessible and user-friendly. If eIFU are easily accessible and comprehensible, it is compliant. If accessibility or usability issues are present, it is partly compliant. If eIFU are not provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Improve Usability of Instructions for Use",
+                            "description": "Revise the instructions for use to enhance clarity and usability for all potential users, particularly those without a medical background.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the usability of the Instructions for Use (IFU) for the ParagitPX device, the following revisions are proposed:\n\n1. **Simplification of Terminology**: Review the entire document to replace complex medical terminology with simpler, more accessible language. For example, replace terms like 'electromyography' with 'muscle activity measurement' where appropriate. \n\n2. **Incorporation of Visual Aids**: Add diagrams, flowcharts, or images to illustrate key steps in the usage process. For instance, include a labeled diagram showing the correct placement of the device components on the body.\n\n3. **Clear Formatting**: Use bullet points, numbered lists, and headings to break down information into digestible sections. For example, safety warnings should be clearly separated from usage instructions, and each step in the usage process should be numbered for clarity.\n\n4. **User Testing Feedback**: Incorporate feedback from usability testing conducted with potential users, especially those without a medical background. Summarize findings and adjustments made based on this feedback in a dedicated section.\n\n5. **Multilingual Support**: Ensure that the IFU is available in all relevant languages for the markets where the device will be sold. Include a statement indicating the availability of translations.\n\n6. **Accessibility Features**: Consider adding features such as larger print options or audio instructions for users with visual impairments. Include a note in the IFU about these options.\n\nBy implementing these changes, the IFU will be more user-friendly and accessible, thereby improving user comprehension and compliance with the device's intended use."
+                        }
+                    ]
+                },
+                {
+                    "description": "Verify compliance with requirements for availability, including providing information about accessing eIFU.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documents reviewed provide some information regarding the accessing of electronic Instructions for Use (eIFU), but the details are not comprehensive. For instance, the 'PX Instructions For Use v4.0' mentions eIFU access but lacks specific instructions on how users can access these resources. This vagueness leads to a partly compliant status as the information provided does not fully meet the clarity and comprehensiveness required by the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient eIFU Access Information",
+                            "description": "The documentation does not provide clear and comprehensive instructions on how users can access the eIFU. This lack of clarity can lead to confusion among users, potentially impacting their ability to safely use the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that users are given clear information on accessing eIFU. If access information is clear and comprehensive, it is compliant. If access information is vague or incomplete, it is partly compliant. If no access information is provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance eIFU Access Instructions",
+                            "description": "Revise the documentation to include clear and detailed instructions on how users can access the eIFU. This should include specific URLs, QR codes, or other methods of access that are user-friendly.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance user access to the electronic Instructions for Use (eIFU), please include the following detailed instructions in the 'PX Instructions For Use v4.0':\n\n\"Users can access the electronic Instructions for Use (eIFU) for the ParagitPX device by visiting the following URL: [[insert specific URL]]. Alternatively, users can scan the QR code provided on the device packaging or in the accompanying documentation to be directed to the eIFU. For any difficulties accessing the eIFU, please contact our customer support at [[insert contact information]].\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Include mechanisms for ensuring that users are aware of updates to the eIFU.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some mechanisms for informing users about updates to the electronic Instructions for Use (eIFU), but these mechanisms are not clearly defined or detailed enough to ensure reliability. For instance, while the PMS Plan mentions the importance of maintaining the currency of the instructions for use, it lacks specific procedures or channels through which users will be notified of updates. This ambiguity leads to a partly compliant status as the mechanisms are present but not adequately detailed.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Clear Notification Mechanisms",
+                            "description": "The documents do not specify clear and reliable mechanisms for notifying users about updates to the eIFU. This is critical as users need to be informed about any changes that could affect the safe and effective use of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if mechanisms are in place to inform users about updates to eIFU. If update mechanisms are clear and functional, it is compliant. If update mechanisms are unclear or unreliable, it is partly compliant. If no update mechanisms are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMCF Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Define Notification Procedures for eIFU Updates",
+                            "description": "Develop and document clear procedures for notifying users about updates to the eIFU. This should include the methods of communication, frequency of updates, and the responsibilities of personnel involved in the notification process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure that users are adequately informed about updates to the electronic Instructions for Use (eIFU), the following notification procedures will be implemented:\n\n1. **Notification Methods**: Users will be notified of updates to the eIFU through the following channels:\n   - Email notifications sent to registered users, detailing the nature of the updates and any actions required.\n   - Updates will be posted on the official website [[insert website URL]] with a dedicated section for eIFU updates.\n   - Notifications will also be included in the product packaging for devices shipped after the update.\n\n2. **Frequency of Updates**: Updates to the eIFU will be communicated to users as they occur, with a summary of changes provided at least once every six months, or more frequently if significant changes are made that affect the safe and effective use of the device.\n\n3. **Responsibilities**: The following personnel are responsible for the notification process:\n   - **Regulatory Affairs Manager**: Oversee the notification process and ensure compliance with regulatory requirements.\n   - **Marketing Team**: Responsible for the dissemination of email notifications and updates on the website.\n   - **Customer Support Team**: Handle inquiries from users regarding updates and provide assistance as needed.\n\n4. **Documentation of Notifications**: All notifications will be documented, including the date of notification, method of communication, and the content of the update. This documentation will be reviewed during internal audits to ensure compliance with the post-market surveillance plan.\n\nThese procedures will be reviewed and updated annually or as required based on feedback from users and regulatory changes."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide a system for users to request paper versions of the IFU if needed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation includes instructions for use (IFU) that are accessible electronically, but it lacks a clear, documented process for users to request paper versions of the IFU. While the IFU is available in a digital format, the absence of a straightforward, free-of-charge request system for paper versions does not fully comply with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Request System for Paper IFU",
+                            "description": "The documentation does not provide a clear process for users to request paper versions of the IFU, which is required for compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that there is a system in place for users to request paper versions of the IFU. The process should be easy and free of charge.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Request System for Paper IFU",
+                            "description": "Develop and document a system that allows users to easily request paper versions of the IFU. This system should be free of charge and clearly communicated to users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding the provision of Instructions for Use (IFU), the following process is established for users to request paper versions of the IFU:\n\n1. Users can request a paper version of the IFU by contacting our customer service team via email at [[customer_service_email]] or by calling [[customer_service_phone]].\n\n2. The request for a paper IFU will be processed free of charge.\n\n3. Upon receiving the request, we will confirm the user's details and promptly send the requested paper IFU to the provided mailing address within [[number of days]] business days.\n\n4. This process will be clearly communicated in the digital version of the IFU, ensuring that users are aware of their right to request a paper copy.\n\n5. Additionally, a notice will be included in the packaging of the device, informing users of the availability of a paper IFU upon request.\n\nThis system is designed to ensure that all users have access to the necessary information to use the device safely and effectively, in accordance with the requirements set forth in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure that the eIFU are in a format that is accessible on a wide range of devices and platforms.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The eIFU provided in the 'PX Instructions For Use v4.0' document is in PDF format, which is generally accessible on various devices such as computers, tablets, and smartphones. However, there is no explicit mention of compatibility with specific platforms or devices, which raises concerns about its accessibility for all potential users. Additionally, the 'PX Packaging Instruction v3.0' and 'PX Product Label v2.1' documents do not provide eIFU content, which is critical for ensuring comprehensive accessibility. Therefore, while the existing eIFU is partly compliant, further enhancements are needed to ensure full compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Explicit Compatibility Information",
+                            "description": "The eIFU does not specify compatibility with various devices and platforms, which is essential for ensuring accessibility for all users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Missing eIFU in Other Documents",
+                            "description": "The 'PX Packaging Instruction v3.0' and 'PX Product Label v2.1' do not contain any eIFU content, which is necessary for comprehensive user guidance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the eIFU are provided in formats that are accessible on various devices (e.g., computers, tablets, smartphones) and platforms. If the formats are compatible and readable, it is compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance eIFU Compatibility Information",
+                            "description": "Update the eIFU to include specific details regarding compatibility with various devices and platforms to ensure accessibility for all users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the 'PX Instructions For Use v4.0' document, add the following section to explicitly state compatibility information:\n\n---\n\n**Compatibility Information**\n\nThe electronic Instructions for Use (eIFU) provided in this document are designed to be accessible on a wide range of devices and platforms. The eIFU is compatible with the following devices and platforms:\n\n- **Desktop Computers:** Windows (version 10 and above), macOS (version 10.14 and above)\n- **Tablets:** iOS (version 12 and above), Android (version 8 and above)\n- **Smartphones:** iOS (version 12 and above), Android (version 8 and above)\n\nThe eIFU is available in PDF format, which can be viewed using standard PDF readers available on these platforms. For optimal viewing, it is recommended to use the latest version of Adobe Acrobat Reader or similar PDF viewing applications.\n\n---\n\nPlease ensure to review and update the compatibility information as necessary to reflect any additional devices or platforms that may be relevant to your users."
+                        },
+                        {
+                            "title": "Include eIFU in Packaging and Labeling Documents",
+                            "description": "Ensure that the eIFU is included or referenced in the packaging and labeling documents to provide comprehensive user guidance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the 'PX Packaging Instruction v3.0' document, add the following text to ensure comprehensive user guidance regarding the eIFU:\n\n\"The electronic Instructions for Use (eIFU) for the ParagitPX device are accessible in PDF format, which is compatible with a wide range of devices including computers, tablets, and smartphones. For optimal accessibility, users are encouraged to access the eIFU via the following platforms: [[list specific platforms, e.g., Windows, macOS, iOS, Android]].\n\nAdditionally, the eIFU can be accessed through the following link: [[insert link to eIFU]]. Users should ensure that their devices meet the minimum requirements for PDF viewing to facilitate a seamless experience.\"\n\nFurthermore, in the 'PX Product Label v2.1' document, include a reference to the eIFU:\n\n\"For detailed instructions on the use of the ParagitPX device, please refer to the electronic Instructions for Use (eIFU) available at [[insert link to eIFU]]. This document provides essential information for safe and effective use of the device.\"\n\nThese additions will enhance the accessibility of the eIFU and ensure that users have comprehensive guidance."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The eIFU is partly compliant due to usability issues, vague access information, unclear update mechanisms, lack of a request system for paper IFUs, and insufficient compatibility details for various devices."
+        }
+    ]
+}

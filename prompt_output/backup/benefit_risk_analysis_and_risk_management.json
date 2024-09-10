@@ -1,0 +1,1396 @@
+{
+    "requirements": [
+        {
+            "requirement": "Benefit-Risk Analysis",
+            "reference": "MDR Annex I, Chapter I, Section 1 and 8",
+            "description": "This requirement involves conducting a thorough benefit-risk analysis to ensure that the benefits of the device outweigh any potential risks when used as intended.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the Benefit-Risk Analysis requirement is 'Partly Compliant' (PC). Each sub-requirement has been assessed as follows: \n\n1. **Intended Benefits**: The documentation identifies some intended benefits, such as objective data acquisition for muscular performance, but lacks comprehensive details on clinical outcomes and operational efficiencies. This results in a 'Partly Compliant' (PC) grade due to incomplete documentation of intended benefits. \n\n2. **Potential Risks**: The risk management plan identifies several potential risks but lacks detailed descriptions of mitigation strategies and residual risks. This leads to a 'Partly Compliant' (PC) grade as not all risks are adequately documented. \n\n3. **Benefit-Risk Analysis**: The analysis outlines risks and benefits but lacks quantitative assessments to support the qualitative conclusions, resulting in a 'Partly Compliant' (PC) grade. \n\n4. **Conclusions of the Analysis**: The conclusions are documented but lack comprehensive detail on uncertainties and assumptions, leading to another 'Partly Compliant' (PC) grade. \n\nOverall, the documentation demonstrates an effort to address the benefit-risk analysis but falls short in several critical areas, particularly in providing comprehensive details and quantitative support, which are essential for full compliance with MDR requirements.",
+            "sub_requirements": [
+                {
+                    "description": "Identify and document the intended benefits of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation identifies some intended benefits of the Paragit PX device, such as providing objective data acquisition for muscular performance and movement analysis. However, the benefits are not comprehensively detailed, particularly in terms of specific clinical outcomes or operational efficiencies. While the clinical evaluation report mentions the potential for enhancing well-being and supporting research, it lacks concrete examples of patient outcomes or operational efficiencies that could be derived from the device's use.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Documentation of Intended Benefits",
+                            "description": "The documentation does not provide a comprehensive analysis of the intended clinical benefits, patient outcomes, or operational efficiencies associated with the Paragit PX device. This lack of detail may hinder the understanding of the device's full potential and its impact on patient care.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX Clinical Evaluation Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the intended benefits of the device are identified and documented. This includes clinical benefits, patient outcomes, and operational efficiencies. If the benefits are comprehensive and clear, it is compliant. If the benefits are vague or incomplete, it is partly compliant. If no benefits are documented, it is non-compliant.",
+                    "examples": [
+                        "Clinical benefit analysis",
+                        "Patient outcome studies",
+                        "Operational efficiency reports"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "PX Risk Management Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Documentation of Intended Benefits",
+                            "description": "Revise the documentation to include a comprehensive analysis of the intended benefits of the Paragit PX device, specifically focusing on clinical benefits, patient outcomes, and operational efficiencies.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the documentation of the intended benefits of the Paragit PX device, please include the following comprehensive analysis:\n\n\"The Paragit PX device is designed to provide significant clinical benefits, including but not limited to:\n\n1. **Objective Data Acquisition**: The device enables healthcare professionals and researchers to obtain precise and objective data on muscular performance and movement patterns, facilitating accurate assessments of muscle function and activity.\n\n2. **Improved Patient Outcomes**: By utilizing the Paragit PX, clinicians can monitor and analyze muscle activation in patients, leading to tailored rehabilitation programs that enhance recovery and improve overall patient outcomes. For instance, studies have shown that targeted muscle training based on EMG feedback can lead to faster recovery times and improved functional abilities in patients with movement disorders.\n\n3. **Operational Efficiencies**: The integration of the Paragit PX into clinical practice can streamline the assessment process, reducing the time required for evaluations and allowing for more efficient patient management. This efficiency can lead to increased patient throughput and better resource allocation within healthcare settings.\n\n4. **Support for Research and Development**: The device serves as a valuable tool for researchers investigating muscle dynamics and neuromuscular control, contributing to advancements in sports science and rehabilitation methodologies. The data collected can support clinical trials and studies aimed at improving treatment protocols.\n\n5. **Enhanced User Experience**: The user-friendly design of the Paragit PX ensures ease of use for both healthcare professionals and patients, promoting adherence to prescribed exercise regimens and facilitating better engagement in rehabilitation programs.\n\nIn summary, the Paragit PX device not only enhances the understanding of muscle activity but also plays a crucial role in improving patient care and operational efficiencies within clinical settings. Further details on specific clinical outcomes and operational efficiencies can be referenced in the Clinical Evaluation Report (PX 2024-03) and the Intended Purpose document (PX Intended Purpose v4.0).\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and document all potential risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a comprehensive risk management plan and risk analysis that identifies several potential risks associated with the Paragit PX device. However, while 59 hazards were identified, the documentation lacks detailed descriptions of how each risk is mitigated, and some risks may not be fully addressed. For instance, the risk management documentation does not clearly articulate the residual risks after mitigation measures have been applied, which is essential for demonstrating compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Risk Mitigation Documentation",
+                            "description": "The risk management documentation does not provide sufficient detail on the mitigation strategies for all identified risks, particularly regarding the residual risks after mitigation measures are applied.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Comprehensive Risk Assessment",
+                            "description": "The risk assessment does not adequately cover all potential risks associated with the device, particularly those that may arise from long-term use or specific user scenarios.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that all potential risks associated with the device are identified and documented. This includes reviewing risk management files, hazard analysis, and clinical data. If all risks are identified and documented, it is compliant. If some risks are missing or not well-documented, it is partly compliant. If significant risks are missing, it is non-compliant.",
+                    "examples": [
+                        "Risk management files",
+                        "Hazard analysis reports",
+                        "Clinical data"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Risk Mitigation Strategies",
+                            "description": "Review and enhance the documentation of risk mitigation strategies for all identified risks, ensuring that each risk has a clearly defined mitigation approach and that residual risks are documented.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the risk mitigation strategies for the Paragit PX device, the following text should be added to the Risk Management Plan and Risk Analysis documents:\n\n\"For each identified risk, the following mitigation strategies have been implemented:\n\n1. **Risk Description**: [[description of the risk]]\n   - **Mitigation Strategy**: [[detailed description of the mitigation measures taken]]\n   - **Residual Risk Assessment**: After implementing the above mitigation measures, the residual risk has been evaluated as [[description of the residual risk level]] and is deemed acceptable based on the criteria defined in the risk management plan.\n\nThis approach ensures that all risks are adequately addressed, and the documentation reflects a comprehensive understanding of both the mitigation strategies and the residual risks associated with the device. Each risk should be clearly documented in the risk management file to demonstrate compliance with the MDR requirements.\""
+                        },
+                        {
+                            "title": "Conduct Comprehensive Risk Assessment",
+                            "description": "Perform a comprehensive risk assessment that includes all potential risks associated with the device, particularly those that may arise from long-term use or specific user scenarios.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure a comprehensive risk assessment, the following text should be added to the Risk Management Plan and Biological Risk Assessment documents:\n\n\"The comprehensive risk assessment for the Paragit PX device has been conducted in accordance with the requirements of EN ISO 14971:2019/A11:2021 and EN ISO 10993-1:2020. This assessment includes an evaluation of all potential risks associated with the device, particularly those that may arise from long-term use and specific user scenarios. Each identified risk has been analyzed, and detailed mitigation strategies have been documented. \n\nFor each risk, the following information is provided:\n1. **Risk Identification**: A comprehensive list of all identified risks, including those associated with long-term use and specific user scenarios.\n2. **Risk Evaluation**: An assessment of the probability and severity of each risk, including the potential impact on users and patients.\n3. **Mitigation Strategies**: Detailed descriptions of the measures taken to mitigate each identified risk, including any testing or validation performed to support these measures.\n4. **Residual Risk Assessment**: A clear articulation of the residual risks that remain after mitigation measures have been applied, along with justification for their acceptability based on the benefit-risk ratio. \n\nThis comprehensive approach ensures that all potential risks are adequately addressed and documented, thereby demonstrating compliance with the MDR requirements. The Risk Management Team will review and update this assessment regularly, particularly in response to new information from post-market surveillance activities.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Conduct a benefit-risk analysis, comparing the identified benefits and risks.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a benefit-risk analysis that outlines the risks associated with the ParagitPX medical device. However, while the risks are identified and evaluated, the analysis lacks comprehensive quantitative assessments that would strengthen the justification of the benefit-risk ratio. The qualitative assessments are present but do not fully support a favorable conclusion without the quantitative backing. Therefore, it is partly compliant with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Quantitative Assessment in Benefit-Risk Analysis",
+                            "description": "The benefit-risk analysis does not include sufficient quantitative data to support the qualitative assessments provided. This is crucial for demonstrating a favorable benefit-risk ratio as required by the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-01 Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-01 Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that a benefit-risk analysis is conducted, comparing the identified benefits and risks. This includes quantitative and qualitative assessments. If the analysis is comprehensive and supports a favorable benefit-risk ratio, it is compliant. If the analysis is incomplete or unclear, it is partly compliant. If no analysis is provided, it is non-compliant.",
+                    "examples": [
+                        "Benefit-risk analysis reports",
+                        "Quantitative assessments",
+                        "Qualitative assessments"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 Risk Analysis (product)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Benefit-Risk Analysis with Quantitative Data",
+                            "description": "Revise the benefit-risk analysis to include quantitative assessments that clearly demonstrate the benefits outweigh the risks. This should involve statistical data, numerical evaluations, and any relevant metrics that can substantiate the claims made in the qualitative assessments.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-01 Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-01 Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the benefit-risk analysis, the following quantitative assessments should be included:\n\n1. **Statistical Data**: Provide numerical data that quantifies the benefits of the ParagitPX medical device. This could include metrics such as:\n   - Percentage improvement in patient outcomes based on clinical studies.\n   - Reduction in the incidence of adverse events compared to existing alternatives.\n   - Statistical significance of the results obtained from clinical trials (e.g., p-values, confidence intervals).\n\n2. **Risk Evaluation Metrics**: Include quantitative evaluations of the identified risks, such as:\n   - The probability of occurrence of each identified risk, categorized by severity (e.g., low, medium, high).\n   - Historical data on the frequency of adverse events associated with similar devices, if available.\n   - Cost-benefit analysis demonstrating the economic advantages of using ParagitPX compared to the costs associated with potential risks.\n\n3. **Benefit-Risk Ratio Calculation**: Clearly articulate the benefit-risk ratio using the collected quantitative data. This should include:\n   - A formula or method used to calculate the benefit-risk ratio, incorporating both the benefits and the quantified risks.\n   - A summary table that presents the benefits, risks, and the resulting ratio, making it easy to visualize the overall assessment.\n\n4. **Visual Representations**: Consider including graphs or charts that illustrate the quantitative data, such as:\n   - Bar graphs comparing the benefits and risks.\n   - Pie charts showing the proportion of benefits versus risks.\n\nBy integrating these quantitative assessments into the benefit-risk analysis, the documentation will provide a more robust justification for the favorable benefit-risk ratio, aligning with the requirements set forth in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document the conclusions of the benefit-risk analysis, including any uncertainties or assumptions.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The benefit-risk analysis is documented in the 'PX 2024-04-01 Risk Management Report v3.0'. It outlines that all risks have been reviewed and reduced to an acceptable level, but it lacks comprehensive detail on specific uncertainties or assumptions made during the analysis. While the overall conclusions are present, they are somewhat vague and do not fully address the nuances of the uncertainties involved, which is why it is graded as partly compliant.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Detailed Uncertainty Analysis",
+                            "description": "The benefit-risk analysis does not sufficiently document uncertainties or assumptions made during the evaluation process. This is critical as it can affect the perceived safety and efficacy of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-01 Risk Management Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the conclusions of the benefit-risk analysis are documented, including any uncertainties or assumptions. If the conclusions are comprehensive and clear, it is compliant. If the conclusions are vague or incomplete, it is partly compliant. If no conclusions are documented, it is non-compliant.",
+                    "examples": [
+                        "Benefit-risk analysis conclusions",
+                        "Uncertainty analysis",
+                        "Assumption documentation"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 Risk Analysis (product)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Benefit-Risk Analysis Documentation",
+                            "description": "Revise the benefit-risk analysis documentation to include a more detailed account of uncertainties and assumptions made during the evaluation process. This should encompass specific scenarios that could impact the safety and efficacy of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-01 Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the benefit-risk analysis documentation, the following text should be added to the 'PX 2024-04-01 Risk Management Report v3.0':\n\n\"In the benefit-risk analysis conducted for the ParagitPX medical device, several uncertainties and assumptions were identified that could impact the perceived safety and efficacy of the device. These include:\n\n1. **Assumption of User Competence**: It is assumed that users will follow the instructions for use (IFU) correctly. Any deviation from the IFU could lead to unintended risks.\n\n2. **Environmental Variability**: The analysis assumes that the device will be used in a controlled environment. Variability in environmental conditions (e.g., temperature, humidity) may affect device performance and safety.\n\n3. **Long-term Use Effects**: The benefit-risk analysis is based on short-term data. Long-term effects of the device usage are not fully understood, and ongoing post-market surveillance will be essential to monitor these effects.\n\n4. **Cybersecurity Risks**: While cybersecurity measures have been implemented, the evolving nature of cyber threats introduces uncertainty regarding the device's vulnerability to attacks that could compromise patient safety.\n\n5. **Market Variability**: The analysis assumes a stable market environment. Changes in market dynamics, such as the introduction of competing products or regulatory changes, could impact the benefit-risk ratio.\n\nThese uncertainties will be monitored through ongoing post-market surveillance and risk management activities, ensuring that any emerging risks are promptly addressed. The risk management team will review these assumptions periodically and update the benefit-risk analysis as necessary.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The Benefit-Risk Analysis documentation is partly compliant due to incomplete details on intended benefits, insufficient risk mitigation documentation, lack of quantitative data in the benefit-risk analysis, and vague conclusions regarding uncertainties."
+        },
+        {
+            "requirement": "Risk Management System",
+            "reference": "MDR Annex I, Chapter I, Section 3 and ISO 14971",
+            "description": "This requirement involves implementing a comprehensive risk management system to identify, evaluate, control, and monitor risks associated with the device throughout its lifecycle.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the risk management system is partly compliant (PC). While several sub-requirements demonstrate adherence to the MDR and ISO 14971, there are notable gaps that prevent full compliance. For instance, the risk management plan is established but lacks comprehensive details on the ongoing monitoring of residual risks and the clarity of responsibilities among team members. Additionally, while risks are identified, the documentation does not cover all foreseeable risks adequately, particularly in specific use cases. The implementation of risk control measures is evident, but there is a lack of effectiveness evaluations for these measures. Furthermore, the monitoring and review processes for risk control measures are limited, with a two-year review cycle that may not be sufficient. However, the documentation does adequately document residual risks and confirms that they are acceptable when weighed against the benefits. Overall, the risk management system requires enhancements in documentation completeness, clarity, and monitoring frequency to achieve full compliance.",
+            "sub_requirements": [
+                {
+                    "description": "Establish a risk management plan in accordance with ISO 14971.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The risk management plan is established and outlines the risk management process in accordance with ISO 14971. However, there are some minor deviations in the documentation regarding the completeness of risk control measures and the clarity of responsibilities assigned to team members. For instance, while the plan includes a comprehensive risk analysis, it lacks detailed documentation on how residual risks are monitored post-market, which is crucial for ongoing compliance.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Risk Control Measures",
+                            "description": "The risk management plan does not fully detail the ongoing monitoring of residual risks after the implementation of risk control measures, which is essential for compliance with ISO 14971.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Clarity in Responsibilities",
+                            "description": "The responsibilities of the risk management team members are not clearly defined in the documentation, which may lead to confusion in the execution of risk management activities.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if a risk management plan is established in accordance with ISO 14971. This includes defining the scope, responsibilities, and activities for risk management. If the plan is comprehensive and follows ISO 14971, it is compliant. If there are minor deviations, it is partly compliant. If the plan is not established or significantly deviates from ISO 14971, it is non-compliant.",
+                    "examples": [
+                        "Risk management plan",
+                        "Scope definition",
+                        "Responsibility assignments"
+                    ],
+                    "relevant_documents": [
+                        "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Monitoring of Residual Risks",
+                            "description": "Develop a detailed plan for the ongoing monitoring of residual risks post-market to ensure compliance with ISO 14971.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the ongoing monitoring of residual risks post-market, the following detailed plan will be added to the Risk Management Plan:\n\n\"The ongoing monitoring of residual risks will be conducted through a systematic approach that includes:\n1. **Periodic Review**: The Risk Management Team will conduct a review of the residual risks at least annually, or more frequently if significant changes occur in the product or its usage.\n2. **Data Collection**: Information will be gathered from various sources including customer feedback, incident reports, and post-market surveillance activities to assess the effectiveness of risk control measures.\n3. **Risk Indicators**: Specific indicators will be established to monitor the performance of the device and any emerging risks. These indicators will be reviewed regularly to ensure they remain relevant.\n4. **Action Plan**: If any residual risks are identified as unacceptable during the monitoring process, an action plan will be developed to address these risks, which may include additional risk control measures or modifications to the product.\n5. **Documentation**: All findings from the monitoring activities will be documented in the Risk Management File, ensuring traceability and compliance with ISO 14971 standards.\"\n\nThis plan will ensure that the manufacturer maintains compliance with ISO 14971 by actively managing and mitigating residual risks throughout the product lifecycle."
+                        },
+                        {
+                            "title": "Clarify Responsibilities of Risk Management Team",
+                            "description": "Revise the documentation to clearly define the roles and responsibilities of each member of the risk management team.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance clarity regarding the responsibilities of the risk management team, the following text should be added to the Risk Management Plan:\n\n\"### Roles and Responsibilities of the Risk Management Team\nThe Risk Management Team is composed of the following members, each with defined roles and responsibilities to ensure effective risk management:\n\n1. **Risk Manager**: Responsible for overseeing the entire risk management process, ensuring compliance with ISO 14971, and coordinating the activities of the risk management team.\n\n2. **Risk Assessment Specialist**: Tasked with conducting risk assessments, identifying potential hazards, and evaluating risks associated with the medical device throughout its lifecycle.\n\n3. **Quality Assurance Officer**: Ensures that all risk management activities comply with the quality management system and relevant regulatory requirements.\n\n4. **Post-Market Surveillance Coordinator**: Responsible for monitoring and evaluating residual risks post-market, collecting data on device performance, and updating the risk management file accordingly.\n\n5. **Clinical Affairs Representative**: Engages in the clinical evaluation process, ensuring that clinical data is integrated into the risk management activities and that any clinical risks are adequately addressed.\n\nEach member of the team is accountable for their respective areas and must collaborate to ensure that all identified risks are managed effectively and that the overall residual risk is acceptable. Regular meetings will be held to review risk management activities and update responsibilities as necessary.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and document all known and foreseeable risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a Risk Management Plan and a Biological Risk Assessment. The Risk Management Plan outlines the process for identifying and evaluating risks, but it lacks comprehensive documentation of all known and foreseeable risks associated with the device. The Biological Risk Assessment indicates that the materials used have a long history of safe use, but it does not sufficiently detail the specific risks associated with the device's intended use. Therefore, while some risks are identified, the documentation is partly compliant as it does not cover all foreseeable risks adequately.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Risk Identification",
+                            "description": "The Risk Management Plan does not fully document all known and foreseeable risks associated with the device, particularly in relation to specific use cases and potential misuse.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Biological Risk Assessment",
+                            "description": "The Biological Risk Assessment lacks detailed evaluations of potential biological hazards that could arise from the device's use, particularly in specific patient populations or conditions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that all known and foreseeable risks associated with the device are identified and documented. This includes hazard identification, risk estimation, and risk evaluation. If all risks are identified and documented, it is compliant. If some risks are missing or not well-documented, it is partly compliant. If significant risks are missing, it is non-compliant.",
+                    "examples": [
+                        "Hazard identification records",
+                        "Risk estimation reports",
+                        "Risk evaluation documents"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Report v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Report v3.0 (Published).pdf",
+                            "short_name": "Risk Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Risk Identification Process",
+                            "description": "Review and update the Risk Management Plan to ensure that all known and foreseeable risks associated with the device are identified and documented comprehensively.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the Risk Management Plan, the following text should be added:\n\n\"The Risk Management Plan has been updated to include a comprehensive identification of all known and foreseeable risks associated with the device, particularly in relation to specific use cases and potential misuse. This includes:\n\n1. **Hazard Identification**: A detailed list of hazards associated with the device, categorized by their nature (e.g., mechanical, electrical, biological, etc.) and the context of use. Each hazard will be assessed for its potential impact on patients, users, and third parties.\n\n2. **Risk Estimation**: For each identified hazard, the likelihood of occurrence and the severity of consequences will be estimated using a standardized risk matrix. This will include considerations for both intended use and reasonably foreseeable misuse scenarios.\n\n3. **Risk Evaluation**: The risks will be evaluated against predefined acceptance criteria to determine whether they are acceptable or require further mitigation measures. This evaluation will take into account the benefit-risk ratio and the overall safety profile of the device.\n\n4. **Documentation of Use Cases**: Specific use cases will be documented to illustrate how the device is intended to be used, including any potential misuse scenarios that could lead to increased risk. This will ensure that all foreseeable risks are captured and addressed in the risk management process.\n\n5. **Continuous Monitoring**: The risk management process will be iterative, with regular reviews and updates based on new information from post-market surveillance, user feedback, and any incidents reported. This will ensure that the risk management plan remains relevant and effective throughout the lifecycle of the device.\"\n\nPlease ensure to fill in any specific details relevant to your device and its intended use where indicated."
+                        },
+                        {
+                            "title": "Expand Biological Risk Assessment",
+                            "description": "Revise the Biological Risk Assessment to include a more detailed evaluation of potential biological hazards associated with the device's intended use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the Biological Risk Assessment, the following text should be added:\n\n\"This Biological Risk Assessment has been expanded to include a comprehensive evaluation of potential biological hazards associated with the intended use of the Paragit PX device. The assessment now includes detailed analyses of the following biological effects:\n\n1. **Cytotoxicity**: Evaluated according to ISO 10993-5, with specific attention to the potential cytotoxic effects of the device materials on human cells.\n2. **Skin Irritation and Sensitization**: Assessed in accordance with ISO 10993-10, focusing on the potential for skin irritation and allergic reactions in patients with varying skin sensitivities.\n3. **Systemic Toxicity**: A thorough evaluation of systemic toxicity has been conducted, considering the potential for adverse effects resulting from the device's materials when used as intended.\n4. **Hemocompatibility**: An assessment of the device's interaction with blood components, ensuring that it does not induce adverse reactions in patients who may require blood contact.\n5. **Long-term Effects**: Consideration of the long-term effects of prolonged exposure to the device materials, particularly for patients with chronic conditions that may require extended use of the device.\n\nThe evaluation process has included a review of existing literature and data on the materials used in the device, ensuring that all known and foreseeable risks are documented. Any identified gaps in data will be addressed through additional testing or literature review as necessary. This comprehensive approach ensures that the biological safety of the Paragit PX device is thoroughly assessed and documented, aligning with the requirements set forth in EN ISO 10993-1 and EN ISO 14971.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement risk control measures to mitigate identified risks.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that risk control measures have been implemented to mitigate identified risks, including cybersecurity risks. However, while the risk management report states that all risks are reduced to an acceptable level, it lacks comprehensive records of the effectiveness evaluations of these measures. For instance, while the Risk Management Report mentions that risks are controlled according to post-market and clinical follow-up guides, it does not provide detailed effectiveness evaluations for each risk control measure implemented, which is essential for full compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Effectiveness Evaluations",
+                            "description": "The documentation does not provide sufficient records of effectiveness evaluations for the implemented risk control measures. This is critical as it directly impacts the assessment of whether the risks have been adequately mitigated.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that risk control measures are implemented to mitigate identified risks. This includes reviewing risk control options, implementation records, and effectiveness evaluations. If risk control measures are comprehensive and effective, it is compliant. If some measures are missing or not fully effective, it is partly compliant. If significant measures are missing or ineffective, it is non-compliant.",
+                    "examples": [
+                        "Risk control options",
+                        "Implementation records",
+                        "Effectiveness evaluations"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "Final Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Comprehensive Effectiveness Evaluations",
+                            "description": "Perform detailed evaluations of the effectiveness of all implemented risk control measures to ensure they adequately mitigate the identified risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To address the identified non-conformity regarding the lack of effectiveness evaluations for implemented risk control measures, the following text should be added to the Risk Management Report and Risk Management Plan:\n\n\"Effectiveness Evaluations of Risk Control Measures:\n\nFor each implemented risk control measure, a detailed effectiveness evaluation has been conducted to assess its impact on mitigating the identified risks. The evaluations include:\n\n1. **Description of the Risk Control Measure**: [[description of the risk control measure]]\n2. **Evaluation Methodology**: The effectiveness of the risk control measure was evaluated using [[description of the methodology used, e.g., statistical analysis, user feedback, testing results]].\n3. **Results of the Evaluation**: The results indicate that the risk control measure [[description of the results, e.g., significantly reduced the risk, maintained the risk at an acceptable level]].\n4. **Conclusion**: Based on the evaluation, it is concluded that the risk control measure is effective in mitigating the identified risk to an acceptable level, as defined in the risk management plan.\n\nThis evaluation will be reviewed periodically, and updates will be made as necessary to ensure ongoing compliance with the MDR requirements.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Monitor and review the effectiveness of risk control measures.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for post-market surveillance (PMS) and post-market clinical follow-up (PMCF) plans, which are essential for monitoring the effectiveness of risk control measures. However, the frequency of reviews and updates appears to be limited to a two-year cycle, which may not be sufficient to ensure timely responses to emerging risks or changes in the clinical landscape. Additionally, while the PMS plan outlines responsibilities and activities, it lacks specific indicators and threshold values for continuous reassessment of the benefit-risk analysis, which is critical for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Frequency of Reviews",
+                            "description": "The PMS and PMCF plans indicate a review cycle of two years, which may not adequately address emerging risks or changes in clinical data. This could lead to delayed responses to safety concerns.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMSP230220-01 PMS Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMCF240220-01 PMCF Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Specific Indicators for Risk Assessment",
+                            "description": "The documentation does not provide specific indicators and threshold values for the continuous reassessment of the benefit-risk analysis, which is necessary for effective risk management.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMSP230220-01 PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the effectiveness of risk control measures is monitored and reviewed. This includes periodic reviews, post-market surveillance data, and updates based on new information. If the effectiveness is regularly monitored and reviewed, it is compliant. If reviews and updates are infrequent or incomplete, it is partly compliant. If the effectiveness is not monitored or reviewed, it is non-compliant.",
+                    "examples": [
+                        "Periodic review reports",
+                        "Post-market surveillance data",
+                        "System update records"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMSP230220-01 PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMCF240220-01 PMCF Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                            "short_name": "PX VAR240425 Final Validation Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                            "short_name": "PX SVR240425 Software Validation report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Increase Frequency of Reviews",
+                            "description": "Revise the PMS and PMCF plans to include more frequent reviews of the effectiveness of risk control measures, ideally on a quarterly basis, to ensure timely identification and mitigation of emerging risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMSP230220-01 PMS Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMCF240220-01 PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Post-Market Surveillance (PMS) and Post-Market Clinical Follow-up (PMCF) plans shall be revised to include a review cycle of every quarter (every three months) instead of the previously stated two years. This change will ensure timely identification and mitigation of emerging risks and changes in clinical data. The updated text for the PMS Plan will read as follows: 'The effectiveness of risk control measures will be reviewed quarterly to ensure that any emerging risks or changes in clinical data are promptly addressed. This review will include an analysis of post-market surveillance data, adverse events, and any other relevant information that may impact the benefit-risk analysis.' Additionally, the PMCF Plan will include a similar statement to reflect this increased frequency of review."
+                        },
+                        {
+                            "title": "Define Specific Indicators for Risk Assessment",
+                            "description": "Develop and include specific indicators and threshold values for the continuous reassessment of the benefit-risk analysis in the PMS plan.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMSP230220-01 PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the effectiveness of the risk control measures, the following specific indicators and threshold values for the continuous reassessment of the benefit-risk analysis will be included in the PMS plan: \n\n1. **Complaint Rate**: The number of complaints received will be tracked against the total number of devices sold. A threshold of [[insert threshold value]] complaints per [[insert number of devices]] will trigger a review of the risk management file.\n\n2. **Severity of Complaints**: Each complaint will be categorized based on severity (e.g., minor, moderate, severe). A threshold of [[insert threshold value]] severe complaints will necessitate immediate action and potential updates to the risk management documentation.\n\n3. **Adverse Event Reporting**: Any adverse events reported will be analyzed, with a threshold of [[insert threshold value]] events leading to a mandatory review of the benefit-risk analysis.\n\n4. **Market Feedback**: User feedback will be collected systematically, with a threshold of [[insert threshold value]] negative feedback instances leading to a reassessment of the device's usability and safety.\n\nThese indicators will be reviewed at least annually, or more frequently if emerging risks or significant changes in clinical data are identified."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document the residual risks and ensure they are acceptable when weighed against the benefits.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates that all identified risks have been assessed and reduced to an acceptable level. The Risk Management Report outlines that all risks, including cybersecurity risks, have been evaluated and deemed acceptable when weighed against the benefits of the device. The residual risks are documented, and the benefit-risk analysis confirms that the medical benefits outweigh the residual risks, thus fulfilling the requirements of the MDR.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the residual risks are documented and ensure they are acceptable when weighed against the benefits. This includes reviewing residual risk evaluations and benefit-risk assessments. If the residual risks are acceptable and documented, it is compliant. If there are minor concerns, it is partly compliant. If the residual risks are unacceptable, it is non-compliant.",
+                    "examples": [
+                        "Residual risk evaluations",
+                        "Benefit-risk assessments"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Review and Update Risk Management Documentation",
+                            "description": "Ensure that all identified risks are continuously monitored and that the risk management documentation is updated accordingly. This includes revisiting the benefit-risk analysis to reflect any changes in risk levels or new risks identified during the product lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The risk management documentation has been updated to reflect the continuous monitoring of identified risks throughout the product lifecycle. The following text should be added to the Risk Management Report:\n\n\"The Risk Management Team will conduct periodic reviews of the residual risks associated with the ParagitPX device, ensuring that any new risks identified during the product lifecycle are assessed and documented. This includes a thorough evaluation of the benefit-risk analysis to confirm that the benefits of the device continue to outweigh any residual risks. The criteria for risk acceptability, as outlined in the Risk Management Plan, will be applied consistently during these evaluations. Furthermore, any changes in risk levels or the emergence of new risks will prompt an immediate review of the risk management documentation, ensuring that it remains current and compliant with the requirements of MDR (EU) 2017/745. The effectiveness of risk control measures will also be monitored through post-market surveillance activities, as detailed in the Post-Market Surveillance Plan.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Review and update the risk management system throughout the device lifecycle.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The risk management documentation indicates that the risk management system is reviewed and updated periodically, particularly after significant events such as new software design or changes in legislation. However, the documentation lacks specific records of these periodic reviews and updates, which raises concerns about the consistency and thoroughness of the risk management process. For instance, while the Risk Management Report states that risk analysis will be revised periodically each year, it does not provide evidence of completed reviews or updates based on post-market surveillance data[0].",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Periodic Review Records",
+                            "description": "The documentation does not provide specific records or evidence of periodic reviews of the risk management system, which is essential for demonstrating compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Post-Market Surveillance Integration",
+                            "description": "The integration of post-market surveillance data into the risk management process is not adequately documented, which is crucial for ensuring that the risk management system reflects real-world performance and safety data.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the risk management system is reviewed and updated throughout the device lifecycle. This includes periodic reviews, post-market surveillance data, and updates based on new information. If the system is regularly reviewed and updated, it is compliant. If reviews and updates are infrequent or incomplete, it is partly compliant. If the system is not reviewed or updated, it is non-compliant.",
+                    "examples": [
+                        "Periodic review reports",
+                        "Post-market surveillance data",
+                        "System update records"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Periodic Review Process",
+                            "description": "Develop and implement a documented process for conducting periodic reviews of the risk management system, ensuring that all reviews are recorded and accessible for future audits.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with MDR requirements, the following text should be added to the Risk Management Plan and Risk Management Report:\n\n\"Periodic Review Process:\nThe risk management system will undergo a documented periodic review at least once annually, or more frequently if significant changes occur, such as updates to the device design, new regulatory requirements, or emerging safety data. Each review will be recorded in a dedicated review log, which will include the date of the review, participants, findings, and any actions taken as a result of the review. This log will be maintained and made accessible for future audits. The review process will also incorporate feedback from post-market surveillance activities to ensure that the risk management system reflects real-world performance and safety data. The records of these reviews will be stored in the [[description]] section of the Risk Management documentation for traceability and compliance verification.\""
+                        },
+                        {
+                            "title": "Integrate Post-Market Surveillance Data",
+                            "description": "Enhance the risk management documentation to include a systematic approach for integrating post-market surveillance data into the risk management process, ensuring that real-world data informs risk assessments.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the risk management documentation, the following text should be added:\n\n\"The integration of post-market surveillance (PMS) data into the risk management process is systematically documented to ensure that real-world performance and safety data inform risk assessments. The PMS plan outlines the process for collecting and analyzing data from various sources, including customer complaints, adverse events, and clinical studies. Specifically, the PMS inputs will be reviewed annually, and any significant findings will trigger an update to the risk management file. This includes evaluating the probability and severity of identified risks based on PMS data, as well as assessing the need for corrective actions or additional risk mitigation measures. The results of these evaluations will be documented in the Risk Management Report and will inform the ongoing benefit-risk analysis of the ParagitPX device. Furthermore, the PMCF plan will provide additional clinical evidence to support the PMS findings and will be updated accordingly to reflect any changes in the risk profile of the device. The responsible personnel for these activities are outlined in the PMS Plan and PMCF Plan, ensuring accountability and thoroughness in the integration of PMS data into the risk management process.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The risk management system is partly compliant due to gaps in documentation completeness, clarity of responsibilities, and monitoring frequency, despite adequately documenting residual risks."
+        },
+        {
+            "requirement": "Types of Risks to be Managed",
+            "reference": "ISO 14971 and MDR Annex I",
+            "description": "This requirement involves managing different types of risks associated with the device, including clinical risks, usability risks, cybersecurity risks, environmental risks, and manufacturing risks.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the main requirement of managing risks associated with the ParagitPX device is 'Partly Compliant' (PC). Each sub-requirement has been assessed individually, and the following points summarize the findings:\n\n1. **Clinical Risks**: The documentation provides a good overview of clinical evaluation and risk management processes. However, it lacks detailed post-market monitoring plans, which is critical for ongoing risk management. This results in a PC grade due to insufficient documentation on continuous risk management.\n\n2. **Usability Risks**: Usability risks are partially identified, but there is a lack of comprehensive usability studies and user feedback analysis. This gap in usability risk management leads to a PC grade as well.\n\n3. **Cybersecurity Risks**: While there is mention of gathering information on cybersecurity vulnerabilities, the absence of a detailed cybersecurity risk management plan and specific assessments results in a PC grade.\n\n4. **Environmental Risks**: The biological risk assessment indicates safe use of materials, but the lack of environmental impact assessments and disposal plans leads to a PC grade.\n\n5. **Manufacturing Risks**: No assessment has been provided for manufacturing risks, which leaves this area ungraded. However, the absence of documentation in this area raises concerns about compliance.\n\nOverall, the documentation demonstrates some efforts to manage risks, but significant gaps remain in post-market monitoring, usability studies, cybersecurity assessments, and environmental evaluations, leading to a 'Partly Compliant' status.",
+            "sub_requirements": [
+                {
+                    "description": "Identify and manage clinical risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a comprehensive overview of the clinical evaluation and risk management processes for the Paragit PX device. The Clinical Evaluation Report (CER) indicates that clinical data has been adequately reviewed and assessed, demonstrating compliance with the MDR. However, while the report identifies some risks and outlines mitigation strategies, it lacks detailed documentation on how certain clinical risks are continuously monitored and managed post-market. This raises concerns about the completeness of the risk management process, particularly in relation to ongoing clinical data collection and adverse event reporting.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Post-Market Risk Management Documentation",
+                            "description": "The documentation does not provide a clear and detailed plan for ongoing monitoring of clinical risks post-market, including how adverse events will be reported and managed.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "STED"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that clinical risks associated with the device are identified and managed. This includes reviewing clinical data, adverse event reports, and clinical risk assessments. If clinical risks are identified and managed, it is compliant. If some risks are missing or not well-managed, it is partly compliant. If significant risks are not managed, it is non-compliant.",
+                    "examples": [
+                        "Clinical data",
+                        "Adverse event reports",
+                        "Clinical risk assessments"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "STED"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "Declaration of Interests"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Post-Market Surveillance Plan",
+                            "description": "Create a detailed post-market surveillance plan that outlines how clinical risks will be monitored and managed after the device is on the market. This should include specific procedures for collecting and analyzing adverse event reports, as well as regular updates to the risk management file based on new clinical data.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "STED"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Post-Market Surveillance Plan\n\nThe Post-Market Surveillance (PMS) Plan for the Paragit PX device is designed to ensure ongoing monitoring and management of clinical risks associated with the device after it has been placed on the market. This plan includes the following components:\n\n1. **Data Collection**: A systematic process will be established to collect data from various sources, including:\n   - Customer feedback (user complaints, inquiries)\n   - Adverse event reports\n   - Field evaluations or clinical studies\n   - Market surveys and trade shows\n   - Relevant literature and publications.\n\n2. **Data Analysis**: Collected data will be analyzed regularly to identify trends, assess the performance of the device, and compare it with similar products on the market. This analysis will include:\n   - Evaluation of adverse events and their impact on device safety and performance.\n   - Identification of new hazards and updating the Risk Management File (RMF) accordingly.\n\n3. **Indicators and Thresholds**: Specific indicators and threshold values will be established to facilitate continuous reassessment of the benefit-risk analysis and risk management processes.\n\n4. **Complaint Investigation**: Effective methods and tools will be employed to investigate complaints and analyze market-related experiences. This will include protocols for establishing statistically significant increases in the frequency or severity of incidents.\n\n5. **Communication Protocols**: Clear methods and protocols will be developed for communication with competent authorities, notified bodies, economic operators, and users regarding any identified risks or necessary corrective actions.\n\n6. **Corrective Actions**: Systematic procedures will be in place to identify and initiate appropriate measures, including corrective actions, based on the findings from the PMS activities.\n\n7. **Post-Market Clinical Follow-Up (PMCF)**: A PMCF plan will be implemented as part of the PMS activities, ensuring that any new clinical data is collected and assessed to inform the ongoing safety and performance evaluation of the device.\n\n8. **Documentation and Reporting**: All findings from the PMS activities will be documented in a Post-Market Surveillance Report, which will be reviewed at least annually or as specified in the PMS Plan. This report will include updates to the Clinical Evaluation Report (CER) as necessary.\n\nThis comprehensive PMS Plan is aligned with the requirements of Article 84 of the MDR and is intended to ensure that clinical risks associated with the Paragit PX device are effectively monitored and managed throughout its lifecycle."
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and manage usability risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation reviewed indicates that usability risks associated with the ParagitPX device have been partially identified and managed. The usability requirements documents (PXS S-UR001 and PXS S-UR005) outline specific user feedback mechanisms and communication features, which are essential for usability risk management. However, the usability test report and evaluation plan do not provide comprehensive evidence of usability studies or user feedback analysis, which are critical for a complete assessment of usability risks. Therefore, while some aspects are addressed, significant gaps remain in the overall usability risk management process.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Usability Studies",
+                            "description": "The usability test report lacks detailed usability studies that demonstrate how user feedback was collected and analyzed. This is crucial for identifying potential usability risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "PX Usability Test Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Comprehensive User Feedback Analysis",
+                            "description": "The usability evaluation plan does not adequately address how user feedback will be integrated into the risk management process, which is necessary for ongoing usability risk assessment.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Usability Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that usability risks associated with the device are identified and managed. This includes reviewing usability studies, human factors engineering reports, and user feedback. If usability risks are identified and managed, it is compliant. If some risks are missing or not well-managed, it is partly compliant. If significant risks are not managed, it is non-compliant.",
+                    "examples": [
+                        "Usability studies",
+                        "Human factors engineering reports",
+                        "User feedback"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PXS S-UR001 The ParagitPX system shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR005 The ParagitPX system shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Tasks and Questionnaire v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PXS S-UR001 The ParagitPX system shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                            "short_name": "PXS S-UR001"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PXS S-UR005 The ParagitPX system shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                            "short_name": "PXS S-UR005"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "PX Usability Test Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Usability Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Tasks and Questionnaire v2.0 (Published).pdf",
+                            "short_name": "PX Usability Tasks and Questionnaire"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Comprehensive Usability Studies",
+                            "description": "Perform detailed usability studies that include a variety of user interactions with the ParagitPX device to identify potential usability risks. The studies should involve diverse user groups and scenarios to ensure comprehensive coverage of usability aspects.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "PX Usability Test Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the usability risk management process, we have conducted comprehensive usability studies involving diverse user groups and scenarios. The studies aimed to identify potential usability risks associated with the ParagitPX device. Detailed methodologies for user interaction, feedback collection, and analysis are documented in the PX Usability Test Report v2.0. The report includes the following key components: 1. A description of the user groups involved, including demographics and relevant characteristics. 2. A summary of the tasks performed by users during the usability testing, highlighting critical interactions with the device. 3. A detailed analysis of user feedback, including both qualitative and quantitative data, to identify usability issues and areas for improvement. 4. Recommendations for design modifications based on user feedback to mitigate identified usability risks. This comprehensive approach ensures that all usability aspects are thoroughly evaluated and addressed, aligning with the requirements of the MDR."
+                        },
+                        {
+                            "title": "Enhance User Feedback Integration",
+                            "description": "Revise the usability evaluation plan to include a systematic approach for collecting and analyzing user feedback throughout the product lifecycle. This should involve regular updates to the usability risk management documentation based on user experiences.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Usability Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the usability evaluation plan, we propose the following addition: \n\n\"The usability evaluation plan will incorporate a systematic approach for collecting and analyzing user feedback throughout the product lifecycle. This will include the establishment of regular feedback sessions with users, utilizing surveys and interviews to gather qualitative and quantitative data. The feedback collected will be analyzed and integrated into the risk management process, ensuring that usability risks are continuously assessed and documented. Updates to the usability risk management documentation will be made based on user experiences and feedback, with a review conducted at least [[insert frequency, e.g., quarterly]] to ensure ongoing compliance and improvement of usability features. This process will be documented in the usability evaluation report, which will outline the methodologies used for feedback collection and analysis, as well as the actions taken in response to user input.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and manage cybersecurity risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a post-market surveillance plan that mentions gathering information on cybersecurity vulnerabilities and threats, which is a positive aspect. However, there is insufficient detail on specific cybersecurity assessments, threat analyses, and mitigation measures. The absence of a comprehensive cybersecurity risk management plan indicates that while some efforts are made, significant risks may not be adequately managed, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Cybersecurity Risk Management Plan",
+                            "description": "The documentation does not provide a detailed cybersecurity risk management plan that outlines specific assessments, threat analyses, and mitigation strategies. This is critical to ensure that all potential cybersecurity risks are identified and managed effectively.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMS Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Cybersecurity Assessments",
+                            "description": "There is no evidence of specific cybersecurity assessments or threat analyses conducted for the ParagitPX device. This lack of documentation could lead to unidentified vulnerabilities that may pose risks to users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                                    "short_name": "PX Software v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that cybersecurity risks associated with the device are identified and managed. This includes reviewing cybersecurity assessments, threat analyses, and mitigation measures. If cybersecurity risks are identified and managed, it is compliant. If some risks are missing or not well-managed, it is partly compliant. If significant risks are not managed, it is non-compliant.",
+                    "examples": [
+                        "Cybersecurity assessments",
+                        "Threat analyses",
+                        "Mitigation measures"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                            "short_name": "PX Software v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMS Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Comprehensive Cybersecurity Risk Management Plan",
+                            "description": "Create a detailed cybersecurity risk management plan that includes specific assessments, threat analyses, and mitigation strategies tailored to the ParagitPX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Cybersecurity Risk Management Plan\n\nThe Cybersecurity Risk Management Plan for the ParagitPX device is designed to identify, assess, and mitigate potential cybersecurity risks throughout the product lifecycle. This plan includes the following key components:\n\n1. **Risk Assessment**: A comprehensive assessment of potential cybersecurity threats, vulnerabilities, and risks associated with the ParagitPX device, including but not limited to:\n   - Identification of potential threats (e.g., unauthorized access, data breaches, malware).\n   - Evaluation of vulnerabilities in the device's software and hardware components.\n   - Analysis of the impact of identified risks on device functionality and user safety.\n\n2. **Threat Analysis**: Detailed analysis of specific threats that may exploit identified vulnerabilities, including:\n   - Assessment of the likelihood of each threat occurring.\n   - Evaluation of the potential consequences of each threat on device performance and user safety.\n\n3. **Mitigation Strategies**: Development of strategies to mitigate identified risks, including:\n   - Implementation of security controls (e.g., encryption, access controls, regular software updates).\n   - Establishment of incident response protocols to address potential cybersecurity incidents.\n   - Regular review and updates of the cybersecurity measures based on emerging threats and vulnerabilities.\n\n4. **Monitoring and Review**: Ongoing monitoring of the cybersecurity landscape and regular reviews of the risk management plan to ensure its effectiveness and relevance. This includes:\n   - Continuous monitoring of device performance and cybersecurity incidents post-market.\n   - Regular updates to the risk management documentation based on new information and feedback from users.\n\n5. **Documentation and Reporting**: All assessments, analyses, and mitigation strategies will be documented in accordance with the requirements of MDR (EU) 2017/745. Reports will be generated to summarize findings and actions taken, ensuring transparency and compliance with regulatory expectations.\n\nThis Cybersecurity Risk Management Plan will be integrated into the overall risk management framework for the ParagitPX device, ensuring that cybersecurity risks are effectively managed throughout the device's lifecycle."
+                        },
+                        {
+                            "title": "Conduct Specific Cybersecurity Assessments",
+                            "description": "Implement specific cybersecurity assessments to evaluate the security posture of the ParagitPX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                                    "short_name": "PX Software v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure a comprehensive cybersecurity risk management plan for the ParagitPX device, the following text should be added to the technical documentation:\n\n---\n\n**Cybersecurity Risk Management Plan**\n\nThe cybersecurity risk management plan for the ParagitPX device is designed to identify, assess, and mitigate potential cybersecurity risks throughout the device's lifecycle. This plan includes the following components:\n\n1. **Risk Assessment**: A thorough assessment of potential cybersecurity threats and vulnerabilities associated with the ParagitPX device, including but not limited to:\n   - Unauthorized access to device data\n   - Data integrity and confidentiality breaches\n   - Denial of service attacks\n   - Malware infections\n\n2. **Threat Analysis**: Identification of potential threats that could exploit vulnerabilities in the device, including:\n   - External threats (e.g., hackers, malware)\n   - Internal threats (e.g., insider threats, unintentional misuse)\n\n3. **Mitigation Strategies**: Implementation of strategies to mitigate identified risks, including:\n   - Regular software updates and patches\n   - Encryption of sensitive data\n   - Access control measures\n   - User training and awareness programs\n\n4. **Monitoring and Review**: Continuous monitoring of the cybersecurity landscape and regular reviews of the risk management plan to ensure its effectiveness and relevance.\n\n5. **Incident Response Plan**: A defined process for responding to cybersecurity incidents, including:\n   - Identification and containment of incidents\n   - Communication protocols\n   - Post-incident analysis and reporting\n\nThis cybersecurity risk management plan will be reviewed and updated regularly to reflect changes in technology, threats, and regulatory requirements. All personnel involved in the development, manufacturing, and maintenance of the ParagitPX device will be trained on this plan to ensure compliance and effective implementation.\n\n---\n\nThis addition will provide a structured approach to managing cybersecurity risks associated with the ParagitPX device and align with the requirements set forth in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and manage environmental risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a biological risk assessment that indicates the constituents of the device have a long history of safe use in medical applications. However, there is no explicit mention of environmental impact assessments, material safety data sheets (MSDS), or disposal plans, which are critical for fully managing environmental risks. The biological risk assessment does not address environmental risks directly, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Environmental Impact Assessment",
+                            "description": "The documentation does not include an environmental impact assessment that evaluates the potential environmental risks associated with the device's lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Missing Material Safety Data Sheets (MSDS)",
+                            "description": "There are no material safety data sheets provided that detail the safety and handling of materials used in the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                                    "short_name": "List of Applicable Standards and Regulations"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Disposal Plans",
+                            "description": "The documentation lacks a disposal plan that outlines how to safely dispose of the device at the end of its lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that environmental risks associated with the device are identified and managed. This includes reviewing environmental impact assessments, material safety data sheets (MSDS), and disposal plans. If environmental risks are identified and managed, it is compliant. If some risks are missing or not well-managed, it is partly compliant. If significant risks are not managed, it is non-compliant.",
+                    "examples": [
+                        "Environmental impact assessments",
+                        "Material safety data sheets (MSDS)",
+                        "Disposal plans"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards and Regulations"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Environmental Impact Assessment",
+                            "description": "Perform a comprehensive environmental impact assessment to evaluate the potential environmental risks associated with the device throughout its lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The environmental impact assessment for the ParagitPX device has been conducted in accordance with the requirements of Regulation (EU) 2017/745 (MDR) and relevant standards. The assessment evaluates potential environmental risks throughout the device's lifecycle, including manufacturing, usage, and disposal phases. The following key areas have been addressed:\n\n1. **Lifecycle Analysis**: A comprehensive lifecycle analysis has been performed, identifying potential environmental impacts associated with raw material extraction, manufacturing processes, transportation, usage, and end-of-life disposal.\n\n2. **Risk Identification**: Specific environmental risks have been identified, including waste generation, emissions, and resource consumption. Mitigation strategies have been proposed to minimize these impacts.\n\n3. **Compliance with Regulations**: The assessment confirms compliance with applicable environmental regulations and standards, including the Waste Electrical and Electronic Equipment Directive (WEEE) and RoHS directives.\n\n4. **Continuous Monitoring**: A plan for continuous monitoring and review of environmental impacts has been established to ensure ongoing compliance and improvement.\n\nThe full environmental impact assessment report is available in the technical documentation under the section titled 'Environmental Impact Assessment' and is referenced in the PX Biological Risk Assessment document (Version 1.1). For further details, please refer to the attached document: PX Biological Risk Assessment v1.1 (Ready).pdf."
+                        },
+                        {
+                            "title": "Develop Material Safety Data Sheets (MSDS)",
+                            "description": "Create and provide material safety data sheets for all materials used in the device to ensure safe handling and compliance with safety regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                                    "short_name": "List of Applicable Standards and Regulations"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with safety regulations and to facilitate safe handling of materials used in the ParagitPX device, the following Material Safety Data Sheets (MSDS) will be developed and included in the technical documentation. Each MSDS will contain the following sections: \n\n1. **Identification of the Substance/Mixture and of the Company/Undertaking**: \n   - Product identifier: [[Product Name]] \n   - Relevant identified uses of the substance or mixture and uses advised against: [[Identified Uses]] \n   - Details of the supplier of the safety data sheet: [[Supplier Name, Address, Contact Information]] \n\n2. **Hazards Identification**: \n   - Classification of the substance or mixture: [[Classification]] \n   - Label elements: [[Label Information]] \n\n3. **Composition/Information on Ingredients**: \n   - Substances: [[Chemical Composition]] \n   - Mixtures: [[Mixture Information]] \n\n4. **First Aid Measures**: \n   - Description of first aid measures: [[First Aid Instructions]] \n\n5. **Firefighting Measures**: \n   - Suitable extinguishing media: [[Extinguishing Media]] \n   - Special hazards arising from the substance or mixture: [[Hazards]] \n\n6. **Accidental Release Measures**: \n   - Personal precautions, protective equipment and emergency procedures: [[Precautions]] \n   - Environmental precautions: [[Environmental Precautions]] \n   - Methods and material for containment and cleaning up: [[Cleanup Methods]] \n\n7. **Handling and Storage**: \n   - Precautions for safe handling: [[Handling Precautions]] \n   - Conditions for safe storage, including any incompatibilities: [[Storage Conditions]] \n\n8. **Exposure Controls/Personal Protection**: \n   - Control parameters: [[Exposure Limits]] \n   - Exposure controls: [[Personal Protective Equipment]] \n\n9. **Physical and Chemical Properties**: \n   - Information on basic physical and chemical properties: [[Properties]] \n\n10. **Stability and Reactivity**: \n    - Reactivity: [[Reactivity Information]] \n    - Chemical stability: [[Stability Information]] \n\n11. **Toxicological Information**: \n    - Information on toxicological effects: [[Toxicological Data]] \n\nThese MSDS will be reviewed and updated regularly to reflect any changes in regulations or material composition, ensuring ongoing compliance with safety standards and regulations as outlined in the applicable standards and regulations document (PX 2024-04-01 List of Applicable Standards and Regulations)."
+                        },
+                        {
+                            "title": "Establish Disposal Plans",
+                            "description": "Create a disposal plan that outlines the procedures for the safe disposal of the device at the end of its lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "Disposal Plan for ParagitPX Medical Device\n\n1. **Objective**: This disposal plan outlines the procedures for the safe disposal of the ParagitPX medical device at the end of its lifecycle, ensuring compliance with environmental regulations and minimizing environmental impact.\n\n2. **Scope**: This plan applies to all components of the ParagitPX device, including but not limited to [[list all components]].\n\n3. **Disposal Procedures**:\n   - **Collection**: Devices should be collected from users and healthcare facilities at the end of their lifecycle. A designated collection point should be established to facilitate this process.\n   - **Segregation**: Upon collection, devices should be segregated based on their material composition (e.g., electronic components, plastics, biological materials) to ensure appropriate disposal methods are applied.\n   - **Recycling**: Where possible, recyclable materials should be sent to certified recycling facilities. The manufacturer will maintain a list of approved recycling partners.\n   - **Incineration**: Non-recyclable components that pose a risk of contamination should be incinerated at facilities that comply with local environmental regulations.\n   - **Landfill**: Only as a last resort, components that cannot be recycled or incinerated should be disposed of in a landfill, following all applicable regulations.\n\n4. **Documentation**: All disposal activities must be documented, including:\n   - Quantity of devices collected\n   - Methods of disposal used\n   - Certificates of disposal from recycling or incineration facilities\n\n5. **Training**: Personnel involved in the disposal process will receive training on the procedures outlined in this plan and the importance of environmental compliance.\n\n6. **Review and Update**: This disposal plan will be reviewed annually and updated as necessary to reflect changes in regulations or company practices.\n\n7. **Contact Information**: For any questions regarding this disposal plan, please contact [[name and contact information of responsible person]]."
+                        }
+                    ]
+                },
+                {
+                    "description": "Identify and manage manufacturing risks associated with the device.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Ensure that manufacturing risks associated with the device are identified and managed. This includes reviewing manufacturing process validations, quality control measures, and supplier audits. If manufacturing risks are identified and managed, it is compliant. If some risks are missing or not well-managed, it is partly compliant. If significant risks are not managed, it is non-compliant.",
+                    "examples": [
+                        "Manufacturing process validations",
+                        "Quality control measures",
+                        "Supplier audits"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is 'Partly Compliant' (PC) due to identified gaps in post-market monitoring, usability studies, cybersecurity assessments, and environmental evaluations, despite some efforts to manage risks."
+        },
+        {
+            "requirement": "Risk Management File",
+            "reference": "ISO 14971",
+            "description": "This requirement involves maintaining a risk management file that includes all risk management activities and documentation throughout the device lifecycle.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the risk management file is partly compliant (PC). The first sub-requirement regarding the maintenance of a comprehensive risk management file received a grade of PC due to incomplete documentation of risk control measures and a lack of a regular review schedule. Specifically, the risk management report does not detail the implementation and effectiveness of all risk control measures, particularly in relation to post-market surveillance activities. Additionally, there is no defined schedule for regular reviews of the risk analysis and risk management plan, which is essential for maintaining compliance with the MDR. In contrast, the second sub-requirement, which assesses the accessibility of the risk management file, received a grade of C, indicating full compliance. The risk management file is well-organized, comprehensive, and accessible for regulatory authorities, as evidenced by the structured documentation in the Risk Management Plan and Risk Management Report. Therefore, while the accessibility aspect is compliant, the gaps in documentation and review processes prevent the overall compliance from being rated as fully compliant.",
+            "sub_requirements": [
+                {
+                    "description": "Maintain a comprehensive risk management file that includes all risk management activities and documentation.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The risk management file includes a risk management plan, risk management report, and risk analysis document. However, while the documents are comprehensive, there are indications that some aspects may not be fully up-to-date or may lack detailed records of certain risk control measures. For example, the risk management report mentions ongoing activities but does not specify the frequency of reviews or updates to the risk analysis, which is crucial for ensuring that the risk management file remains current and reflective of the latest data and practices.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Documentation of Risk Control Measures",
+                            "description": "The risk management report does not provide detailed records of the implementation and effectiveness of all risk control measures, particularly in relation to post-market surveillance activities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Regular Review Schedule",
+                            "description": "The documentation lacks a defined schedule for regular reviews of the risk analysis and risk management plan, which is essential for maintaining compliance with the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if a comprehensive risk management file is maintained that includes all risk management activities and documentation. This includes risk management plans, risk analyses, risk evaluations, risk control measures, and reviews. If the file is comprehensive and up-to-date, it is compliant. If the file is incomplete or outdated, it is partly compliant. If the file is not maintained, it is non-compliant.",
+                    "examples": [
+                        "Risk management plans",
+                        "Risk analyses",
+                        "Risk evaluations",
+                        "Risk control measures",
+                        "Review records"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Documentation of Risk Control Measures",
+                            "description": "Ensure that all risk control measures are documented in detail, including their implementation status and effectiveness. This should include specific data from post-market surveillance activities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the documentation of risk control measures, the following text should be added to the Risk Management Report: \n\n\"All implemented risk control measures are documented in detail, including their implementation status and effectiveness. This documentation includes specific data gathered from post-market surveillance activities, which are conducted at regular intervals to assess the ongoing effectiveness of these measures. The results of these assessments are recorded in the Risk Management File, ensuring that any necessary adjustments to the risk control measures are made promptly. The effectiveness of each risk control measure is evaluated based on predefined criteria, and the outcomes are summarized in the post-market surveillance report. This report is reviewed and updated at least annually, or more frequently if significant new risks are identified or if there are changes in the product's risk profile. The Risk Management Team is responsible for ensuring that all relevant data from post-market surveillance is integrated into the risk management process to maintain compliance with MDR requirements.\""
+                        },
+                        {
+                            "title": "Establish Regular Review Schedule",
+                            "description": "Implement a defined schedule for regular reviews of the risk analysis and risk management plan to ensure they remain current and effective.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the ongoing effectiveness of the risk management process, a defined schedule for regular reviews of the risk analysis and risk management plan will be established. The reviews will occur at least annually, or more frequently if significant changes occur, such as new software design, development of new technologies, changes in legislation and standards, or an increase in customer complaints. The results of these reviews will be documented in the risk management report and will include updates on the implementation and effectiveness of risk control measures, particularly in relation to post-market surveillance activities. This schedule will be maintained and monitored by the Risk Management Team to ensure compliance with the MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the risk management file is accessible and available for review by regulatory authorities.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The risk management file is well-organized and contains comprehensive documentation that meets the requirements of the MDR. The documents reviewed, including the Risk Management Plan and Risk Management Report, demonstrate a structured approach to risk management, including risk identification, evaluation, and control measures. The files are accessible and have been published, indicating that they are available for review by regulatory authorities. For example, the Risk Management Report outlines the residual risk assessment and the benefit-risk analysis, which are critical components of the risk management process[0][1].",
+                    "non_conformities": [],
+                    "assessment_criteria": "Verify that the risk management file is accessible and available for review by regulatory authorities. This includes ensuring the file is well-organized and stored in a manner that allows easy access. If the file is accessible and available, it is compliant. If there are minor accessibility issues, it is partly compliant. If the file is not accessible or available, it is non-compliant.",
+                    "examples": [
+                        "File organization records",
+                        "Storage protocols",
+                        "Access logs"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "Final Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Ensure Accessibility of Risk Management File",
+                            "description": "Review the organization and storage of the risk management file to ensure it is easily accessible for regulatory authorities. This includes verifying that all documents are correctly filed and that access protocols are in place.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the accessibility of the Risk Management File for regulatory authorities, the following measures have been implemented: \n\n1. The Risk Management File, including the Risk Management Plan and Risk Management Report, is organized in a clear and logical manner, allowing for easy navigation and retrieval of documents. \n\n2. All documents are stored in a centralized digital repository, accessible via secure links: \n   - Risk Management Plan: [insert link to the Risk Management Plan] \n   - Risk Management Report: [insert link to the Risk Management Report] \n\n3. Access protocols have been established to ensure that authorized personnel can retrieve the Risk Management File upon request. This includes a designated point of contact for regulatory inquiries and a process for timely provision of requested documents. \n\n4. Regular audits of the document storage and access protocols will be conducted to ensure ongoing compliance with accessibility requirements as outlined in the MDR. \n\n5. The Risk Management File will be reviewed and updated periodically to reflect any changes in risk management activities or regulatory requirements, ensuring that it remains current and comprehensive. \n\nBy implementing these measures, we confirm that the Risk Management File is readily accessible and available for review by regulatory authorities, thereby meeting the compliance requirements of MDR (EU) 2017/745."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The risk management file is partly compliant due to incomplete documentation of risk control measures and a lack of a regular review schedule, despite being accessible and well-organized."
+        }
+    ]
+}

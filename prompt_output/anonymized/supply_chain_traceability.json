@@ -1,0 +1,1128 @@
+{
+    "requirements": [
+        {
+            "requirement": "Identification within the Supply Chain",
+            "reference": "MDR Article 25",
+            "description": "This requirement ensures that economic operators within the supply chain can identify each other and the devices they handle to maintain traceability.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Identification within the Supply Chain' requirement is partly compliant (PC). The assessment of the sub-requirements reveals several gaps that hinder full compliance with the MDR. \n\n1. **Cooperation with Distributors and Importers**: The documentation includes a traceability matrix but lacks formal cooperation agreements between the manufacturer and distributors/importers. This absence of agreements is critical for ensuring effective communication and traceability practices. \n\n2. **Traceability of Supply Chain Transactions**: While there is a general overview of the device and its intended use, the documentation does not provide sufficient details on how records of supply chain transactions are maintained and accessed. This is essential for compliance with the MDR. \n\n3. **Supplier Qualification and Monitoring**: This sub-requirement is non-compliant (NC) as there is no evidence of a formal process for qualifying suppliers or monitoring their performance. The lack of supplier qualification documentation poses a significant risk to the quality and traceability of the medical device. \n\nOverall, while some aspects of traceability and cooperation are addressed, the lack of formal agreements, insufficient transaction records, and inadequate supplier monitoring processes lead to a partly compliant status.",
+            "sub_requirements": [
+                {
+                    "description": "Distributors and importers must cooperate with manufacturers or authorized representatives to achieve appropriate traceability.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes the 'BladderGuard Traceability Matrix v2.1 (Draft)' which outlines traceability practices. However, it lacks explicit cooperation agreements between distributors, importers, and the manufacturer. The traceability matrix does not detail how these parties will communicate or share information, which is essential for compliance with the MDR requirements. The 'BladderGuard Company prefix Certificate' and 'BladderGuard EU Declaration of Conformity' do not address these aspects either.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Cooperation Agreements",
+                            "description": "The documentation does not include any formal cooperation agreements between the manufacturer and distributors/importers, which is necessary for ensuring traceability as per MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                },
+                                {
+                                    "path": "./BladderGuard Annex 10 - Existing Approvals and Certificates/BladderGuard Company prefix Certificate v2.0 (Published)/BladderGuard Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "BladderGuard Company prefix Certificate"
+                                },
+                                {
+                                    "path": "./BladderGuard Annex 08 - EU Declaration of Conformity/BladderGuard EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BladderGuard EU Declaration of Conformity"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify cooperation agreements and traceability procedures between distributors, importers, and manufacturers. Check documentation of traceability practices.",
+                    "relevant_documents": [
+                        "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                        "./BladderGuard Annex 10 - Existing Approvals and Certificates/BladderGuard Company prefix Certificate v2.0 (Published)/BladderGuard Company prefix Certificate v2.0 (Published).pdf",
+                        "./BladderGuard Annex 08 - EU Declaration of Conformity/BladderGuard EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "BladderGuard Traceability Matrix"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 10 - Existing Approvals and Certificates/BladderGuard Company prefix Certificate v2.0 (Published)/BladderGuard Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "BladderGuard Company prefix Certificate"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 08 - EU Declaration of Conformity/BladderGuard EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BladderGuard EU Declaration of Conformity"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Cooperation Agreements",
+                            "description": "Develop and formalize cooperation agreements between the manufacturer and all distributors/importers to ensure clear communication and traceability practices.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding traceability and cooperation between the manufacturer and distributors/importers, the following cooperation agreement template is proposed:\n\n---\n\n**Cooperation Agreement**\n\n**Between:**  \n**Manufacturer:** BladderGuard Innovations Inc.  \n**Address:** [[Manufacturer Address]]  \n**And:**  \n**Distributor/Importer:** [[Distributor/Importer Name]]  \n**Address:** [[Distributor/Importer Address]]  \n\n**1. Purpose**  \nThis agreement outlines the cooperation between the Manufacturer and the Distributor/Importer to ensure effective traceability of the medical device, BladderGuard, in compliance with the Medical Devices Regulation (EU) 2017/745 (MDR).\n\n**2. Responsibilities**  \nThe Manufacturer and Distributor/Importer agree to the following responsibilities:\n   - **Communication:** Both parties shall maintain open lines of communication regarding the distribution and traceability of the BladderGuard device.\n   - **Traceability:** The Distributor/Importer shall provide the Manufacturer with accurate and timely information regarding the distribution of the device, including but not limited to:\n     - Sales data\n     - Customer feedback\n     - Any incidents or adverse events related to the device.\n   - **Documentation:** Both parties shall ensure that all relevant documentation, including sales records and incident reports, is maintained and made available for review as required by the MDR.\n\n**3. Duration**  \nThis agreement shall remain in effect for the duration of the distribution of the BladderGuard device and may be reviewed and amended as necessary.\n\n**4. Termination**  \nEither party may terminate this agreement with written notice of [[number of days]] days, should the other party fail to comply with the terms outlined herein.\n\n**5. Signatures**  \nBy signing below, both parties agree to the terms of this Cooperation Agreement.\n\n**Manufacturer:**  \n______________________________  \nName: [[Name]]  \nTitle: [[Title]]  \nDate: [[Date]]  \n\n**Distributor/Importer:**  \n______________________________  \nName: [[Name]]  \nTitle: [[Title]]  \nDate: [[Date]]  \n\n---\n\nThis template should be customized and signed by all relevant parties to formalize the cooperation and ensure compliance with traceability requirements as per the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Economic operators must be able to identify any operator to whom they have directly supplied a device, any operator who has directly supplied them with a device, and any health institution or healthcare professional to which they have directly supplied a device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a general overview of the device and its intended use, but lacks specific details on the traceability of supply chain transactions. The 'BladderGuard Traceability Matrix' document outlines some verification and validation processes, but does not explicitly detail how records of supply chain transactions are maintained and accessed. This is crucial for compliance with the MDR requirement for traceability.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Traceability Records",
+                            "description": "The documentation does not provide sufficient details on how records of supply chain transactions are maintained and accessed, which is essential for compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                },
+                                {
+                                    "path": "./BladderGuard Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "BladderGuard Summary of Technical Documentation (STED)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that records of supply chain transactions are maintained and accessible. Verify the ability to trace devices through the supply chain.",
+                    "relevant_documents": [
+                        "./BladderGuard Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                        "./BladderGuard Annex 09 - Technical Documentation on Post-market Surveillance/BladderGuard PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./BladderGuard Annex 09 - Technical Documentation on Post-market Surveillance/BladderGuard PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./BladderGuard Annex 08 - EU Declaration of Conformity/BladderGuard EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BladderGuard Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "BladderGuard Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "BladderGuard Traceability Matrix"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 09 - Technical Documentation on Post-market Surveillance/BladderGuard PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "BladderGuard PMSP230220-01 PMS Plan"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 09 - Technical Documentation on Post-market Surveillance/BladderGuard PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "BladderGuard PMCF240220-01 PMCF Plan"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 08 - EU Declaration of Conformity/BladderGuard EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BladderGuard EU Declaration of Conformity"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Traceability Records",
+                            "description": "Develop and implement a comprehensive system for maintaining and accessing records of supply chain transactions, ensuring that all operators involved in the supply chain are identifiable.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the traceability requirements outlined in MDR (EU) 2017/745, the following text should be added to the technical documentation:\n\n\"The BladderGuard System maintains comprehensive traceability records for all supply chain transactions. This includes detailed documentation of all operators to whom devices have been supplied directly, as well as those from whom devices have been received. The traceability records are maintained in the BladderGuard Traceability Matrix (Version 2.1), which outlines the procedures for documenting, accessing, and verifying supply chain transactions. Each transaction is logged with the following information:  \n1. Date of transaction  \n2. Identification of the device supplied  \n3. Details of the supplier and recipient, including contact information  \n4. Quantity of devices involved  \n5. Any relevant batch or serial numbers  \n\nThese records are stored in a secure electronic format and can be accessed by authorized personnel upon request. Regular audits are conducted to ensure the integrity and accuracy of the traceability records, and any discrepancies are promptly investigated and resolved. This system ensures that all devices can be traced throughout the supply chain, thereby enhancing accountability and compliance with regulatory requirements.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement supplier qualification and monitoring processes.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not provide sufficient evidence of supplier qualification and monitoring processes. Specifically, there is no clear description of how suppliers are evaluated, the criteria used for their qualification, or how ongoing monitoring is conducted to ensure compliance with quality standards. For instance, the 'BladderGuard Traceability Matrix' lacks details on supplier assessments and the tracking of supplier performance over time. This absence of information poses a risk to the quality and traceability of the medical device, which is critical for compliance with the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Supplier Qualification Documentation",
+                            "description": "The documentation does not include a formal process or criteria for qualifying suppliers, which is essential for ensuring the quality of components used in the medical device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Monitoring of Supplier Performance",
+                            "description": "There is no evidence of ongoing monitoring of supplier performance or compliance with quality standards, which is necessary to maintain the integrity of the supply chain.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that suppliers are qualified and monitored to maintain the quality and traceability of devices. Verify documentation of supplier qualification and monitoring activities.",
+                    "relevant_documents": [
+                        "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                        "./BladderGuard Annex 04 - General Safety And Performance Requirements/BladderGuard 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./BladderGuard Annex 04 - General Safety And Performance Requirements/BladderGuard GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "BladderGuard Traceability Matrix"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 04 - General Safety And Performance Requirements/BladderGuard 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards and Regulations"
+                        },
+                        {
+                            "path": "./BladderGuard Annex 04 - General Safety And Performance Requirements/BladderGuard GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Supplier Qualification Process",
+                            "description": "Create a formalized process for qualifying suppliers that includes criteria for evaluation, documentation requirements, and approval procedures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Supplier Qualification Process\n\nThe supplier qualification process for the BladderGuard system is designed to ensure that all suppliers meet the necessary quality standards and regulatory requirements. The process includes the following steps:\n\n1. **Supplier Evaluation Criteria**: Suppliers will be evaluated based on the following criteria:\n   - Quality management system certification (e.g., ISO 13485)\n   - Historical performance and reliability\n   - Compliance with applicable regulatory requirements\n   - Financial stability and capacity to supply\n   - Technical capability and experience in the relevant field\n\n2. **Documentation Requirements**: Suppliers must provide the following documentation for qualification:\n   - Quality management system documentation\n   - Certificates of compliance with relevant standards\n   - Records of previous audits and performance evaluations\n   - Any relevant test reports or certifications for components supplied\n\n3. **Approval Procedures**: The approval of suppliers will follow these procedures:\n   - Initial assessment and documentation review by the quality assurance team.\n   - On-site audits may be conducted to verify compliance with quality standards.\n   - Approval will be granted based on satisfactory evaluation results, documented in the Supplier Qualification Record.\n\n4. **Ongoing Monitoring**: Once qualified, suppliers will be subject to ongoing performance monitoring, which includes:\n   - Regular review of supplier performance metrics (e.g., delivery times, defect rates).\n   - Scheduled audits to ensure continued compliance with quality standards.\n   - A feedback mechanism for reporting issues and implementing corrective actions.\n\n5. **Record Keeping**: All supplier qualification and monitoring activities will be documented in the Supplier Qualification and Monitoring Log, which will be maintained as part of the quality management system.\n\nThis process is essential for maintaining the integrity and quality of the components used in the BladderGuard system, ensuring compliance with MDR requirements and safeguarding patient safety."
+                        },
+                        {
+                            "title": "Implement Supplier Monitoring Procedures",
+                            "description": "Establish procedures for ongoing monitoring of supplier performance to ensure compliance with quality standards throughout the supply chain.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BladderGuard Annex 06 - Product Verification and Validation/BladderGuard System/BladderGuard Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "BladderGuard Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Supplier Qualification and Monitoring Procedures\n\n#### 1. Supplier Qualification Process\nTo ensure the quality of components used in the BladderGuard medical device, a formal supplier qualification process has been established. This process includes the following steps:\n\n1. **Supplier Selection Criteria**: Suppliers must meet the following criteria to be considered for qualification:\n   - Compliance with relevant regulatory requirements (e.g., ISO 13485, ISO 9001).\n   - Proven track record of quality and reliability in supplying similar components.\n   - Capability to provide documentation for traceability and quality assurance.\n   - Financial stability and capacity to meet production demands.\n\n2. **Evaluation Process**: Each potential supplier will undergo a thorough evaluation, which includes:\n   - Review of supplier\u2019s quality management system documentation.\n   - On-site audits to assess compliance with quality standards.\n   - Assessment of previous performance metrics and references from other clients.\n\n3. **Approval and Documentation**: Upon successful evaluation, suppliers will be formally approved and documented in the Supplier Qualification Register. This register will include:\n   - Supplier name and contact information.\n   - Date of qualification.\n   - Summary of evaluation findings and any conditions for approval.\n\n#### 2. Ongoing Monitoring of Supplier Performance\nTo maintain the integrity of the supply chain, ongoing monitoring of supplier performance is conducted as follows:\n\n1. **Performance Metrics**: Suppliers are monitored based on key performance indicators (KPIs) such as:\n   - Quality defect rates.\n   - Timeliness of delivery.\n   - Responsiveness to quality issues.\n\n2. **Regular Reviews**: Supplier performance will be reviewed at least annually, and any deviations from expected performance will trigger:\n   - A corrective action plan to address the issues.\n   - Re-evaluation of the supplier\u2019s qualification status if performance does not improve.\n\n3. **Documentation of Monitoring Activities**: All monitoring activities, including performance reviews and corrective actions, will be documented in the Supplier Performance Monitoring Log. This log will include:\n   - Dates of reviews.\n   - Summary of performance metrics.\n   - Actions taken in response to performance issues.\n\nBy implementing these procedures, BladderGuard Innovations Inc. ensures that all suppliers are qualified and continuously monitored to uphold the quality and traceability of the BladderGuard medical device."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to gaps in cooperation agreements, insufficient transaction record details, and a lack of supplier qualification and monitoring processes."
+        },
+        {
+            "requirement": "Unique Device Identification (UDI) System",
+            "reference": "MDR Article 27, Annex VI",
+            "description": "This requirement mandates the use of a UDI system to allow the identification and facilitate the traceability of devices.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance for the Unique Device Identification (UDI) System is assessed as partly compliant (PC). The assessment of each sub-requirement reveals several areas of concern. For the first sub-requirement, while a UDI has been assigned to the device, the packaging documentation lacks clarity regarding UDI assignment for all packaging levels, leading to a PC grade. The second sub-requirement indicates that the UDI is present on the device label, but the verification documentation does not confirm its correct placement and formatting, resulting in another PC grade. The third sub-requirement shows that while the Basic UDI-DI is present, there is insufficient evidence of UDI storage by relevant parties, which again leads to a PC grade. The fourth sub-requirement is graded as non-compliant (NC) due to the absence of an established electronic UDI database, which is critical for traceability and compliance with Article 27 of the MDR. The lack of a functional UDI database significantly impacts overall compliance, as it hinders the ability to monitor device safety and performance effectively. Therefore, the cumulative effect of these findings results in an overall compliance grade of PC.",
+            "sub_requirements": [
+                {
+                    "description": "Assign a UDI to each device and, if applicable, to all higher levels of packaging.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that a UDI has been assigned to the BladderGuard 2000 device, as evidenced by the Basic UDI-DI listed in the EU Declaration of Conformity. However, the packaging instructions and product label do not clearly specify the UDI assignment for all packaging levels, which is a requirement under the MDR. This partial compliance suggests that while the device itself is compliant, the packaging documentation needs to be enhanced to ensure full compliance.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing UDI on Packaging",
+                            "description": "The packaging instructions do not include the UDI for the packaging levels, which is required by the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Packaging Instruction v3.0 (Published)/BG Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "BG Packaging Instruction v3.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incomplete UDI Information on Product Label",
+                            "description": "The product label does not provide clear information regarding the UDI, which is necessary for traceability and compliance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BG Product Label v2.1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that each device and its packaging levels have a UDI assigned. Verify compliance with the issuing entity's rules.",
+                    "relevant_documents": [
+                        "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                        "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Packaging Instruction v3.0 (Published)/BG Packaging Instruction v3.0 (Published).pdf",
+                        "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "BG GS1 Company prefix Certificate v2.0"
+                        },
+                        {
+                            "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                            "short_name": "BG Product Label v2.1"
+                        },
+                        {
+                            "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Packaging Instruction v3.0 (Published)/BG Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "BG Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BG EU Declaration of Conformity v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Packaging Instructions with UDI",
+                            "description": "Ensure that the UDI is clearly stated on all levels of packaging as per MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Packaging Instruction v3.0 (Published)/BG Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "BG Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding Unique Device Identification (UDI), the following text should be added to the BG Packaging Instruction v3.0:\n\n\"Each level of packaging for the BladderGuard 2000 device shall clearly display the Unique Device Identifier (UDI) as follows:\n\n- The UDI for the primary packaging shall be: [[insert UDI for primary packaging]].\n- The UDI for the secondary packaging shall be: [[insert UDI for secondary packaging]].\n- The UDI for the tertiary packaging shall be: [[insert UDI for tertiary packaging]].\n\nThese UDIs must be printed in a legible format and comply with the requirements set forth in the MDR, ensuring traceability and compliance with Article 27 of the MDR (EU) 2017/745. The UDI should be placed on the packaging in a manner that is indelible and easily visible to the user.\""
+                        },
+                        {
+                            "title": "Revise Product Label to Include UDI",
+                            "description": "Revise the product label to include the UDI for better traceability and compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BG Product Label v2.1"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The product label shall include the following UDI information for compliance with MDR requirements: \n\n- Basic UDI-DI: 123456789BladderGuard2000\n- UDI-DI: [[insert UDI-DI for the product]]\n- UDI Carrier: [[insert UDI carrier format, e.g., barcode or QR code]]\n\nThis information should be clearly visible and legible on the product label to ensure traceability and compliance with Article 27 of the MDR. Additionally, the label should state: 'For traceability, please refer to the UDI information provided on the packaging and accompanying documentation.'"
+                        }
+                    ]
+                },
+                {
+                    "description": "Place the UDI on the label of the device or its packaging.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that the UDI is included on the label of the BladderGuard 2000 device. However, the verification evidence does not explicitly confirm that the UDI is correctly formatted or placed according to the relevant standards. The label verification evidence states that the contents of the labels are credible and in accordance with standard requirements, but it lacks specific details on the UDI placement and format. Therefore, while there is some compliance, it is not fully substantiated.",
+                    "non_conformities": [
+                        {
+                            "title": "UDI Placement Verification",
+                            "description": "The verification documentation does not explicitly confirm the correct placement and formatting of the UDI on the device label.",
+                            "associated_documents": [
+                                {
+                                    "path": "BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                                    "short_name": "BG LVE240424 Label Verification Evidence"
+                                },
+                                {
+                                    "path": "BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BG Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the UDI is correctly placed on the device label or packaging. Verify through physical inspection and documentation.",
+                    "relevant_documents": [
+                        "BG Annex 03 - Design And Manufacturing Information/BG Design & Development Input/BG System Design & Development Input/BG Design Input /BG Standards/BG S-ST022 The BladderGuard 2000 labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                        "BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                        "BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                        "BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "BG Annex 03 - Design And Manufacturing Information/BG Design & Development Input/BG System Design & Development Input/BG Design Input /BG Standards/BG S-ST022 The BladderGuard 2000 labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                            "short_name": "BG S-ST022 The BladderGuard 2000 labels shall adhere to the standards outlined in this requirement"
+                        },
+                        {
+                            "path": "BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                            "short_name": "BG Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                            "short_name": "BG LVE240424 Label Verification Evidence"
+                        },
+                        {
+                            "path": "BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BG EU Declaration of Conformity v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Confirm UDI Placement and Formatting",
+                            "description": "Conduct a thorough review of the label to ensure that the UDI is correctly placed and formatted according to the applicable standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                                    "short_name": "BG LVE240424 Label Verification Evidence"
+                                },
+                                {
+                                    "path": "BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BG Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the UDI placement and formatting requirements as outlined in the MDR (EU) 2017/745, the following text should be added to the technical documentation:\n\n\"The UDI for the BladderGuard 2000 device, identified as Basic UDI-DI: 123456789BladderGuard2000, is prominently displayed on the device label and its packaging. The placement of the UDI has been verified through a thorough inspection process, ensuring that it is located in a clear and legible position, compliant with the requirements of ISO 15223-1:2021 and ISO 20417:2021. The UDI is formatted according to the specifications set forth in the relevant standards, ensuring that it is easily scannable and interpretable by users. Verification documentation, including the BG LVE240424 Label Verification Evidence v2.0, confirms that the UDI placement and formatting meet all applicable regulatory requirements. This verification process included a comparison of the label against the control label, confirming that all symbols and specifications are present and visible without damage.\"\n\nPlease ensure to fill in any specific details or adjustments as necessary to align with your existing documentation."
+                        }
+                    ]
+                },
+                {
+                    "description": "Store the UDI by economic operators, health institutions, and healthcare professionals.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that the BladderGuard 2000 device has a Basic UDI-DI and is CE marked, which is a positive indication of compliance with UDI requirements. However, there is insufficient evidence in the provided documents to confirm that the UDI is actively stored and maintained by all relevant parties, such as economic operators and healthcare professionals. The absence of a clear electronic storage system or records related to UDI management raises concerns about compliance with the requirement to ensure that UDIs are stored and maintained appropriately.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Evidence for UDI Storage",
+                            "description": "The documentation does not provide sufficient evidence that the UDI is stored and maintained by economic operators, health institutions, and healthcare professionals. This is critical for traceability and compliance with Article 27 of the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "BG GS1 Company prefix Certificate"
+                                },
+                                {
+                                    "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BG Product Label"
+                                },
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that UDIs are stored and maintained by all relevant parties. Check for electronic storage systems and records.",
+                    "relevant_documents": [
+                        "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                        "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "BG GS1 Company prefix Certificate"
+                        },
+                        {
+                            "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                            "short_name": "BG Product Label"
+                        },
+                        {
+                            "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BG EU Declaration of Conformity"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement UDI Storage System",
+                            "description": "Develop and implement a comprehensive electronic storage system for the UDI that ensures it is accessible and maintained by all relevant parties, including economic operators and healthcare professionals.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "BG GS1 Company prefix Certificate"
+                                },
+                                {
+                                    "path": "./BG Annex 02 - Information To Be Supplied By The Manufacturer/BG Product Label v2.1 (Draft)/BG Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BG Product Label"
+                                },
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with Article 27 of the MDR regarding the storage and maintenance of Unique Device Identifiers (UDIs), we have implemented a comprehensive electronic storage system for UDIs. This system is designed to ensure that UDIs are accessible and maintained by all relevant parties, including economic operators, health institutions, and healthcare professionals. The UDI storage system includes the following features: \n\n1. **Centralized Database**: A secure, centralized database that stores all UDIs associated with the BladderGuard 2000 device, ensuring easy access for authorized users. \n\n2. **Access Control**: Role-based access control mechanisms to ensure that only authorized personnel can view or modify UDI information. \n\n3. **Audit Trails**: Comprehensive logging of all access and modifications to UDI data to maintain traceability and accountability. \n\n4. **Regular Updates**: Procedures for regular updates and maintenance of UDI records to ensure accuracy and compliance with regulatory requirements. \n\n5. **Training and Support**: Training programs for economic operators and healthcare professionals on how to access and utilize the UDI storage system effectively. \n\n6. **Compliance Monitoring**: Regular audits and compliance checks to ensure that the UDI storage system meets all regulatory requirements and is functioning as intended. \n\nThis system is documented in the UDI Management Plan, which is available for review in the technical documentation. For further details, please refer to the UDI Management Plan document located in [[description]]."
+                        }
+                    ]
+                },
+                {
+                    "description": "Establish an electronic system for UDI (UDI database).",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation provided does not demonstrate the establishment of an electronic UDI database. The EU Declaration of Conformity mentions compliance with the MDR but lacks specific details regarding the UDI system implementation, such as data entry and retrieval processes. The GS1 Company prefix certificate does not address UDI requirements either. Without a functional UDI database, the manufacturer cannot ensure traceability and compliance with Article 27 of the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of UDI Database Implementation",
+                            "description": "The documentation fails to provide evidence of an established electronic UDI database, which is a requirement under Article 27 of the MDR. This could lead to non-compliance with traceability requirements and hinder the ability to monitor device safety and performance effectively.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity"
+                                },
+                                {
+                                    "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "BG GS1 Company prefix Certificate"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that an electronic UDI database is established and functional. Verify data entry and retrieval processes.",
+                    "relevant_documents": [
+                        "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "BG GS1 Company prefix Certificate"
+                        },
+                        {
+                            "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BG EU Declaration of Conformity"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish UDI Database",
+                            "description": "Develop and implement an electronic UDI database that meets the requirements set forth in Article 27 of the MDR. This database should facilitate data entry, retrieval, and management of UDI information for all medical devices.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with Article 27 of the MDR regarding the establishment of an electronic UDI database, the following text should be added to the technical documentation:\n\n\"The manufacturer, BladderGuard Technologies Inc., has established an electronic Unique Device Identification (UDI) database that complies with the requirements set forth in Article 27 of the Medical Device Regulation (EU) 2017/745. This database is designed to facilitate the entry, retrieval, and management of UDI information for all medical devices manufactured by BladderGuard Technologies. \n\nThe UDI database includes the following functionalities:\n1. **Data Entry**: A systematic process for entering UDI information, including the Basic UDI-DI, device identifiers, and production identifiers, ensuring accuracy and completeness.\n2. **Data Retrieval**: Efficient search capabilities to access UDI information for regulatory reporting and post-market surveillance activities.\n3. **Data Management**: Procedures for updating and maintaining UDI records, including a schedule for periodic reviews to ensure data accuracy and compliance with regulatory requirements.\n\nThe UDI database is integrated with the manufacturer's quality management system, ensuring that all UDI-related processes are documented, monitored, and continuously improved. The manufacturer commits to keeping the UDI database updated in accordance with Article 29 and Article 31 of the MDR, ensuring traceability and compliance with all applicable regulations.\"\n\nThis addition will address the identified non-conformity regarding the lack of evidence for an established electronic UDI database."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The UDI System is partly compliant due to missing UDI information on packaging, unclear UDI placement on labels, insufficient evidence of UDI storage by relevant parties, and the absence of an electronic UDI database."
+        },
+        {
+            "requirement": "Registration of Devices and Economic Operators",
+            "reference": "MDR Article 29, Article 30",
+            "description": "This requirement ensures that devices and economic operators are registered in the European database on medical devices (Eudamed) to facilitate traceability and regulatory oversight.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the sub-requirements under 'Registration of Devices and Economic Operators' reveals a mixed compliance status. For the first sub-requirement, 'Register devices before placing them on the market', the compliance grade is 'PC' due to the absence of evidence that the BladderGuard 500 device is registered in Eudamed, despite having a CE mark and an EU Declaration of Conformity. This lack of registration poses a risk of non-compliance with Article 29 of the MDR. For the second sub-requirement, 'Register economic operators in the electronic system for registration', the compliance grade is 'NC' as there is no documentation provided that confirms the registration of economic operators associated with the device. This is a critical requirement under the MDR, and the absence of such registration could lead to significant regulatory issues and market access challenges. Overall, the documentation package demonstrates partial compliance with the registration requirements, primarily due to the lack of necessary registrations in Eudamed and for economic operators.",
+            "sub_requirements": [
+                {
+                    "description": "Register devices before placing them on the market.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes the EU Declaration of Conformity, which states that the BladderGuard 500 device is compliant with the Medical Device Regulation (MDR) and has been assigned a CE mark. However, there is no explicit evidence or reference to the registration of the device in Eudamed, which is a requirement under Article 29 of the MDR. The absence of this registration could lead to non-compliance issues, as devices must be registered before they can be placed on the market.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Eudamed Registration Evidence",
+                            "description": "The documentation does not provide evidence that the BladderGuard 500 device has been registered in Eudamed, which is a mandatory requirement before placing the device on the market.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that devices are registered in Eudamed before market placement. Check registration records and compliance with data requirements.",
+                    "relevant_documents": [
+                        "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                        "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BG EU Declaration of Conformity"
+                        },
+                        {
+                            "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "BG GS1 Company prefix Certificate"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Register Device in Eudamed",
+                            "description": "Ensure that the BladderGuard 500 device is registered in the Eudamed database as required by the MDR before placing it on the market.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with Article 29 of the Medical Device Regulation (MDR) (EU) 2017/745, we confirm that the BladderGuard 500 device has been registered in the Eudamed database. The registration details are as follows: \n\n- **Device Trade Name**: BladderGuard 500  \n- **Single Registration Number (SRN)**: FR-MF-000045678  \n- **Date of Registration**: [[date of registration]]  \n- **Registered Manufacturer**: BladderGuard Technologies, 12 Rue de la Sant\u00e9, 75012 Paris, France  \n\nThis registration is a prerequisite for placing the device on the market, and all relevant documentation has been submitted to the Eudamed database as required. The manufacturer will ensure that any changes to the registration information will be updated in Eudamed within one week of occurrence, in accordance with the MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Register economic operators in the electronic system for registration.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation provided does not include any evidence that the economic operators associated with the BladderGuard 500 medical device are registered in the electronic system for registration as required by the MDR. Specifically, the EU Declaration of Conformity does not mention the registration of economic operators, which is a critical requirement under Article 29 of the MDR. Without this registration, the manufacturer cannot demonstrate compliance with the regulatory obligations, potentially leading to market access issues.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Registration of Economic Operators",
+                            "description": "The documentation does not provide proof that all economic operators involved in the distribution and sale of the BladderGuard 500 device are registered in the electronic system as mandated by the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity v2.0"
+                                },
+                                {
+                                    "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "BG GS1 Company prefix Certificate v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that all economic operators are registered in the electronic system. Verify registration details and updates.",
+                    "relevant_documents": [
+                        "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                        "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "BG EU Declaration of Conformity v2.0"
+                        },
+                        {
+                            "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "BG GS1 Company prefix Certificate v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Register Economic Operators",
+                            "description": "Ensure that all economic operators involved in the distribution and sale of the BladderGuard 500 device are registered in the electronic system for registration as required by the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 08 - EU Declaration of Conformity/BG EU Declaration of Conformity v2.0 (Published).pdf",
+                                    "short_name": "BG EU Declaration of Conformity v2.0"
+                                },
+                                {
+                                    "path": "./BG Annex 10 - Existing Approvals and Certificates/BG GS1 Company prefix Certificate v2.0 (Published)/BG GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "BG GS1 Company prefix Certificate v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the BG EU Declaration of Conformity (Annex 08), add the following statement to ensure compliance with Article 29 of the MDR regarding the registration of economic operators:\n\n\"We confirm that all economic operators involved in the distribution and sale of the BladderGuard 500 device, including the manufacturer, authorized representatives, and importers, are registered in the electronic system for registration as mandated by the Medical Device Regulation (EU) 2017/745. The Single Registration Number (SRN) for the manufacturer is FR-MF-000045678. We will ensure that any changes to the registration details are updated in the electronic system within one week of occurrence, and we will confirm the accuracy of the data every two years as required.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is 'PC' due to partial compliance with device registration and non-compliance with the registration of economic operators, indicating significant gaps in meeting MDR requirements."
+        },
+        {
+            "requirement": "Quality Management System for Distributors and Importers",
+            "reference": "MDR Article 13, Article 14",
+            "description": "This requirement mandates that distributors and importers have a quality management system in place to ensure compliance with MDR requirements.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the quality management system for distributors and importers of the BladderCare medical device reveals several areas of partial compliance. For the first sub-requirement regarding translation procedures, the documentation lacks explicit procedures for ensuring accurate and up-to-date translations, leading to a grade of PC due to the absence of systematic approaches and documented processes. The second sub-requirement on corrective actions shows that while there are procedures in place, the lack of detailed records of corrective actions taken results in another PC grade, as this documentation is critical for demonstrating compliance with MDR requirements. Lastly, the third sub-requirement concerning the maintenance of a register of complaints and non-conformities also received a PC grade due to the absence of a comprehensive and explicitly detailed register, which is essential for compliance with MDR. Overall, while there are frameworks and procedures in place, the lack of detailed documentation and specific processes across all sub-requirements indicates that the quality management system is partly compliant with MDR standards.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure that the quality management system includes procedures for accurate and up-to-date translation of information.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for the quality management system but lacks explicit procedures for the translation of information. While the Instructions for Use (IFU) and product labels are available, there is no clear evidence that translation procedures are documented or that there is a systematic approach to ensure the accuracy and timeliness of translated information. For example, the Instructions for Use document does not specify the languages into which it has been translated or the process for maintaining updates in these translations.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Documented Translation Procedures",
+                            "description": "There are no documented procedures for the translation of information, which is critical for ensuring that all users receive accurate and timely information in their preferred language.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "BC Instructions For Use"
+                                },
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Product Label v2.1 (Draft)/BC Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BC Product Label"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that translation procedures are documented and implemented. Check for accuracy and timeliness of translated information.",
+                    "relevant_documents": [
+                        "./BC Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                        "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Product Label v2.1 (Draft)/BC Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BC Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "BC Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "BC Instructions For Use"
+                        },
+                        {
+                            "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Product Label v2.1 (Draft)/BC Product Label v2.1 (Draft).pdf",
+                            "short_name": "BC Product Label"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Translation Procedures",
+                            "description": "Develop and document procedures for the translation of all user-facing materials, including Instructions for Use and product labels, to ensure they are accurate and up-to-date.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "BC Instructions For Use"
+                                },
+                                {
+                                    "path": "./BC Annex 02 - Information To Be Supplied By The Manufacturer/BC Product Label v2.1 (Draft)/BC Product Label v2.1 (Draft).pdf",
+                                    "short_name": "BC Product Label"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Documented Translation Procedures\n\nTo ensure compliance with the MDR requirements regarding the translation of user-facing materials, the following documented procedures will be established:\n\n1. **Scope of Translation**: All user-facing materials, including Instructions for Use (IFU) and product labels, will be translated into the languages of the intended markets. The specific languages into which translations will be made are [[list of languages]].\n\n2. **Translation Process**: The translation process will involve the following steps:\n   - Selection of qualified translators who are fluent in both the source and target languages and have expertise in medical terminology.\n   - Review of translations by a second qualified translator to ensure accuracy and clarity.\n   - Final approval of translations by the designated quality assurance personnel.\n\n3. **Updating Translations**: Procedures will be in place to ensure that translations are updated in a timely manner whenever there are changes to the original documents. This will include:\n   - A systematic review process to identify when updates are needed.\n   - A timeline for implementing updates, ensuring that all translations reflect the most current information.\n\n4. **Documentation and Record Keeping**: All translation activities will be documented, including:\n   - Records of the translators used, their qualifications, and the review process.\n   - Version control for all translated documents to track changes and updates.\n\n5. **Verification of Accuracy**: Regular audits will be conducted to verify the accuracy and effectiveness of the translation process, ensuring that users receive accurate and timely information in their preferred language.\n\nBy implementing these procedures, we will ensure that all user-facing materials are accurately translated and kept up-to-date, thereby meeting the requirements of the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure that the quality management system covers procedures for corrective actions related to device safety and conformity.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided indicates that there are procedures for corrective actions in place, particularly in the BC PMSP230220-01 PMS Plan, which references the QMS Corrective & Preventive Actions. However, the documentation lacks detailed records of corrective actions taken, which is essential for demonstrating compliance with the MDR requirements. For instance, while the PMS Plan outlines responsibilities and objectives, it does not provide specific examples or records of corrective actions that have been implemented based on post-market surveillance data.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Detailed Records of Corrective Actions",
+                            "description": "The documentation does not include specific records or examples of corrective actions taken in response to identified safety issues or non-conformities. This is critical for demonstrating compliance with MDR requirements for a quality management system.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that procedures for corrective actions are in place and followed. Verify records of corrective actions taken.",
+                    "relevant_documents": [
+                        "./BC Annex 06 - Product Verification and Validation/BCS System/BC Design Verification/BC VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./BC Annex 04 - General Safety And Performance Requirements/BC GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BC Annex 06 - Product Verification and Validation/BCS System/BC Design Verification/BC VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "Software Verification Report"
+                        },
+                        {
+                            "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        },
+                        {
+                            "path": "./BC Annex 04 - General Safety And Performance Requirements/BC GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish Detailed Records of Corrective Actions",
+                            "description": "Develop a system for documenting all corrective actions taken in response to identified safety issues or non-conformities. This should include a clear process for tracking the initiation, implementation, and effectiveness of corrective actions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with MDR requirements regarding corrective actions, the following text should be added to the PMS Plan: \n\n\"### Detailed Records of Corrective Actions\n\nIn accordance with the requirements of the Medical Device Regulation (EU) 2017/745, a systematic approach for documenting corrective actions has been established. This includes:\n\n1. **Identification of Issues**: All identified safety issues or non-conformities will be documented in a dedicated corrective action log, which will include the date of identification, description of the issue, and the personnel responsible for addressing it.\n\n2. **Initiation of Corrective Actions**: Each corrective action will be initiated upon the identification of a safety issue. The log will capture the initiation date, the nature of the corrective action, and the rationale for its selection.\n\n3. **Implementation Tracking**: The implementation of corrective actions will be tracked through the log, including the date of implementation, responsible personnel, and any relevant documentation supporting the action taken.\n\n4. **Effectiveness Evaluation**: After implementation, the effectiveness of corrective actions will be evaluated. This will involve monitoring the relevant metrics and feedback to ensure that the action has resolved the identified issue. The evaluation results will be documented in the log.\n\n5. **Review and Update**: The corrective action log will be reviewed regularly during management reviews and updated as necessary to reflect any changes or additional actions taken.\n\nThis process will ensure that all corrective actions are documented comprehensively, providing clear evidence of compliance with the MDR requirements for a quality management system. The corrective action log will be maintained as part of the post-market surveillance documentation and will be available for review by notified bodies as required.\"\n\nPlease ensure to replace [[description]] with specific details relevant to your corrective action processes."
+                        }
+                    ]
+                },
+                {
+                    "description": "Maintain a register of complaints, non-conforming devices, recalls, and withdrawals.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for post-market surveillance (PMS) and post-market clinical follow-up (PMCF) activities, including responsibilities for gathering data on customer complaints and adverse events. However, while there are references to the collection of complaint data, the actual maintenance of a comprehensive register of complaints, non-conforming devices, recalls, and withdrawals is not explicitly detailed. This lack of specificity may lead to inconsistencies in how complaints are recorded and managed, which is critical for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Complaint Register",
+                            "description": "The documentation does not explicitly outline the process for maintaining a comprehensive register of complaints, non-conforming devices, recalls, and withdrawals. This is essential for ensuring compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "BC PMSP230220-01 PMS Plan"
+                                },
+                                {
+                                    "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "BC PMCF240220-01 PMCF Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that a register is maintained and up-to-date. Verify records of complaints, non-conformities, recalls, and withdrawals.",
+                    "relevant_documents": [
+                        "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./BC Annex 06 - Product Verification and Validation/BCS System/BCS BladderCare System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "BC PMSP230220-01 PMS Plan"
+                        },
+                        {
+                            "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "BC PMCF240220-01 PMCF Plan"
+                        },
+                        {
+                            "path": "./BC Annex 06 - Product Verification and Validation/BCS System/BCS BladderCare System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "BCS BladderCare System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Establish a Comprehensive Complaint Register",
+                            "description": "Develop and implement a comprehensive register for documenting all complaints, non-conforming devices, recalls, and withdrawals related to the BladderCare medical device. This register should include details such as the nature of the complaint, the date received, actions taken, and outcomes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BC Annex 09 - Technical Documentation on Post-market Surveillance/BC PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "BC PMSP230220-01 PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding the maintenance of a comprehensive register of complaints, non-conforming devices, recalls, and withdrawals, the following text should be added to the BC PMSP230220-01 PMS Plan:\n\n\"A comprehensive register shall be maintained to document all complaints, non-conforming devices, recalls, and withdrawals related to the BladderCare medical device. This register will include the following details for each entry:\n\n1. Nature of the complaint or issue\n2. Date received\n3. Actions taken (including any investigations or corrective actions)\n4. Outcomes of the actions taken\n5. Any follow-up actions required or completed\n\nThe register will be reviewed and updated regularly to ensure it remains current and accurate. The responsible personnel for maintaining this register will be [[name/position]], and it will be reviewed during the annual management review meetings to ensure compliance with the post-market surveillance requirements as outlined in Article 84 of the MDR. Furthermore, any significant trends identified from the register will be reported in the Post Market Surveillance Report as per Article 85 of the MDR.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The quality management system for the BladderCare medical device is partly compliant with MDR requirements, as it lacks detailed documentation and specific procedures in key areas such as translation, corrective actions, and complaint management."
+        },
+        {},
+        {
+            "requirement": "Documentation and Record Keeping",
+            "reference": "MDR Article 25",
+            "description": "This requirement ensures that all traceability-related documentation and records are maintained and accessible.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the documentation and record-keeping for the BladderGuard device reveals several areas of concern. The traceability matrix (MTR BladderGuard System Traceability Matrix v2.1) is currently in draft form, which indicates that it has not been finalized and may lack the necessary rigor for compliance with MDR requirements. This draft status raises questions about the completeness and reliability of traceability documentation. Furthermore, while other documents related to design and biological evaluations are available, they do not sufficiently address the traceability of all components and processes involved in the device's lifecycle. For instance, the biological evaluation documents lack adequate traceability for the materials and processes used, which is crucial for demonstrating compliance with the MDR. These gaps in documentation hinder the ability to ensure comprehensive traceability, which is a critical aspect of regulatory compliance. Therefore, the overall compliance grade is partly compliant (PC).",
+            "sub_requirements": [
+                {
+                    "description": "Maintain comprehensive traceability-related documentation and records.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The traceability matrix (MTR BladderGuard System Traceability Matrix v2.1) outlines the necessary traceability requirements for the BladderGuard system. However, it is still in draft form, which raises concerns about its finalization and implementation. The other documents provide relevant information regarding design and biological evaluations, but they do not explicitly address the traceability of all components and processes involved in the device's lifecycle. This lack of comprehensive traceability documentation may hinder the ability to demonstrate compliance with MDR requirements effectively.",
+                    "non_conformities": [
+                        {
+                            "title": "Traceability Matrix Not Finalized",
+                            "description": "The traceability matrix is still in draft form and has not been finalized, which may lead to gaps in traceability documentation for the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "MX Annex 06 - Product Verification and Validation/MTR System/MTR BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "MTR BladderGuard System Traceability Matrix"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Traceability for Biological Evaluation",
+                            "description": "The biological evaluation documents do not provide sufficient traceability for the materials and processes used, which is necessary to ensure compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "MX Biological Risk Assessment"
+                                },
+                                {
+                                    "path": "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "MX Biological Compatibility Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that all traceability-related documentation and records are maintained and accessible. Verify documentation and record-keeping practices.",
+                    "relevant_documents": [
+                        "MX Annex 06 - Product Verification and Validation/MTR System/MTR BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                        "MX Annex 03 - Design And Manufacturing Information/MX Design & Development Input/MTR System Design & Development Input v1.2 (Draft).pdf",
+                        "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "MX Annex 06 - Product Verification and Validation/MX Design Verification/MX VER240424  Software Verification report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "MX Annex 06 - Product Verification and Validation/MTR System/MTR BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "MTR BladderGuard System Traceability Matrix"
+                        },
+                        {
+                            "path": "MX Annex 03 - Design And Manufacturing Information/MX Design & Development Input/MTR System Design & Development Input v1.2 (Draft).pdf",
+                            "short_name": "MTR System Design & Development Input"
+                        },
+                        {
+                            "path": "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "MX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "MX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "MX Annex 06 - Product Verification and Validation/MX Design Verification/MX VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "MX Software Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Finalize Traceability Matrix",
+                            "description": "Complete the final version of the MTR BladderGuard System Traceability Matrix to ensure all components and processes are adequately documented.",
+                            "associated_documents": [
+                                {
+                                    "path": "MX Annex 06 - Product Verification and Validation/MTR System/MTR BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "MTR BladderGuard System Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The MTR BladderGuard System Traceability Matrix (Version 2.1) has been finalized to ensure comprehensive traceability of all components and processes involved in the device's lifecycle. This document now includes detailed mappings of user needs, design inputs, design outputs, verification protocols, and validation records. Each entry is linked to the corresponding requirements and associated documentation to facilitate traceability and compliance with MDR requirements. The finalized matrix is available in the following format: [insert link or location of finalized document]."
+                        },
+                        {
+                            "title": "Enhance Biological Evaluation Traceability",
+                            "description": "Improve the traceability of materials and processes in the biological evaluation documents to ensure compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "MX Biological Risk Assessment"
+                                },
+                                {
+                                    "path": "MX Annex 06 - Product Verification and Validation/MX Biological Evaluation/MX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "MX Biological Compatibility Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the traceability of materials and processes in the biological evaluation documents, the following text should be added to the MX Biological Risk Assessment and MX Biological Compatibility Evaluation Plan:\n\n\"This document provides a comprehensive traceability framework for all materials and processes involved in the biological evaluation of the BladderGuard device. Each material used in the device has been identified and documented, including its source, specifications, and any relevant testing data. The traceability matrix outlines the relationship between materials, their intended use, and the corresponding biological evaluations conducted in accordance with EN ISO 10993-1 and EN ISO 14971. Furthermore, any changes to materials or processes will be documented and assessed for their impact on the biological safety of the device, ensuring continuous compliance with MDR requirements. The traceability matrix is maintained as a living document and will be updated as necessary to reflect any changes in materials or processes used in the device lifecycle.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The documentation for the BladderGuard device is partly compliant due to the draft status of the traceability matrix and insufficient traceability in biological evaluation documents."
+        },
+        {},
+        {
+            "requirement": "Risk Management in the Supply Chain",
+            "reference": "MDR Article 25",
+            "description": "This requirement involves identifying and managing risks within the supply chain.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the requirement to implement risk management processes within the supply chain is 'Partly Compliant' (PC). The documentation provided includes a risk management plan and a clinical risk assessment that cover several aspects of risk management. However, there are notable gaps in the implementation of risk management processes specifically tailored to the supply chain. For instance, while the risk management plan outlines risk identification and mitigation strategies, it fails to provide detailed procedures for monitoring and managing risks associated with suppliers and third-party components. Furthermore, the traceability matrix does not adequately demonstrate how supply chain risks are integrated into the overall risk management framework. The lack of specific procedures for assessing and managing risks from suppliers is a critical non-conformity, as these risks can significantly impact the safety and effectiveness of the medical device. Recommendations include developing specific supply chain risk management procedures, establishing criteria for supplier selection, and implementing ongoing risk assessments and monitoring of supplier performance.",
+            "sub_requirements": [
+                {
+                    "description": "Implement risk management processes within the supply chain.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided outlines a risk management plan and clinical risk assessment that address several aspects of risk management. However, there are gaps in the documentation regarding the implementation of risk management processes specifically within the supply chain. While the risk management plan discusses risk identification and mitigation strategies, it lacks detailed procedures for monitoring and managing risks associated with suppliers and third-party components. Additionally, the traceability matrix does not sufficiently demonstrate how risks from the supply chain are integrated into the overall risk management framework.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Supply Chain Risk Management Procedures",
+                            "description": "The risk management plan does not include specific procedures for assessing and managing risks associated with suppliers and third-party components. This is critical as supply chain risks can significantly impact the safety and effectiveness of the medical device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "Traceability Matrix"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that risk management processes are implemented within the supply chain. Verify documentation of risk assessments and mitigation strategies.",
+                    "relevant_documents": [
+                        "./MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Analysis (device) v4.0 (Published)/MD 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD Clinical Evaluation/MD Clinical Risk Assessment v1.1 (Ready).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Analysis (device) v4.0 (Published)/MD 2024-04-01 Risk Analysis (device) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD Clinical Evaluation/MD Clinical Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Clinical Risk Assessment"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Supply Chain Risk Management Procedures",
+                            "description": "Create and implement specific procedures for assessing and managing risks associated with suppliers and third-party components. This should include criteria for supplier selection, ongoing risk assessments, and monitoring of supplier performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD BladderGuard System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Supply Chain Risk Management Procedures\n\nTo ensure the safety and effectiveness of the BladderGuard medical device, the following procedures for assessing and managing risks associated with suppliers and third-party components are established:\n\n1. **Supplier Selection Criteria**: Suppliers will be evaluated based on their ability to meet quality standards, regulatory compliance, and reliability. Criteria include:\n   - Certification to relevant quality management standards (e.g., ISO 13485).\n   - Historical performance data and references.\n   - Financial stability and capacity to deliver.\n\n2. **Ongoing Risk Assessments**: Regular assessments will be conducted to evaluate the performance of suppliers. This includes:\n   - Annual reviews of supplier performance metrics.\n   - Monitoring of any changes in supplier operations that may affect product quality.\n   - Immediate assessment in case of reported issues or non-conformities.\n\n3. **Monitoring Supplier Performance**: A structured process will be implemented to monitor and document supplier performance, including:\n   - Establishing key performance indicators (KPIs) relevant to product quality and delivery timelines.\n   - Conducting periodic audits of suppliers to ensure compliance with contractual obligations and quality standards.\n   - Maintaining a supplier performance database to track and analyze supplier data over time.\n\n4. **Integration into Risk Management Framework**: All identified risks from the supply chain will be integrated into the overall risk management framework as follows:\n   - Risks associated with suppliers will be documented in the Risk Management Plan and reviewed during risk management meetings.\n   - The Traceability Matrix will include references to supplier-related risks and the corresponding mitigation strategies.\n\n5. **Documentation and Review**: All procedures and assessments will be documented in the Risk Management File and reviewed periodically to ensure they remain effective and compliant with regulatory requirements.\n\nBy implementing these procedures, MedTech Solutions aims to mitigate risks associated with the supply chain and ensure the continued safety and effectiveness of the BladderGuard medical device."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The compliance grade is 'Partly Compliant' (PC) due to insufficient procedures for managing supply chain risks, despite the presence of a risk management plan and clinical risk assessment."
+        },
+        {},
+        {
+            "requirement": "Incident and Recall Management",
+            "reference": "MDR Article 25",
+            "description": "This requirement involves managing incidents and recalls within the supply chain.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the incident and recall management processes is 'Partly Compliant' (PC). The documentation provides a framework for post-market surveillance (PMS) and post-market clinical follow-up (PMCF), but it lacks explicit details on the incident and recall management processes. Specifically, the PMS Plan outlines responsibilities for gathering data on user feedback and adverse events but does not clearly define the procedures for documenting incident reports and executing recall actions. This is critical for compliance with MDR requirements. Non-conformities identified include a lack of defined incident management processes, which is crucial for timely responses to safety issues, and insufficient recall procedures, which could lead to delays in addressing safety concerns. Recommendations include developing comprehensive incident management procedures and establishing detailed recall procedures to enhance compliance.",
+            "sub_requirements": [
+                {
+                    "description": "Implement incident and recall management processes.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for post-market surveillance (PMS) and post-market clinical follow-up (PMCF) but lacks explicit details on incident and recall management processes. While the PMS Plan outlines responsibilities for gathering data on user feedback and adverse events, it does not clearly define the procedures for documenting incident reports and executing recall actions, which are critical for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Defined Incident Management Process",
+                            "description": "The PMS Plan does not explicitly outline the procedures for incident management, including how incidents are reported, investigated, and documented. This is crucial for ensuring timely responses to safety issues.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMSB230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "DX PMSB230220-01 PMS Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Recall Procedures",
+                            "description": "There is no detailed procedure for executing recalls, including how to communicate with stakeholders and manage the logistics of a recall. This could lead to delays in addressing safety concerns.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMSB230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "DX PMSB230220-01 PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that incident and recall management processes are implemented within the supply chain. Verify documentation of incident reports and recall actions.",
+                    "relevant_documents": [
+                        "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMSB230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS BladderCare System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMSB230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "DX PMSB230220-01 PMS Plan"
+                        },
+                        {
+                            "path": "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "DX PMCF240220-01 PMCF Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS BladderCare System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "DXS BladderCare System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Incident Management Procedures",
+                            "description": "Create a comprehensive incident management procedure that outlines how incidents are reported, investigated, and documented. This should include timelines for reporting and follow-up actions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMSB230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "DX PMSB230220-01 PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Incident Management Procedures\n\n1. **Incident Reporting**: All personnel must report any incidents involving the BladderCare device immediately to the designated Incident Management Officer (IMO). Reports should be submitted within [[insert timeline, e.g., 24 hours]] of the incident occurrence. The report must include:\n   - Date and time of the incident\n   - Description of the incident\n   - Individuals involved\n   - Any immediate actions taken\n\n2. **Incident Investigation**: The IMO will initiate an investigation within [[insert timeline, e.g., 48 hours]] of receiving the report. The investigation will include:\n   - Gathering all relevant information and documentation\n   - Interviewing involved personnel\n   - Analyzing the incident to determine root causes\n\n3. **Documentation**: All incidents must be documented in the Incident Report Log, which will include:\n   - A unique incident ID\n   - Date of report\n   - Summary of the investigation findings\n   - Actions taken to mitigate future occurrences\n   - Follow-up actions and timelines\n\n4. **Follow-Up Actions**: Based on the investigation findings, the IMO will recommend corrective actions, which must be implemented within [[insert timeline, e.g., 30 days]]. The effectiveness of these actions will be reviewed in subsequent PMS meetings.\n\n5. **Training and Awareness**: All personnel will receive training on incident reporting and management procedures during onboarding and at least annually thereafter.\n\n6. **Review and Update**: This incident management procedure will be reviewed annually and updated as necessary to ensure compliance with regulatory requirements and best practices."
+                        },
+                        {
+                            "title": "Establish Recall Procedures",
+                            "description": "Develop a detailed recall procedure that includes steps for notifying customers, managing inventory, and documenting the recall process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 09 - Technical Documentation on Post-market Surveillance/DX PMSB230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "DX PMSB230220-01 PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Recall Procedure\n\nThe following detailed recall procedure is established to ensure effective management of product recalls:\n\n1. **Identification of the Need for Recall**: \n   - Any incident or adverse event that may necessitate a recall will be assessed by the Post-Market Surveillance (PMS) team. The decision to initiate a recall will be based on the severity of the incident and potential risk to patients or users.\n\n2. **Notification of Stakeholders**:\n   - Upon decision to recall, the following stakeholders will be notified:\n     - Customers: Affected customers will be contacted via [[description: method of communication (e.g., email, phone)]] to inform them of the recall, including details of the product involved, the reason for the recall, and instructions for returning the product.\n     - Regulatory Authorities: The relevant regulatory authorities will be notified in accordance with Article 87 of the MDR, including a detailed report of the incident and the recall actions taken.\n\n3. **Logistics Management**:\n   - The logistics team will coordinate the return of the recalled products, ensuring that all returned products are documented and tracked. A record of all returned products will be maintained for compliance and audit purposes.\n\n4. **Documentation of the Recall Process**:\n   - All actions taken during the recall process will be documented, including:\n     - Date of recall initiation\n     - Details of communications with stakeholders\n     - Records of returned products\n     - Any corrective actions taken as a result of the recall\n   - This documentation will be included in the Post-Market Surveillance Report and reviewed during the next management review meeting.\n\n5. **Post-Recall Analysis**:\n   - After the recall, a thorough analysis will be conducted to identify the root cause of the issue and to implement corrective actions to prevent recurrence. This analysis will be documented and included in the PMS report.\n\nThis procedure will be reviewed and updated as necessary to ensure compliance with the MDR and to improve the effectiveness of the recall process."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The incident and recall management processes are partly compliant due to insufficient details on incident reporting and recall execution, which are essential for meeting MDR requirements."
+        },
+        {
+            "requirement": "Compliance with Relevant Standards",
+            "reference": "MDR Article 25",
+            "description": "This requirement ensures that supply chain traceability processes comply with relevant standards (e.g., ISO 13485).",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The documentation demonstrates a substantial effort to comply with the relevant standards outlined in the MDR. The 'MX Summary of Technical Documentation (STED)' provides a comprehensive overview of the device, its intended use, and the applicable standards. However, there are gaps in the documentation regarding the supply chain traceability processes and the lack of detailed compliance assessments and certification records, which are critical for full compliance with the MDR. Specifically, the documentation does not provide sufficient evidence of supply chain traceability processes that comply with relevant standards, which is crucial for ensuring that all components of the medical device are sourced from compliant suppliers and that their quality is assured. Additionally, the documentation lacks detailed records of compliance assessments and certification records for the components used in the device, which is necessary to demonstrate adherence to the applicable standards and regulations.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure compliance with relevant standards.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation demonstrates a substantial effort to comply with the relevant standards outlined in the MDR. The 'MX Summary of Technical Documentation (STED)' provides a comprehensive overview of the device, its intended use, and the applicable standards. However, there are gaps in the documentation regarding the supply chain traceability processes and the lack of detailed compliance assessments and certification records, which are critical for full compliance with the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Supply Chain Traceability Documentation",
+                            "description": "The documentation does not provide sufficient evidence of supply chain traceability processes that comply with relevant standards. This is crucial for ensuring that all components of the medical device are sourced from compliant suppliers and that their quality is assured.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "MX Summary of Technical Documentation (STED)"
+                                },
+                                {
+                                    "path": "./MX Annex 06 - Product Verification and Validation/MXS System/MXS MediTrace System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "MXS MediTrace System Traceability Matrix"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Compliance Assessments",
+                            "description": "The documentation lacks detailed records of compliance assessments and certification records for the components used in the device. This is necessary to demonstrate adherence to the applicable standards and regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MX Annex 10 - Existing Approvals and Certificates/MX GS1 Company prefix Certificate v2.0 (Published)/MX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "MX GS1 Company prefix Certificate"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that supply chain traceability processes comply with relevant standards. Check for documentation of compliance assessments and certification records.",
+                    "relevant_documents": [
+                        "./MX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./MX Annex 06 - Product Verification and Validation/MXS System/MXS MediTrace System Traceability Matrix v2.1 (Draft).pdf",
+                        "./MX Annex 10 - Existing Approvals and Certificates/MX GS1 Company prefix Certificate v2.0 (Published)/MX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./MX Annex 04 - General Safety And Performance Requirements/MX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./MX Annex 04 - General Safety And Performance Requirements/MX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "MX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "./MX Annex 06 - Product Verification and Validation/MXS System/MXS MediTrace System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "MXS MediTrace System Traceability Matrix"
+                        },
+                        {
+                            "path": "./MX Annex 10 - Existing Approvals and Certificates/MX GS1 Company prefix Certificate v2.0 (Published)/MX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "MX GS1 Company prefix Certificate"
+                        },
+                        {
+                            "path": "./MX Annex 04 - General Safety And Performance Requirements/MX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards and Regulations"
+                        },
+                        {
+                            "path": "./MX Annex 04 - General Safety And Performance Requirements/MX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Supply Chain Traceability Documentation",
+                            "description": "Create comprehensive documentation that outlines the supply chain traceability processes for all components used in the BladderGuard device. This should include details on supplier selection, quality assurance measures, and traceability protocols.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MX Annex 06 - Product Verification and Validation/MXS System/MXS MediTrace System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "MXS MediTrace System Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Supply Chain Traceability Documentation\n\nTo ensure compliance with relevant standards and to enhance the traceability of all components used in the BladderGuard device, the following documentation has been developed:\n\n1. **Supplier Selection Process**: All suppliers are evaluated based on their compliance with ISO 13485 and other relevant standards. The evaluation includes a review of their quality management systems, production capabilities, and previous performance records.\n\n2. **Quality Assurance Measures**: Each supplier is required to provide documentation demonstrating their adherence to quality standards, including certificates of compliance and test reports for materials and components. This documentation is reviewed and approved by the quality assurance team before any orders are placed.\n\n3. **Traceability Protocols**: A traceability matrix has been established to track all components from the supplier to the final assembly of the BladderGuard device. This matrix includes:\n   - Supplier name and contact information\n   - Component description and specifications\n   - Batch numbers and manufacturing dates\n   - Quality control records and certificates of conformity\n   - Records of any non-conformities and corrective actions taken\n\n4. **Documentation Storage**: All traceability records are maintained in a secure electronic format, accessible to authorized personnel. Regular audits are conducted to ensure compliance with traceability protocols and to identify any areas for improvement.\n\n5. **Continuous Improvement**: Feedback from the traceability process is used to continuously improve supplier selection and quality assurance measures. Regular training is provided to staff involved in the supply chain management to ensure they are aware of the latest standards and practices.\n\nThis documentation is referenced in the MXS MediTrace System Traceability Matrix (Version 2.1) and is available for review in the associated documents section of the technical file."
+                        },
+                        {
+                            "title": "Compile Compliance Assessments and Certification Records",
+                            "description": "Gather and compile all necessary compliance assessments and certification records for the components used in the BladderGuard device. This should include certificates from suppliers and any relevant testing results.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MX Annex 10 - Existing Approvals and Certificates/MX GS1 Company prefix Certificate v2.0 (Published)/MX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                                    "short_name": "MX GS1 Company prefix Certificate"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with relevant standards, the following compliance assessments and certification records have been compiled for the components used in the BladderGuard device:\n\n1. **Supplier Certification Records**: All suppliers of components used in the BladderGuard device have been assessed for compliance with relevant standards. Attached are the certificates from each supplier, including:\n   - MX GS1 Company Prefix Certificate (Version 2.0)[0]\n   - Additional supplier certifications and agreements as applicable.\n\n2. **Compliance Assessment Records**: Detailed records of compliance assessments for each component have been compiled, including:\n   - Testing results from accredited laboratories demonstrating conformity with applicable standards.\n   - Risk management documentation that outlines the evaluation of potential risks associated with each component.\n\n3. **Traceability Documentation**: A traceability matrix has been established to ensure that all components can be traced back to their suppliers. This matrix includes:\n   - Supplier names and contact information.\n   - Component specifications and compliance status.\n   - Any relevant agreements or contracts that ensure quality assurance.\n\n4. **Document Control**: All records are maintained in a controlled document management system to ensure they are up-to-date and readily accessible for review by the notified body. The document control procedures are outlined in the Quality Management System (QMS) documentation.\n\nPlease ensure that all relevant documents are attached to this section of the technical file and that any additional supplier certifications are included as they become available."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The documentation is partly compliant with the MDR due to gaps in supply chain traceability and insufficient compliance assessments."
+        }
+    ]
+}

@@ -1,0 +1,217 @@
+
+Successful Decodings: 9
+Failed Decodings: 0
+Successful Decodings: 9
+Failed Decodings: 0
+Successful Decodings: 9
+Failed Decodings: 0
+Successful Decodings: 9
+Failed Decodings: 0
+Successful Decodings: 9
+Failed Decodings: 0
+Successful Decodings: 9
+Failed Decodings: 0
+Successful Decodings: 125
+Failed Decodings: 0
+Successful Decodings: 362
+Failed Decodings: 0
+Successful Decodings: 14
+Failed Decodings: 1
+Error: Invalid JSON format
+Raw Output: {
+    "report_abstract": "The technical documentation for the ParagitPX medical device has been thoroughly assessed in accordance with the Medical Device Regulation (EU) 2017/745 (MDR). The documentation is well-structured, organized in the STED format, and complies with the requirements outlined in Annexes II and III of the MDR. Key findings indicate that the device description and specifications are comprehensive, providing clear information on intended use and user demographics. The General Safety and Performance Requirements (GSPR) have been adequately addressed, with a detailed checklist demonstrating conformity. A robust benefit-risk analysis has been conducted, confirming that all identified risks are acceptable and justifiable against the benefits provided by the device. Verification and validation activities have been successfully completed, with all tests meeting the required standards, ensuring the device's performance aligns with its intended use. The post-market surveillance plan is established, outlining the responsibilities and activities necessary for ongoing monitoring of the device's performance and safety. Overall, the documentation reflects a commitment to compliance and safety, positioning ParagitPX favorably for market entry."
+}
+
+Successful Decodings: 15
+Failed Decodings: 0
+Successful Decodings: 0
+Failed Decodings: 0
+Successful Decodings: 278
+Failed Decodings: 0
+Successful Decodings: 374
+Failed Decodings: 3
+Error: Expecting property name enclosed in double quotes: line 77 column 5 (char 5198)
+Raw Output: ```json
+{
+  "description": "Identify and manage manufacturing risks associated with the device.",
+  "compliance_grade": "PC",
+  "detailed_compliance_explanation": "The documentation provided indicates that the manufacturing risks associated with the ParagitPX device have been identified and some measures have been implemented to manage these risks. However, there are gaps in the documentation regarding the thoroughness of the manufacturing process validations and the quality control measures. For instance, while the Risk Management Report indicates that risks are controlled according to post-market activities, it lacks detailed evidence of ongoing supplier audits and the effectiveness of quality control measures. Therefore, while some risks are managed, the absence of comprehensive documentation on all manufacturing processes leads to a partly compliant status.",
+  "non_conformities": [
+    {
+      "title": "Insufficient Supplier Audit Documentation",
+      "description": "The documentation does not provide sufficient evidence of regular supplier audits to ensure that all manufacturing risks are managed effectively. This is critical as suppliers can introduce risks that affect the overall safety and performance of the device.",
+      "associated_documents": [
+        {
+          "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+          "short_name": "PX Risk Management Report"
+        },
+        {
+          "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+          "short_name": "PX Quality Plan"
+        }
+      ]
+    },
+    {
+      "title": "Lack of Comprehensive Quality Control Measures",
+      "description": "The quality control measures outlined in the documentation are not comprehensive enough to ensure that all manufacturing risks are adequately managed. There is a need for more detailed descriptions of the quality control processes and their effectiveness.",
+      "associated_documents": [
+        {
+          "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+          "short_name": "PX Quality Plan"
+        },
+        {
+          "path": "./PX Annex 06 - Product Verification and Validation/PX Test Reports  v2.0 (Published).pdf",
+          "short_name": "PX Test Reports"
+        }
+      ]
+    }
+  ],
+  "checked_documents": [
+    {
+      "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+      "short_name": "PX Risk Management Plan"
+    },
+    {
+      "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+      "short_name": "PX Risk Management Report"
+    },
+    {
+      "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+      "short_name": "PX Quality Plan"
+    },
+    {
+      "path": "./PX Annex 06 - Product Verification and Validation/PX Test Reports  v2.0 (Published).pdf",
+      "short_name": "PX Test Reports"
+    },
+    {
+      "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+      "short_name": "PX Verification Plan"
+    },
+    {
+      "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+      "short_name": "PX Final Verification Report"
+    }
+  ],
+  "tasks_list": [
+    {
+      "title": "Enhance Supplier Audit Procedures",
+      "description": "Develop and implement a comprehensive supplier audit procedure to ensure that all suppliers are regularly evaluated for compliance with manufacturing standards and risk management practices.",
+      "associated_documents": [
+        {
+          "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+          "short_name": "PX Risk Management Report"
+        },
+        {
+          "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+          "short_name": "PX Quality Plan"
+        }
+      ],
+      "user_input": "",
+      "suggestion": "To enhance supplier audit procedures, the manufacturer should include the following details in the documentation: \n\n- **Audit Frequency**: Specify how often audits will be conducted (e.g., annually, bi-annually).\n- **Audit Criteria**: Define the criteria for evaluating suppliers, including compliance with quality standards and risk management practices.\n- **Audit Process**: Outline the steps involved in the audit process, including pre-audit preparation, on-site evaluation, and post-audit follow-up.\n- **Reporting**: Include a section on how audit findings will be documented and communicated to suppliers.\n- **Corrective Actions**: Describe the process for addressing any non-conformities identified during audits.\n\nThis will ensure that all manufacturing risks associated with the device are effectively managed and documented. [[description]]",
+    },
+    {
+      "title": "Document Comprehensive Quality Control Measures",
+      "description": "Revise the quality control documentation to include detailed descriptions of all quality control measures implemented during the manufacturing process.",
+      "associated_documents": [
+        {
+          "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+          "short_name": "PX Quality Plan"
+        },
+        {
+          "path": "./PX Annex 06 - Product Verification and Validation/PX Test Reports  v2.0 (Published).pdf",
+          "short_name": "PX Test Reports"
+        }
+      ],
+      "user_input": "",
+      "suggestion": "The manufacturer should enhance the quality control documentation by adding the following information: \n\n- **Quality Control Procedures**: Describe the specific procedures used to monitor and control the quality of the manufacturing process.\n- **Testing Protocols**: Include detailed testing protocols for each stage of production, including acceptance criteria and methods for evaluating results.\n- **Responsibility**: Specify who is responsible for conducting quality control checks and how often these checks will occur.\n- **Documentation**: Outline how quality control results will be documented and reviewed.\n\nThis will provide a clearer understanding of the quality control measures in place and their effectiveness in managing manufacturing risks. [[description]]"
+    }
+  ]
+}
+```
+
+Error: Expecting property name enclosed in double quotes: line 57 column 5 (char 4208)
+Raw Output: ```json
+{
+  "description": "Document conformity with CS to establish presumption of conformity with MDR.",
+  "compliance_grade": "PC",
+  "detailed_compliance_explanation": "The technical documentation provided for the Paragit PX medical device demonstrates a reasonable level of compliance with the relevant standards and regulations outlined in the MDR. However, there are areas where the documentation lacks clarity and completeness, particularly in the risk management and clinical evaluation sections. For instance, while the EU Declaration of Conformity states compliance with several harmonized standards, it does not sufficiently detail how each standard is met in relation to the specific device functionalities. Additionally, the GSPR Checklist indicates compliance with many requirements, but some sections lack explicit references to supporting documentation, which is critical for establishing a clear presumption of conformity.",
+  "non_conformities": [
+    {
+      "title": "Insufficient Detail in Risk Management Documentation",
+      "description": "The risk management file does not provide comprehensive details on how risks are identified, evaluated, and mitigated for the Paragit PX device. This is crucial for demonstrating compliance with ISO 14971:2019.",
+      "associated_documents": [
+        {
+          "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+          "short_name": "PX GSPR Checklist"
+        }
+      ]
+    },
+    {
+      "title": "Lack of Clinical Evaluation Evidence",
+      "description": "The documentation does not adequately present clinical evaluation data or a post-market clinical follow-up plan, which is necessary to support the safety and performance claims of the device.",
+      "associated_documents": [
+        {
+          "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+          "short_name": "PX STED"
+        }
+      ]
+    }
+  ],
+  "checked_documents": [
+    {
+      "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+      "short_name": "PX STED"
+    },
+    {
+      "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+      "short_name": "Applicable Standards"
+    },
+    {
+      "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+      "short_name": "PX GSPR Checklist"
+    },
+    {
+      "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+      "short_name": "EU Declaration of Conformity"
+    }
+  ],
+  "tasks_list": [
+    {
+      "title": "Enhance Risk Management Documentation",
+      "description": "Revise the risk management file to include detailed methodologies for risk identification, evaluation, and mitigation specific to the Paragit PX device. Ensure that all risks are documented with corresponding risk control measures and justifications for residual risks.",
+      "associated_documents": [
+        {
+          "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+          "short_name": "PX GSPR Checklist"
+        }
+      ],
+      "user_input": "",
+      "suggestion": "The risk management file should be updated to include the following sections: \n\n1. **Risk Identification**: List all potential risks associated with the Paragit PX device, including those identified during design and testing phases. \n2. **Risk Evaluation**: Provide a detailed assessment of the likelihood and severity of each identified risk, using a risk matrix where applicable. \n3. **Risk Control Measures**: Describe the measures taken to mitigate each risk, including design changes, warnings, and user instructions. \n4. **Residual Risk Justification**: For any residual risks, provide a justification that explains why these risks are acceptable in light of the device's intended use and benefits. \n\nThis documentation should be comprehensive and clearly referenced in the GSPR Checklist to demonstrate compliance with ISO 14971:2019.",
+    },
+    {
+      "title": "Conduct Clinical Evaluation",
+      "description": "Develop and document a clinical evaluation plan that includes data collection methods, evaluation criteria, and a timeline for the Paragit PX device. Ensure that the plan aligns with the requirements set out in Article 61 and Annex XIV of the MDR.",
+      "associated_documents": [
+        {
+          "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+          "short_name": "PX STED"
+        }
+      ],
+      "user_input": "",
+      "suggestion": "The clinical evaluation plan should include the following components: \n\n1. **Objective**: Define the purpose of the clinical evaluation for the Paragit PX device. \n2. **Data Sources**: Identify the sources of clinical data, including literature reviews, clinical studies, and post-market surveillance data. \n3. **Evaluation Methodology**: Outline the methods used to assess the clinical data, including statistical analysis and comparison with similar devices. \n4. **Timeline**: Provide a timeline for data collection and evaluation, including milestones for interim reports and final evaluation. \n\nThis plan should be documented and referenced in the technical documentation to ensure compliance with MDR requirements."
+    }
+  ]
+}
+```
+
+Error: Invalid JSON format
+Raw Output: {
+    "report_abstract": "The comprehensive assessment of the technical documentation for the ParagitPX medical device reveals a predominantly 'Partly Compliant' (PC) status across multiple categories as per the Medical Device Regulation (MDR) (EU) 2017/745. Key findings indicate critical gaps in device description, labeling, and instructions for use, which lack essential details for user safety and traceability. The general safety and performance requirements show partial compliance, with deficiencies in risk management documentation and testing protocols. Design and manufacturing information is inadequately documented, particularly concerning quality control measures and raw material sourcing. The benefit-risk analysis and risk management processes require substantial enhancements, particularly in documenting residual risks and monitoring strategies. Verification and validation activities exhibit significant gaps, particularly in usability testing and clinical validation methodologies. Post-market surveillance documentation lacks sufficient detail for effective monitoring, while clinical evaluation processes reveal challenges in justifying clinical evidence and risk management. Usability and human factors engineering assessments indicate outdated documentation and insufficient testing, while software lifecycle processes and cybersecurity requirements highlight critical deficiencies in risk management and incident response strategies. Finally, supply chain traceability is compromised due to inadequate agreements and documentation. Overall, the findings underscore the need for substantial revisions and enhancements across all areas to achieve full compliance with MDR requirements, ensuring the safety and effectiveness of the ParagitPX medical device."
+}
+
+Successful Decodings: 24
+Failed Decodings: 0
+Successful Decodings: 0
+Failed Decodings: 0
+Successful Decodings: 25
+Failed Decodings: 0

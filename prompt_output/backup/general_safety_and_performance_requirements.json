@@ -1,0 +1,1523 @@
+{
+    "requirements": [
+        {
+            "requirement": "General Requirements",
+            "reference": "MDR Annex I, Chapter I, Section 1",
+            "description": "This requirement involves ensuring that the device achieves the performance intended by the manufacturer and is designed and manufactured in such a way that, when used under the conditions and for the purposes intended, it will not compromise the clinical condition or the safety of patients, users, or others.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the General Requirements is partly compliant (PC). The first sub-requirement, which ensures the device achieves the performance intended by the manufacturer, is compliant (C). The documentation, including the Clinical Evaluation Report, provides substantial evidence that the Paragit PX device meets its intended performance without reported adverse events. However, the second sub-requirement, which focuses on the design and manufacturing processes to ensure safety, is partly compliant (PC). Although the device has undergone a risk management process in accordance with ISO 14971, there are significant gaps in the risk management documentation. Specifically, the documentation lacks detailed evaluations of risks associated with foreseeable misuse and does not clearly articulate the effectiveness of the risk control measures implemented. This raises concerns about the overall safety of the device, leading to the partly compliant rating for this sub-requirement.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the device achieves the performance intended by the manufacturer.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates that the Paragit PX device achieves its intended performance as outlined by the manufacturer. The Clinical Evaluation Report (CER) confirms that the clinical safety and performance of the device have been adequately evaluated, with no adverse events reported in the literature. The performance data, including the results from preclinical testing and user feedback, support the claims made regarding the device's efficacy in quantifying muscular performance and movement[0][1].",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the device achieves the performance intended by the manufacturer. This includes reviewing performance data, clinical evaluations, and user feedback. If the performance is as intended and documented, it is compliant. If the performance is partly achieved, it is partly compliant. If the performance is not achieved, it is non-compliant.",
+                    "examples": [
+                        "Performance data",
+                        "Clinical evaluation reports",
+                        "User feedback forms"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report"
+                        },
+                        {
+                            "path": "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PX PMCF Plan"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Review and Update Clinical Evaluation Report",
+                            "description": "Ensure that the Clinical Evaluation Report is updated with the latest clinical data and user feedback to maintain compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Clinical Evaluation Report (CER) for the Paragit PX device has been updated to include the latest clinical data and user feedback as follows: \n\n1. **Clinical Data Update**: The CER now incorporates recent findings from peer-reviewed studies that demonstrate the efficacy of the Paragit PX in quantifying muscular performance and movement. This includes data from [[insert specific studies or data sources]] that validate the device's intended performance claims.\n\n2. **User Feedback**: Feedback collected from users during the initial deployment phase has been summarized. Key insights include [[insert specific user feedback or themes]], which have been addressed in the updated risk management and usability sections of the documentation.\n\n3. **Post-Market Surveillance (PMS)**: The report outlines the ongoing PMS activities that will continue to monitor the device's performance in real-world settings. This includes a commitment to update the CER at least every two years or sooner if significant new data emerges from PMS activities.\n\n4. **Benefit-Risk Assessment**: The updated CER includes a revised benefit-risk assessment that reflects the latest clinical data and user feedback, ensuring that the benefits of using the Paragit PX outweigh any identified risks. The assessment concludes that the device remains safe and effective for its intended use.\n\n5. **Conclusion**: The updated CER confirms that the Paragit PX device achieves its intended performance as outlined by the manufacturer, with no adverse events reported in the literature and strong support from both clinical data and user feedback."
+                        },
+                        {
+                            "title": "Enhance Post-Market Surveillance Activities",
+                            "description": "Implement a more robust post-market surveillance plan to continuously monitor the device's performance and safety in real-world settings.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                                    "short_name": "PX PMCF Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "No text suggestion provided for this task"
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the device is designed and manufactured to not compromise the clinical condition or safety of patients, users, or others.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation indicates that the ParagitPX device has undergone a risk management process in accordance with ISO 14971:2019/A11:2021, which is a positive aspect. However, there are concerns regarding the completeness of the risk management documentation and the clarity of the risk control measures implemented. While the identified risks are stated to be acceptable, the documentation lacks detailed evidence of how these risks were evaluated and controlled, particularly in the context of foreseeable misuse and the effectiveness of the implemented risk controls.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Risk Management Documentation",
+                            "description": "The risk management files do not provide sufficient detail on the evaluation of risks associated with foreseeable misuse and the effectiveness of risk control measures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Clarity in Risk Control Measures",
+                            "description": "The documentation does not clearly articulate the specific risk control measures taken and their effectiveness in mitigating identified risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the device is designed and manufactured to not compromise the clinical condition or safety of patients, users, or others. This includes reviewing risk management files, design specifications, and manufacturing processes. If the design and manufacturing processes ensure safety, it is compliant. If there are minor safety concerns, it is partly compliant. If there are significant safety concerns, it is non-compliant.",
+                    "examples": [
+                        "Risk management files",
+                        "Design specifications",
+                        "Manufacturing process documentation"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "STED"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "Design Output"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "Quality Plan"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                            "short_name": "System Requirements List"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Verification Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Risk Management Documentation",
+                            "description": "Revise the risk management documentation to include detailed evaluations of risks associated with foreseeable misuse and the effectiveness of risk control measures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the risk management documentation, please include the following text in the Risk Management Plan and Risk Analysis documents:\n\n\"In accordance with ISO 14971:2019/A11:2021, the risk management process for the ParagitPX device includes a comprehensive evaluation of risks associated with foreseeable misuse. This evaluation considers potential user errors, environmental factors, and device malfunctions that could compromise patient safety. Each identified risk is assessed for its likelihood and severity, and appropriate risk control measures are implemented to mitigate these risks. The effectiveness of these measures is continuously monitored and documented. Specific examples of foreseeable misuse include [[insert specific misuse scenarios]], and the corresponding risk control measures include [[insert specific control measures]]. The residual risks are evaluated and deemed acceptable based on the benefit-risk analysis conducted. The results of this evaluation are documented in the risk management file, ensuring transparency and traceability of the risk management process.\""
+                        },
+                        {
+                            "title": "Clarify Risk Control Measures",
+                            "description": "Provide a clear articulation of the specific risk control measures taken and their effectiveness in mitigating identified risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clarity of the risk control measures implemented for the ParagitPX device, the following text should be added to the Risk Management Plan:\n\n\"The specific risk control measures implemented to mitigate identified risks include: \n1. **Design Controls**: Inherent safety features have been integrated into the design to minimize risks associated with foreseeable misuse. For example, [[describe specific design features that enhance safety]].\n2. **User Training**: Comprehensive training programs for users have been established to ensure proper usage of the device, thereby reducing the likelihood of misuse. Training materials include [[list training materials or methods]].\n3. **Warnings and Instructions**: Clear warnings and instructions for use (IFU) have been provided to inform users of potential risks and safe usage practices. These include [[list specific warnings or instructions]].\n4. **Post-Market Surveillance**: Continuous monitoring of device performance and user feedback is conducted to identify any emerging risks. This includes [[describe post-market surveillance activities]].\n\nEach of these measures has been evaluated for effectiveness through [[describe evaluation methods, e.g., testing, user feedback]], and the results indicate that the implemented controls significantly reduce the associated risks to acceptable levels.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to one sub-requirement being compliant (C) and the other being partly compliant (PC) due to insufficient risk management documentation."
+        },
+        {
+            "requirement": "Risk Management",
+            "reference": "MDR Annex I, Chapter I, Section 2",
+            "description": "This requirement involves implementing a risk management system to identify and mitigate risks associated with the device throughout its lifecycle.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the risk management requirement is partly compliant (PC). The assessment of the sub-requirements reveals a mix of compliant and partly compliant statuses. The implementation of a risk management system in accordance with ISO 14971 is compliant, as evidenced by a comprehensive Risk Management Plan and supporting documents. However, the identification and documentation of known and foreseeable risks are partly compliant due to gaps in the completeness of risk control measures and insufficient justification for waived tests. The implementation of risk control measures is also partly compliant, as there is a lack of detailed records of implementation and effectiveness evaluations. Finally, the review and update of the risk management system throughout the device lifecycle is partly compliant, primarily due to insufficient documentation of periodic reviews and a lack of detailed update procedures. These gaps indicate that while there is a framework in place, further enhancements are necessary to achieve full compliance with MDR requirements.",
+            "sub_requirements": [
+                {
+                    "description": "Implement a risk management system in accordance with ISO 14971.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates a comprehensive risk management system that aligns with ISO 14971. The Risk Management Plan outlines the processes for risk identification, evaluation, control, and review. The Risk Analysis document provides detailed assessments of identified risks, including their severity and probability of occurrence, and the Risk Management Report confirms that all risks have been adequately controlled to an acceptable level. The documentation also includes provisions for post-market surveillance and continuous risk assessment, which are essential for compliance with ISO 14971.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if a risk management system is implemented in accordance with ISO 14971. This includes reviewing the risk management plan, risk analysis, risk evaluation, risk control, and risk review. If the system is comprehensive and follows ISO 14971, it is compliant. If there are minor deviations, it is partly compliant. If the system is not implemented or significantly deviates from ISO 14971, it is non-compliant.",
+                    "examples": [
+                        "Risk management plan",
+                        "Risk analysis reports",
+                        "Risk evaluation records",
+                        "Risk control measures",
+                        "Risk review reports"
+                    ],
+                    "relevant_documents": [
+                        "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        }
+                    ],
+                    "tasks_list": []
+                },
+                {
+                    "description": "Identify and document all known and foreseeable risks associated with the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation identifies several risks associated with the ParagitPX medical device, including biological risks such as cytotoxicity, skin irritation, and sensitization. However, while the risk management plan and biological risk assessment documents provide a structured approach to risk identification and evaluation, there are gaps in the documentation regarding the completeness of risk control measures and the justification for waiving certain tests. Specifically, the biological risk assessment indicates that no additional testing is necessary based on the historical safety of the materials used, but it lacks detailed justification for this conclusion. Furthermore, the risk management plan does not clearly outline how residual risks will be monitored post-market, which is critical for ensuring ongoing compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Risk Control Measures",
+                            "description": "The risk management plan does not adequately document the implementation of risk control measures for all identified hazards, particularly regarding post-market surveillance and monitoring of residual risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Justification for Waived Tests",
+                            "description": "The biological risk assessment states that certain tests are not necessary due to the historical safety of the materials used, but it does not provide sufficient justification or data to support this claim.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that all known and foreseeable risks associated with the device are identified and documented. This includes hazard identification, risk estimation, and risk evaluation. If all risks are identified and documented, it is compliant. If some risks are missing or not well-documented, it is partly compliant. If significant risks are missing, it is non-compliant.",
+                    "examples": [
+                        "Hazard identification records",
+                        "Risk estimation reports",
+                        "Risk evaluation documents"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "Traceability Matrix"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Risk Control Documentation",
+                            "description": "Review and enhance the documentation of risk control measures to ensure that all identified hazards have corresponding control measures and that these measures are effectively implemented and monitored.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the documentation of risk control measures, please add the following text to the Risk Management Plan:\n\n\"The implementation of risk control measures for all identified hazards has been thoroughly documented. Each identified risk has corresponding control measures that are effectively implemented and monitored. Specifically, for post-market surveillance, the following actions will be taken to monitor residual risks: [[description of post-market surveillance activities, including frequency and responsible personnel]]. This will ensure that any emerging risks are promptly identified and addressed, maintaining compliance with MDR requirements. Furthermore, the effectiveness of these risk control measures will be evaluated regularly, and updates will be made to the Risk Management File as necessary.\""
+                        },
+                        {
+                            "title": "Provide Justification for Waived Tests",
+                            "description": "Develop a comprehensive justification for waiving specific tests in the biological risk assessment, including references to historical data and literature that support the safety of the materials used.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "Biological Risk Assessment"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the Biological Risk Assessment document, add the following justification for waiving specific tests:\n\n\"The decision to waive certain biological tests is based on the historical safety data of the materials used in the ParagitPX device. Specifically, the materials have been previously evaluated and have consistently demonstrated biocompatibility in accordance with the guidelines set forth in EN ISO 10993-1:2020. Historical data from similar devices utilizing the same materials indicate a low incidence of adverse reactions, supporting the conclusion that additional testing is unnecessary. Furthermore, a comprehensive literature review was conducted, revealing no significant safety concerns associated with these materials in similar applications. This review included studies published in peer-reviewed journals and data from regulatory submissions for analogous devices. The specific references supporting this conclusion are detailed in the attached documentation: [[insert references here]].\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement risk control measures to mitigate identified risks.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for risk management, including a Risk Management Plan and Risk Analysis. However, while risk control measures are identified, there is insufficient evidence of their implementation and effectiveness evaluations. For instance, the Risk Management Plan outlines the need for verification of actions to reduce risks, but lacks detailed records of implementation and effectiveness assessments. This indicates that while some measures are in place, they may not be comprehensive or fully effective, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Implementation Records",
+                            "description": "The Risk Management Plan mentions that all activities to reduce risks will be addressed in the Risk Analysis document, but does not provide specific implementation records or effectiveness evaluations for the risk control measures identified.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Effectiveness Evaluations",
+                            "description": "The documentation does not provide sufficient evidence of effectiveness evaluations for the implemented risk control measures. This is critical to ensure that the measures are not only implemented but also effective in mitigating risks.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "Final Verification Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that risk control measures are implemented to mitigate identified risks. This includes reviewing risk control options, implementation records, and effectiveness evaluations. If risk control measures are comprehensive and effective, it is compliant. If some measures are missing or not fully effective, it is partly compliant. If significant measures are missing or ineffective, it is non-compliant.",
+                    "examples": [
+                        "Risk control options",
+                        "Implementation records",
+                        "Effectiveness evaluations"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "Final Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Document Implementation of Risk Control Measures",
+                            "description": "Ensure that all identified risk control measures are documented with clear implementation records. This includes detailing who is responsible for each measure, the timeline for implementation, and the specific actions taken.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                                    "short_name": "Risk Analysis"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive documentation of the implementation of risk control measures, the following text should be added to the Risk Management Plan: \n\n\"All identified risk control measures have been documented with clear implementation records. Each measure includes the following details: \n1. Responsible Person: [[Name of the individual or team responsible for implementing the measure]]. \n2. Implementation Timeline: [[Specific dates or timeframes for implementation]]. \n3. Actions Taken: [[Detailed description of the actions taken to implement the risk control measures]]. \n\nThese records will be maintained and reviewed regularly to ensure ongoing compliance and effectiveness of the risk control measures. Effectiveness evaluations will be conducted post-implementation to assess the impact of the measures on the identified risks, and results will be documented in the Risk Management File.\""
+                        },
+                        {
+                            "title": "Conduct Effectiveness Evaluations",
+                            "description": "Establish a process for evaluating the effectiveness of implemented risk control measures. This should include criteria for success and methods for assessment.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "Final Verification Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive evaluation of the effectiveness of implemented risk control measures, the following process will be established: \n\n1. **Criteria for Success**: Each risk control measure will have defined success criteria based on the specific risks they are intended to mitigate. These criteria will be documented in the Risk Management Plan and will include measurable outcomes that indicate whether the risk has been effectively controlled. \n\n2. **Methods for Assessment**: The effectiveness of the risk control measures will be assessed using a combination of qualitative and quantitative methods, including but not limited to:\n   - Review of incident reports and adverse event data related to the risks addressed.\n   - Surveys and feedback from users regarding the perceived safety and effectiveness of the device.\n   - Performance testing results that demonstrate compliance with the established success criteria.\n\n3. **Documentation of Evaluations**: All evaluations of effectiveness will be documented in a dedicated section of the Risk Management Plan, including:\n   - Date of evaluation\n   - Personnel involved in the evaluation\n   - Summary of findings\n   - Any necessary follow-up actions or adjustments to the risk control measures.\n\n4. **Review and Update**: The effectiveness evaluations will be reviewed periodically, and the Risk Management Plan will be updated accordingly to reflect any changes in risk control measures or their effectiveness. This will ensure ongoing compliance with the MDR requirements and continuous improvement of the risk management process.\n\nThis process will be integrated into the existing Risk Management Plan (PX 2024-04-01 Risk Management Plan v3.0) and will be referenced in the Final Verification Report (PX FVR240424 Final Verification Report v2.0) to demonstrate compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Review and update the risk management system throughout the device lifecycle.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The risk management documentation indicates that the risk management system is reviewed and updated periodically, with specific mention of annual reviews and updates based on new information such as customer complaints and changes in legislation. However, the documentation lacks explicit records of these periodic reviews and updates, which raises concerns about the completeness and frequency of the reviews. Additionally, while the post-market surveillance plan outlines objectives for maintaining the benefit-risk determination, it does not provide sufficient detail on how the data collected will directly influence updates to the risk management documentation.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Documentation of Periodic Reviews",
+                            "description": "The documentation does not provide explicit records or evidence of the periodic reviews conducted on the risk management system, which is essential for demonstrating compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Detailed Update Procedures",
+                            "description": "The post-market surveillance plan lacks detailed procedures on how the collected data will lead to updates in the risk management documentation, which is necessary to ensure that the risk management system remains current and effective.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the risk management system is reviewed and updated throughout the device lifecycle. This includes periodic reviews, post-market surveillance data, and updates based on new information. If the system is regularly reviewed and updated, it is compliant. If reviews and updates are infrequent or incomplete, it is partly compliant. If the system is not reviewed or updated, it is non-compliant.",
+                    "examples": [
+                        "Periodic review reports",
+                        "Post-market surveillance data",
+                        "System update records"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "Risk Management Report"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                            "short_name": "PMS Plan"
+                        },
+                        {
+                            "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                            "short_name": "PMCF Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Document Periodic Review Records",
+                            "description": "Establish a formal process for documenting periodic reviews of the risk management system, including the frequency of reviews, participants involved, and outcomes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with MDR requirements, the following formal process for documenting periodic reviews of the risk management system will be established:\n\n1. **Frequency of Reviews**: The risk management system will be reviewed at least annually, or more frequently if significant changes occur, such as new information from post-market surveillance, customer complaints, or changes in legislation.\n\n2. **Participants Involved**: The review will involve key personnel from the Risk Management Team, including but not limited to the following roles: [[list of roles, e.g., Risk Manager, Quality Assurance Officer, etc.]].\n\n3. **Documentation of Outcomes**: Each review will be documented in a dedicated section of the Risk Management Report. This documentation will include:\n   - Date of the review\n   - Participants present\n   - Summary of discussions\n   - Decisions made regarding risk acceptability and any necessary updates to the risk management documentation\n   - Actions assigned to specific team members with deadlines for follow-up\n\n4. **Record Keeping**: All records of periodic reviews will be maintained in the Risk Management Report (PX 2024-04-01 Risk Management Report v3.0) and will be made available for inspection by notified bodies as required by MDR regulations."
+                        },
+                        {
+                            "title": "Enhance Post-Market Surveillance Procedures",
+                            "description": "Revise the post-market surveillance plan to include detailed procedures on how data collected will influence updates to the risk management documentation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the post-market surveillance plan, the following text should be added: \n\n\"The post-market surveillance plan includes detailed procedures on how the data collected will influence updates to the risk management documentation. Specifically, the data gathered from customer complaints, adverse events, and clinical feedback will be systematically analyzed to identify trends and potential risks. \n\nUpon completion of each data collection cycle, a review will be conducted to assess whether any of the thresholds for risk indicators have been exceeded. If so, the Risk Management File (RMF) will be updated accordingly, and new mitigation measures will be introduced as necessary. The results of these analyses will be documented in the Post Market Surveillance Report, which will summarize the findings and outline any required updates to the risk management documentation. This ensures that the risk management system remains current and effective throughout the device lifecycle. \n\nThe responsibilities for data analysis and the updating of the RMF are assigned to [[description: responsible personnel]], and updates will be performed at least annually or more frequently if significant new information arises. The communication of findings to relevant stakeholders, including notified bodies and competent authorities, will be conducted as per the established QMS procedures.\""
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The risk management documentation is partly compliant due to gaps in risk control measures, implementation records, and periodic review documentation, despite having a solid foundation aligned with ISO 14971."
+        },
+        {
+            "requirement": "Chemical, Physical, and Biological Properties",
+            "reference": "MDR Annex I, Chapter II, Section 10",
+            "description": "This requirement involves ensuring that the device's chemical, physical, and biological properties are safe and compatible with the intended use.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Chemical, Physical, and Biological Properties' requirement is partly compliant (PC). The assessment of the sub-requirements reveals the following: \n\n1. **Chemical Properties**: The device's chemical properties are compliant (C), as the documentation demonstrates safety and compatibility with intended use, supported by ISO 10993 standards. All necessary chemical characterization and biocompatibility assessments are provided, confirming no toxicological risks. \n\n2. **Physical Properties**: The physical properties are partly compliant (PC). While the documentation outlines various physical requirements, it lacks comprehensive mechanical testing reports and environmental testing data, which are essential to fully ensure compliance with the MDR. The absence of these critical tests indicates a minor safety concern. \n\n3. **Biological Properties**: The biological properties are also partly compliant (PC). The biological risk assessment indicates negligible risk, but it relies on analogous data rather than direct testing results for cytotoxicity, skin irritation, and sensitization specific to the device. This reliance presents a minor safety concern, necessitating direct testing to ensure full compliance. \n\nOverall, while the chemical properties are compliant, the gaps in physical and biological testing result in a partly compliant status for the entire requirement.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the chemical properties of the device are safe and compatible with the intended use.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates that the chemical properties of the device are safe and compatible with its intended use. The materials used in the device have a long history of safe use in medical applications, and the biological risk assessment indicates negligible risk associated with the constituents. The chemical characterization aligns with ISO 10993 standards, confirming that the materials do not pose toxicological risks, including cytotoxicity, skin irritation, and sensitization. The documentation includes relevant assessments and evaluations that support the safety and compatibility of the device's chemical properties.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the chemical properties of the device are safe and compatible with the intended use. This includes reviewing chemical composition, material safety data sheets (MSDS), and chemical compatibility studies. If the chemical properties are safe and compatible, it is compliant. If there are minor safety concerns, it is partly compliant. If there are significant safety concerns, it is non-compliant.",
+                    "examples": [
+                        "Chemical composition records",
+                        "Material safety data sheets (MSDS)",
+                        "Chemical compatibility studies"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PXS S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                            "short_name": "PX S-ST003 CHEMICAL CHARACTERIZATION"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PXS S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                            "short_name": "PX S-ST001 CYTOTOXICITY"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PXS S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                            "short_name": "PX S-ST002 IRRITATION"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                            "short_name": "PX Datasheets - biocomp. v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Chemical Characterization Documentation",
+                            "description": "Ensure that the chemical characterization documentation is comprehensive and includes all relevant chemical composition details, material safety data sheets (MSDS), and compatibility studies.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST003 CHEMICAL CHARACTERIZATION"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The chemical characterization documentation has been updated to include comprehensive details regarding the chemical composition of the device, as well as relevant Material Safety Data Sheets (MSDS) and compatibility studies. The following sections have been added:\n\n1. **Chemical Composition**: A detailed breakdown of all materials used in the device, including their respective chemical properties and any relevant regulatory compliance information. This includes:\n   - PS non-conductive base textile: 86% Polyamide, 14% Elastane. Compliance with REACH and absence of latex or natural rubber.\n   - PS Gecko Electrodes: Biocompatible silicone surface, compliant with ISO 10993-5, ISO 10993-10, and ISO 10993-23.\n   - Insulation Patch: Adhesive patch compliant with ISO 10993-5, ISO 10993-10, and ISO 10993-23.\n   - PRU-C Casing: 3D printed plastic enclosure made of polyamide 12, compliant with EN ISO 10993-1 and USP/level VI/121 degrees Celsius.\n\n2. **Material Safety Data Sheets (MSDS)**: Attached MSDS for each material used, detailing safety, handling, and potential hazards associated with each chemical component.\n\n3. **Compatibility Studies**: Summary of compatibility studies conducted to ensure that the materials do not interact adversely with each other or with biological tissues, confirming the safety and effectiveness of the device for its intended use.\n\nThis documentation aligns with the requirements set forth in ISO 10993 standards and demonstrates the safety and compatibility of the chemical properties of the device with its intended use."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the physical properties of the device are safe and compatible with the intended use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation provides a comprehensive overview of the device's physical properties and intended use. However, while the documents outline various physical requirements and biocompatibility tests, there are some gaps in mechanical testing reports and environmental testing data that are necessary to fully ensure compliance with the MDR. For instance, the documents reference compliance with ISO standards for biocompatibility, but do not provide detailed mechanical testing results that would demonstrate the device's physical robustness under expected usage conditions. Therefore, while the device is partly compliant, additional data is required to achieve full compliance.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Mechanical Testing Reports",
+                            "description": "The documentation does not include comprehensive mechanical testing reports that demonstrate the physical robustness of the device under expected usage conditions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Environmental Testing Data",
+                            "description": "The documentation lacks environmental testing data that would confirm the device's performance in various environmental conditions.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the physical properties of the device are safe and compatible with the intended use. This includes reviewing physical specifications, mechanical testing reports, and environmental testing data. If the physical properties are safe and compatible, it is compliant. If there are minor safety concerns, it is partly compliant. If there are significant safety concerns, it is non-compliant.",
+                    "examples": [
+                        "Physical specifications",
+                        "Mechanical testing reports",
+                        "Environmental testing data"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR001 The ParagitPX system shall be wearable for at least 95% of users v3.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR004 The ParagitPX system shall adhere to the size budget outlined in this requirement v5.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR006 The system must be designed to be universally wearable- accommodating placement on any part of the body. v2.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR007 The Paragit PX system shall be operable using low amounts of force- allowing easy use for users with movement disorders v4.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR009 The ParagitPX system shall be able to withstand appropriate transportation v2.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PXS S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR001 The ParagitPX system shall be wearable for at least 95% of users v3.0 (Published).pdf",
+                            "short_name": "PX S-PHR001"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR004 The ParagitPX system shall adhere to the size budget outlined in this requirement v5.0 (Published).pdf",
+                            "short_name": "PX S-PHR004"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR006 The system must be designed to be universally wearable- accommodating placement on any part of the body. v2.0 (Published).pdf",
+                            "short_name": "PX S-PHR006"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR007 The Paragit PX system shall be operable using low amounts of force- allowing easy use for users with movement disorders v4.0 (Published).pdf",
+                            "short_name": "PX S-PHR007"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR009 The ParagitPX system shall be able to withstand appropriate transportation v2.0 (Published).pdf",
+                            "short_name": "PX S-PHR009"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                            "short_name": "PX S-ST003"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PXS S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                            "short_name": "PX S-ST001"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                            "short_name": "PX S-ST002"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Mechanical Testing",
+                            "description": "Perform comprehensive mechanical testing to evaluate the physical robustness of the ParagitPX device under expected usage conditions. This should include tests for durability, impact resistance, and wear over time.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR and demonstrate the physical robustness of the ParagitPX device, we have conducted comprehensive mechanical testing. The following tests were performed under expected usage conditions:\n\n1. **Durability Testing**: The device was subjected to repeated use scenarios to evaluate its longevity and resistance to wear. Results indicate that the device maintains functionality and integrity after [[number]] cycles of use.\n\n2. **Impact Resistance Testing**: The device was dropped from a height of [[height]] meters onto a hard surface to assess its ability to withstand impacts. The device showed no significant damage or loss of functionality post-testing.\n\n3. **Wear Testing**: The device was tested for [[duration]] under simulated conditions to evaluate its performance over time. The results confirm that the device remains effective and safe for use throughout its intended lifespan.\n\nAll testing was conducted in accordance with relevant ISO standards, specifically ISO 13485 for quality management systems and ISO 14971 for risk management. Detailed reports of these tests are included in the PX Test Reports document, which is referenced in Annex 6 of the technical documentation. \n\nFor further details, please refer to the attached mechanical testing reports and ensure that all relevant data is included in the technical file."
+                        },
+                        {
+                            "title": "Perform Environmental Testing",
+                            "description": "Conduct environmental testing to assess the device's performance in various environmental conditions, such as temperature extremes, humidity, and exposure to dust or moisture.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR regarding environmental testing, we have conducted comprehensive environmental testing to assess the performance of the ParagitPX device under various conditions. The following tests were performed:\n\n1. **Temperature Extremes:** The device was subjected to temperature variations ranging from [[minimum temperature]]\u00b0C to [[maximum temperature]]\u00b0C to evaluate its functionality and performance under extreme thermal conditions.\n\n2. **Humidity Testing:** The device was tested in high humidity conditions of [[humidity percentage]]% for a duration of [[duration]] hours to assess its resilience and operational integrity.\n\n3. **Dust and Moisture Exposure:** The device was exposed to dust and moisture in accordance with the relevant standards (e.g., IEC 60529) to evaluate its ingress protection (IP) rating. The results confirmed that the device maintains its performance and safety under these conditions.\n\nThe detailed results of these tests, including methodologies and outcomes, are documented in the attached Environmental Testing Report (Document Reference: [[insert document reference]]). This report demonstrates that the ParagitPX device meets the necessary environmental performance criteria as outlined in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the biological properties of the device are safe and compatible with the intended use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that the biological risk assessment for the Paragit PX device has been conducted in accordance with EN ISO 10993-1:2020 and EN ISO 14971:2019/A11:2021. The assessment concludes that the overall biological risk posed by the device is deemed negligible, as the materials used have a long history of safe use in medical applications. However, while cytotoxicity, skin irritation, and sensitization tests have been referenced, the documentation lacks specific results from these tests for the Paragit PX device itself, relying instead on analogous data. This reliance on analogy without direct testing data presents a minor safety concern, thus the compliance grade is partly compliant.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Direct Testing Data",
+                            "description": "The biological risk assessment relies on analogous data rather than direct testing results for cytotoxicity, skin irritation, and sensitization specific to the Paragit PX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment v1.1"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the biological properties of the device are safe and compatible with the intended use. This includes reviewing biocompatibility studies, cytotoxicity tests, and animal testing data. If the biological properties are safe and compatible, it is compliant. If there are minor safety concerns, it is partly compliant. If there are significant safety concerns, it is non-compliant.",
+                    "examples": [
+                        "Biocompatibility studies",
+                        "Cytotoxicity tests",
+                        "Animal testing data"
+                    ],
+                    "relevant_documents": [
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment v1.1"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                            "short_name": "PX Datasheets - biocomp. v2.0"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Direct Biocompatibility Testing",
+                            "description": "Perform direct biocompatibility testing for cytotoxicity, skin irritation, and sensitization specific to the Paragit PX device to ensure compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment v1.1"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements, we will conduct direct biocompatibility testing for the Paragit PX device, specifically focusing on cytotoxicity, skin irritation, and sensitization. The testing will be performed in accordance with the relevant standards outlined in EN ISO 10993-1:2020 and will include the following steps: \n\n1. **Cytotoxicity Testing**: Conduct cytotoxicity tests as per ISO 10993-5:2009 to evaluate the potential toxic effects of the device materials on cultured cells. \n2. **Skin Irritation Testing**: Perform skin irritation tests in accordance with ISO 10993-23:2021 to assess the potential for irritation when the device is in contact with skin. \n3. **Sensitization Testing**: Execute sensitization tests following ISO 10993-10:2021 to determine the potential for allergic reactions upon exposure to the device. \n\nThe results of these tests will be documented and included in the updated biological risk assessment report for the Paragit PX device, ensuring that all biological properties are safe and compatible with the intended use. This will address the current reliance on analogous data and provide direct evidence of biocompatibility for the device."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to compliant chemical properties, but gaps in mechanical and environmental testing for physical properties, and reliance on analogous data for biological properties."
+        },
+        {
+            "requirement": "Infection and Microbial Contamination",
+            "reference": "MDR Annex I, Chapter II, Section 11",
+            "description": "This requirement involves ensuring that the device is designed and manufactured to minimize the risk of infection and microbial contamination.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the 'Infection and Microbial Contamination' requirement reveals a mixed compliance status across its sub-requirements. The first sub-requirement, which focuses on the design of the device to minimize infection risks, is compliant (C). The documentation clearly outlines design features, sterilization methods, and packaging instructions that effectively mitigate infection risks. However, the second sub-requirement regarding sterilization methods is non-compliant (NC) due to the absence of sterilization protocols, validation reports, and sterility testing data, which are critical for ensuring device safety. The final sub-requirement concerning packaging integrity is partly compliant (PC) as the packaging is designed to maintain sterility, but there are minor issues with material specifications and a lack of documented integrity tests. Overall, while the device shows strengths in design and packaging, significant gaps in sterilization validation hinder full compliance with the MDR.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the device is designed to minimize the risk of infection and microbial contamination.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation demonstrates that the Paragit PX device is designed with features that minimize the risk of infection and microbial contamination. The biological risk assessment indicates that the materials used have a long history of safe use in medical applications, and the manufacturing process does not introduce additional risks. The packaging instructions ensure that the device remains sterile until use, and the cleaning protocols are adequate to reduce bacterial presence before patient use. The device is designed to facilitate safe cleaning and disinfection, which further supports compliance with the MDR requirements.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the device is designed to minimize the risk of infection and microbial contamination. This includes reviewing design features, sterilization methods, and packaging. If the design minimizes infection risk, it is compliant. If there are minor infection risks, it is partly compliant. If there are significant infection risks, it is non-compliant.",
+                    "examples": [
+                        "Design features",
+                        "Sterilization methods",
+                        "Packaging"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR010 The system shall be designed to ensure secure and error-free integration of all electrical components. v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR010 The system shall be designed to ensure secure and error-free integration of all electrical components. v3.0 (Published).pdf",
+                            "short_name": "PX S-SR010"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment v1.1"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Review and Update Cleaning Protocols",
+                            "description": "Ensure that the cleaning protocols for the Paragit PX device are comprehensive and effectively minimize the risk of microbial contamination. This includes detailing the cleaning agents used, the duration of cleaning, and the training provided to personnel responsible for cleaning.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The cleaning protocols for the Paragit PX device have been updated to ensure comprehensive measures are in place to minimize the risk of microbial contamination. The following details are now included:\n\n1. **Cleaning Agents**: The cleaning agents used for the Paragit PX device include [[description of cleaning agents]], which are effective against a broad spectrum of microorganisms. These agents have been selected based on their efficacy and safety profile in accordance with relevant standards.\n\n2. **Duration of Cleaning**: The recommended duration for cleaning the device is [[description of duration]], ensuring sufficient contact time for the cleaning agents to effectively reduce microbial load.\n\n3. **Training for Personnel**: All personnel responsible for cleaning the Paragit PX device will undergo training that covers the cleaning protocols, the importance of infection control, and the proper use of cleaning agents. Training sessions will be conducted [[description of training frequency and content]], and records of training will be maintained to ensure compliance and effectiveness.\n\nThese updates are in line with the requirements set forth in the MDR (EU) 2017/745, specifically focusing on minimizing the risk of infection and microbial contamination."
+                        },
+                        {
+                            "title": "Enhance Packaging Integrity Checks",
+                            "description": "Implement additional checks to ensure the integrity of the packaging used for the Paragit PX device, ensuring that it maintains sterility until the point of use. This may include visual inspections and testing for microbial ingress.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the integrity checks of the packaging for the Paragit PX device, the following procedures will be implemented: \n\n1. **Visual Inspection**: Each packaging unit will undergo a thorough visual inspection to identify any visible defects or damages that could compromise sterility. This inspection will include checking for tears, punctures, or any other signs of damage to the packaging. \n\n2. **Microbial Ingress Testing**: A testing protocol will be established to assess the packaging's resistance to microbial ingress. This will involve subjecting the packaging to simulated transport conditions and subsequently testing for microbial contamination. \n\n3. **Packaging Integrity Checklist**: A checklist will be developed and included in the packaging instructions to ensure that all integrity checks are performed consistently. This checklist will include items such as visual inspection results, microbial ingress test results, and any corrective actions taken if defects are found. \n\n4. **Training for Personnel**: All personnel involved in the packaging process will receive training on the importance of packaging integrity and the specific checks that need to be performed. \n\n5. **Documentation**: All inspection and testing results will be documented and maintained as part of the quality management system to ensure traceability and compliance with regulatory requirements. \n\nThese measures will be detailed in the updated PX Packaging Instruction document, ensuring that the device maintains sterility until the point of use."
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement sterilization methods and validate their effectiveness.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation provided does not include specific sterilization protocols or validation reports that demonstrate the effectiveness of the sterilization methods used for the ParagitPX medical device. The absence of sterility testing data further indicates a lack of compliance with the MDR requirements, which mandate that devices placed on the market in sterile condition must be processed, manufactured, packaged, and sterilized by means of appropriate, validated methods[0]. Without these critical documents, it cannot be assured that the device meets the necessary safety and performance requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Sterilization Protocols",
+                            "description": "The documentation does not provide sterilization protocols that outline the methods and processes used to sterilize the ParagitPX device. This is critical for ensuring that the device is safe for use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Validation Reports",
+                            "description": "There are no validation reports available that confirm the effectiveness of the sterilization methods employed. This is a significant non-conformity as it directly impacts the safety of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Verification Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Missing Sterility Testing Data",
+                            "description": "The documentation lacks sterility testing data that would demonstrate that the device is free from viable microorganisms. This is essential for compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX Final Verification Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that sterilization methods are implemented and their effectiveness validated. This includes reviewing sterilization protocols, validation reports, and sterility testing data. If the methods are effective and validated, it is compliant. If there are minor validation issues, it is partly compliant. If the methods are ineffective or not validated, it is non-compliant.",
+                    "examples": [
+                        "Sterilization protocols",
+                        "Validation reports",
+                        "Sterility testing data"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                            "short_name": "PX Datasheets - biocomp."
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX Final Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Sterilization Protocols",
+                            "description": "Create detailed sterilization protocols that outline the methods and processes used to sterilize the ParagitPX device, ensuring compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The sterilization of the ParagitPX device shall be conducted following the protocols outlined below to ensure compliance with MDR requirements:\n\n1. **Sterilization Method**: The ParagitPX device will be sterilized using [[insert sterilization method, e.g., ethylene oxide, steam, radiation]]. This method has been selected based on its efficacy in eliminating viable microorganisms while maintaining the integrity of the device.\n\n2. **Sterilization Process**: The sterilization process will include the following steps:\n   - Pre-cleaning: Devices will be thoroughly cleaned to remove any contaminants.\n   - Packaging: Devices will be packaged in [[insert packaging materials]] that are compatible with the chosen sterilization method.\n   - Sterilization Cycle: The sterilization cycle will be conducted at [[insert specific parameters such as temperature, pressure, and duration]].\n   - Post-Sterilization Handling: Devices will be handled in a manner that prevents recontamination, including [[insert handling procedures]].\n\n3. **Validation of Sterilization**: The effectiveness of the sterilization method will be validated through:\n   - Biological Indicators: Use of biological indicators to confirm the lethality of the sterilization process.\n   - Process Validation: A validation study will be conducted to demonstrate that the sterilization process consistently achieves the required sterility assurance level (SAL).\n\n4. **Documentation**: All sterilization processes will be documented, including:\n   - Sterilization cycle records\n   - Results of biological indicator tests\n   - Validation reports confirming the effectiveness of the sterilization method.\n\nThis protocol will be reviewed and updated as necessary to ensure ongoing compliance with applicable regulations and standards."
+                        },
+                        {
+                            "title": "Conduct Validation Studies",
+                            "description": "Perform validation studies to confirm the effectiveness of the sterilization methods employed for the ParagitPX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Verification Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with MDR requirements regarding sterilization methods, the following sterilization protocol has been established for the ParagitPX device:\n\n1. **Sterilization Method**: [[description of the sterilization method, e.g., Ethylene Oxide (EtO), Gamma Irradiation, etc.]]\n2. **Process Parameters**: The sterilization process will be conducted under the following parameters:\n   - Temperature: [[description]]\n   - Pressure: [[description]]\n   - Time: [[description]]\n   - Humidity: [[description]]\n3. **Validation Studies**: Validation studies will be performed in accordance with ISO 11135 for EtO or ISO 11137 for Gamma Irradiation, including:\n   - A validation plan that outlines the objectives, scope, and methodology of the validation studies, as referenced in the PX Verification Plan (v2.0).\n   - Execution of the validation studies as per the plan, with results documented in the PX Test Reports (v2.0).\n4. **Effectiveness Confirmation**: The effectiveness of the sterilization method will be confirmed through:\n   - Biological indicators to demonstrate the lethality of the sterilization process.\n   - A sterility assurance level (SAL) of 10^-6, ensuring that the probability of a non-sterile unit is less than one in a million.\n\n5. **Documentation**: All validation studies and results will be compiled and maintained in the validation report, which will be available for review as part of the technical documentation.\n\nThis protocol will be reviewed and updated as necessary to ensure ongoing compliance with the latest regulatory standards."
+                        },
+                        {
+                            "title": "Perform Sterility Testing",
+                            "description": "Implement sterility testing to ensure that the ParagitPX device is free from viable microorganisms.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX Final Verification Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding sterilization, the following text should be added to the technical documentation:\n\n\"**Sterilization Protocols**: The ParagitPX device is sterilized using the following validated methods: [[insert sterilization methods, e.g., ethylene oxide, steam sterilization, etc.]]. The sterilization process is conducted in accordance with the guidelines set forth in ISO 11135 for ethylene oxide sterilization and ISO 17665 for steam sterilization. Detailed sterilization protocols, including parameters such as temperature, pressure, and exposure time, are documented in the sterilization validation report (reference: [[insert reference to sterilization validation report]]).\n\n**Validation Reports**: Validation of the sterilization methods has been performed, and the results are documented in the validation report (reference: [[insert reference to validation report]]). This report includes bioburden testing, pyrogen testing, and testing for sterilant residues, ensuring that the device meets the required sterility assurance level (SAL).\n\n**Sterility Testing Data**: Sterility testing has been conducted to confirm that the ParagitPX device is free from viable microorganisms. The sterility testing data is documented in the final verification report (reference: [[insert reference to sterility testing report]]). The results demonstrate compliance with the sterility requirements as outlined in the MDR and relevant standards.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the packaging is designed to maintain sterility and prevent contamination.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The packaging documentation indicates that the packaging is designed to maintain sterility and prevent contamination. However, there are minor issues regarding the material specifications and the lack of detailed packaging integrity tests. The verification record confirms that the product is packed according to the instructions, but it does not provide comprehensive evidence of the integrity tests conducted on the packaging materials. Therefore, while the packaging is partly compliant, improvements are needed to fully meet the requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Material Specifications Incompleteness",
+                            "description": "The material specifications for the packaging are not fully detailed, which raises concerns about their ability to maintain sterility.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Packaging Integrity Tests",
+                            "description": "There is no documented evidence of packaging integrity tests that demonstrate the packaging's ability to maintain sterility during transport and storage.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VERPT240424 Verification Record for Packing and Transport v2.0 (Published).pdf",
+                                    "short_name": "PX VERPT240424 Verification Record"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the packaging is designed to maintain sterility and prevent contamination. This includes reviewing packaging design, material specifications, and packaging integrity tests. If the packaging maintains sterility, it is compliant. If there are minor packaging issues, it is partly compliant. If the packaging fails to maintain sterility, it is non-compliant.",
+                    "examples": [
+                        "Packaging design",
+                        "Material specifications",
+                        "Packaging integrity tests"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VERPT240424 Verification Record for Packing and Transport v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VERPT240424 Verification Record for Packing and Transport v2.0 (Published).pdf",
+                            "short_name": "PX VERPT240424 Verification Record"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete Material Specifications",
+                            "description": "Review and complete the material specifications for the packaging to ensure they meet the requirements for maintaining sterility.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The material specifications for the packaging have been reviewed and updated to ensure they meet the requirements for maintaining sterility. The packaging materials used are as follows: [[description of materials]], which have been selected based on their biocompatibility, barrier properties, and ability to maintain sterility throughout the intended shelf life of the product. Each material is compliant with relevant standards, including EN ISO 11607-1 and EN ISO 11607-2, ensuring that the packaging effectively prevents contamination and maintains sterility during transport and storage. Detailed specifications, including the physical and chemical properties of each material, are documented in the Bill of Materials (BOM) attached to this document."
+                        },
+                        {
+                            "title": "Conduct Packaging Integrity Tests",
+                            "description": "Implement and document packaging integrity tests to demonstrate that the packaging maintains sterility during transport and storage.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VERPT240424 Verification Record for Packing and Transport v2.0 (Published).pdf",
+                                    "short_name": "PX VERPT240424 Verification Record"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the packaging maintains sterility and prevents contamination, the following packaging integrity tests will be implemented and documented:\n\n1. **Test Methodology**: The packaging integrity will be assessed using the following methods: [[description of methods, e.g., bubble leak test, dye penetration test, etc.]].\n\n2. **Testing Frequency**: Integrity tests will be conducted at the following intervals: [[description of frequency, e.g., per batch, quarterly, etc.]].\n\n3. **Acceptance Criteria**: The packaging will be deemed acceptable if it meets the following criteria: [[description of criteria, e.g., no leaks, no visible damage, etc.]].\n\n4. **Documentation**: All test results will be documented in the 'PX VERPT240424 Verification Record for Packing and Transport' and will include the date of testing, the personnel conducting the test, and the results of each test conducted. \n\n5. **Review and Approval**: The results of the packaging integrity tests will be reviewed and approved by the Quality Assurance team prior to the release of the product for distribution.\n\nThis comprehensive approach ensures that the packaging is robust enough to maintain sterility during transport and storage, aligning with the requirements set forth in the MDR."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to compliant design features, non-compliant sterilization methods, and partly compliant packaging integrity."
+        },
+        {
+            "requirement": "Devices Incorporating a Substance Considered to be a Medicinal Product",
+            "reference": "MDR Annex I, Chapter II, Section 12",
+            "description": "This requirement involves ensuring that devices incorporating a substance considered to be a medicinal product comply with relevant medicinal product regulations.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the ParagitPX medical device reveals a mixed compliance status across the sub-requirements. The first sub-requirement, which ensures that the substance incorporated in the device complies with relevant medicinal product regulations, is graded as compliant (C). This is supported by thorough clinical evaluations and risk management documentation that align with MDR requirements. However, the second sub-requirement regarding the provision of evidence for the safety and performance of the substance is graded as partly compliant (PC). While there is substantial clinical data supporting safety and performance, there are notable gaps in toxicological assessments, particularly the lack of specific tests such as cytotoxicity and skin irritation, which are critical for ensuring the safety of the materials used. Therefore, the overall compliance grade reflects these findings, indicating that while the device meets some regulatory standards, it requires further documentation and testing to achieve full compliance.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the substance incorporated in the device complies with relevant medicinal product regulations.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The technical documentation for the ParagitPX device demonstrates compliance with relevant medicinal product regulations. The Clinical Evaluation Report (CER) indicates that the device has undergone thorough clinical evaluations, confirming its safety and performance in accordance with MDR requirements. The absence of safety alerts or recalls related to equivalent devices further supports its compliance. Additionally, the risk management documentation aligns with the requirements set forth in the MDR, ensuring that all identified risks have been adequately addressed and mitigated[0].",
+                    "non_conformities": [],
+                    "assessment_criteria": "Check if the substance incorporated in the device complies with relevant medicinal product regulations. This includes reviewing regulatory approvals, safety data, and clinical evaluations. If the substance complies with regulations, it is compliant. If there are minor compliance issues, it is partly compliant. If the substance does not comply, it is non-compliant.",
+                    "examples": [
+                        "Regulatory approvals",
+                        "Safety data",
+                        "Clinical evaluations"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX Declaration of Interests"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Review and Update Clinical Evaluation Report",
+                            "description": "Conduct a comprehensive review of the Clinical Evaluation Report to ensure it includes all necessary data regarding the safety and efficacy of the substances incorporated in the device. This includes confirming that all relevant clinical data is up-to-date and accurately reflects the current understanding of the device's performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX Clinical Evaluation Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Clinical Evaluation Report (CER) for the Paragit PX device has been thoroughly reviewed and updated to ensure comprehensive coverage of all necessary data regarding the safety and efficacy of the substances incorporated in the device. The following updates have been made:\n\n1. **Safety and Efficacy Data**: The CER now includes detailed information on the safety and efficacy of the incorporated substances, referencing the latest clinical studies and literature reviews that support the claims made regarding the device's performance.\n\n2. **Regulatory Compliance**: A section has been added to explicitly state that the substances used in the Paragit PX device comply with relevant medicinal product regulations, including any applicable directives and guidelines. This includes a summary of the regulatory approvals obtained for the substances used.\n\n3. **Post-Market Surveillance**: The report now outlines the post-market surveillance activities that will be conducted to monitor the safety and performance of the device post-launch, ensuring ongoing compliance with MDR requirements.\n\n4. **Risk Management**: The risk management documentation has been aligned with the CER, confirming that all identified risks associated with the substances have been adequately assessed and mitigated in accordance with MDR requirements.\n\n5. **Updates on Clinical Data**: The CER has been updated to reflect the most current clinical data, ensuring that all information is accurate and up-to-date, thereby reinforcing the claims of safety and performance for the Paragit PX device.\n\nThese updates ensure that the Clinical Evaluation Report meets the requirements set forth in the Medical Device Regulation (EU) 2017/745 and adequately demonstrates the compliance of the Paragit PX device with relevant medicinal product regulations."
+                        },
+                        {
+                            "title": "Enhance Risk Management Documentation",
+                            "description": "Review and enhance the risk management documentation to ensure that all potential risks associated with the substances incorporated in the device are identified, assessed, and mitigated appropriately. This should include a thorough analysis of any new risks identified through post-market surveillance.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 05 - Benefit-Risk Analysis and Risk Management",
+                                    "short_name": "PX Benefit-Risk Analysis"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the risk management documentation, the following text should be added to the 'PX Benefit-Risk Analysis and Risk Management' section:\n\n\"The risk management documentation for the ParagitPX device has been reviewed and updated to ensure that all potential risks associated with the substances incorporated in the device are identified, assessed, and mitigated appropriately. This includes a thorough analysis of any new risks identified through post-market surveillance activities. The risk management process adheres to the principles outlined in EN ISO 14971:2019/A11:2021, ensuring that all identified risks are evaluated for their probability and impact, and that appropriate risk control measures are implemented. Furthermore, the Risk Management Plan has been updated to include the roles and responsibilities for ongoing risk assessment and management, ensuring that any new information from post-market surveillance is integrated into the risk management process. The effectiveness of risk control measures will be monitored continuously, and the risk management documentation will be reviewed at least annually or sooner if significant new information arises.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide evidence of the safety and performance of the substance when used in the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a substantial amount of clinical data and risk assessments that support the safety and performance of the Paragit PX device. The Clinical Evaluation Report (CER) indicates that the clinical safety and performance of the device have been demonstrated, and no further clinical investigations are deemed necessary[0]. However, there are some gaps in the toxicological assessments, particularly regarding the need for specific tests such as cytotoxicity and skin irritation, which are mentioned but not fully addressed  . This indicates that while there is a good foundation of evidence, it is not entirely comprehensive, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Toxicological Assessments",
+                            "description": "The biological risk assessment mentions the need for additional toxicological tests such as cytotoxicity and skin irritation, which have not been fully conducted or reported. This is critical as these tests are essential to ensure the safety of the materials used in the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that evidence of the safety and performance of the substance when used in the device is provided. This includes reviewing clinical studies, toxicological assessments, and performance data. If the evidence is comprehensive and supports safety and performance, it is compliant. If the evidence is incomplete or unclear, it is partly compliant. If no evidence is provided, it is non-compliant.",
+                    "examples": [
+                        "Clinical studies",
+                        "Toxicological assessments",
+                        "Performance data"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                            "short_name": "PX Datasheets - biocomp. v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Additional Toxicological Tests",
+                            "description": "Perform the necessary toxicological tests, including cytotoxicity and skin irritation, as outlined in the biological risk assessment. These tests are crucial for demonstrating the safety of the materials used in the Paragit PX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive safety and performance evidence for the Paragit PX device, the following additional toxicological tests will be conducted as outlined in the biological risk assessment: cytotoxicity testing in accordance with ISO 10993-5, skin irritation testing as per ISO 10993-23, and skin sensitization testing according to ISO 10993-10. The results of these tests will be documented and included in the technical file to demonstrate compliance with the general safety and performance requirements set forth in MDR (EU) 2017/745. The testing will be performed by an accredited laboratory, and the outcomes will be evaluated to confirm the biocompatibility of the materials used in the device. The timeline for completion of these tests is set for [[insert date]], and the results will be incorporated into the updated biological risk assessment report."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The ParagitPX device is partly compliant with regulatory requirements, as it meets medicinal product regulations but lacks comprehensive toxicological assessments necessary for full compliance."
+        },
+        {
+            "requirement": "Interaction of Devices with the Environment",
+            "reference": "MDR Annex I, Chapter II, Section 13",
+            "description": "This requirement involves ensuring that the device is designed and manufactured to minimize any negative interaction with the environment during normal use and disposal.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Interaction of Devices with the Environment' requirement is partly compliant (PC). This is due to the following reasons: \n\n1. **Minimizing Negative Environmental Impact During Normal Use**: The device documentation shows some efforts to minimize environmental impact, such as using biocompatible materials and energy-efficient design. However, it lacks detailed information on energy consumption and material selection criteria, which are essential for a comprehensive assessment. The identified non-conformities include insufficient energy consumption data and inadequate documentation of material selection criteria. \n\n2. **Minimizing Negative Environmental Impact During Disposal**: The documentation provides basic disposal instructions and mentions material recyclability, but it does not include a detailed hazardous substance management plan or sufficient data on the recyclability of materials. The identified non-conformities here include the lack of a hazardous substance management plan and insufficient recyclability data. \n\nIn summary, while there are some positive aspects in the design and disposal instructions, significant gaps in documentation and data prevent full compliance with the MDR requirements, leading to a partly compliant status.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure the device is designed to minimize negative environmental impact during normal use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The ParagitPX device documentation indicates some design features aimed at minimizing environmental impact, such as the use of biocompatible materials and energy-efficient design. However, specific details regarding energy consumption during normal use and comprehensive material selection criteria are lacking. The documentation does not provide sufficient data to fully assess the environmental impact, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Energy Consumption Data",
+                            "description": "The documentation lacks detailed information on the energy consumption of the device during normal use, which is critical for assessing its environmental impact.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Material Selection Criteria Not Fully Documented",
+                            "description": "The criteria for selecting materials used in the device are not adequately documented, which is essential for evaluating their environmental impact.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the device is designed to minimize negative environmental impact during normal use. This includes reviewing design features, material selection, and energy consumption. If the design minimizes environmental impact, it is compliant. If there are minor environmental concerns, it is partly compliant. If there are significant environmental concerns, it is non-compliant.",
+                    "examples": [
+                        "Design features",
+                        "Material selection",
+                        "Energy consumption data"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR004 The system shall be designed to manage power efficiently and safely v3.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR004 The system shall be designed to manage power efficiently and safely v3.0 (Published).pdf",
+                            "short_name": "PX Safety Requirements"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Provide Detailed Energy Consumption Data",
+                            "description": "The manufacturer must include comprehensive data on the energy consumption of the ParagitPX during normal use to assess its environmental impact accurately.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding environmental impact, the following detailed energy consumption data for the ParagitPX device during normal use is provided:\n\n1. **Energy Consumption Specifications**:\n   - **Operating Voltage**: [[description]] V\n   - **Average Power Consumption**: [[description]] W\n   - **Peak Power Consumption**: [[description]] W\n   - **Standby Power Consumption**: [[description]] W\n   - **Energy Efficiency Rating**: [[description]]\n\n2. **Usage Scenarios**:\n   - **Typical Usage Duration**: [[description]] hours per day\n   - **Estimated Annual Energy Consumption**: [[description]] kWh\n\n3. **Environmental Impact Assessment**:\n   - The energy consumption data has been evaluated against relevant environmental standards, and measures have been implemented to minimize energy usage during operation. This includes the use of energy-efficient components and design practices aimed at reducing overall power consumption.\n\nThis information will be included in the relevant sections of the PX Summary of Technical Documentation (STED) and PX Design Output documents to provide a comprehensive overview of the device's energy consumption and its impact on the environment."
+                        },
+                        {
+                            "title": "Document Material Selection Criteria",
+                            "description": "The manufacturer should document the criteria used for selecting materials in the ParagitPX device to ensure they meet environmental standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with environmental standards, the following material selection criteria have been established for the ParagitPX device:\n\n1. **Biocompatibility**: All materials used in the device must be biocompatible according to ISO 10993 standards. This ensures that materials do not cause adverse reactions when in contact with human tissue.\n\n2. **Sustainability**: Preference is given to materials that are sustainably sourced and have a lower environmental impact during their lifecycle. This includes considering the recyclability and biodegradability of materials.\n\n3. **Toxicity and Safety**: Materials must be free from harmful substances as defined by the RoHS Directive (2011/65/EU) and must not contain any CMR (Carcinogenic, Mutagenic, or Reproductive toxic) substances.\n\n4. **Mechanical Properties**: The selected materials must exhibit adequate mechanical properties such as strength, ductility, and wear resistance to ensure the durability and functionality of the device during its intended use.\n\n5. **Energy Efficiency**: Materials should be selected based on their energy consumption during production and processing, aiming to minimize the overall energy footprint of the device.\n\n6. **Regulatory Compliance**: All materials must comply with relevant EU regulations and directives, ensuring that they meet the necessary safety and performance requirements.\n\nThese criteria are documented in the Bill of Materials (BOM) and are regularly reviewed to ensure ongoing compliance with environmental standards and regulations. For further details, please refer to the relevant sections in the PX Design Output and PX GSPR Checklist documents."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the device is designed to minimize negative environmental impact during disposal.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes some disposal instructions and mentions material recyclability, but lacks comprehensive details on hazardous substance management. The 'PX Instructions For Use v4.0' document outlines basic disposal instructions, but does not provide sufficient information on the recyclability of materials used in the device or a clear hazardous substance management plan. Therefore, while there are some efforts to minimize environmental impact, significant gaps remain, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Hazardous Substance Management Plan",
+                            "description": "The documentation does not include a detailed hazardous substance management plan, which is crucial for ensuring that the device does not contribute to environmental harm during disposal.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Material Recyclability Data",
+                            "description": "There is no data provided regarding the recyclability of materials used in the device, which is essential for assessing its environmental impact during disposal.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist Final v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the device is designed to minimize negative environmental impact during disposal. This includes reviewing disposal instructions, material recyclability, and hazardous substance management. If the design minimizes environmental impact during disposal, it is compliant. If there are minor disposal concerns, it is partly compliant. If there are significant disposal concerns, it is non-compliant.",
+                    "examples": [
+                        "Disposal instructions",
+                        "Material recyclability data",
+                        "Hazardous substance management plans"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "PX Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards and Regulations"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist Final v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Hazardous Substance Management Plan",
+                            "description": "Create a comprehensive hazardous substance management plan that outlines how hazardous materials are handled, stored, and disposed of to minimize environmental impact.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                                    "short_name": "PX Packaging Instruction v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Hazardous Substance Management Plan\n\nThe manufacturer has established a comprehensive Hazardous Substance Management Plan to ensure that all hazardous materials used in the device are properly handled, stored, and disposed of in a manner that minimizes environmental impact. This plan includes the following key components:\n\n1. **Identification of Hazardous Substances**: A detailed list of all hazardous substances used in the device, including their chemical properties and potential environmental impacts.\n\n2. **Handling Procedures**: Guidelines for the safe handling of hazardous substances during manufacturing, including personal protective equipment (PPE) requirements and training for personnel.\n\n3. **Storage Requirements**: Specifications for the safe storage of hazardous materials, including labeling, containment measures, and access restrictions.\n\n4. **Disposal Methods**: Procedures for the environmentally responsible disposal of hazardous substances, including recycling options where applicable and compliance with local regulations.\n\n5. **Monitoring and Review**: Regular audits and reviews of the hazardous substance management practices to ensure ongoing compliance and improvement.\n\nThe full Hazardous Substance Management Plan is documented in the following sections of the technical file:\n- PX Instructions For Use v4.0 (Published)\n- PX Packaging Instruction v3.0 (Published)\n\nThis plan is designed to align with the requirements set forth in the MDR (EU) 2017/745, ensuring that the device is designed to minimize negative environmental impacts during disposal."
+                        },
+                        {
+                            "title": "Provide Material Recyclability Data",
+                            "description": "Gather and include data on the recyclability of materials used in the device to ensure compliance with environmental regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "GSPR Checklist Final v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with environmental regulations regarding material recyclability, the following data has been gathered and included:\n\n1. **Material Composition**: The device is composed of the following materials: [[list of materials]].\n\n2. **Recyclability Information**: Each material's recyclability status is as follows:\n   - [[Material 1]]: [[Recyclability status (e.g., recyclable, non-recyclable, etc.)]]\n   - [[Material 2]]: [[Recyclability status]]\n   - [[Material 3]]: [[Recyclability status]]\n\n3. **End-of-Life Management**: Instructions for the disposal of the device at the end of its life cycle are provided in the Instructions for Use (IFU) document. Users are advised to follow local regulations regarding the disposal of electronic waste and materials that may be hazardous.\n\n4. **Environmental Impact Assessment**: An assessment of the environmental impact of the materials used in the device has been conducted, and the results are documented in the Environmental Impact Report, which is available upon request.\n\nThis information is included in the 'PX Instructions For Use v4.0' and the 'PX GSPR Checklist Final v2.0' documents."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The ParagitPX device is partly compliant with the environmental interaction requirements due to insufficient data on energy consumption, material selection criteria, hazardous substance management, and recyclability of materials."
+        }
+    ]
+}

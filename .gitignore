@@ -25,3 +25,7 @@ client/.env.production.local
 client/npm-debug.log*
 client/yarn-debug.log*
 client/yarn-error.log*
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]

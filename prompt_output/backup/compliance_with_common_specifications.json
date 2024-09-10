@@ -1,0 +1,803 @@
+{
+    "requirements": [
+        {
+            "requirement": "Adoption of Common Specifications",
+            "reference": "MDR Article 9",
+            "description": "This requirement mandates that manufacturers comply with common specifications (CS) adopted by the Commission when no harmonised standards exist or where relevant harmonised standards are not sufficient.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the adoption of common specifications is partly compliant (PC). The assessment of the sub-requirements reveals that while there is a reasonable effort to comply with the relevant common specifications (CS), significant gaps remain. For the first sub-requirement, the documentation shows a reasonable effort in testing activities but lacks detailed methodologies and comprehensive evidence of compliance testing results, which are critical for demonstrating compliance. The second sub-requirement highlights a lack of explicit justifications for deviations from CS, which is necessary to ensure that alternative solutions maintain equivalent safety and performance. Lastly, the documentation for compliance with CS for products listed in Annex XVI shows that while the device is classified appropriately, there are insufficient details regarding risk management and post-market surveillance activities. Overall, the documentation needs to be enhanced to provide clearer evidence and justifications for compliance with CS.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure compliance with CS in the absence of harmonised standards.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation demonstrates a reasonable effort to comply with the relevant CS despite the absence of harmonised standards. The verification plan outlines various testing activities, including basic safety and essential performance testing, EMC testing, and usability testing, which are aligned with the requirements of the applicable standards. However, there are gaps in the documentation regarding the specific methodologies and results of these tests, which are critical to fully demonstrate compliance.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of detailed testing methodologies",
+                            "description": "The verification documents do not provide sufficient detail on the methodologies used for testing, which is essential for demonstrating compliance with the CS.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient evidence of compliance testing",
+                            "description": "The final verification report lacks comprehensive evidence of compliance testing results, which is necessary to validate the claims made in the verification plan.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the manufacturer complies with CS when harmonised standards are not available or sufficient. Compliance should be demonstrated through documentation and testing.",
+                    "relevant_documents": [
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04-01 List of Applicable Standards and Regulations"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist Final"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance testing methodologies documentation",
+                            "description": "Revise the verification plan to include detailed methodologies for each testing activity, specifying the procedures, equipment used, and acceptance criteria.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the verification plan, please include the following detailed methodologies for each testing activity:\n\n1. **Basic Safety and Essential Performance Testing**: \n   - **Methodology**: Describe the specific procedures used for testing, including the setup, calibration of equipment, and the sequence of operations. Specify the equipment used, including model numbers and calibration dates. \n   - **Acceptance Criteria**: Clearly state the acceptance criteria based on the relevant standards (e.g., QMS IEC 60601-1:2006/A2:2021).\n\n2. **EMC Testing**: \n   - **Methodology**: Detail the testing environment, including any shielding or isolation measures taken. Specify the equipment used for EMC testing and the test protocols followed. \n   - **Acceptance Criteria**: Include specific thresholds for pass/fail based on the QMS IEC 60601-1-2:2015/A1:2021 standard.\n\n3. **Usability Testing**: \n   - **Methodology**: Outline the participant selection criteria, the tasks participants were asked to perform, and how usability was measured (e.g., time to complete tasks, error rates). Include any questionnaires or metrics used to assess usability. \n   - **Acceptance Criteria**: Define what constitutes acceptable usability performance based on user feedback and predefined metrics.\n\n4. **Biocompatibility Evaluation**: \n   - **Methodology**: Provide a summary of the materials used in the device, the biocompatibility tests conducted (e.g., cytotoxicity, sensitization), and the standards followed (e.g., QMS EN ISO 10993-1:2020). \n   - **Acceptance Criteria**: Specify the criteria for biocompatibility based on the results of the tests conducted.\n\n5. **Final Verification**: \n   - **Methodology**: Describe the process for compiling the final verification report, including how data from all previous tests were reviewed and analyzed. \n   - **Acceptance Criteria**: State the criteria for passing the final verification based on the System Requirements List and Traceability Matrix.\n\nPlease ensure that all methodologies are comprehensive and specific to the testing activities conducted for the ParagitPX, and include any relevant references to internal documents or external standards."
+                        },
+                        {
+                            "title": "Provide comprehensive testing results",
+                            "description": "Update the final verification report to include comprehensive results from all testing activities, including pass/fail rates and any deviations from the expected outcomes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the PX FVR240424 Final Verification Report, please include the following comprehensive results from all testing activities:\n\n1. **Basic Safety and Essential Performance Testing**:\n   - **Test Method**: Verification of the medical product Paragit PX compliance related to basic safety and essential performance according to the requirements of the QMS IEC 60601-1:2006/A2:2021 standard.\n   - **Results**: Pass/Fail Rate: [[insert pass/fail rate]]; Deviations: [[insert any deviations from expected outcomes]].\n\n2. **EMC Testing**:\n   - **Test Method**: Verification of the medical product Paragit PX according to requirements of the QMS IEC 60601-1-2:2015/A1:2021 standard.\n   - **Results**: Pass/Fail Rate: [[insert pass/fail rate]]; Deviations: [[insert any deviations from expected outcomes]].\n\n3. **Usability Testing**:\n   - **Test Method**: Verification of the medical product Paragit PX according to requirements of the QMS IEC 60601-1-6:2010+AMD1:2013+AMD2:2020 standard.\n   - **Results**: Pass/Fail Rate: [[insert pass/fail rate]]; Deviations: [[insert any deviations from expected outcomes]].\n\n4. **Biocompatibility Evaluation**:\n   - **Test Method**: Verification that medical product Paragit PX provides extensive documentation regarding the device's materials, design, and manufacturing processes.\n   - **Results**: Pass/Fail Rate: [[insert pass/fail rate]]; Deviations: [[insert any deviations from expected outcomes]].\n\n5. **Final Verification**:\n   - **Summary**: All tests conducted were successful, and verification results demonstrated that the Paragit PX system requirements are implemented as per the PX System Requirements List.\n   - **Overall Status**: Pass.\n\nPlease ensure that all results are documented clearly, including any statistical techniques used and the rationale for sample sizes. This will provide sufficient evidence of compliance testing and demonstrate adherence to the applicable standards."
+                        }
+                    ]
+                },
+                {
+                    "description": "Justify any deviations from CS with equivalent safety and performance solutions.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a checklist of general safety and performance requirements (GSPRs) and indicates methods used to demonstrate conformity. However, it lacks explicit justifications for deviations from common specifications (CS) and does not sufficiently detail how alternative solutions ensure equivalent safety and performance. For example, while the PX GSPR Checklist outlines compliance with various standards, it does not clearly articulate the rationale behind any deviations from CS, which is critical for demonstrating compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Justification for Deviations from CS",
+                            "description": "The documentation does not provide adequate justification for any deviations from common specifications, which is necessary to demonstrate that alternative solutions offer equivalent safety and performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the manufacturer provides a justification for any deviations from CS, ensuring that the alternative solutions offer an equivalent level of safety and performance.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "PX Applicable Standards"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX Verification Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX Verification Report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Provide Justifications for Deviations",
+                            "description": "The manufacturer must include detailed justifications for any deviations from common specifications in the technical documentation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Medical Devices Regulation (EU) 2017/745 (MDR) regarding justifications for deviations from common specifications, the following text should be added to the technical documentation:\n\n\"In instances where deviations from common specifications (CS) have been made, a thorough justification is provided to demonstrate that the alternative solutions employed maintain an equivalent level of safety and performance. The justifications are based on a comprehensive risk assessment and performance evaluation, which align with the General Safety and Performance Requirements (GSPRs) as outlined in the PX GSPR Checklist Final. Each deviation is accompanied by a detailed explanation of how the alternative solution meets or exceeds the safety and performance criteria established by the relevant standards. Specific examples of deviations and their justifications include: [[description of specific deviations and justifications]]. This approach ensures that all alternative solutions are rigorously evaluated and validated to uphold the safety and effectiveness of the ParagitPX device.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure compliance with CS for products listed in Annex XVI.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation for the ParagitPX medical device demonstrates a reasonable level of compliance with the requirements of the Medical Device Regulation (MDR) (EU) 2017/745. However, there are gaps in the documentation regarding the specific compliance with the Common Specifications (CS) for devices listed in Annex XVI. While the device is classified appropriately and the intended purpose is clearly defined, the documentation lacks detailed evidence of compliance with the relevant CS, particularly in terms of risk management and post-market surveillance activities. For instance, while the risk management process is described, specific references to how the identified risks align with the CS requirements are not provided. Additionally, the post-market surveillance plan needs to explicitly address the monitoring of compliance with the CS post-market.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of detailed compliance evidence with CS",
+                            "description": "The documentation does not provide sufficient evidence of compliance with the Common Specifications for devices listed in Annex XVI, particularly in terms of risk management and post-market surveillance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "GSPR Checklist"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient post-market surveillance details",
+                            "description": "The post-market surveillance plan lacks specific details on how compliance with the CS will be monitored and reported.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX Post Market Surveillance Plan v2.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that manufacturers of products listed in Annex XVI comply with the relevant CS. Compliance should be documented and verifiable.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "Applicable Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        },
+                        {
+                            "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "EU Declaration"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance documentation for CS compliance",
+                            "description": "Revise the technical documentation to include specific references and evidence demonstrating compliance with the Common Specifications for devices listed in Annex XVI.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "GSPR Checklist"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Common Specifications (CS) for devices listed in Annex XVI, the following text should be added to the technical documentation:\n\n\"The ParagitPX medical device has been evaluated against the Common Specifications as outlined in Annex XVI of the MDR. The compliance evidence is documented in the General Safety and Performance Requirements (GSPR) Checklist (refer to PX GSPR Checklist Final v2.0). Specifically, the risk management process has been aligned with the CS requirements, and the identified risks have been assessed and mitigated in accordance with the risk management plan established per EN ISO 14971:2019/A11:2021. The risk management file includes detailed descriptions of the identified risks, their potential impact, and the measures taken to control these risks, ensuring that they are acceptable when weighed against the benefits of the device. Furthermore, the GSPR Checklist provides a comprehensive overview of how each requirement is met, including references to applicable standards and regulations.\"\n\nAdditionally, ensure that the following sections are updated in the Post-Market Surveillance Plan (refer to PX Post Market Surveillance Plan v2.0):\n\n\"The post-market surveillance plan includes specific activities to monitor compliance with the Common Specifications. This includes regular reviews of post-market data, user feedback, and incident reports to identify any deviations from the CS. The responsibilities for monitoring compliance, analyzing data, and reporting findings are clearly defined within the plan. The outcomes of these activities will be documented and reviewed periodically to ensure ongoing compliance with the CS and to implement corrective actions as necessary.\""
+                        },
+                        {
+                            "title": "Detail post-market surveillance activities",
+                            "description": "Expand the post-market surveillance plan to include specific activities and timelines for monitoring compliance with the CS.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX Post Market Surveillance Plan v2.0 (Published).pdf",
+                                    "short_name": "PMS Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the Post-Market Surveillance (PMS) Plan for the ParagitPX medical device, the following details should be incorporated:\n\n1. **Specific Activities**: Outline specific post-market surveillance activities that will be conducted to monitor compliance with the Common Specifications (CS). For example:\n   - Regular collection and analysis of user feedback and incident reports.\n   - Scheduled reviews of clinical performance data against CS requirements.\n   - Periodic audits of manufacturing processes to ensure ongoing compliance with CS.\n\n2. **Timelines**: Establish clear timelines for each activity. For instance:\n   - User feedback collection will occur quarterly, with analysis completed within one month of collection.\n   - Clinical performance reviews will be conducted bi-annually, with reports generated within two weeks of review completion.\n   - Manufacturing audits will be conducted annually, with findings reported within one month of the audit.\n\n3. **Responsibilities**: Define the roles and responsibilities of the team members involved in these activities, ensuring clarity on who is accountable for each task.\n\n4. **Reporting Mechanisms**: Describe how findings from these activities will be documented and reported, including the format of reports and the stakeholders who will receive them.\n\n5. **Compliance Monitoring**: Specify how compliance with the CS will be monitored and what metrics will be used to evaluate adherence.\n\n6. **Review and Update Process**: Include a process for reviewing and updating the PMS plan based on findings from the surveillance activities, ensuring it remains aligned with the evolving CS requirements.\n\nThis expanded PMS plan will ensure that the monitoring of compliance with the CS is thorough and systematic, thereby addressing the identified non-conformities."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The documentation for the adoption of common specifications is partly compliant due to gaps in testing methodologies, justifications for deviations, and insufficient details on risk management and post-market surveillance."
+        },
+        {
+            "requirement": "Presumption of Conformity",
+            "reference": "MDR Article 9(2)",
+            "description": "Devices that are in conformity with the CS are presumed to be in conformity with the requirements of the MDR covered by those CS.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the technical documentation for the paragitPX medical device indicates that while there are substantial efforts made towards compliance with the Medical Device Regulation (MDR) (EU) 2017/745, certain gaps remain. Specifically, the documentation provided does not fully demonstrate conformity with the Common Specifications (CS) as required under the MDR. For instance, while the 'PX Summary of Technical Documentation (STED) v2.0' outlines the device's intended purpose and general safety requirements, it lacks comprehensive evidence of conformity with all applicable harmonised standards and CS. Additionally, the 'PX GSPR Checklist Final v2.0' does not adequately address all performance requirements, which raises concerns regarding the completeness of the risk management and clinical evaluation processes. Furthermore, the EU Declaration of Conformity lacks specific references to the standards applied, which is critical for establishing the presumption of conformity. These issues collectively suggest that while there is a foundation for compliance, the documentation is not fully compliant, thus warranting a 'Partly Compliant' grade.",
+            "sub_requirements": [
+                {
+                    "description": "Document conformity with CS to establish presumption of conformity with MDR.",
+                    "compliance_grade": "",
+                    "detailed_compliance_explanation": "",
+                    "non_conformities": [],
+                    "assessment_criteria": "Ensure that the manufacturer documents conformity with CS to establish presumption of conformity with the relevant MDR requirements. Documentation should be clear and comprehensive.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The documentation for the paragitPX medical device is partly compliant with MDR requirements, as it lacks comprehensive evidence of conformity with all applicable standards and does not fully address all performance requirements."
+        },
+        {
+            "requirement": "Implementation of Common Specifications",
+            "reference": "MDR Annex I, II, III, XIV, XV",
+            "description": "This requirement involves implementing CS in respect of general safety and performance requirements, technical documentation, clinical evaluation, post-market clinical follow-up, and clinical investigation.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the implementation of common specifications for the ParagitPX medical device is partly compliant (PC). This assessment is based on the evaluation of three key sub-requirements. \n\n1. **Implement CS for general safety and performance requirements**: The documentation shows a partly compliant status due to incomplete testing documentation and insufficient risk management documentation. While a checklist exists, it lacks detailed results from specific tests, particularly in usability and risk management, which are critical for demonstrating compliance with the MDR. \n\n2. **Ensure technical documentation complies with CS**: This sub-requirement is also graded as partly compliant. The technical documentation is organized according to the STED format and includes necessary annexes, but it contains obsolete documents and lacks detailed methodologies in the clinical evaluation report. The presence of outdated documents could lead to inconsistencies in compliance status. \n\n3. **Conduct clinical evaluation and post-market clinical follow-up in accordance with CS**: This sub-requirement is graded as partly compliant as well. The clinical evaluation report indicates a comprehensive assessment, but it lacks a detailed post-market clinical follow-up plan, which is essential for ongoing compliance. The absence of a clearly defined PMCF plan limits the ability to ensure that the device continues to meet safety and performance standards after market entry. \n\nOverall, while there are efforts to comply with the MDR, significant gaps in documentation and processes prevent full compliance, necessitating further action to address these issues.",
+            "sub_requirements": [
+                {
+                    "description": "Implement CS for general safety and performance requirements.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation for the ParagitPX medical device demonstrates a partly compliant status regarding the implementation of conformity assessment for general safety and performance requirements (GSPRs). The documentation includes a General Safety and Performance Requirements Checklist (PX GSPR Checklist Final) which outlines the applicable standards and methods used to demonstrate conformity. However, while the checklist indicates compliance with several GSPRs, there are gaps in the documentation regarding specific testing methods and results for some requirements, particularly in the areas of usability and risk management documentation. For example, while the risk management process is mentioned, detailed results from specific tests or evaluations are not fully documented, which is critical for demonstrating compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Testing Documentation",
+                            "description": "The documentation lacks detailed results from specific tests or evaluations that demonstrate compliance with certain GSPRs, particularly in usability and risk management.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Risk Management Documentation",
+                            "description": "The risk management documentation does not provide comprehensive evidence of the risk evaluation process and the results of risk control measures taken.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                                    "short_name": "PX List of Standards"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that CS are implemented for general safety and performance requirements as set out in Annex I. Compliance should be demonstrated through testing and documentation.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "PX List of Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Testing Documentation",
+                            "description": "Conduct and document comprehensive testing for all applicable GSPRs, ensuring that results are clearly presented and linked to the specific requirements they address.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the testing documentation for the ParagitPX medical device, the following text should be added to the relevant sections of the technical documentation:\n\n\"In accordance with the General Safety and Performance Requirements (GSPRs) outlined in Annex I of the MDR, comprehensive testing has been conducted to demonstrate compliance with the applicable requirements. The results of these tests are documented in the following sections:\n\n1. **Usability Testing**: Detailed results from usability tests conducted on the ParagitPX device are provided in the Usability Engineering File (UEF), which includes user feedback, task success rates, and any identified usability issues along with their resolutions. These results demonstrate that the device is safe and effective for its intended users under normal conditions of use.\n\n2. **Risk Management**: The risk management process is documented in the Risk Management File (RMF), which includes a thorough risk analysis, evaluation of identified risks, and the effectiveness of implemented risk control measures. The results of risk control measures are summarized in the Risk Management Report, confirming that all residual risks are acceptable when weighed against the benefits of the device.\n\n3. **Verification and Validation**: All verification and validation activities are summarized in Annex 6 - Product Verification and Validation. This includes test reports that confirm the device meets the performance and safety requirements as specified in the GSPRs. Each test result is linked to the specific GSPR it addresses, ensuring traceability and compliance.\n\nThe comprehensive documentation of these tests and evaluations provides clear evidence of compliance with the GSPRs, ensuring the safety and performance of the ParagitPX device.\"\n\nPlease ensure to fill in specific details such as the results of usability tests, risk management evaluations, and any other relevant data that supports the compliance claims."
+                        },
+                        {
+                            "title": "Complete Risk Management Documentation",
+                            "description": "Revise the risk management documentation to include a comprehensive risk evaluation process, detailing all identified risks, control measures, and their effectiveness.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                                    "short_name": "PX List of Standards"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the risk management documentation for the ParagitPX medical device, the following text should be added to the relevant section:\n\n\"The risk management process for the ParagitPX device was conducted in accordance with the requirements of EN ISO 14971:2019/A11:2021. The process involved the following steps:\n\n1. **Risk Identification**: All potential hazards associated with the device were identified, including those related to usability, electrical safety, and biocompatibility. A comprehensive list of identified risks is documented in the Risk Management File (RMF).\n\n2. **Risk Evaluation**: Each identified risk was evaluated based on its likelihood of occurrence and the severity of its consequences. This evaluation is detailed in the risk analysis table included in the RMF.\n\n3. **Risk Control Measures**: For each identified risk, appropriate control measures were implemented. The effectiveness of these measures was verified through testing and validation activities, as outlined in Annex 6 - Product Verification and Validation. The results of these tests demonstrate that the risks have been reduced to acceptable levels.\n\n4. **Residual Risk Assessment**: After implementing the control measures, a residual risk assessment was performed to ensure that the remaining risks are acceptable when weighed against the benefits of the device. This assessment is documented in the RMF, which includes a justification for the acceptability of the residual risks.\n\n5. **Monitoring and Review**: The risk management process is ongoing, with regular reviews and updates conducted as part of the post-market surveillance activities. Any new risks identified during the lifecycle of the device will be documented and addressed accordingly.\n\nThis comprehensive approach ensures that all identified risks are managed effectively, and the safety and performance of the ParagitPX device are maintained throughout its lifecycle.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure technical documentation complies with CS.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation for the ParagitPX medical device is largely compliant with the requirements set forth in the Medical Device Regulation (EU) 2017/745 (MDR). The documentation is organized in accordance with the STED format and includes all necessary annexes as required by MDR Annexes II and III. However, there are some areas that require further clarification or updates, particularly in the risk management and clinical evaluation sections. For instance, while the clinical evaluation report provides a comprehensive overview of the device's safety and performance, it lacks detailed information on the specific methodologies used for the clinical data analysis, which is critical for demonstrating compliance with the General Safety and Performance Requirements (GSPR). Additionally, some referenced documents are marked as obsolete, which could affect the overall compliance status.",
+                    "non_conformities": [
+                        {
+                            "title": "Obsolete Documents",
+                            "description": "Several documents referenced in the technical documentation are marked as obsolete, which may lead to inconsistencies in the compliance status of the device. For example, the Risk Management Plan v1.8 and Risk Management Report v1.3 are outdated and should be replaced with the latest versions to ensure compliance with current regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Plan v1.8 (Obsolete).pdf",
+                                    "short_name": "PX Risk Management Plan v1.8"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Report v1.3 (Obsolete).pdf",
+                                    "short_name": "PX Risk Management Report v1.3"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Detailed Methodology in Clinical Evaluation",
+                            "description": "The Clinical Evaluation Report does not provide sufficient detail regarding the methodologies used for the clinical data analysis. This lack of transparency may hinder the ability to fully assess the clinical safety and performance of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report v6.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that the technical documentation complies with CS as outlined in Annexes II and III. Documentation should be thorough and up-to-date.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX Clinical Evaluation Plan (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Declaration of interest (signed) v2.0 (Published)/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Declaration of interest (signed) v2.0 (Published)/PX Declaration of interest (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX CER author CV v3.0 (Published)/PX CER author CV v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Literature Search Protocol v4.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Plan v1.8 (Obsolete).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Report v1.3 (Obsolete).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Analysis v1.5 (Obsolete)/PX Risk Analysis v1.5 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR240425-01 Project Review v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Versions v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX IEC62304CLP231122-01-IEC 62304 Checklist - Paragit v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input v1.2 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS User needs v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input  v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Operational Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Regulatory Requirements v1.3 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR005 The system shall have overheating protection to ensure that the operations shut down if the PCB or battery temperature exceeds 45 degrees v1.2 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR008 The system shall contain instructions for how to wash any washable parts v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR006 The system shall have over-discharge protection v1.2 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR002 The ParagitPX system must exclusively store personal data in an encrypted format v1.3 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR010 The system shall be designed to ensure secure and error-free integration of all electrical components. v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR011 The ParagitPX system shall incorporate security measures to restrict code updates to authorized personnel only v1.4 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR003 The system battery powering the operations shall be ISO certified v3.2 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR001 The Paragit PX system shall have soft edges with a radius of at least 2mm on all hard surfaces potentially in contact with skin- to avoid injury v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR007 The system shall be designed to comply with all applicable safety and reliability standards for electrical systems to ensure protection against electrical faults- including over-current- short circuits- and thermal runaway.  v4.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR009 The system shall be designed to ensure safe and reliable maintenance through controlled service procedures v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR004 The system shall be designed to manage power efficiently and safely v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR007 The system shall allow the user to see when a recording was started and ended v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR001 The system shall measure bio-potential signals accurately in ranges that at least capture [0Hz - 500 Hz] v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR002 The system shall quantify impedance changes of at least 100 ohm in order to estimate the amount of accumulated sweat between the electrodes v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR003 The system shall measure 3D acceleration accurately in ranges typical for human movement during daily activity v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR008 The system shall allow the user to see when a recording was ended down to at least the second (UTC time) v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR009 The system shall provide the user with the exact (--- 0.5 Hz) sample rate that was used during a recording v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR005 The ParagitPX System shall be able to recharge from 0% to 100% via USB-C in a maximum of 6 hours v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR004 The system shall measure 3D rotation accurately in ranges typical for human movement during daily activity v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR008 The ParagitPX System shall be designed for optimal usability- ensuring that all user interface components are easily accessible and distinguishable by touch. v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR009 The ParagitPX system shall be able to withstand appropriate transportation v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR003 The ParagitPX system shall adhere to the weight budget outlined in this requirement v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR007 The Paragit PX system shall be operable using low amounts of force- allowing easy use for users with movement disorders v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR005 The ParagitPX system shall be collapsible  to a maximum width of 5cm v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR004 The ParagitPX system shall adhere to the size budget outlined in this requirement v5.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR001 The ParagitPX system shall be wearable for at least 95% of users v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR006 The system must be designed to be universally wearable- accommodating placement on any part of the body. v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST007 The system shall comply with IP22- as confirmed by accredited centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST006 The system shall comply with EN 60529-1991 - A1-2000 - A2-2013- as confirmed by accredited centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST014 The system shall comply with ISO 62366-1-2015-A1-2020 v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST010 The system shall comply with IEC 60601-1-6- as confirmed by accredited test centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST005 The system shall comply with EN 60068-2-27-2009- as confirmed by accredited test centre  v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PXS S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST021 The system shall comply with IEC 60601-1-2- as confirmed by accredited test centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST018 The system shall comply with DS-EN 61340-5-1-2016 v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST020 The system shall comply with IEC 62133 v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST004 The system shall comply with EN 60068-2-64-2008- as confirmed by accredited test centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST012 The system shall comply with IEC 62304-2006-A1-2015 v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST008 The system shall comply with IEC 60601-2-40- as confirmed by accredited test centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST019 The system shall comply with ISO 15223-1-2021 v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST016 The system shall comply with DS-EN ISO 20417-2021 v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST011 The system shall comply with IEC 60601-1-11- as confirmed by accredited test centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST017 The system shall comply with IEC 60529-1989-AMD2-2013-COR1-2019 v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST013 The system shall comply with 14971-2019-A11-2021  v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST015 The system shall comply with IEC-TR 62366-2-2016-AMD1-2020 v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST009 The system shall comply with IEC 60601-1- as confirmed by accredited test centre v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Operational Requirements/PX S-OR001 The ParagitPX system should be able to withstand disinfection with 70% isopropyl without any degradation in performance v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Operational Requirements/PX S-OR003 The ParagitPX system should store all data offline- locally on the device v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Operational Requirements/PX S-OR004 The ParagitPX system shall be able to withstand appropriate cleaning during its lifetime without performance degradation v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Operational Requirements/PX S-OR005 The ParagitPX system shall be active only when it is disconnected from the charger v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Operational Requirements/PX S-OR002 The ParagitPX System shall be constructed such that only the components in contact with the skin must be able to withstand a minimum of 10 wash cycles at 30 degrees Celsius with less than 5% degradation EMG signal nzUArukG v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR006 The system shall be able to store at least 48 hours of data v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR008 The system shall be designed to ensure consistent operational performance and reliability over a minimum service life of three years under normal usage conditions v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR003 The system shall measure 3D rotation accurately in ranges typical for human movement during daily activity v3.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR005- The ParagitPX system shall be able actively collect data over a minimum of 24 hours continuously  v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR009 The system shall be designed to operate effectively without reliance on single-use consumables or additional materials beyond initial setup v4.0 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR010 The system shall be durable enough to withstand connection life cycles through the lifetime  v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR007 The system shall allow the collection of sensitive EMG (-30 dB) without adjusting manual settings v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR011 The system shall measure bio-potential signals accurately in ranges typical for human movement during daily activity [0Hz - 500 Hz] v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PXS S-UR001 The ParagitPX system shall only provide user feedback when prompted by the user v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR005 The ParagitPX system shall have features to communicate status and errors to the user v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR006 The ParagitPX system shall be able to provide feedback on current status within 0.5 seconds v1.4 (Obsolete).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR007 The system shall be capable of accurately logging events with precision to the second v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR002 The system shall have the means to be turned on-off v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR004 The ParagitPX system shall have haptic feedback of at least 0.00196newtons of force v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Usability Requirements/PX S-UR003 The ParagitPX system shall compromise one button for turning the device off v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software/PX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software/PX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software/PX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software/PX SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Versions/PXS 1.0.0 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Literature Search Protocol v1.5 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT002 v2.1 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PRU-FW-VEPROT001 v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VERPT240424 Verification Record for Packing and Transport v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT003 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PXS verification textile v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports /PX IEC 60601-1 v2.0 (Published)/PX IEC 60601-1 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports /PX IEC 60601-1-2 v2.0 (Published)/PX IEC 60601-1-2 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports /PX IEC 60601-1-11 v2.0 (Published)/PX IEC 60601-1-11 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports /PX EN 60068-2-64-2008- EN 60068-2-27-2009 EN 60529-1991 - A1-2000 - A2-2013- IP22 v2.0 (Published)/PX EN 60068-2-64-2008- EN 60068-2-27-2009 EN 60529-1991 - A1-2000 - A2-2013- IP22 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports /PX IEC 60601-1-6 v2.0 (Published)/PX IEC 60601-1-6 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports /PX IEC 60601-2-40 Part 2-40- v2.0 (Published)/PX IEC 60601-2-40 Part 2-40- v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX PQE240425 Performance Qualification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX IQE240425 Installation Qualification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VARPT240425 Validation Record for Packing and Transport v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX OQE240425 Operational Qualification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Tasks and Questionnaire v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX User Interface Specification v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Participant List v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Overview v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PXS Usability Tasks and Questionnaires v2.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMSP230220-01 PMS Plan v3.0 (Published).pdf",
+                        "./PX Annex 09 - Technical Documentation on Post-market Surveillance/PX PMCF240220-01 PMCF Plan v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Packaging Instruction v3.0 (Published)/PX Packaging Instruction v3.0 (Published).pdf",
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED) v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report v6.0"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Plan v1.8 (Obsolete).pdf",
+                            "short_name": "PX Risk Management Plan v1.8"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Report v1.3 (Obsolete).pdf",
+                            "short_name": "PX Risk Management Report v1.3"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Update Obsolete Documents",
+                            "description": "Replace the obsolete Risk Management Plan and Risk Management Report with the latest versions to ensure compliance with current regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Plan v1.8 (Obsolete).pdf",
+                                    "short_name": "PX Risk Management Plan v1.8"
+                                },
+                                {
+                                    "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX Risk Management Report v1.3 (Obsolete).pdf",
+                                    "short_name": "PX Risk Management Report v1.3"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with current regulations, the following documents have been updated and should replace the obsolete versions in the technical documentation:\n\n1. **Risk Management Plan**: Replace the obsolete document 'PX Risk Management Plan v1.8' with the latest version 'PX 2024-04-01 Risk Management Plan'.\n2. **Risk Management Report**: Replace the obsolete document 'PX Risk Management Report v1.3' with the latest version 'PX 2024-04-01 Risk Management Report'.\n\nThese updates ensure that the risk management activities and their scope, roles, and responsibilities are aligned with the latest standards and regulations as per MDR requirements."
+                        },
+                        {
+                            "title": "Enhance Clinical Evaluation Methodology",
+                            "description": "Provide a detailed explanation of the methodologies used in the clinical evaluation report to enhance transparency and compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report v6.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the transparency and compliance of the Clinical Evaluation Report (CER) with the Medical Device Regulation (EU) 2017/745, the following detailed explanation of the methodologies used in the clinical evaluation should be added:\n\n\"The clinical evaluation of the Paragit PX was conducted in accordance with the MEDDEV 2.7/1 Rev. 4 guidelines and involved a systematic literature review and analysis of clinical data. The methodologies employed included:\n\n1. **Literature Search Protocol**: A comprehensive literature search was performed using databases such as PubMed and Google Scholar, focusing on peer-reviewed articles relevant to the use of electromyography (EMG) and inertial measurement unit (IMU) technologies in assessing muscular performance and movement. The search strategy included specific keywords related to the intended use of the Paragit PX device.\n\n2. **Data Selection Criteria**: Studies were selected based on predefined inclusion and exclusion criteria to ensure relevance and quality. Only studies that provided clinical data on similar devices or methodologies were included in the analysis.\n\n3. **Data Extraction and Analysis**: Data from the selected studies were extracted systematically, focusing on safety, performance, and clinical outcomes. A qualitative synthesis of the data was performed to assess the overall clinical evidence supporting the safety and efficacy of the Paragit PX.\n\n4. **Benefit-Risk Assessment**: A benefit-risk analysis was conducted based on the collected clinical data, evaluating the potential benefits of the device against any associated risks. This assessment was aligned with the requirements set forth in Annex I of the MDR.\n\n5. **Expert Review**: The clinical evaluation was reviewed by qualified experts in the field to ensure the methodologies and conclusions drawn were robust and scientifically valid.\n\nThis detailed methodology provides a clear framework for the clinical evaluation process and supports the conclusions regarding the safety and performance of the Paragit PX device.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Conduct clinical evaluation and post-market clinical follow-up in accordance with CS.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report for Paragit PX demonstrates a comprehensive assessment of safety and performance, aligning with the requirements of the MDR. However, while the report indicates that clinical data supports the claims of safety and performance, it lacks detailed information on the post-market clinical follow-up plan, which is essential for ongoing compliance. The absence of a clearly defined PMCF plan limits the ability to ensure that the device continues to meet safety and performance standards after market entry.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Post-Market Clinical Follow-Up Plan",
+                            "description": "The documentation does not provide a detailed Post-Market Clinical Follow-Up (PMCF) plan, which is necessary to monitor the long-term safety and performance of the device after it has been placed on the market.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that clinical evaluation and post-market clinical follow-up are conducted in accordance with CS as set out in Annex XIV. Compliance should be supported by clinical data and follow-up reports.",
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Plan (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Clinical Evaluation Report (signed) v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                            "short_name": "PX Literature Search Protocol (signed)"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Literature Search Protocol"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Comprehensive PMCF Plan",
+                            "description": "Create a detailed Post-Market Clinical Follow-Up (PMCF) plan that outlines the methods for collecting data on the long-term safety and performance of the Paragit PX device. This plan should include timelines, responsible parties, and specific metrics to be monitored.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Post-Market Clinical Follow-Up (PMCF) Plan for the Paragit PX device is designed to ensure the ongoing monitoring of its long-term safety and performance following its market introduction. The PMCF plan includes the following components:\n\n1. **Objectives**: To collect and analyze data on the long-term safety and performance of the Paragit PX device to ensure continued compliance with regulatory requirements.\n\n2. **Methods**: Data will be collected through the following methods:\n   - Surveys and questionnaires distributed to users and healthcare professionals.\n   - Analysis of adverse event reports and user feedback.\n   - Periodic clinical studies to assess the device's performance in real-world settings.\n\n3. **Timelines**: The PMCF activities will be conducted over a period of [[insert duration, e.g., 5 years]], with interim reports generated every [[insert frequency, e.g., 6 months]].\n\n4. **Responsible Parties**: The following individuals and teams will be responsible for the execution of the PMCF plan:\n   - [[insert name/position]] will oversee the PMCF activities.\n   - The Clinical Affairs team will be responsible for data collection and analysis.\n   - The Regulatory Affairs team will ensure compliance with MDR requirements.\n\n5. **Metrics to be Monitored**: The following key performance indicators (KPIs) will be monitored:\n   - User satisfaction rates.\n   - Incidence of adverse events.\n   - Performance metrics related to the intended use of the device.\n\n6. **Reporting**: Results from the PMCF activities will be documented in a PMCF evaluation report, which will be updated regularly and submitted to the notified body as part of the ongoing regulatory compliance process.\n\nThis PMCF plan is in accordance with the requirements set forth in Annex XIV of the MDR and will be reviewed and updated as necessary to reflect new information or changes in regulatory requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Conduct clinical investigations in accordance with CS.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The clinical evaluation report indicates that the Paragit PX has undergone a clinical evaluation process, including a literature review and comparative analysis with similar devices. However, it is noted that this is the first clinical evaluation conducted for the device, which raises concerns regarding the completeness of clinical investigations as per the requirements of the MDR. The documentation does not provide sufficient evidence of ongoing clinical investigations or a comprehensive post-market clinical follow-up plan, which are essential for ensuring compliance with the clinical investigation requirements outlined in Annex XV of the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Clinical Investigation Documentation",
+                            "description": "The documentation lacks detailed information on ongoing clinical investigations or a robust post-market clinical follow-up plan. This is critical to demonstrate compliance with the clinical investigation requirements of the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that clinical investigations are conducted in accordance with CS as outlined in Annex XV. Investigations should be well-documented and adhere to the specified protocols.",
+                    "relevant_documents": [
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Plan (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX 2024-03 Clinical Evaluation Report v60 (Publis_240425_143642.pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Clinical Evaluation Report (signed) v2.0 (Published)/PX Clinical Evaluation Report (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX Literature Search Protocol (signed) v2.0 (Published).pdf",
+                        "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents/PX Literature Search Protocol (signed) v2.0 (Published)/PX 2024-03 Literature Search Protocol v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Report v6.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Report"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Election of Clinical Evaluation Report Author v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Election of Clinical Evaluation Report Author"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                            "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX Signed Documents v2.0 (Published).pdf",
+                            "short_name": "PX Signed Documents"
+                        },
+                        {
+                            "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-04 Declaration of interests v4.0 (Published).pdf",
+                            "short_name": "PX 2024-04 Declaration of interests"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Clinical Investigation Plan",
+                            "description": "Create a detailed clinical investigation plan that outlines the methodology, objectives, and timelines for conducting clinical investigations related to the Paragit PX. This plan should include provisions for post-market clinical follow-up to ensure ongoing compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 07 - Pre-Clinical and Clinical data/PX 2024-03 Clinical Evaluation Plan v3.0 (Published).pdf",
+                                    "short_name": "PX 2024-03 Clinical Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Clinical Investigation Plan for Paragit PX\n\n#### 1. Objectives\nThe primary objective of the clinical investigation is to evaluate the safety and performance of the Paragit PX device in accordance with the requirements of the Medical Device Regulation (EU) 2017/745. The investigation aims to collect clinical data that supports the intended use of the device and its effectiveness in quantifying muscular performance and movement.\n\n#### 2. Methodology\nThe clinical investigation will be conducted as a multi-center, prospective study involving [[number]] participants across [[number]] sites. The study will include the following phases:\n- **Phase 1**: Participant recruitment and screening.\n- **Phase 2**: Baseline assessments and device application.\n- **Phase 3**: Data collection during device usage, including [[specific metrics to be measured]].\n- **Phase 4**: Follow-up assessments at [[specify time intervals]].\n\n#### 3. Timelines\nThe clinical investigation is expected to commence on [[start date]] and conclude by [[end date]]. Key milestones include:\n- **Ethics approval**: [[date]]\n- **Participant recruitment completion**: [[date]]\n- **Final data collection**: [[date]]\n- **Data analysis and reporting**: [[date]]\n\n#### 4. Post-Market Clinical Follow-Up (PMCF)\nA comprehensive PMCF plan will be established to ensure ongoing monitoring of the device's safety and performance post-market. The PMCF will include:\n- Regular collection of clinical data from users to identify any emerging risks or adverse events.\n- Analysis of feedback from users and healthcare professionals.\n- Periodic review of relevant scientific literature and clinical registries.\n- Reporting of findings in a PMCF evaluation report, which will be integrated into the clinical evaluation report.\n\n#### 5. Compliance and Reporting\nAll clinical investigations will be conducted in compliance with the applicable clinical investigation standards and guidelines. Results will be documented and reported in accordance with the requirements of the MDR, ensuring transparency and accountability throughout the investigation process.\n\nThis plan will be reviewed and updated as necessary to reflect any changes in regulatory requirements or clinical practice."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to incomplete testing documentation, obsolete references, and insufficient post-market clinical follow-up planning, which hinder full adherence to the MDR requirements."
+        }
+    ]
+}

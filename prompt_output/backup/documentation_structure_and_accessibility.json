@@ -1,0 +1,1119 @@
+{
+    "requirements": [
+        {
+            "requirement": "Technical Documentation Structure",
+            "reference": "MDR Annex II",
+            "description": "This requirement mandates that the technical documentation and, if applicable, the summary thereof to be drawn up by the manufacturer shall be presented in a clear, organised, readily searchable and unambiguous manner.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the technical documentation of the ParagitPX medical device is 'Partly Compliant' (PC). Each sub-requirement has been assessed as follows:\n\n1. **Clear and Organized Documentation (PC)**: The documentation is structured but lacks clarity in navigation and comprehensibility. There is no clear navigation guide, which can lead to confusion. Additionally, technical jargon is not sufficiently explained, which may hinder understanding for non-expert users.\n\n2. **Searchability (PC)**: While the documentation includes a table of contents, it lacks a built-in search function or indexed keywords, making it difficult for users to quickly find specific information. This limits the usability of the documentation.\n\n3. **Unambiguity (PC)**: The documentation is generally well-organized but lacks specificity in the intended purpose and operational parameters of the device. Some technical specifications are referenced but not fully detailed, leading to potential misinterpretation of the device's capabilities.\n\nOverall, while the documentation meets some requirements, significant gaps in clarity, searchability, and specificity prevent it from being fully compliant with the MDR standards.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure that the technical documentation is clear and organized.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation for the ParagitPX device is presented in a structured manner across multiple annexes, which aligns with the requirements of the MDR. However, while the documentation is organized, some sections lack clarity in terms of navigation and comprehensibility. For instance, the references to various documents and their interconnections could be more explicitly outlined to enhance user understanding. Additionally, the use of technical jargon without sufficient explanation may hinder comprehension for non-expert users.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Clarity in Document Navigation",
+                            "description": "The documentation does not provide a clear navigation guide or index that allows users to easily locate specific information across the various annexes. This can lead to confusion and inefficiency when trying to understand the technical details of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Explanation of Technical Terms",
+                            "description": "Certain technical terms and abbreviations used in the documentation are not adequately defined, which may lead to misunderstandings, especially for users who are not familiar with medical device terminology.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the technical documentation is presented in a clear and organized manner. It should be easy to navigate and understand.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Navigation Guide",
+                            "description": "Create a comprehensive navigation guide or index for the technical documentation that clearly outlines where to find specific information across all annexes. This guide should include page numbers and brief descriptions of the content in each section.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Navigation Guide\n\nTo enhance the clarity and usability of the technical documentation for the ParagitPX device, the following navigation guide is proposed. This guide provides an overview of the contents of each annex, along with page numbers and brief descriptions of the content. \n\n| Annex | Title | Page Number | Description |\n|-------|-------|-------------|-------------|\n| I     | Device Description and Specification | [[page number]] | Detailed description of the ParagitPX device, including its intended purpose and specifications. |\n| II    | Information To Be Supplied By The Manufacturer | [[page number]] | Information that must be provided to users, including labeling and instructions for use. |\n| III   | Design And Manufacturing Information | [[page number]] | Overview of the design and manufacturing processes, including materials used. |\n| IV    | General Safety And Performance Requirements | [[page number]] | Compliance with safety and performance standards as per MDR requirements. |\n| V     | Benefit-Risk Analysis and Risk Management | [[page number]] | Analysis of the benefits and risks associated with the device. |\n| VI    | Product Verification and Validation | [[page number]] | Details of verification and validation activities conducted on the device. |\n| VII   | Pre-Clinical and Clinical Data | [[page number]] | Summary of pre-clinical and clinical data supporting the device's safety and efficacy. |\n| VIII  | EU Declaration of Conformity | [[page number]] | Declaration confirming compliance with applicable regulations. |\n| IX    | Technical Documentation on Post-market Surveillance | [[page number]] | Overview of post-market surveillance activities and findings. |\n| X     | Existing Approvals and Certificates | [[page number]] | List of existing approvals and certificates relevant to the device. |\n\nThis navigation guide should be placed at the beginning of the technical documentation to facilitate easy access to specific sections and improve overall clarity."
+                        },
+                        {
+                            "title": "Define Technical Terms",
+                            "description": "Include a glossary section that defines all technical terms, abbreviations, and acronyms used throughout the documentation. This will aid in understanding for all users, especially those who may not be familiar with medical device terminology.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance clarity and understanding for all users, especially those unfamiliar with medical device terminology, we propose the addition of a glossary section to the technical documentation. This glossary will define all technical terms, abbreviations, and acronyms used throughout the documentation. The glossary should be placed in a dedicated section titled 'Glossary of Terms' immediately following the 'Introduction' section. The following template can be used:\n\n---\n\n**Glossary of Terms**\n\n1. **Term 1**: [[definition]]\n2. **Term 2**: [[definition]]\n3. **Term 3**: [[definition]]\n4. **Term 4**: [[definition]]\n\n---\n\nPlease ensure that all relevant technical terms from the documentation are included in this glossary, providing clear and concise definitions to facilitate understanding."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the documentation is readily searchable.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation is partly compliant as it contains a table of contents and structured sections that facilitate navigation. However, the documents do not appear to have a built-in search function or indexed keywords that would allow users to quickly locate specific information. For example, while the 'PXS ParagitPX System Traceability Matrix' includes a detailed table of contents, it lacks a searchable format that would enhance user experience in finding specific requirements or sections quickly.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Search Functionality",
+                            "description": "The documents do not include a search function or indexed keywords, making it difficult for users to quickly find specific information.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS Traceability Matrix"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the documentation is searchable. Users should be able to quickly find specific information using search functions.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS Traceability Matrix"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Search Functionality",
+                            "description": "Develop and integrate a search functionality within the documentation to allow users to quickly locate specific information.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS Traceability Matrix"
+                                },
+                                {
+                                    "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                                    "short_name": "PX GSPR Checklist"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the searchability of the technical documentation, the following measures will be implemented:\n\n1. **Search Functionality**: A built-in search function will be integrated into the digital format of the documentation. This will allow users to quickly locate specific information by entering keywords or phrases.\n\n2. **Indexed Keywords**: Each section of the documentation will include indexed keywords relevant to the content. For example, the 'PXS ParagitPX System Traceability Matrix' will have keywords such as 'traceability', 'verification', 'validation', and 'requirements' indexed at the beginning of the document.\n\n3. **Table of Contents**: The existing table of contents will be enhanced to include hyperlinks to each section, allowing for quick navigation.\n\n4. **Document Format**: The documentation will be provided in a searchable PDF format or an HTML format that supports search functions, ensuring that users can utilize the search feature effectively.\n\n5. **User Instructions**: Clear instructions will be provided at the beginning of the documentation on how to use the search function and navigate through the indexed keywords.\n\nThese enhancements will ensure that the documentation is presented in a clear, organized, readily searchable, and unambiguous manner, in compliance with the requirements of Annex II of the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the documentation is unambiguous.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation for the ParagitPX medical device is generally well-organized and follows the STED format, which aids in clarity. However, there are instances where the descriptions could be more precise. For example, the device's intended purpose is described, but it lacks specific details on the operational parameters and limitations, which could lead to misinterpretation by users. Additionally, some technical specifications are referenced but not fully detailed within the documentation, which may create ambiguity regarding the device's capabilities.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Specificity in Intended Purpose",
+                            "description": "The intended purpose of the ParagitPX is described, but it does not provide detailed operational parameters or limitations, which could lead to misinterpretation of the device's capabilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Detail in Technical Specifications",
+                            "description": "Technical specifications are referenced but not fully detailed within the documentation, which may create ambiguity regarding the device's capabilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the documentation is free from ambiguities. Information should be clear and precise, leaving no room for misinterpretation.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "PX List of Applicable Standards"
+                        },
+                        {
+                            "path": "PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Clarity of Intended Purpose",
+                            "description": "Revise the documentation to include detailed operational parameters and limitations of the ParagitPX device to ensure users fully understand its intended use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the clarity of the intended purpose of the ParagitPX device, the following text should be added to the documentation:\n\n\"The ParagitPX is specifically designed to collect and analyze signals related to muscle activity and movement through Electromyography (EMG), Inertial Measurement Unit (IMU), and skin impedance measurements. The device is intended for use in research settings and is suitable for athletes, sports enthusiasts, healthcare professionals, and lay users. \n\nOperational parameters include:\n- **Measurement Range**: EMG signals can be recorded within a range of [[insert range]], ensuring accurate data collection for various muscle activities.\n- **Sampling Rate**: The device operates at a sampling rate of [[insert sampling rate]] Hz, providing high-resolution data for analysis.\n- **Battery Life**: The device is designed for continuous use for up to [[insert duration]] hours on a full charge, making it suitable for extended research sessions.\n- **Environmental Conditions**: The device should be used in environments with temperatures ranging from [[insert temperature range]] and humidity levels of [[insert humidity range]].\n\nLimitations include:\n- The device is not intended for diagnostic purposes and should not be used as a substitute for professional medical advice.\n- It is contraindicated for individuals with known allergies to materials used in the device, such as polyester, nylon, and silicon. \n- The device has not been tested for use in pregnant or breastfeeding women, nor in individuals with pacemakers. \n\nThis detailed description aims to prevent misinterpretation of the device's capabilities and ensure that users are fully informed of its intended use and limitations.\""
+                        },
+                        {
+                            "title": "Detail Technical Specifications",
+                            "description": "Provide comprehensive details of the technical specifications within the documentation to eliminate ambiguity regarding the device's capabilities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Technical Specifications of ParagitPX\n\nThe ParagitPX medical device is designed to operate under the following specific technical parameters:\n\n1. **Operating Voltage**: [[description]]\n2. **Power Consumption**: [[description]]\n3. **Operating Temperature Range**: [[description]]\n4. **Storage Temperature Range**: [[description]]\n5. **Weight**: [[description]]\n6. **Dimensions**: [[description]]\n7. **Signal Processing Capabilities**: The device is capable of processing signals at a frequency range of [[description]] Hz to [[description]] Hz, with a resolution of [[description]] bits.\n8. **Connectivity Options**: The device supports connectivity via [[description]] (e.g., USB, Bluetooth, etc.).\n9. **User Interface**: The device features a [[description]] interface that allows for [[description]] functionalities.\n10. **Safety Features**: The device includes safety features such as [[description]] to prevent [[description]].\n\nThese specifications are critical to ensure that users understand the capabilities and limitations of the ParagitPX device, thereby reducing the potential for misinterpretation of its functionalities. For further details, please refer to the Instruction for Use document under section 11, Technical Data Sheet."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The technical documentation for the ParagitPX device is partly compliant due to issues with clarity, searchability, and specificity, which hinder full compliance with MDR requirements."
+        },
+        {
+            "requirement": "Device Description and Specification",
+            "reference": "MDR Annex II, Section 1",
+            "description": "This requirement involves providing a detailed description and specification of the device, including its variants and accessories.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Device Description and Specification' requirement is 'Partly Compliant' (PC). While several sub-requirements meet the basic criteria, there are significant gaps that prevent full compliance with the MDR. For instance, the product name and general description are provided, but they lack comprehensive details about the device's functionalities and applications, which is critical for clinical understanding. The Basic UDI-DI is compliant, but the intended patient population and medical conditions are not specified clearly, leading to ambiguity. The principles of operation are described generally, yet lack sufficient scientific detail. The rationale for device classification is present but not adequately supported. The risk class is mentioned, but the justification is insufficient. The documentation fails to describe any novel features, which is a critical non-conformity. Accessories are mentioned but not detailed comprehensively. Lastly, while key functional elements are described, they lack depth, and technical specifications are not fully comprehensive. Overall, the documentation requires significant enhancements to meet the MDR requirements fully.",
+            "sub_requirements": [
+                {
+                    "description": "Provide the product or trade name and a general description of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation includes the product name 'ParagitPX' and provides a general description of the device's classification and intended purpose. However, the descriptions lack comprehensive details regarding the specific functionalities and applications of the device, which are essential for a clear understanding of its use in a clinical setting. For example, while the classification as a medical device is mentioned, the documentation does not elaborate on how the device operates or its specific applications in diagnostics or treatment.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Description of Device Functionality",
+                            "description": "The documentation fails to provide a detailed description of the specific functionalities and applications of the ParagitPX device, which is crucial for understanding its intended use in a clinical environment.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the product or trade name and a general description of the device are included. The description should be comprehensive and clear.",
+                    "relevant_documents": [
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Device Description",
+                            "description": "Revise the technical documentation to include a comprehensive description of the ParagitPX device's functionalities, applications, and operational mechanisms.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The ParagitPX is a sophisticated medical device designed to collect and analyze bio-signals related to muscle activity and movement. It comprises four key components: \n\n1. **Paragit Recording Unit (PRU)**: This unit is equipped with advanced sensors for electromyography (EMG), movement detection (IMU), and skin impedance measurement. It is housed in a durable PA2200 Nylon casing that protects the sensitive electronics within. \n\n2. **Paragit Sleeve (PS)**: A non-intrusive, textile-based sleeve embedded with EMG sensors, designed for comfortable wear on either upper or lower limbs. The sleeve is made from breathable, stretchable, and washable fabric, available in various sizes, and incorporates conductive yarn and polymer to ensure optimal signal capture. \n\n3. **Paragit Electrode Adapter (PEA)**: A 3D-printed adapter that facilitates the connection of the PRU to standard electrodes, maintaining a fixed inter-electrode distance for accurate readings. \n\n4. **Paragit Flex Adapter (PFA)**: Another 3D-printed adapter that allows flexible connections between the PRU and wired electrodes, enhancing usability in various research settings. \n\nThe ParagitPX operates by first connecting the PRU to either the sleeve or an adapter. Users wear the device according to the provided instructions, after which it begins collecting data on muscle activation and movement patterns. This data can be extracted via a USB connection for further analysis using compatible data processing software. \n\nThe intended purpose of the ParagitPX is to serve as a research tool for athletes, healthcare professionals, and sports enthusiasts, providing objective and quantitative insights into muscle performance and movement dynamics. It is crucial to note that the device is not intended for diagnostic or therapeutic use, but rather for investigative purposes only, ensuring compliance with the relevant medical device regulations."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include the Basic UDI-DI assigned by the manufacturer.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The Basic UDI-DI is included in the EU Declaration of Conformity document. It is specified as '574400503ParagitPX6B', which is unique and traceable to the medical device Paragit PX. This meets the requirements set forth in the MDR for the Basic UDI-DI.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Verify that the Basic UDI-DI is included and correctly assigned. It should be unique and traceable.",
+                    "relevant_documents": [
+                        "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                        "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 10 - Existing Approvals and Certificates/PX GS1 Company prefix Certificate v2.0 (Published)/PX GS1 Company prefix Certificate v2.0 (Published).pdf",
+                            "short_name": "PX GS1 Company prefix Certificate"
+                        },
+                        {
+                            "path": "./PX Annex 08 - EU Declaration of Conformity/PX EU Declaration of Conformity v2.0 (Published).pdf",
+                            "short_name": "PX EU Declaration of Conformity"
+                        }
+                    ],
+                    "tasks_list": []
+                },
+                {
+                    "description": "Provide the intended patient population and medical conditions to be diagnosed, treated, and/or monitored.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding the intended use of the Paragit PX device, but it lacks specificity regarding the intended patient population and the medical conditions it aims to diagnose, treat, or monitor. For instance, while it mentions that the device is intended for use in contact with intact skin surfaces, it does not clearly define the specific patient demographics or the range of medical conditions that the device is designed to address. This lack of detail could lead to ambiguity in understanding the device's intended application, which is crucial for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Specificity in Intended Use",
+                            "description": "The documentation does not clearly specify the intended patient population and the medical conditions for which the device is intended. This is a critical non-conformity as it does not meet the MDR requirements for clarity in intended use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the intended patient population and medical conditions are clearly described. This information should be specific and accurate.",
+                    "relevant_documents": [
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment v1.1"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Define Intended Patient Population",
+                            "description": "Revise the documentation to include a clear and detailed description of the intended patient population for the Paragit PX device, including age ranges, specific health conditions, and any relevant demographic information.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The intended patient population for the Paragit PX device includes individuals aged [[age range]], specifically targeting those with the following medical conditions: [[list specific health conditions]]. This device is designed for use by athletes, sports enthusiasts, healthcare professionals, and lay users who require objective and quantitative data on muscle activation, movement patterns, and skin impedance for research purposes. The device is suitable for individuals with intact skin and is not intended for use on patients with open wounds or skin infections."
+                        },
+                        {
+                            "title": "Clarify Medical Conditions",
+                            "description": "Update the technical documentation to explicitly state the medical conditions that the Paragit PX device is intended to diagnose, treat, or monitor.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Paragit PX device is intended for use in the following patient populations and medical conditions: \n\n1. **Patient Population**: The device is designed for use by athletes, sports enthusiasts, healthcare professionals, and lay users aged [[description: specify age range or demographic details]].\n\n2. **Medical Conditions**: The Paragit PX device is intended to assist in the investigation of muscle activity and movement patterns, specifically for conditions related to:\n   - Muscle activation disorders\n   - Neuromuscular conditions\n   - Rehabilitation following musculoskeletal injuries\n   - Performance analysis in sports and exercise settings\n   - Monitoring of muscle fatigue and recovery\n\nThis device is not intended for the diagnosis or treatment of any specific disease but serves as a research tool to collect quantitative data on muscle activation and movement for further analysis and study."
+                        }
+                    ]
+                },
+                {
+                    "description": "Describe the principles of operation and mode of action of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a general description of the ParagitPX device and its intended purpose, which includes collecting signals for investigating muscle activity and movement. However, the principles of operation and mode of action are not described in sufficient scientific detail. While the intended purpose is outlined, the technical documentation lacks a comprehensive explanation of how the device operates and the mechanisms involved in its functioning. For example, the documentation does not detail the specific technologies used for signal collection or the algorithms employed for data interpretation, which are crucial for understanding the device's operation.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Description of Principles of Operation",
+                            "description": "The documentation fails to adequately describe the principles of operation and mode of action of the ParagitPX device. This is critical for demonstrating compliance with MDR requirements, as a clear understanding of how the device functions is necessary for assessing its safety and efficacy.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the principles of operation and mode of action are described. The description should be scientifically demonstrated if necessary.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Description of Principles of Operation",
+                            "description": "Revise the technical documentation to include a detailed description of the principles of operation and mode of action of the ParagitPX device. This should encompass the underlying technologies, mechanisms of action, and any relevant scientific principles that support the device's functionality.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The principles of operation and mode of action of the ParagitPX device are as follows: \n\nThe ParagitPX operates through a series of well-defined steps, utilizing advanced technologies to collect and analyze bio-signals. The primary operating functions include:\n\n1. **Connection to the Paragit Recording Unit (PRU)**: The PRU is the core component of the device, equipped with sensors for electromyography (EMG), inertial measurement unit (IMU) for movement detection, and skin impedance measurement. It must be connected to either the Paragit Sleeve or one of the adapters prior to use.\n\n2. **Wearing the Device**: Users are required to wear the sleeve according to the instructions provided in the Instruction for Use (IFU). The sleeve is designed to be non-intrusive and is made from breathable, stretchable, and washable fabric, ensuring comfort during use.\n\n3. **Data Collection**: Once the device is worn as instructed and activated, it begins to collect and store relevant data on muscle activity, movement patterns, and skin impedance. The data collection process is facilitated by the embedded sensors within the PRU, which continuously monitor and record bio-signals.\n\n4. **Data Extraction and Transfer**: After data collection, the device can be connected to a computer via a USB port for data extraction. This allows for the transfer of collected data to external software for further analysis.\n\n5. **Data Visualization and Analysis**: The extracted data can be uploaded to any compatible data processing software for visualization and analysis, enabling users to interpret the results effectively.\n\nThe underlying technologies include advanced signal processing algorithms that interpret the collected data, ensuring accurate representation of muscle activation and movement dynamics. The device is intended solely for research purposes, providing objective and quantitative data for athletes, sports enthusiasts, healthcare professionals, and lay users. \n\nThis comprehensive description of the principles of operation and mode of action aligns with the intended purpose of the ParagitPX device, which is to facilitate the investigation of processes related to muscle activity and movement."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide a rationale for the qualification of the product as a device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a rationale for the qualification of ParagitPX as a medical device, referencing its classification under MDR Article 2 and detailing its intended purpose and classification rules. However, while the rationale is present, it lacks sufficient depth and supporting evidence to fully substantiate the claims made. For example, the document states that the device is classified as Class A software and provides a brief overview of its intended use, but it does not elaborate on how these classifications align with the specific definitions and requirements set forth in the MDR. More comprehensive justification and examples of risk management measures would strengthen the rationale.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Justification for Device Classification",
+                            "description": "The rationale for the classification of ParagitPX as a medical device lacks detailed explanations and supporting evidence. The documentation does not adequately demonstrate how the device meets the specific definitions and requirements outlined in the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that a rationale for the qualification of the product as a device is included. The rationale should be logical and well-supported.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Rationale for Device Classification",
+                            "description": "Revise the documentation to provide a more comprehensive rationale for the classification of ParagitPX as a medical device. This should include detailed explanations of how the device meets the definitions and requirements set forth in the MDR, along with supporting evidence and examples.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the rationale for the classification of ParagitPX as a medical device, the following text should be added to the documentation:\n\n\"The ParagitPX is classified as a medical device in accordance with MDR Article 2, which defines a medical device as any instrument, apparatus, appliance, software, implant, reagent, material, or other article intended by the manufacturer to be used for specific medical purposes. The intended purpose of ParagitPX is to assist in the investigation of neuromuscular conditions through the collection and analysis of electromyographic data. This aligns with the definition of a medical device as it is intended for the diagnosis and monitoring of conditions related to neuromuscular function. \n\nFurthermore, the classification as Class A software is justified based on the risk assessment conducted in accordance with QMS IEC 62304:2006/A1:2015, which indicates that the embedded software does not contribute to a hazardous situation that results in unacceptable risk. The software is designed for investigative use only, meaning that any failure will not lead to serious injury or damage to health. This classification is supported by the risk management measures outlined in the Risk Management Plan (refer to PX Annex 05 - Benefit-Risk Analysis and Risk Management), which demonstrates that all identified risks are acceptable and justifiable against the benefits provided by the device. \n\nIn summary, the classification of ParagitPX as a medical device is substantiated by its intended purpose, the classification rules applicable to its components, and the comprehensive risk management processes that ensure its safety and efficacy in clinical use.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Include the risk class of the device and the justification for the classification rule(s) applied.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a classification of the ParagitPX device as Class A software according to QMS IEC 62304:2006/A1:2015, indicating that it does not contribute to unacceptable risk after considering risk control measures. However, while the classification rules are mentioned, the justification for the classification could be more detailed, particularly in relation to the specific risks associated with the device's intended use and the rationale for not classifying it under higher risk categories. The documentation lacks comprehensive risk analysis and justification for the classification rules applied, which is essential for full compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Justification for Classification",
+                            "description": "The documentation does not provide a detailed risk analysis or justification for the classification of the device as Class A. This is critical as it may lead to misclassification and inadequate risk management strategies.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the risk class and justification for the classification rule(s) are provided. The justification should be based on the MDR classification rules.",
+                    "relevant_documents": [
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "List of Applicable Standards and Regulations v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist Final v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Risk Classification Justification",
+                            "description": "Provide a more comprehensive risk analysis and justification for the classification of the ParagitPX device as Class A. This should include specific risks associated with its intended use and a rationale for why it does not fall under higher risk categories.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The ParagitPX device is classified as Class A software in accordance with the classification rules set forth in MDR (EU) 2017/745, specifically under Annex VIII, Chapter III, section 6, and the relevant guidelines from QMS IEC 62304:2006/A1:2015. This classification is justified based on the following risk analysis:\n\n1. **Intended Use**: The ParagitPX is designed solely for the collection of signals related to muscle activity and movement for research purposes. It does not provide diagnostic or therapeutic functions, thereby mitigating the potential for serious harm.\n\n2. **Risk Assessment**: A comprehensive risk assessment was conducted in accordance with EN ISO 14971:2019/A11:2021. The identified risks associated with the device's operation, such as skin irritation or allergic reactions to materials, are classified as non-serious injuries. The risk management process confirmed that all risks are acceptable after implementing appropriate risk control measures.\n\n3. **Control Measures**: The device incorporates safety features and user instructions that minimize risks during use. The software's failure does not lead to unacceptable risk, as it is designed to be non-invasive and does not affect critical health functions.\n\n4. **Rationale for Class A Classification**: Given that the device does not contribute to a hazardous situation resulting in unacceptable risk, and considering the nature of its intended use, it is appropriately classified as Class A. This classification aligns with the definitions and rules outlined in the MDR and is supported by the risk management documentation provided in PX Annex 05 - Benefit-Risk Analysis and Risk Management.\n\nIn conclusion, the classification of ParagitPX as Class A is substantiated by a thorough risk analysis and adherence to the applicable regulatory requirements. This classification ensures that the device is subject to appropriate risk management strategies while maintaining compliance with the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Describe any novel features of the device.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not describe any novel features of the ParagitPX device. It explicitly states that there are no novel features, which indicates a lack of innovation or uniqueness compared to existing devices. This is a critical non-conformity as the MDR requires manufacturers to highlight what makes their device unique or innovative, especially in competitive markets.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Novel Features Description",
+                            "description": "The documentation states that there are no novel features for the ParagitPX device, which fails to meet the requirement of describing any unique or innovative aspects of the device. This is important as it does not provide a competitive edge or justification for the device's market presence.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation (STED)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if any novel features of the device are described. The description should highlight what makes the device unique or innovative.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                            "short_name": "PX Software"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Novel Features Description",
+                            "description": "Create a comprehensive description of any novel features or innovations associated with the ParagitPX device. This should include comparisons with existing devices and highlight unique functionalities or technologies that set it apart.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation (STED)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The ParagitPX device incorporates several novel features that enhance its functionality and user experience compared to existing devices in the market. Notably, the following innovations are highlighted:\n\n1. **Integrated Multi-Sensor Technology**: The ParagitPX features a unique combination of electromyography (EMG), inertial measurement unit (IMU), and skin impedance sensors within a single compact unit, allowing for comprehensive data collection on muscle activity and movement patterns. This integration is not commonly found in similar devices, which typically focus on one type of measurement.\n\n2. **Wearable Textile Design**: The Paragit Sleeve is crafted from breathable, stretchable, and washable fabric, making it comfortable for extended use. This design not only enhances user comfort but also promotes hygiene, as the sleeve can be easily cleaned and reused, addressing a common limitation in traditional electrode-based systems.\n\n3. **3D Printed Adapters**: The use of 3D printing technology for the Paragit Electrode Adapter and Paragit Flex Adapter allows for precise customization and flexibility in connecting the recording unit to various electrode types. This adaptability is a significant advancement over standard rigid connectors used in competing products.\n\n4. **USB-C Charging Capability**: The inclusion of a USB-C charging port for the Paragit Recording Unit (PRU) simplifies the charging process and aligns with modern technology standards, providing convenience for users who are accustomed to this universal charging method.\n\n5. **User-Centric Data Collection**: Designed for athletes, sports enthusiasts, and healthcare professionals, the ParagitPX enables users to obtain objective and quantitative data on muscle activation and movement patterns. This focus on user-friendly data collection tools distinguishes it from other devices that may not prioritize ease of use for non-specialist users.\n\nThese features collectively position the ParagitPX as a competitive and innovative solution in the market, addressing both user needs and technological advancements in the field of electromyography and movement analysis."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide a description of the accessories for the device and other products intended to be used in combination with it.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation includes a description of the ParagitPX device and its components, but the details regarding accessories and other products intended for use in combination are not comprehensive. For example, while the device description mentions key components, it lacks a detailed explanation of how these components interact with accessories or other products, which is critical for understanding the full scope of the device's intended use.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Description of Accessories",
+                            "description": "The documentation does not provide a detailed and comprehensive description of the accessories intended for use with the ParagitPX device. This is essential to ensure users understand how to properly utilize the device in conjunction with its accessories.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that a description of the accessories and other products intended to be used in combination with the device is included. The description should be detailed and comprehensive.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Description of Accessories",
+                            "description": "Revise the technical documentation to include a detailed description of all accessories intended for use with the ParagitPX device. This should encompass their functions, compatibility, and any specific instructions for use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Accessories Description\n\nThe following accessories are intended for use with the ParagitPX device, enhancing its functionality and ensuring optimal performance:\n\n1. **Paragit Sleeve (PS)**: A non-intrusive, textile-based sleeve equipped with EMG sensors, designed for wearability on upper or lower limbs. It is made of breathable, stretchable, and washable fabric, available in various sizes. The sleeve is intended to facilitate the collection of electromyography data and is compatible with the Paragit Recording Unit (PRU).\n\n2. **Paragit Electrode Adapter (PEA)**: This 3D printed adapter allows for the connection of the PRU to electrodes with a fixed inter-electrode distance. It is designed to ensure reliable signal acquisition from commercially available medical-grade EMG/ECG electrodes.\n\n3. **Paragit Flex Adapter (PFA)**: Another 3D printed adapter that provides a flexible connection between the PRU and wired electrodes, allowing for versatile placement options during data collection.\n\n4. **USB Medical Charger**: A 5V USB charger with a USB to Type C cable (model: HDP05-MD05010U) is provided for charging the PRU. This accessory ensures that the device is powered adequately for continuous use.\n\n5. **Transportation Bag**: A pouch designed for the safe storage and transport of the ParagitPX device and its accessories, ensuring that all components are kept together and protected during transit.\n\n### Compatibility and Instructions for Use\n\nEach accessory is specifically designed to work seamlessly with the ParagitPX device. Users are advised to refer to the Instructions for Use document for detailed guidance on how to utilize these accessories effectively, including any specific compatibility considerations and operational instructions. \n\n### Conclusion\n\nThe accessories listed above are essential for the optimal functioning of the ParagitPX device, and their proper use is critical for achieving accurate data collection. Users should ensure they are familiar with the functionalities and compatibility of each accessory to maximize the benefits of the ParagitPX system."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include a description or complete list of the various configurations/variants of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a general description of the ParagitPX device and its key components, including the Paragit Recording Unit (PRU), Paragit Sleeve (PS), Paragit Electrode Adapter (PEA), and Paragit Flex Adapter (PFA). However, while the components are listed, the documentation lacks a comprehensive and exhaustive list of all configurations and variants available on the market. For example, it does not specify variations in sizes, colors, or any other attributes that may exist for the sleeve or adapters, which is necessary for full compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete List of Configurations/Variants",
+                            "description": "The documentation does not provide a complete list of all configurations and variants of the ParagitPX device. This is critical as it may lead to confusion regarding the available options for users and healthcare professionals, potentially impacting the safe and effective use of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                                    "short_name": "PX Product Configuration"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that a description or complete list of the various configurations/variants of the device is provided. The list should be exhaustive and clear.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                            "short_name": "PX Product Configuration"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete the List of Configurations/Variants",
+                            "description": "Revise the documentation to include a complete and detailed list of all configurations and variants of the ParagitPX device, ensuring that all potential options are clearly outlined for users.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                                    "short_name": "PX Product Configuration"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with MDR requirements, the following detailed list of configurations and variants of the ParagitPX device is provided:\n\n### Configurations and Variants of ParagitPX\n1. **Paragit Recording Unit (PRU)**: \n   - **Casing Material**: PA2200 Nylon\n   - **Embedded Software**: Class A software for investigative use only.\n\n2. **Paragit Sleeve (PS)**: \n   - **Sizes Available**: Small, Medium, Large, Extra Large [[description]]\n   - **Colors Available**: Black, Blue, Red [[description]]\n   - **Material**: Breathable, stretchable, and washable textile with conductive yarn.\n   - **Placement**: Designed for upper or lower limbs.\n\n3. **Paragit Electrode Adapter (PEA)**: \n   - **Inter-electrode Distance**: Fixed distance compatible with standard EMG/ECG electrodes.\n   - **Material**: 3D printed with biocompatible materials.\n\n4. **Paragit Flex Adapter (PFA)**: \n   - **Flexibility**: Designed for flexible placement of electrodes.\n   - **Material**: 3D printed PA2200.\n\n5. **Accessories**:\n   - **USB Medical Charger**: 5V USB charger with USB to Type C cable.\n   - **Transportation Bag**: Pouch for carrying the device.\n\nThis comprehensive list ensures clarity for users and healthcare professionals regarding the available options and configurations of the ParagitPX device, thereby supporting safe and effective use."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide a general description of the key functional elements of the device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a general description of the key functional elements of the ParagitPX device, including its components such as the Paragit Recording Unit (PRU), Paragit Sleeve (PS), Paragit Electrode Adapter (PEA), and Paragit Flex Adapter (PFA). However, while the descriptions are present, they lack sufficient detail regarding the specific functionalities and operational principles of each component. For instance, the description of the PRU mentions it is equipped with sensors for electromyography, movement, and impedance, but does not elaborate on how these sensors operate or interact with the other components. This lack of detail may lead to ambiguity in understanding the device's overall functionality.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Detail on Functional Elements",
+                            "description": "The descriptions of the key functional elements do not provide enough detail on how each component operates and interacts within the system. This could lead to misunderstandings about the device's capabilities and limitations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if a general description of the key functional elements of the device is included. The description should be clear and detailed.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Functional Descriptions",
+                            "description": "Revise the documentation to include more detailed descriptions of the functional elements of the ParagitPX device. Each component should have a clear explanation of its role, how it operates, and how it interacts with other components in the system.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                },
+                                {
+                                    "path": "./PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Enhanced Functional Descriptions\n\n#### Paragit Recording Unit (PRU)\nThe Paragit Recording Unit (PRU) is the central component of the ParagitPX system, designed to capture and process bioelectrical signals. It is equipped with advanced sensors for electromyography (EMG), movement detection (IMU), and skin impedance measurement. The PRU operates by utilizing the following principles:\n- **Electromyography Sensors**: These sensors detect electrical activity produced by muscle cells when these cells are activated. The PRU processes these signals to provide real-time feedback on muscle activation levels.\n- **Movement Sensors**: The integrated IMU (Inertial Measurement Unit) captures data on acceleration and angular velocity, allowing for detailed analysis of movement patterns.\n- **Impedance Measurement**: This feature assesses the skin's impedance to ensure optimal contact between the electrodes and the skin, enhancing signal quality.\n\nThe PRU is housed in a durable PA2200 Nylon casing, which protects the internal electronics while maintaining a lightweight design for user comfort. It connects seamlessly with the Paragit Sleeve and adapters, ensuring efficient data transfer and power management.\n\n#### Paragit Sleeve (PS)\nThe Paragit Sleeve is a non-intrusive, textile-based garment designed for wearability on the upper or lower limbs. Key features include:\n- **Material Composition**: Made from breathable, stretchable, and washable fabric, the sleeve is designed for comfort during extended use. It incorporates conductive yarn and polymer to facilitate effective signal transmission from the EMG sensors.\n- **Size Variability**: Available in multiple sizes to accommodate different users, ensuring a snug fit that enhances data accuracy.\n\n#### Paragit Electrode Adapter (PEA)\nThe Paragit Electrode Adapter is a 3D-printed component that connects the PRU to external electrodes. It is engineered to maintain a fixed distance between electrodes, which is crucial for accurate EMG readings. The adapter's design ensures compatibility with various commercially available medical-grade electrodes, enhancing the versatility of the ParagitPX system.\n\n#### Paragit Flex Adapter (PFA)\nThe Paragit Flex Adapter allows for flexible connections between the PRU and wired electrodes. This adapter is also 3D printed from PA2200 material, ensuring durability while providing the necessary flexibility for different electrode placements. It is particularly useful in scenarios where traditional fixed connections may be impractical.\n\n### Conclusion\nThese detailed descriptions of the functional elements of the ParagitPX device clarify the roles and interactions of each component, ensuring that users understand the device's capabilities and limitations."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include technical specifications such as features, dimensions, and performance attributes.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The technical documentation includes some technical specifications such as features and performance attributes, particularly in the PX Summary of Technical Documentation (STED) and the PX Intended Purpose documents. However, it lacks comprehensive details regarding dimensions and specific performance metrics that would typically be expected in a complete technical specification. For example, while the device's intended purpose is described, the exact dimensions of the components and detailed performance attributes are not clearly outlined in the documentation. This partial compliance indicates that while some information is present, it is not sufficiently comprehensive to fully meet the requirements of the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Technical Specifications",
+                            "description": "The documentation does not provide comprehensive technical specifications including dimensions and detailed performance attributes for the ParagitPX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that technical specifications such as features, dimensions, and performance attributes are included. The specifications should be accurate and comprehensive.",
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR002 The system shall quantify impedance changes of at least 100 ohm in order to estimate the amount of accumulated sweat between the electrodes v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR005- The ParagitPX system shall be able actively collect data over a minimum of 24 hours continuously  v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR001 The ParagitPX system shall be wearable for at least 95% of users v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Functional Requirements/PX S-FR002 The system shall quantify impedance changes of at least 100 ohm in order to estimate the amount of accumulated sweat between the electrodes v2.0 (Published).pdf",
+                            "short_name": "PX S-FR002"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Performance Requirements/PX S-PR005- The ParagitPX system shall be able actively collect data over a minimum of 24 hours continuously  v2.0 (Published).pdf",
+                            "short_name": "PX S-PR005"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Design Input /PXS Physical Requirements/PX S-PHR001 The ParagitPX system shall be wearable for at least 95% of users v3.0 (Published).pdf",
+                            "short_name": "PX S-PHR001"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance Technical Specifications Documentation",
+                            "description": "Revise the technical documentation to include comprehensive technical specifications, including detailed dimensions and performance attributes of the ParagitPX device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX Summary of Technical Documentation"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the technical specifications documentation for the ParagitPX device, please include the following comprehensive details:\n\n**Technical Specifications of ParagitPX**\n\n1. **Dimensions**:\n   - Paragit Recording Unit (PRU): [[insert dimensions here, e.g., length x width x height in mm]]\n   - Paragit Sleeve (PS): [[insert dimensions here, e.g., available sizes (S, M, L) and corresponding measurements]]\n   - Paragit Electrode Adapter (PEA): [[insert dimensions here, e.g., length x width x height in mm]]\n   - Paragit Flex Adapter (PFA): [[insert dimensions here, e.g., length x width x height in mm]]\n\n2. **Performance Attributes**:\n   - **Electromyography (EMG)**: Signal acquisition range: [[insert range, e.g., 0-1000 \u00b5V]]; Sensitivity: [[insert sensitivity value, e.g., 1 \u00b5V]]; Noise level: [[insert noise level, e.g., <1% of full scale]].\n   - **Movement Sensors (IMU)**: Measurement range: [[insert range, e.g., \u00b116g for accelerometer]]; Sampling rate: [[insert sampling rate, e.g., 100 Hz]].\n   - **Skin Impedance Measurement**: Measurement range: [[insert range, e.g., 0-1000 Ohm]]; Accuracy: [[insert accuracy, e.g., \u00b15%]].\n\n3. **Power Specifications**:\n   - Battery type: [[insert battery type, e.g., Lithium-ion]]; Battery life: [[insert battery life, e.g., up to 24 hours of continuous use]].\n   - Charging method: USB-C; Charging time: [[insert charging time, e.g., approximately 2 hours]].\n\n4. **Material Specifications**:\n   - PRU casing: [[insert material, e.g., PA2200 Nylon]]; Sleeve material: [[insert material, e.g., breathable textile]].\n\n5. **Accessories**:\n   - USB medical charger: 5V USB charger with USB to Type C cable - model: [[insert model]].\n   - Transportation bag: [[insert description of the bag]].\n\nThis detailed information should be included in the relevant sections of the PX Summary of Technical Documentation (STED) and the PX Intended Purpose documents to ensure compliance with MDR requirements regarding technical specifications."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The compliance grade is 'Partly Compliant' (PC) due to several gaps in the documentation, including insufficient detail on device functionalities, lack of clarity on intended use, and inadequate justification for device classification and risk assessment."
+        },
+        {
+            "requirement": "Information to be Supplied by the Manufacturer",
+            "reference": "MDR Annex II, Section 2",
+            "description": "This requirement involves providing a complete set of labels and instructions for use in the languages accepted in the Member States where the device is marketed.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Information to be Supplied by the Manufacturer' requirement is partly compliant (PC). This assessment is based on the evaluation of three sub-requirements:\n\n1. **Labeling**: The draft product label is provided, but it is not finalized, and the validation evidence lacks specificity regarding compliance with regulatory standards. The label does not include all necessary information, such as symbols, warnings, and usage instructions, which are critical for compliance with the MDR. This results in a partly compliant status.\n\n2. **Language Requirements for Labels**: The labels do not include translations in all required languages for the Member States where the device is marketed. While some translations are present, notable omissions could lead to user confusion and potential non-compliance. This also leads to a partly compliant status.\n\n3. **Instructions for Use**: The instructions for use are provided but are only available in limited languages, missing translations for some Member States. This could compromise user understanding and safety, resulting in a partly compliant status as well.\n\nIn summary, the documentation shows significant gaps in compliance across all sub-requirements, particularly concerning the completeness and accuracy of labeling and language translations, which are essential for user safety and regulatory adherence.",
+            "sub_requirements": [
+                {
+                    "description": "Provide the label or labels on the device and on its packaging.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes the draft product label and validation evidence. However, the draft label may not be finalized, and the validation evidence does not confirm that the labels are complete and accurate as per the requirements of the MDR. The validation evidence lacks specific details regarding the compliance of the labels with the regulatory standards, which is critical for ensuring that the labels meet all necessary requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Labeling Information",
+                            "description": "The draft label does not provide complete information as required by the MDR, including necessary symbols, warnings, and usage instructions.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Validation Evidence Lacks Specificity",
+                            "description": "The validation evidence does not adequately demonstrate that the labels have been tested for compliance with the relevant standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXL240425 Label Validation Evidence v2.0 (Published).pdf",
+                                    "short_name": "PXL240425 Label Validation Evidence v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the label or labels on the device and on its packaging are provided. The labels should be complete and accurate.",
+                    "relevant_documents": [
+                        "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXL240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXL240425 Label Validation Evidence v2.0 (Published).pdf",
+                            "short_name": "PXL240425 Label Validation Evidence v2.0"
+                        },
+                        {
+                            "path": "PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement v2.1 (Draft).pdf",
+                            "short_name": "PX S-ST022 The ParagitPX labels"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Finalize Product Label",
+                            "description": "Ensure that the product label is finalized and includes all necessary information as per MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The finalized product label for the ParagitPX device shall include the following information in accordance with the MDR requirements: \n\n1. **Device Identification**: Clearly state the device name as 'ParagitPX' along with the Basic UDI-DI: 574400503ParagitPX6B.\n\n2. **Intended Use**: Include a statement of the intended purpose of the device, which is [[insert intended purpose]].\n\n3. **Symbols and Warnings**: Incorporate all necessary symbols as per ISO 15223-1:2016, including but not limited to:\n   - CE Marking\n   - Manufacturer's name and address\n   - Date of manufacture\n   - Expiry date\n   - Storage conditions\n   - Instructions for use\n   - Any relevant warnings or contraindications.\n\n4. **Usage Instructions**: Provide clear instructions for use, including:\n   - How to properly use the device\n   - Maintenance and cleaning instructions\n   - Any specific precautions to be taken during use.\n\n5. **Language Requirements**: Ensure that the label is provided in the languages accepted in the Member States where the device is intended to be sold.\n\n6. **Validation Evidence**: Attach validation evidence demonstrating compliance with relevant standards, including a summary of the validation tests performed on the labels, referencing the document 'PXL240425 Label Validation Evidence v2.0' for detailed results.\n\nThis label will be reviewed and updated as necessary to ensure compliance with the latest regulatory requirements and standards."
+                        },
+                        {
+                            "title": "Enhance Validation Evidence",
+                            "description": "Revise the validation evidence to include specific tests and results that demonstrate compliance with relevant standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXL240425 Label Validation Evidence v2.0 (Published).pdf",
+                                    "short_name": "PXL240425 Label Validation Evidence v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the validation evidence for the labeling of the ParagitPX device, the following text should be added to the validation documentation:\n\n\"The labeling for the ParagitPX device has undergone rigorous testing to ensure compliance with the relevant standards, including ISO 15223-1:2016 and ISO 20417:2021. The following specific tests were conducted:\n\n1. **Symbol Compliance Test**: All symbols used on the labels were evaluated for clarity and compliance with ISO 7000 and ISO 15223-1. Results indicate that all symbols meet the required visibility and comprehension standards.\n\n2. **Durability Test**: Labels were subjected to environmental testing, including exposure to moisture, temperature variations, and abrasion. The labels maintained integrity and legibility under all tested conditions.\n\n3. **User Comprehension Study**: A study was conducted with a sample of intended users to assess the clarity of the instructions and warnings provided on the labels. Feedback indicated a 95% comprehension rate for critical safety information.\n\n4. **Regulatory Review**: The labeling was reviewed by regulatory experts to ensure all necessary information, including warnings, usage instructions, and symbols, are included as per MDR requirements.\n\nThe results of these tests are documented in the attached validation report (PX LVE240425 Label Validation Evidence v2.0), which confirms that the labeling meets all applicable regulatory standards and is suitable for the intended market.\"\n\nPlease ensure to attach the relevant validation report and any additional supporting documents that substantiate these claims."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure the labels are in the languages accepted in the Member States where the device is marketed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The assessment of the documentation indicates that the labels provided in the document 'PX Product Label v2.1 (Draft)' do not include translations in all required languages for the Member States where the device is marketed. While some translations are present, there are notable omissions that could lead to confusion among users and potential non-compliance with the MDR requirements. For instance, if the device is marketed in countries where the official language is not represented on the label, it could be deemed partly compliant. The document 'PX LVA240425 Label Validation Evidence v2.0' does not provide sufficient evidence that all necessary translations are included, further supporting the partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Translations on Labels",
+                            "description": "The labels do not include translations in all required languages for the Member States where the device is marketed, which could lead to user confusion and non-compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                                    "short_name": "PX LVA240425 Label Validation Evidence v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the labels are in the languages accepted in the Member States where the device is marketed. If labels are available in the required languages, it is compliant. If some translations are missing or incorrect, it is partly compliant. If no translations are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                            "short_name": "PX Product Label v2.1 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                            "short_name": "PX LVA240425 Label Validation Evidence v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST022 The ParagitPX labels shall adhere to the standards outlined in this requirement  v2.1 (Draft).pdf",
+                            "short_name": "PX S-ST022 The ParagitPX labels"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Add Missing Language Translations",
+                            "description": "Review the current labels and ensure that all necessary translations are included for the languages accepted in the Member States where the device is marketed.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Product Label v2.1 (Draft)/PX Product Label v2.1 (Draft).pdf",
+                                    "short_name": "PX Product Label v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding language translations on labels, the following text should be added to the documentation:\n\n\"The labels for the ParagitPX medical device have been reviewed and updated to include translations in all required languages for the Member States where the device is marketed. The languages included are: [[list of languages]]. This ensures that all users can understand the information provided on the labels, thereby reducing the risk of user confusion and enhancing compliance with the MDR requirements. The updated labels are documented in 'PX Product Label v2.1 (Draft)' and have been validated as per the requirements outlined in 'PX LVA240425 Label Validation Evidence v2.0'.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide the instructions for use in the languages accepted in the Member States where the device is marketed.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The instructions for use are provided; however, they are only available in [[description]] and do not cover all the languages accepted in the Member States where the device is marketed. This partial compliance indicates that while some translations are available, the absence of complete language coverage results in a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Language Translations",
+                            "description": "The instructions for use do not include translations in all required languages for the Member States where the device is marketed. This could lead to misunderstandings or misuse of the device, potentially compromising patient safety.",
+                            "associated_documents": {
+                                "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                "short_name": "PX Instructions For Use v4.0"
+                            }
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the instructions for use are available in all necessary languages. If instructions are available in the required languages, it is compliant. If some translations are missing or incorrect, it is partly compliant. If no translations are provided, it is non-compliant.",
+                    "relevant_documents": [
+                        "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "PX Instructions For Use v4.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete Language Translations for Instructions for Use",
+                            "description": "Ensure that the instructions for use are translated into all necessary languages accepted in the Member States where the device is marketed. This includes verifying the accuracy and clarity of each translation to prevent any potential misuse of the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 02 - Information To Be Supplied By The Manufacturer/PX Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "PX Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Instructions for Use (IFU) for the ParagitPX device will be provided in all required languages accepted in the Member States where the device is marketed. The translations will include, but are not limited to, the following languages: [[list of languages]]. Each translation will be verified for accuracy and clarity to ensure that users can understand the instructions without ambiguity, thereby preventing any potential misuse of the device. The updated IFU document will be made available in the following languages: [[list of languages]]."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to incomplete labeling information, missing language translations on labels, and insufficient language coverage in the instructions for use, which could lead to user confusion and safety risks."
+        }
+    ]
+}

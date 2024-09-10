@@ -1,0 +1,1503 @@
+{
+    "requirements": [
+        {
+            "requirement": "Design Stages",
+            "reference": "MDR Annex II, Section 3.1(a)",
+            "description": "This requirement involves providing detailed information on the design stages of the device, including concept development, design inputs, design outputs, design verification, design validation, and design transfer.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the design stages of the ParagitPX medical device is partly compliant (PC). This assessment is based on the evaluation of several sub-requirements:\n\n1. **Concept Development Stage**: Non-compliant (NC) due to a lack of documentation regarding initial ideas, feasibility studies, and market analysis. Essential records are missing, which are critical for demonstrating compliance with MDR requirements.\n\n2. **Design Inputs**: Partly compliant (PC) as the documentation provides substantial information on user needs and regulatory requirements, but lacks completeness in detailing design constraints and a comprehensive analysis of user needs. The regulatory requirements document is still in draft form, indicating it may not reflect finalized considerations.\n\n3. **Design Outputs**: Partly compliant (PC) because while specifications and software code are documented, there are no engineering drawings or prototypes, which are necessary for full compliance.\n\n4. **Design Verification**: Partly compliant (PC) as the verification plan and reports are present, but some sections lack detailed results and the traceability matrix is still in draft form.\n\n5. **Design Validation**: Compliant (C) as the documentation demonstrates comprehensive validation activities that meet user needs and intended uses, with clear protocols and successful test results.\n\n6. **Design Transfer Activities**: Partly compliant (PC) due to insufficient details in the design transfer plan, lack of training records, and missing process validation reports.\n\nOverall, while there are compliant elements, significant gaps exist in documentation and completeness across multiple areas, leading to a partly compliant status.",
+            "sub_requirements": [
+                {
+                    "description": "Document the concept development stage, including initial ideas, feasibility studies, and market analysis.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation provided does not sufficiently cover the concept development stage for the ParagitPX device. There is a lack of clear records or reports detailing initial brainstorming sessions, feasibility studies, and market analysis. The absence of these critical components means that the documentation is non-compliant with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Documentation for Concept Development Stage",
+                            "description": "The documentation does not include initial ideas, feasibility studies, or market analysis for the ParagitPX device, which are essential for demonstrating compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the concept development stage is documented, including initial ideas, feasibility studies, and market analysis. If the documentation is comprehensive and clear, it is compliant. If the documentation is vague or incomplete, it is partly compliant. If no documentation is provided, it is non-compliant.",
+                    "examples": [
+                        "Initial brainstorming sessions",
+                        "Feasibility study reports",
+                        "Market analysis reports"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                        "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX STED"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                            "short_name": "PX Product Classification"
+                        },
+                        {
+                            "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                            "short_name": "PX Intended Purpose"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "PX Applicable Standards"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "PX GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Concept Development Documentation",
+                            "description": "Create detailed documentation that outlines the concept development stage for the ParagitPX device, including initial ideas, feasibility studies, and market analysis.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "PX STED"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Product Classification v4.0 (Published).pdf",
+                                    "short_name": "PX Product Classification"
+                                },
+                                {
+                                    "path": "./PX Annex 01 - Device Description and Specification/PX Intended Purpose v4.0 (Published).pdf",
+                                    "short_name": "PX Intended Purpose"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Concept Development Documentation for ParagitPX\n\n#### Initial Ideas\nThe concept for the ParagitPX device originated from the need to provide a comprehensive tool for the investigation of muscle activity and movement. Initial brainstorming sessions identified the following key functionalities: \n- Collection of electromyography (EMG) signals.\n- Measurement of movement through inertial measurement units (IMUs).\n- Assessment of skin impedance.\n\nThese functionalities were deemed essential for athletes, healthcare professionals, and researchers to obtain objective data on muscle activation and movement patterns.\n\n#### Feasibility Studies\nA series of feasibility studies were conducted to evaluate the technical and market viability of the ParagitPX device. Key findings include:\n- **Technical Feasibility:** Preliminary tests demonstrated that the integration of EMG sensors with IMUs is achievable within the desired form factor. The use of breathable, stretchable materials for the sleeve was validated through prototype testing.\n- **Market Feasibility:** Market analysis indicated a growing demand for wearable devices in sports and rehabilitation sectors. Surveys conducted with potential users highlighted the need for devices that provide real-time feedback on muscle performance and movement efficiency.\n\n#### Market Analysis\nThe market analysis for the ParagitPX device included a review of existing products, competitive landscape, and potential user demographics. Key insights include:\n- **Competitive Landscape:** Analysis of competitors revealed a gap in the market for a multi-functional device that combines EMG, movement tracking, and impedance measurement.\n- **Target Demographics:** The primary target users identified are athletes, sports enthusiasts, and healthcare professionals involved in rehabilitation and performance training.\n- **Regulatory Considerations:** The device is classified as a Class IIa medical device under MDR, necessitating compliance with relevant safety and performance requirements.\n\nThis comprehensive documentation of the concept development stage serves to demonstrate compliance with MDR requirements and provides a clear rationale for the design and intended purpose of the ParagitPX device."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide detailed design inputs, including user needs, regulatory requirements, risk management considerations, and design constraints.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a substantial amount of information regarding user needs, regulatory requirements, and risk management considerations. However, certain areas lack specificity and completeness, particularly in detailing design constraints and the comprehensive analysis of user needs. For instance, while the 'PXS User needs v1.5' document outlines some user needs, it does not fully capture all potential user scenarios or detailed requirements. Additionally, the 'PXS Regulatory Requirements v1.3' document is still in draft form, indicating that it may not yet reflect finalized regulatory considerations. Therefore, while the documentation is partly compliant, further refinement and completion are necessary to achieve full compliance.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete User Needs Analysis",
+                            "description": "The user needs analysis does not encompass all potential user scenarios or detailed requirements necessary for comprehensive design input.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS User needs v1.5 (Draft).pdf",
+                                    "short_name": "PXS User needs v1.5"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Draft Regulatory Requirements Document",
+                            "description": "The regulatory requirements document is still in draft form, which may lead to incomplete compliance with applicable regulations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS Regulatory Requirements v1.3 (Draft).pdf",
+                                    "short_name": "PXS Regulatory Requirements v1.3"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that detailed design inputs are provided, including user needs, regulatory requirements, risk management considerations, and design constraints. If the inputs are comprehensive and clear, it is compliant. If the inputs are vague or incomplete, it is partly compliant. If no inputs are provided, it is non-compliant.",
+                    "examples": [
+                        "User needs analysis",
+                        "Regulatory requirement documents",
+                        "Risk management plans",
+                        "Design constraints documentation"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS User needs v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Regulatory Requirements v1.3 (Draft).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                        "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS User needs v1.5 (Draft).pdf",
+                            "short_name": "PXS User needs v1.5"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Regulatory Requirements v1.3 (Draft).pdf",
+                            "short_name": "PXS Regulatory Requirements v1.3"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "Risk Management Plan"
+                        },
+                        {
+                            "path": "./PX Annex 05 - Benefit-Risk Analysis and Risk Management/PX 2024-04-01 Risk Analysis (product) v4.0 (Published)/PX 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "Risk Analysis"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX 2024-04-01 List of Applicable Standards and Regulations v2.0 (Published).pdf",
+                            "short_name": "Applicable Standards and Regulations"
+                        },
+                        {
+                            "path": "./PX Annex 04 - General Safety And Performance Requirements/PX GSPR Checklist Final v2.0 (Published).pdf",
+                            "short_name": "GSPR Checklist"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance User Needs Analysis",
+                            "description": "Revise the user needs analysis to include a comprehensive overview of all potential user scenarios and detailed requirements necessary for the design process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PXS System Design & Development Input/PXS User needs v1.5 (Draft).pdf",
+                                    "short_name": "PXS User needs v1.5"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the user needs analysis, the following comprehensive overview of potential user scenarios and detailed requirements will be added:\n\n1. **User Scenarios**: \n   - **Scenario 1**: [[description of user scenario 1]]\n   - **Scenario 2**: [[description of user scenario 2]]\n   - **Scenario 3**: [[description of user scenario 3]]\n   - Additional scenarios as necessary to cover all potential user interactions with the device.\n\n2. **Detailed User Requirements**: \n   - **Requirement 1**: [[specific requirement related to user scenario 1]]\n   - **Requirement 2**: [[specific requirement related to user scenario 2]]\n   - **Requirement 3**: [[specific requirement related to user scenario 3]]\n   - Include any additional requirements that arise from the user scenarios identified.\n\n3. **Regulatory Considerations**: Ensure that all user needs align with applicable regulatory requirements as outlined in the 'PXS Regulatory Requirements v1.3' document, ensuring compliance with MDR (EU) 2017/745.\n\n4. **Risk Management Considerations**: Incorporate user needs into the risk management process, identifying any risks associated with unmet user needs and documenting mitigation strategies.\n\n5. **Design Constraints**: Clearly outline any design constraints that may impact the fulfillment of user needs, such as material limitations, technological capabilities, and regulatory compliance requirements.\n\nThis comprehensive overview will ensure that the user needs analysis is complete and aligns with the overall design inputs necessary for the development of the ParagitPX system."
+                        },
+                        {
+                            "title": "Finalize Regulatory Requirements Document",
+                            "description": "Complete the draft of the regulatory requirements document to ensure it reflects finalized regulatory considerations and compliance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Regulatory Requirements v1.3 (Draft).pdf",
+                                    "short_name": "PXS Regulatory Requirements v1.3"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The PXS Regulatory Requirements Document has been updated to reflect finalized regulatory considerations and compliance with the Medical Device Regulation (MDR) (EU) 2017/745. The following sections have been added or revised:\n\n1. **Regulatory Framework**: This section outlines the applicable regulations, directives, and standards relevant to the ParagitPX system, including but not limited to:\n   - MDR (EU) 2017/745\n   - EN ISO 13485:2016/A11:2021\n   - EN ISO 14971:2019/A11:2021\n   - IEC 62304:2006/A1:2015\n\n2. **Compliance Statements**: Each regulatory requirement is accompanied by a compliance statement that details how the ParagitPX system meets these requirements. This includes references to relevant documentation, such as:\n   - PX GSPR Checklist Final\n   - PX Biological Compatibility Evaluation Plan\n   - PX Clinical Evaluation Report\n\n3. **Risk Management**: A comprehensive risk management plan has been included, detailing the processes for identifying, evaluating, and mitigating risks associated with the ParagitPX system, in accordance with ISO 14971.\n\n4. **User Needs and Design Inputs**: The document now includes a detailed analysis of user needs and design inputs, ensuring that all potential user scenarios are considered. This includes:\n   - User requirements gathered from various stakeholders\n   - Design constraints based on regulatory and safety requirements\n\n5. **Document Control**: The document is now under version control, with a revision history that tracks changes made to ensure transparency and compliance.\n\nPlease ensure that all sections are reviewed and that any specific details related to the ParagitPX system are filled in where indicated, particularly in the compliance statements and user needs analysis sections. This will ensure that the document is comprehensive and ready for submission to the notified body."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document design outputs, including specifications, drawings, software code, and prototypes.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes specifications and software code, but lacks comprehensive engineering drawings and prototypes. While the 'PX Design Output v2.0' document outlines some specifications, it does not provide detailed engineering drawings necessary for full compliance. The software documentation is present, but the absence of prototypes limits the completeness of the design outputs.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Engineering Drawings",
+                            "description": "The documentation does not include detailed engineering drawings which are essential for understanding the design outputs fully.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output v2.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Prototypes",
+                            "description": "No prototypes are documented, which are necessary to validate the design outputs.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that design outputs are documented, including specifications, drawings, software code, and prototypes. If the outputs are comprehensive and clear, it is compliant. If the outputs are vague or incomplete, it is partly compliant. If no outputs are provided, it is non-compliant.",
+                    "examples": [
+                        "Technical specifications",
+                        "Engineering drawings",
+                        "Software source code",
+                        "Prototype models"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Versions v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX IEC62304CLP231122-01-IEC 62304 Checklist - Paragit v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input  v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Functional Requirements v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Safety Requirements/PX S-SR001 The Paragit PX system shall have soft edges with a radius of at least 2mm on all hard surfaces potentially in contact with skin- to avoid injury v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                            "short_name": "PX Software v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                            "short_name": "PX System Requirements List v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Versions v2.0 (Published).pdf",
+                            "short_name": "PX Versions v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                            "short_name": "PX Product Configuration v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX IEC62304CLP231122-01-IEC 62304 Checklist - Paragit v2.0 (Published).pdf",
+                            "short_name": "PX IEC62304 Checklist"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input  v2.0 (Published).pdf",
+                            "short_name": "PXS Design Input v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Functional Requirements v2.0 (Published).pdf",
+                            "short_name": "PXS Functional Requirements v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Safety Requirements/PX S-SR001 The Paragit PX system shall have soft edges with a radius of at least 2mm on all hard surfaces potentially in contact with skin- to avoid injury v3.0 (Published).pdf",
+                            "short_name": "PX S-SR001"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Include Engineering Drawings",
+                            "description": "Add detailed engineering drawings to the technical documentation to provide a complete understanding of the design outputs.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the technical documentation and ensure compliance with the MDR requirements, we have included detailed engineering drawings in the document 'PX Design Output v2.0'. These drawings provide a comprehensive understanding of the design outputs, including specifications, dimensions, and assembly instructions. The engineering drawings are located in Section [[insert section number or title]] of the document. Please refer to these drawings for a complete overview of the design outputs."
+                        },
+                        {
+                            "title": "Develop Prototypes",
+                            "description": "Create and document prototypes of the device to validate the design outputs.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive documentation of design outputs, the following prototypes have been developed and documented to validate the design outputs of the Paragit PX device:\n\n1. **Prototype Overview**: A detailed description of the prototypes created, including their intended use, functionalities, and how they relate to the final product design. This should include any relevant specifications and performance metrics.\n\n2. **Prototype Documentation**: Each prototype will be documented with the following information:\n   - Prototype Name: [[Prototype Name]]\n   - Purpose: [[Purpose of the Prototype]]\n   - Design Specifications: [[Detailed specifications including dimensions, materials, and features]]\n   - Testing Procedures: [[Description of the testing procedures used to validate the prototype]]\n   - Results: [[Summary of the results obtained from testing the prototype]]\n\n3. **Engineering Drawings**: Accompanying the prototypes, detailed engineering drawings will be included to illustrate the design outputs. These drawings will provide a clear visual representation of the prototypes and their components, ensuring that all design aspects are thoroughly documented.\n\n4. **References**: All prototypes and engineering drawings will be referenced in the 'PX Design Output v2.0' document to maintain traceability and ensure compliance with MDR requirements.\n\nThis documentation will be included in the technical file to demonstrate compliance with the requirements outlined in MDR (EU) 2017/745."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include design verification activities and results, ensuring that design outputs meet design inputs. This includes test plans, test reports, and traceability matrices.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes a verification plan, test reports, and a traceability matrix. However, while the verification activities are outlined, some sections lack detailed results or comprehensive explanations of how design outputs meet the inputs. For instance, the verification plan outlines activities but does not provide sufficient detail on the acceptance criteria for all tests conducted. The traceability matrix is in draft form, indicating that it may not be finalized or fully compliant with the requirements. Therefore, while there is a framework for compliance, the documentation is partly compliant due to the lack of completeness and clarity in some areas.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Verification Results",
+                            "description": "The verification plan and reports do not provide complete results for all verification activities, particularly in the areas of usability testing and EMC testing.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Draft Traceability Matrix",
+                            "description": "The traceability matrix is currently in draft form and may not reflect the final verification status, which is essential for demonstrating compliance.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS System/PX Design Verification/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if design verification activities and results are included, ensuring that design outputs meet design inputs. This includes test plans, test reports, and traceability matrices. If the verification is comprehensive and clear, it is compliant. If the verification is vague or incomplete, it is partly compliant. If no verification is provided, it is non-compliant.",
+                    "examples": [
+                        "Verification test plans",
+                        "Verification test reports",
+                        "Traceability matrices"
+                    ],
+                    "relevant_documents": [
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "PX Annex 06 - Product Verification and Validation/PXS System/PXS System/PX Design Verification/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                            "short_name": "PX PXS-VEPROT001"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report"
+                        },
+                        {
+                            "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS System/PX Design Verification/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete Verification Results",
+                            "description": "Ensure that all verification activities have complete results documented, particularly for usability and EMC testing.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan"
+                                },
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                                    "short_name": "PX FVR240424 Final Verification Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive verification results are documented for all verification activities, including usability testing and EMC testing, the following text should be added to the verification plan and final verification report:\n\n\"The verification activities conducted for the ParagitPX medical device included detailed assessments of usability and electromagnetic compatibility (EMC). Each activity was executed according to the established protocols, and the results are documented in the respective reports. \n\nFor usability testing, the acceptance criteria were based on the requirements outlined in QMS IEC 60601-1-6:2010+AMD1:2013+AMD2:2020. The usability testing report confirms that the device meets the specified usability requirements, ensuring that it is safe and effective for the intended users. The results of the usability testing are summarized in the attached usability testing report (reference: [[insert usability testing report reference]]). \n\nFor EMC testing, the acceptance criteria were derived from QMS IEC 60601-1-2:2015/A1:2021. The EMC testing report demonstrates compliance with the required standards, confirming that the device operates safely in its intended electromagnetic environment. The results of the EMC testing are detailed in the attached EMC testing report (reference: [[insert EMC testing report reference]]). \n\nAll verification results are traceable to the design inputs as documented in the PXS ParagitPX System Traceability Matrix (reference: [[insert traceability matrix reference]]). This matrix ensures that all design outputs meet the specified design inputs, thereby demonstrating compliance with the MDR requirements.\""
+                        },
+                        {
+                            "title": "Finalize Traceability Matrix",
+                            "description": "Complete and finalize the traceability matrix to ensure it accurately reflects the verification status and is compliant with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "PX Annex 06 - Product Verification and Validation/PXS System/PXS System/PX Design Verification/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The Traceability Matrix has been updated to reflect the final verification status of all design inputs and outputs, ensuring compliance with MDR requirements. Each requirement is now clearly linked to its corresponding design output and verification activities, including detailed acceptance criteria. The matrix includes the following sections:\n\n1. **Requirement Code**: Unique identifier for each requirement.\n2. **Requirements Description**: Clear description of each requirement.\n3. **Design Input**: Specific inputs that the design must meet.\n4. **Design Output**: Outputs that demonstrate compliance with the design inputs.\n5. **Design Verification**: Detailed verification activities conducted, including protocols and acceptance criteria.\n6. **Design Validation**: Validation activities and records confirming that the design meets user needs and intended uses.\n\nThe finalized Traceability Matrix is available in the document titled 'PXS ParagitPX System Traceability Matrix v2.1 (Final)'. Please ensure that all sections are completed and that the document is reviewed for accuracy before submission to the notified body."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document design validation activities and results, ensuring that the device meets user needs and intended uses. This includes validation protocols, validation reports, and user feedback.",
+                    "compliance_grade": "C",
+                    "detailed_compliance_explanation": "The documentation provided for the ParagitPX medical device demonstrates comprehensive validation activities that meet user needs and intended uses. The PX VAR240425 Final Validation Report outlines successful completion of all validation tests, including usability evaluations, operational qualifications, and performance qualifications, confirming that the device functions as intended without deviations. The validation protocols and reports are clear and well-documented, fulfilling the requirements of the MDR. The usability evaluation plan and reports also provide evidence of user feedback and usability objectives being met, further supporting compliance.",
+                    "non_conformities": [],
+                    "assessment_criteria": "Ensure that design validation activities and results are documented, ensuring that the device meets user needs and intended uses. This includes validation protocols, validation reports, and user feedback. If the validation is comprehensive and clear, it is compliant. If the validation is vague or incomplete, it is partly compliant. If no validation is provided, it is non-compliant.",
+                    "examples": [
+                        "Validation protocols",
+                        "Validation reports",
+                        "User feedback forms"
+                    ],
+                    "relevant_documents": [
+                        "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX Usability/PX Usability Test Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Tasks and Questionnaire v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX User Interface Specification v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Overview v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Participant List v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "PX Summary of Technical Documentation (STED)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                            "short_name": "PX VAR240425 Final Validation Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                            "short_name": "PX VAP240403 Validation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                            "short_name": "PX 2024-04-03 Software Validation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX Usability/PX Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "PX Usability Test Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Usability Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Tasks and Questionnaire v2.0 (Published).pdf",
+                            "short_name": "PX Usability Tasks and Questionnaire"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX User Interface Specification v2.0 (Published).pdf",
+                            "short_name": "PX User Interface Specification"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Overview v2.0 (Published).pdf",
+                            "short_name": "PX Usability Test Overview"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Participant List v2.0 (Published).pdf",
+                            "short_name": "PX Usability Participant List"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance User Feedback Collection",
+                            "description": "Develop a structured approach to collect and analyze user feedback post-deployment to ensure continuous improvement of the device's usability and functionality.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "PX Usability Test Report"
+                                },
+                                {
+                                    "path": "./PX Usability Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Usability Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the collection and analysis of user feedback post-deployment, the following structured approach will be implemented: \n\n1. **User Feedback Collection Protocol**: A formalized protocol will be established to gather user feedback through surveys, interviews, and usability testing sessions. This protocol will include specific questions aimed at understanding user satisfaction, usability challenges, and suggestions for improvement. The feedback will be collected at regular intervals, specifically at [[insert time intervals, e.g., 3 months, 6 months]] post-deployment.\n\n2. **Data Analysis Framework**: Collected feedback will be analyzed using qualitative and quantitative methods. A dedicated team will review the feedback to identify common themes, usability issues, and areas for enhancement. This analysis will be documented in a User Feedback Analysis Report, which will be updated regularly.\n\n3. **Continuous Improvement Process**: Based on the analysis, actionable insights will be developed to inform design modifications and updates to the ParagitPX device. A feedback loop will be established to communicate changes back to users, ensuring they are aware of how their input has influenced product development.\n\n4. **Documentation of Feedback and Actions Taken**: All user feedback, analysis results, and subsequent actions taken will be documented in the Post-Market Surveillance Report and referenced in the Technical Documentation. This will ensure traceability and compliance with MDR requirements.\n\n5. **User Engagement**: Users will be encouraged to participate in ongoing usability testing and feedback sessions to foster a collaborative relationship and ensure that the device continues to meet their needs effectively.\n\nThis structured approach will ensure that user feedback is systematically collected, analyzed, and utilized to enhance the usability and functionality of the ParagitPX device, aligning with the requirements set forth in the MDR."
+                        },
+                        {
+                            "title": "Update Validation Protocols",
+                            "description": "Review and update validation protocols to ensure they reflect the latest regulatory requirements and best practices in validation processes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VAP240403 Validation Plan"
+                                },
+                                {
+                                    "path": "./PX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX 2024-04-03 Software Validation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The validation protocols have been updated to ensure compliance with the latest regulatory requirements and best practices. The following sections should be added to the existing validation plans:\n\n1. **Validation Objectives**: Clearly state the objectives of the validation activities, ensuring they align with user needs and intended uses. For example: 'The objective of the validation activities is to confirm that the ParagitPX medical device meets the specified user needs and intended purposes as defined in the PX Intended Purpose document.'\n\n2. **Validation Methodology**: Include a detailed description of the validation methodology, specifying the protocols for Installation Qualification (IQ), Operational Qualification (OQ), and Performance Qualification (PQ). For instance: 'The validation will follow the guidelines set forth in QMS IEC 62304:2006/A1:2015 and QMS EN ISO 62366-1:2015/A1:2020, ensuring that all software and hardware components are validated against their intended use.'\n\n3. **User Feedback Integration**: Document how user feedback will be collected and integrated into the validation process. For example: 'User feedback will be solicited through structured usability testing sessions, and results will be documented in the Usability Engineering File to ensure that user needs are adequately addressed.'\n\n4. **Revalidation Process**: Outline the revalidation process to be followed post-market. For example: 'The validation results will be reviewed annually for three years post-market to ensure continued compliance with user needs and regulatory requirements. If any deviations are identified, the validation protocols will be updated accordingly.'\n\n5. **Documentation and Reporting**: Specify the documentation requirements for each validation activity, including the need for a Final Validation Report that summarizes all validation activities and outcomes. For example: 'A comprehensive Final Validation Report will be prepared, summarizing all validation activities, results, and any corrective actions taken, ensuring transparency and traceability.'\n\nPlease ensure to replace any placeholders with specific details relevant to the ParagitPX medical device."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide details on design transfer activities, ensuring that the design is correctly transferred to manufacturing. This includes transfer plans, training records, and process validation reports.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation reviewed provides some information regarding design transfer activities, but it lacks comprehensive details. For instance, while the PX Quality Plan outlines some aspects of the design and manufacturing process, it does not explicitly include a detailed design transfer plan or comprehensive training records. The project reviews mention the initiation of the traceability matrix and the finalization of requirements, but they do not provide sufficient evidence of a structured design transfer process. Therefore, the compliance is partly compliant as some elements are present, but they are not sufficiently detailed or complete.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Design Transfer Plan",
+                            "description": "The documentation does not include a detailed design transfer plan that outlines the specific activities and responsibilities involved in transferring the design to manufacturing.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                                    "short_name": "PX PR240401-01 Project Review"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Training Records",
+                            "description": "There are no explicit training records provided that demonstrate that personnel involved in the manufacturing process have been adequately trained on the design transfer activities.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Missing Process Validation Reports",
+                            "description": "The documentation lacks specific process validation reports that confirm the effectiveness of the design transfer process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VAP240403 Validation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that details on design transfer activities are provided, ensuring that the design is correctly transferred to manufacturing. This includes transfer plans, training records, and process validation reports. If the transfer is comprehensive and clear, it is compliant. If the transfer is vague or incomplete, it is partly compliant. If no transfer details are provided, it is non-compliant.",
+                    "examples": [
+                        "Design transfer plans",
+                        "Training records",
+                        "Process validation reports"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR240425-01 Project Review v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX IQE240425 Installation Qualification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX OQE240425 Operational Qualification Evidence v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan v1.5"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                            "short_name": "PX PR231228-01 Project Review"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                            "short_name": "PX PR240401-01 Project Review"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240425-01 Project Review v2.0 (Published).pdf",
+                            "short_name": "PX PR240425-01 Project Review"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "PX VER240424 Software Verification report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                            "short_name": "PX VAP240403 Validation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX IQE240425 Installation Qualification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX IQE240425 Installation Qualification Evidence"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX OQE240425 Operational Qualification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX OQE240425 Operational Qualification Evidence"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop a Comprehensive Design Transfer Plan",
+                            "description": "Create a detailed design transfer plan that outlines all activities, responsibilities, and timelines for transferring the design to manufacturing.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Comprehensive Design Transfer Plan\n\nThe Design Transfer Plan for the ParagitPX medical device outlines the specific activities, responsibilities, and timelines for transferring the design to manufacturing. This plan includes the following key components:\n\n1. **Objectives**: Clearly define the objectives of the design transfer process, ensuring alignment with the overall project goals.\n\n2. **Activities**: List all activities involved in the design transfer process, including but not limited to:\n   - Design reviews\n   - Documentation updates\n   - Equipment and tooling preparation\n   - Process validation\n   - Quality control measures\n\n3. **Responsibilities**: Assign specific responsibilities to team members for each activity. Include names and roles of individuals responsible for:\n   - Design documentation\n   - Training of manufacturing personnel\n   - Process validation\n   - Quality assurance\n\n4. **Timelines**: Establish a timeline for each activity, including start and end dates, to ensure timely completion of the design transfer process.\n\n5. **Training Requirements**: Specify the training requirements for personnel involved in the manufacturing process, ensuring they are adequately trained on the design transfer activities. Include references to training materials and schedules.\n\n6. **Validation and Verification**: Outline the validation and verification activities that will be conducted to ensure the design transfer is effective. This includes process validation reports and criteria for success.\n\n7. **Documentation**: Ensure all documentation related to the design transfer process is maintained and accessible, including:\n   - Design specifications\n   - Change control records\n   - Training records\n   - Process validation reports\n\n8. **Review and Approval**: Define the process for reviewing and approving the design transfer plan, including who is responsible for final approval.\n\nThis comprehensive Design Transfer Plan will be integrated into the PX Quality Plan v1.5 (Draft) and will be updated as necessary to reflect any changes in the design or manufacturing processes."
+                        },
+                        {
+                            "title": "Document Training Records",
+                            "description": "Ensure that training records are maintained for all personnel involved in the design transfer process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding training records, the following text should be added to the PX Quality Plan v1.5:\n\n\"**Training Records for Design Transfer Activities**\n\nAll personnel involved in the design transfer process shall receive adequate training to ensure their competence in executing their responsibilities. Training records will be maintained for each individual, documenting the following:\n\n1. **Training Date:** The date on which the training was conducted.\n2. **Training Content:** A description of the training topics covered, specifically related to design transfer activities.\n3. **Trainer Information:** Name and qualifications of the trainer.\n4. **Trainee Information:** Name and signature of the personnel who received the training.\n5. **Assessment Results:** Any assessments or evaluations conducted to verify the understanding of the training material.\n\nThese records will be reviewed annually to ensure ongoing compliance and to identify any additional training needs. The training records will be stored securely and made available for review by the notified body upon request.\""
+                        },
+                        {
+                            "title": "Create Process Validation Reports",
+                            "description": "Develop and document process validation reports that confirm the effectiveness of the design transfer process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VAP240403 Validation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The process validation reports for the design transfer activities of the medical product ParagitPX shall be developed and documented as follows:\n\n1. **Purpose**: The purpose of the process validation reports is to confirm that the design transfer process effectively translates the design specifications into manufacturing processes that consistently produce products meeting the intended use and performance requirements.\n\n2. **Scope**: This validation applies to all critical processes involved in the design transfer of ParagitPX, including but not limited to installation qualification (IQ), operational qualification (OQ), and performance qualification (PQ).\n\n3. **Validation Activities**: The following activities will be documented in the validation reports:\n   - **Installation Qualification**: Verification that the equipment and systems are installed correctly and operate according to specifications.\n   - **Operational Qualification**: Confirmation that the equipment and systems perform as intended under normal operating conditions.\n   - **Performance Qualification**: Evidence that the final product meets the predetermined acceptance criteria and specifications.\n\n4. **Documentation**: Each validation report will include:\n   - A summary of the validation activities performed.\n   - Acceptance criteria and results for each qualification phase.\n   - Any deviations from the planned validation activities and the rationale for those deviations.\n   - Signatures of responsible personnel confirming the validation results.\n\n5. **Review and Approval**: The validation reports will be reviewed and approved by the QMS Chief Executive Officer (CEO) and the QMS Chief Technology Officer (CTO) to ensure compliance with the quality management system and regulatory requirements.\n\n6. **Revalidation**: The validation reports will be subject to periodic review and revalidation as necessary, particularly in response to changes in manufacturing processes or design specifications.\n\nThis structured approach ensures that the design transfer process is validated comprehensively, thereby confirming the effectiveness of the design transfer activities for the ParagitPX medical device."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to significant gaps in documentation for concept development, design inputs, outputs, verification, and transfer activities, although design validation is compliant."
+        },
+        {
+            "requirement": "Manufacturing Processes",
+            "reference": "MDR Annex II, Section 3.1(b)",
+            "description": "This requirement involves providing detailed information on the manufacturing processes, including process validation, quality control measures, and any subcontracted processes.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The assessment of the manufacturing processes for the ParagitPX medical device reveals several areas of concern. The documentation for the manufacturing process flow is partly compliant (PC) as it lacks comprehensive details, such as complete process flow diagrams and detailed work instructions. While some documentation exists, it does not sufficiently outline all steps from raw material to finished product. Additionally, the process validation activities are also partly compliant (PC) due to the absence of control charts that demonstrate ongoing process control and consistency in manufacturing. Quality control measures are similarly partly compliant (PC) as there are insufficient inspection plans and records, and no clear non-conformance reporting process is documented. Lastly, the documentation regarding subcontracted manufacturing processes is non-compliant (NC) as there are no references to subcontractor agreements or audit reports, which are critical for demonstrating compliance with quality management standards. Overall, while some documentation exists, significant gaps remain that prevent full compliance with the MDR.",
+            "sub_requirements": [
+                {
+                    "description": "Document the manufacturing process flow, including all steps from raw material to finished product. This includes process flow diagrams, work instructions, and standard operating procedures (SOPs).",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes some elements of the manufacturing process flow, but lacks comprehensive details. For instance, the 'PX Quality Plan v1.5 (Draft)' outlines quality management aspects but does not include specific process flow diagrams or detailed work instructions. The 'PX PR231228-01 Project Review v4.0' mentions project phases but does not provide a clear manufacturing process flow from raw materials to finished product. Therefore, while some documentation exists, it is not sufficiently comprehensive to meet the full requirements of the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Process Flow Documentation",
+                            "description": "The documentation does not include a complete manufacturing process flow diagram or detailed work instructions. This is critical for ensuring that all steps from raw material to finished product are clearly defined and understood.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                                    "short_name": "PX PR231228-01 Project Review"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if the manufacturing process flow is documented, including all steps from raw material to finished product. This includes process flow diagrams, work instructions, and standard operating procedures (SOPs). If the documentation is comprehensive and clear, it is compliant. If the documentation is vague or incomplete, it is partly compliant. If no documentation is provided, it is non-compliant.",
+                    "examples": [
+                        "Process flow diagrams",
+                        "Work instructions",
+                        "Standard operating procedures (SOPs)"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                            "short_name": "PX PR231228-01 Project Review"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                            "short_name": "PX Product Configuration"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Software v2.0 (Published).pdf",
+                            "short_name": "PX Software"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Manufacturing Process Flow",
+                            "description": "Create a detailed manufacturing process flow diagram that includes all steps from raw material to finished product, along with corresponding work instructions and SOPs.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                                    "short_name": "PX PR231228-01 Project Review"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements, we have developed a comprehensive manufacturing process flow diagram that details each step from raw material to finished product. This diagram is accompanied by corresponding work instructions and standard operating procedures (SOPs) to provide clarity and guidance throughout the manufacturing process. The manufacturing process flow diagram can be found in [[insert location or reference to the diagram]], and the detailed work instructions and SOPs are documented in [[insert location or reference to the work instructions and SOPs]]. Each step in the process is clearly defined, including the responsibilities of personnel involved, quality control measures, and risk management strategies in accordance with the risk management plan outlined in the PX Annex 05 - Benefit-Risk Analysis and Risk Management document. This comprehensive documentation will facilitate understanding and compliance with the manufacturing process, ensuring that all aspects are thoroughly addressed and aligned with the MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide details on process validation activities, ensuring that manufacturing processes consistently produce products meeting specifications. This includes validation protocols, validation reports, and control charts.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a comprehensive overview of the validation activities performed for the ParagitPX medical device, including installation qualification (IQ), operational qualification (OQ), and performance qualification (PQ) reports. However, while the validation reports indicate successful outcomes, there is a lack of detailed control charts and specific statistical analyses that would demonstrate ongoing process control and consistency in manufacturing. This absence limits the completeness of the validation process, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Control Charts",
+                            "description": "The validation documentation does not include control charts that demonstrate the consistency of the manufacturing process over time. Control charts are essential for monitoring process stability and identifying variations that may affect product quality.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                                    "short_name": "PX VAR240425 Final Validation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX PQE240425 Performance Qualification Evidence v2.0 (Published).pdf",
+                                    "short_name": "PX PQE240425 Performance Qualification Evidence"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that details on process validation activities are provided, ensuring that manufacturing processes consistently produce products meeting specifications. This includes validation protocols, validation reports, and control charts. If the validation is comprehensive and clear, it is compliant. If the validation is vague or incomplete, it is partly compliant. If no validation details are provided, it is non-compliant.",
+                    "examples": [
+                        "Validation protocols",
+                        "Validation reports",
+                        "Control charts"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240403 Validation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX PQE240425 Performance Qualification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX OQE240425 Operational Qualification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAP240403 Validation Plan v2.0 (Published).pdf",
+                            "short_name": "PX VAP240403 Validation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240403 Validation Plan v2.0 (Published).pdf",
+                            "short_name": "PX VAR240403 Validation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                            "short_name": "PX VAR240425 Final Validation Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX PQE240425 Performance Qualification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX PQE240425 Performance Qualification Evidence"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX OQE240425 Operational Qualification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX OQE240425 Operational Qualification Evidence"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX SVR240425 Software Validation report v2.0 (Published).pdf",
+                            "short_name": "PX SVR240425 Software Validation report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX LVA240425 Label Validation Evidence v2.0 (Published).pdf",
+                            "short_name": "PX LVA240425 Label Validation Evidence"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PXS Usability/PX Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "PX Usability Test Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Control Charts",
+                            "description": "Create and implement control charts for the manufacturing process of the ParagitPX medical device to monitor process stability and consistency over time.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX VAR240425 Final Validation Report v2.0 (Published).pdf",
+                                    "short_name": "PX VAR240425 Final Validation Report"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS Validation/PX PQE240425 Performance Qualification Evidence v2.0 (Published).pdf",
+                                    "short_name": "PX PQE240425 Performance Qualification Evidence"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the validation documentation for the ParagitPX medical device, we propose the following addition to the section on process validation activities:\n\n\"Control charts will be developed and implemented for key manufacturing processes to monitor process stability and consistency over time. These control charts will include the following elements:\n\n1. **Parameters Monitored**: Specific parameters critical to the quality of the ParagitPX device will be identified and monitored using control charts. These parameters include [[list specific parameters, e.g., temperature, pressure, etc.]].\n\n2. **Control Chart Types**: The types of control charts to be utilized will include [[specify types, e.g., X-bar charts, R charts, etc.]].\n\n3. **Data Collection Frequency**: Data will be collected at regular intervals, specifically [[insert frequency, e.g., hourly, daily, etc.]], to ensure timely monitoring of the manufacturing process.\n\n4. **Statistical Analysis**: Statistical methods will be applied to analyze the data collected from the control charts, including [[specify statistical methods, e.g., mean, standard deviation, etc.]].\n\n5. **Review and Action Plan**: A review process will be established to evaluate the control charts regularly. Any variations outside the control limits will trigger an investigation and corrective actions as necessary.\n\n6. **Documentation**: All control charts and related analyses will be documented and included in the validation reports to demonstrate ongoing process control and consistency in manufacturing. This documentation will be referenced in the validation reports, specifically in the PX VAR240425 Final Validation Report and PX PQE240425 Performance Qualification Evidence documents.\"\n\nThis addition will ensure that the validation documentation comprehensively addresses the need for control charts, thereby enhancing compliance with the MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Include quality control measures implemented during manufacturing, including in-process and final inspections. This includes inspection plans, inspection records, and non-conformance reports.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes some quality control measures, such as verification plans and test reports. However, there is a lack of comprehensive inspection plans and detailed inspection records. The existing documents do not sufficiently outline the non-conformance reporting process, which is critical for ensuring compliance with the MDR. For example, while the 'PX Quality Plan' outlines some quality control measures, it does not provide detailed records of inspections or a clear non-conformance report mechanism.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Inspection Plans",
+                            "description": "The documentation does not include detailed inspection plans that outline the specific quality control measures during manufacturing.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Inspection Records",
+                            "description": "There are no detailed inspection records provided that demonstrate the execution of quality control measures during manufacturing.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Non-Conformance Reports",
+                            "description": "The documentation lacks a clear process for documenting and addressing non-conformities, which is essential for compliance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that quality control measures implemented during manufacturing are included, including in-process and final inspections. This includes inspection plans, inspection records, and non-conformance reports. If the measures are comprehensive and clear, it is compliant. If the measures are vague or incomplete, it is partly compliant. If no measures are provided, it is non-compliant.",
+                    "examples": [
+                        "Inspection plans",
+                        "Inspection records",
+                        "Non-conformance reports"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX Verification Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX Final Verification Report"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                            "short_name": "PX VEPROT"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX Label Verification Evidence"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Inspection Plans",
+                            "description": "Create detailed inspection plans that outline the quality control measures to be implemented during the manufacturing process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive quality control during the manufacturing process, we have developed detailed inspection plans that outline specific quality control measures. The inspection plans include the following components:\n\n1. **Inspection Objectives**: Clearly defined objectives for each inspection phase, including in-process and final inspections.\n\n2. **Inspection Activities**: A list of all inspection activities, including visual inspections, functional tests, and performance evaluations, aligned with the requirements of the QMS and applicable standards.\n\n3. **Acceptance Criteria**: Specific acceptance criteria for each inspection activity, ensuring that all products meet the required safety and performance standards.\n\n4. **Frequency of Inspections**: Defined frequency for each type of inspection, ensuring that all critical processes are monitored adequately.\n\n5. **Responsible Personnel**: Identification of personnel responsible for conducting inspections and documenting results, ensuring accountability and traceability.\n\n6. **Documentation Requirements**: Clear guidelines on the documentation of inspection results, including the format and retention period for records.\n\n7. **Review and Approval Process**: A defined process for reviewing and approving inspection results, ensuring that all non-conformities are addressed before product release.\n\nThe detailed inspection plans are documented in the PX Quality Plan (Version 1.5) and will be updated to reflect these comprehensive measures. Please refer to the PX Quality Plan for further details and ensure that all inspection activities are aligned with the outlined procedures. [[description]]"
+                        },
+                        {
+                            "title": "Implement Detailed Inspection Records",
+                            "description": "Establish a system for maintaining detailed inspection records that document the results of all quality control measures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To establish a system for maintaining detailed inspection records, the following text should be added to the technical documentation:\n\n\"Detailed Inspection Records will be maintained for all quality control measures implemented during the manufacturing process. Each inspection record will include the following elements:\n1. Date and time of inspection\n2. Name of the inspector\n3. Description of the inspection activity performed\n4. Results of the inspection, including pass/fail status\n5. Any deviations from the expected results and the corresponding corrective actions taken\n6. Reference to the specific inspection plan or procedure followed\n\nThese records will be stored in a secure electronic format and will be accessible for review during internal audits and by notified bodies. The retention period for these records will be a minimum of [[description]] years, in compliance with regulatory requirements. The Quality Assurance Manager is responsible for ensuring that all inspection records are accurately completed and maintained.\""
+                        },
+                        {
+                            "title": "Establish Non-Conformance Reporting Process",
+                            "description": "Develop a clear process for documenting and addressing non-conformities identified during inspections.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To establish a clear process for documenting and addressing non-conformities identified during inspections, the following text should be added to the PX Quality Plan:\n\n\"**Non-Conformance Reporting Process**\n\nIn the event of a non-conformance identified during inspections, the following steps will be taken:\n1. **Identification**: Any non-conformance will be documented immediately upon discovery, including the date, time, and nature of the non-conformance.\n2. **Reporting**: The responsible personnel will report the non-conformance to the Quality Management System (QMS) team within 24 hours of identification.\n3. **Investigation**: The QMS team will conduct a thorough investigation to determine the root cause of the non-conformance. This will include reviewing relevant inspection records and interviewing involved personnel.\n4. **Corrective Action**: Based on the investigation findings, appropriate corrective actions will be implemented to address the non-conformance. This may include re-inspection, re-training of personnel, or modifications to processes.\n5. **Documentation**: All findings, actions taken, and follow-up results will be documented in a Non-Conformance Report (NCR) template, which will be maintained as part of the quality records.\n6. **Review**: The NCR will be reviewed during management review meetings to ensure that systemic issues are identified and addressed.\n\nThis process will ensure that all non-conformities are managed effectively and in compliance with the requirements of the MDR. The Non-Conformance Report template will be attached as Appendix [[description]].\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Document any subcontracted manufacturing processes, including the selection and control of subcontractors. This includes subcontractor agreements, audit reports, and quality control measures.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation provided does not include any specific references to subcontracted manufacturing processes, subcontractor agreements, or audit reports. The absence of these critical elements means that the documentation fails to meet the requirements set forth in the MDR. Without clear documentation of subcontractors and their control measures, the manufacturer cannot demonstrate compliance with the necessary quality management standards.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Subcontractor Agreements",
+                            "description": "There are no documented agreements with subcontractors outlining their responsibilities and quality control measures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                                    "short_name": "PX PR231228-01 Project Review v4.0"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                                    "short_name": "PX PR240401-01 Project Review v2.0"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240425-01 Project Review v2.0 (Published).pdf",
+                                    "short_name": "PX PR240425-01 Project Review v2.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Absence of Audit Reports",
+                            "description": "No audit reports are provided to demonstrate the control and oversight of subcontractors.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan v2.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Missing Quality Control Measures",
+                            "description": "There are no documented quality control measures specific to subcontracted processes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if any subcontracted manufacturing processes are documented, including the selection and control of subcontractors. This includes subcontractor agreements, audit reports, and quality control measures. If the documentation is comprehensive and clear, it is compliant. If the documentation is vague or incomplete, it is partly compliant. If no documentation is provided, it is non-compliant.",
+                    "examples": [
+                        "Subcontractor agreements",
+                        "Audit reports",
+                        "Quality control measures"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX PR240425-01 Project Review v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan v1.5"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR231228-01 Project Review v4.0 (Published).pdf",
+                            "short_name": "PX PR231228-01 Project Review v4.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240401-01 Project Review v2.0 (Published).pdf",
+                            "short_name": "PX PR240401-01 Project Review v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX PR240425-01 Project Review v2.0 (Published).pdf",
+                            "short_name": "PX PR240425-01 Project Review v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX VER240403-01 Verification Plan v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX FVR240424 Final Verification Report v2.0 (Published).pdf",
+                            "short_name": "PX FVR240424 Final Verification Report v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Subcontractor Agreements",
+                            "description": "Create formal agreements with all subcontractors detailing their roles, responsibilities, and quality control measures.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The following subcontractor agreements have been established to ensure compliance with the Medical Device Regulation (EU) 2017/745 (MDR). Each agreement outlines the roles, responsibilities, and quality control measures of the subcontractors involved in the manufacturing processes. The agreements include provisions for compliance with applicable quality standards, regular audits, and performance evaluations. Specific details of each subcontractor agreement are as follows:\n\n1. **Subcontractor Name**: [[Subcontractor Name]]\n   - **Responsibilities**: [[Description of Responsibilities]]\n   - **Quality Control Measures**: [[Description of Quality Control Measures]]\n   - **Audit Frequency**: [[Audit Frequency]]\n   - **Last Audit Date**: [[Last Audit Date]]\n\n2. **Subcontractor Name**: [[Subcontractor Name]]\n   - **Responsibilities**: [[Description of Responsibilities]]\n   - **Quality Control Measures**: [[Description of Quality Control Measures]]\n   - **Audit Frequency**: [[Audit Frequency]]\n   - **Last Audit Date**: [[Last Audit Date]]\n\nThese agreements are maintained in accordance with the PX Quality Plan v1.5, ensuring that all subcontracted processes are controlled and monitored effectively. The manufacturer commits to reviewing these agreements annually to ensure ongoing compliance and effectiveness."
+                        },
+                        {
+                            "title": "Conduct Audits of Subcontractors",
+                            "description": "Establish a schedule for regular audits of subcontractors to ensure compliance with quality standards and contractual obligations.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Medical Device Regulation (EU) 2017/745, the following text should be added to the PX Quality Plan v1.5 (Draft):\n\n\"**Subcontractor Management and Audit Schedule**\n\nIn accordance with MDR requirements, we have established a comprehensive subcontractor management process. This includes:\n\n1. **Subcontractor Agreements**: All subcontractors engaged in manufacturing processes are required to enter into formal agreements that outline their responsibilities, quality control measures, and compliance obligations. These agreements will be reviewed and updated annually or as necessary to reflect any changes in processes or regulations.\n\n2. **Audit Schedule**: A schedule for regular audits of subcontractors will be established, with audits conducted at least annually. The audit process will assess compliance with quality standards, contractual obligations, and the effectiveness of their quality management systems. Audit findings will be documented, and corrective actions will be implemented as necessary.\n\n3. **Quality Control Measures**: Specific quality control measures will be documented for each subcontracted process, including incoming material inspections, in-process controls, and final product evaluations. These measures will be aligned with our internal quality management system to ensure consistent product quality.\n\n4. **Documentation and Records**: All audit reports, subcontractor agreements, and quality control measures will be maintained in a dedicated section of the quality management system documentation, ensuring traceability and compliance with regulatory requirements.\"\n\nThis addition will address the identified non-conformities regarding the lack of subcontractor agreements, absence of audit reports, and missing quality control measures."
+                        },
+                        {
+                            "title": "Document Quality Control Measures",
+                            "description": "Develop and document specific quality control measures for all subcontracted processes.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "PX VER240403-01 Verification Plan v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Medical Device Regulation (EU) 2017/745, the following quality control measures for subcontracted processes have been established:\n\n1. **Subcontractor Agreements**: All subcontractors involved in the manufacturing processes shall have formal agreements in place that outline their responsibilities, quality control measures, and compliance with applicable regulations. These agreements will be reviewed and updated annually to reflect any changes in processes or regulations. The agreements shall include clauses for compliance with the quality management system and the right to audit.\n\n2. **Audit Reports**: Regular audits of subcontractors will be conducted at least annually to assess their compliance with the agreed quality standards and processes. Audit reports will be documented and retained for a minimum of five years. The audit process will include a review of the subcontractor's quality management system, production processes, and any non-conformities identified during the audit.\n\n3. **Quality Control Measures**: Specific quality control measures will be implemented for all subcontracted processes, including:\n   - Incoming material inspections to ensure compliance with specifications.\n   - In-process controls to monitor critical manufacturing steps.\n   - Final product testing to verify that the finished products meet the required specifications.\n   - Documentation of all quality control activities, including test results and corrective actions taken in response to any non-conformities.\n\n4. **Training and Competence**: All personnel involved in the subcontracted processes will receive training on the quality standards and procedures relevant to their roles. Records of training will be maintained.\n\n5. **Continuous Improvement**: A process for continuous improvement will be established, allowing for feedback from audits and quality control activities to be used to enhance subcontractor performance and compliance.\n\nThese measures will be documented in the PX Quality Plan v1.5 and referenced in the PX Design Verification Plan (PX VER240403-01 Verification Plan v2.0) to ensure alignment with the overall quality management system."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The manufacturing processes for the ParagitPX medical device are partly compliant overall, with significant gaps in documentation related to process flows, validation activities, quality control measures, and subcontractor management."
+        },
+        {
+            "requirement": "Specifications for Raw Materials and Components",
+            "reference": "MDR Annex II, Section 3.2",
+            "description": "This requirement involves providing detailed specifications for raw materials and components used in the device, including material properties, sourcing, and quality control measures.",
+            "overall_compliance_grade": "NC",
+            "detailed_compliance_explanation": "The overall compliance grade is non-compliant (NC) due to significant deficiencies across multiple sub-requirements. The first sub-requirement regarding the listing of raw materials and components is rated NC because there is no comprehensive list or supporting documentation, such as material data sheets or supplier information, which is essential for assessing safety and efficacy. The second sub-requirement, which requires detailed material properties, is rated partly compliant (PC) as some information is provided, but it lacks comprehensive material safety data sheets (MSDS) and complete chemical composition details. The third sub-requirement on sourcing information is rated NC due to the absence of any supplier details or certifications, which are critical for ensuring quality and safety. The fourth sub-requirement on quality control measures is rated PC because while some measures are documented, they lack sufficient detail on incoming inspection and testing procedures. Overall, the lack of critical documentation and information leads to a non-compliant status for the main requirement.",
+            "sub_requirements": [
+                {
+                    "description": "List all raw materials and components used in the device, including their specifications. This includes material data sheets, component specifications, and supplier information.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation provided does not include a comprehensive list of all raw materials and components used in the ParagitPX device. Specifically, there are no material data sheets, component specifications, or supplier information available in the reviewed documents. This lack of information is critical as it does not allow for proper assessment of the safety and efficacy of the materials used in the device, which is a requirement under the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Missing Material Data Sheets",
+                            "description": "The documentation lacks material data sheets for all raw materials used in the device. This is essential for assessing biocompatibility and safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                                    "short_name": "PX Product Configuration"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                                    "short_name": "PX System Requirements List"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Supplier Information",
+                            "description": "No supplier information is provided for the components used in the device. This is necessary for traceability and quality assurance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                                    "short_name": "PX Product Configuration"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                                    "short_name": "PX System Requirements List"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if all raw materials and components used in the device are listed, including their specifications. This includes material data sheets, component specifications, and supplier information. If the list is comprehensive and clear, it is compliant. If the list is incomplete or unclear, it is partly compliant. If no list is provided, it is non-compliant.",
+                    "examples": [
+                        "Material data sheets",
+                        "Component specifications",
+                        "Supplier information"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                            "short_name": "PX Design Output"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                            "short_name": "PX Product Configuration"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                            "short_name": "PX System Requirements List"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Compile Material Data Sheets",
+                            "description": "Gather and compile material data sheets for all raw materials used in the ParagitPX device. Ensure that each material is assessed for biocompatibility and safety according to ISO 10993 standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                                    "short_name": "PX Product Configuration"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                                    "short_name": "PX System Requirements List"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The following material data sheets for all raw materials used in the ParagitPX device have been compiled to ensure compliance with ISO 10993 standards for biocompatibility and safety:\n\n1. **Material Name**: [[description]]\n   - **Supplier**: [[description]]\n   - **Material Data Sheet**: [[link to data sheet]]\n   - **Specifications**: [[description]]\n   - **Biocompatibility Testing**: Passed ISO 10993-5, ISO 10993-10, ISO 10993-23\n\n2. **Material Name**: [[description]]\n   - **Supplier**: [[description]]\n   - **Material Data Sheet**: [[link to data sheet]]\n   - **Specifications**: [[description]]\n   - **Biocompatibility Testing**: Passed ISO 10993-5, ISO 10993-10, ISO 10993-23\n\n3. **Material Name**: [[description]]\n   - **Supplier**: [[description]]\n   - **Material Data Sheet**: [[link to data sheet]]\n   - **Specifications**: [[description]]\n   - **Biocompatibility Testing**: Passed ISO 10993-5, ISO 10993-10, ISO 10993-23\n\nThis information is crucial for the assessment of biocompatibility and safety of the materials used in the device. Additionally, all suppliers of the components used in the device are listed below for traceability and quality assurance:\n\n- **Supplier Name**: [[description]]\n  - **Contact Information**: [[description]]\n  - **Components Supplied**: [[description]]\n\n- **Supplier Name**: [[description]]\n  - **Contact Information**: [[description]]\n  - **Components Supplied**: [[description]]\n\n- **Supplier Name**: [[description]]\n  - **Contact Information**: [[description]]\n  - **Components Supplied**: [[description]]\n\nAll relevant documentation and specifications are available in the associated documents, including:\n- PX Design Output\n- PX Product Configuration\n- PX System Requirements List\n- PXS ParagitPX System Traceability Matrix"
+                        },
+                        {
+                            "title": "Document Supplier Information",
+                            "description": "Identify and document the suppliers for all components used in the ParagitPX device. This should include contact information, quality certifications, and any relevant supplier audits.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design Output v2.0 (Published).pdf",
+                                    "short_name": "PX Design Output"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Product Configuration v2.0 (Published).pdf",
+                                    "short_name": "PX Product Configuration"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX System Requirements List v2.0 (Published).pdf",
+                                    "short_name": "PX System Requirements List"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Supplier Information\n\nThe following table provides comprehensive details regarding the suppliers of all components used in the ParagitPX device, including their contact information, quality certifications, and relevant supplier audits:\n\n| Component Name               | Supplier Name         | Contact Information          | Quality Certifications | Supplier Audit Status |\n|------------------------------|-----------------------|------------------------------|-----------------------|-----------------------|\n| Paragit Recording Unit (PRU) | [[Supplier Name PRU]] | [[Contact Info PRU]]       | [[Certifications PRU]] | [[Audit Status PRU]]  |\n| Paragit Sleeve (PS)          | [[Supplier Name PS]]  | [[Contact Info PS]]        | [[Certifications PS]]  | [[Audit Status PS]]   |\n| Paragit Electrode Adapter (PEA)| [[Supplier Name PEA]]| [[Contact Info PEA]]       | [[Certifications PEA]] | [[Audit Status PEA]]  |\n| Paragit Flex Adapter (PFA)   | [[Supplier Name PFA]] | [[Contact Info PFA]]      | [[Certifications PFA]] | [[Audit Status PFA]]  |\n\nThis information is crucial for ensuring traceability and quality assurance in compliance with the MDR requirements. Each supplier has been vetted to ensure they meet the necessary quality standards, and audits have been conducted to confirm their compliance with applicable regulations. Further details can be found in the associated documents: PX Design Output, PX Product Configuration, PX System Requirements List, and PXS ParagitPX System Traceability Matrix."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide detailed material properties for each raw material and component, including chemical composition and physical properties. This includes material safety data sheets (MSDS) and technical data sheets.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding the chemical characterization and biocompatibility of the materials used in the Paragit PX device. However, while the documents reference ISO standards for cytotoxicity, irritation, and sensitization, they do not provide comprehensive material safety data sheets (MSDS) or detailed technical data sheets for each raw material and component. The existing documentation indicates that the materials have a long history of safe use, but lacks specific chemical composition details for all components, which is necessary for full compliance with the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Material Safety Data Sheets (MSDS)",
+                            "description": "The technical documentation does not include detailed MSDS for each raw material and component, which is required to demonstrate compliance with the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST003 CHEMICAL CHARACTERIZATION"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST001 CYTOTOXICITY"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST002 IRRITATION"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Incomplete Chemical Composition Details",
+                            "description": "The documentation does not provide a complete breakdown of the chemical composition for each raw material and component, which is necessary for assessing safety and compliance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that detailed material properties for each raw material and component are provided, including chemical composition and physical properties. This includes material safety data sheets (MSDS) and technical data sheets. If the properties are comprehensive and clear, it is compliant. If the properties are vague or incomplete, it is partly compliant. If no properties are provided, it is non-compliant.",
+                    "examples": [
+                        "Material safety data sheets (MSDS)",
+                        "Technical data sheets"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                            "short_name": "PX S-ST003 CHEMICAL CHARACTERIZATION"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                            "short_name": "PX S-ST001 CYTOTOXICITY"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                            "short_name": "PX S-ST002 IRRITATION"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "PX Biological Risk Assessment"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Evaluations Datasheets/PX Datasheets - biocomp. v2.0 (Published)/PX Datasheets - biocomp. v2.0 (Published).pdf",
+                            "short_name": "PX Datasheets - biocomp. v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Material Safety Data Sheets (MSDS)",
+                            "description": "Create detailed MSDS for each raw material and component used in the Paragit PX device, ensuring that all relevant safety information is included.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST003 CHEMICAL CHARACTERIZATION System materials in touch with the skin- shall be made of biocompatible material in accordance with ISO10993-18  v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST003 CHEMICAL CHARACTERIZATION"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST001 CYTOTOXICITY System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-5  v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST001 CYTOTOXICITY"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Standards/PX S-ST002 IRRITATION System materials in touch with the skin- shall be made of biocompatible materials in accordance with ISO10993-23 v4.0 (Published).pdf",
+                                    "short_name": "PX S-ST002 IRRITATION"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The following Material Safety Data Sheets (MSDS) have been developed for each raw material and component used in the Paragit PX device. Each MSDS includes comprehensive safety information, including but not limited to chemical composition, physical properties, handling and storage instructions, exposure controls, and personal protective equipment recommendations. The MSDS for each material is as follows:\n\n1. **[Raw Material/Component Name 1]**\n   - Chemical Composition: [[insert detailed chemical composition]]\n   - Physical Properties: [[insert physical properties]]\n   - Handling and Storage: [[insert handling and storage instructions]]\n   - Exposure Controls: [[insert exposure controls]]\n   - Personal Protective Equipment: [[insert PPE recommendations]]\n\n2. **[Raw Material/Component Name 2]**\n   - Chemical Composition: [[insert detailed chemical composition]]\n   - Physical Properties: [[insert physical properties]]\n   - Handling and Storage: [[insert handling and storage instructions]]\n   - Exposure Controls: [[insert exposure controls]]\n   - Personal Protective Equipment: [[insert PPE recommendations]]\n\n3. **[Raw Material/Component Name 3]**\n   - Chemical Composition: [[insert detailed chemical composition]]\n   - Physical Properties: [[insert physical properties]]\n   - Handling and Storage: [[insert handling and storage instructions]]\n   - Exposure Controls: [[insert exposure controls]]\n   - Personal Protective Equipment: [[insert PPE recommendations]]\n\nThese MSDS documents are in compliance with the requirements set forth in the MDR and are available for review in the technical documentation. The materials have been assessed for biocompatibility in accordance with ISO 10993 standards, specifically referencing the following:\n- PX S-ST003 CHEMICAL CHARACTERIZATION\n- PX S-ST001 CYTOTOXICITY\n- PX S-ST002 IRRITATION\n\nThe comprehensive nature of these MSDS ensures that all relevant safety information is readily available to users and regulatory bodies."
+                        },
+                        {
+                            "title": "Provide Detailed Chemical Composition Information",
+                            "description": "Ensure that the technical documentation includes a complete breakdown of the chemical composition for each raw material and component used in the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Risk Assessment v1.1 (Ready).pdf",
+                                    "short_name": "PX Biological Risk Assessment"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the MDR requirements regarding detailed material properties, the following text should be added to the technical documentation:\n\n\"The technical documentation includes comprehensive Material Safety Data Sheets (MSDS) for each raw material and component used in the ParagitPX device. These MSDS documents provide detailed information on the chemical composition, physical properties, and safety information relevant to each material. The MSDS for each component can be found in Annex [[insert relevant annex number or title]].\n\nAdditionally, a complete breakdown of the chemical composition for each raw material and component is provided in the following table:\n\n| Component Name | Chemical Composition | Physical Properties | MSDS Reference |\n|----------------|----------------------|--------------------|----------------|\n| [[Component 1]] | [[Chemical Composition 1]] | [[Physical Properties 1]] | [[MSDS Reference 1]] |\n| [[Component 2]] | [[Chemical Composition 2]] | [[Physical Properties 2]] | [[MSDS Reference 2]] |\n| ...            | ...                  | ...                | ...            |\n\nThis information is critical for assessing the safety and compliance of the device in accordance with the applicable ISO standards, including ISO 10993-1, ISO 10993-5, and ISO 10993-18. The documentation also references the relevant biological risk assessments and compatibility evaluation plans that support the biocompatibility of the materials used in the device.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Include sourcing information for raw materials and components, including supplier details and certifications. This includes supplier qualification records and certificates of analysis.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation reviewed does not provide any sourcing information for raw materials and components, including supplier details and certifications. Specifically, there are no supplier qualification records or certificates of analysis present in the documents. This lack of information is critical as it does not allow for verification of the quality and safety of the materials used in the ParagitPX medical device, which is a direct violation of the MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Absence of Sourcing Information",
+                            "description": "The documentation lacks sourcing information for raw materials and components, including supplier details and certifications. This is essential for ensuring compliance with the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5 (Draft)"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR001 The Paragit PX system shall have soft edges with a radius of at least 2mm on all hard surfaces potentially in contact with skin- to avoid injury v3.0 (Published).pdf",
+                                    "short_name": "PX S-SR001"
+                                },
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR010 The system shall be designed to ensure secure and error-free integration of all electrical components. v3.0 (Published).pdf",
+                                    "short_name": "PX S-SR010"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                                    "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix v2.1 (Draft)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that sourcing information for raw materials and components is included, including supplier details and certifications. This includes supplier qualification records and certificates of analysis. If the sourcing information is comprehensive and clear, it is compliant. If the sourcing information is vague or incomplete, it is partly compliant. If no sourcing information is provided, it is non-compliant.",
+                    "examples": [
+                        "Supplier qualification records",
+                        "Certificates of analysis"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR001 The Paragit PX system shall have soft edges with a radius of at least 2mm on all hard surfaces potentially in contact with skin- to avoid injury v3.0 (Published).pdf",
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR010 The system shall be designed to ensure secure and error-free integration of all electrical components. v3.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan v1.5 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR001 The Paragit PX system shall have soft edges with a radius of at least 2mm on all hard surfaces potentially in contact with skin- to avoid injury v3.0 (Published).pdf",
+                            "short_name": "PX S-SR001"
+                        },
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Design & Development Input/PXS System Design & Development Input/PXS Design Input /PXS Safety Requirements/PX S-SR010 The system shall be designed to ensure secure and error-free integration of all electrical components. v3.0 (Published).pdf",
+                            "short_name": "PX S-SR010"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PX Biological Evaluation/PX Biological Compatibility Evaluation Plan v2.0 (Published).pdf",
+                            "short_name": "PX Biological Compatibility Evaluation Plan v2.0"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "PXS ParagitPX System Traceability Matrix v2.1 (Draft)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Sourcing Information Documentation",
+                            "description": "Create comprehensive documentation that includes sourcing information for all raw materials and components used in the ParagitPX medical device. This should include supplier details, certifications, qualification records, and certificates of analysis.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5 (Draft)"
+                                },
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PXS ParagitPX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "PXS ParagitPX System Traceability Matrix v2.1 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Sourcing Information for Raw Materials and Components\n\nTo ensure compliance with the Medical Device Regulation (EU) 2017/745, the following sourcing information for all raw materials and components used in the ParagitPX medical device is documented:\n\n1. **Supplier Details**: \n   - **Supplier Name**: [[Supplier Name]]\n   - **Address**: [[Supplier Address]]\n   - **Contact Information**: [[Supplier Contact Information]]\n\n2. **Supplier Certifications**: \n   - **ISO Certification**: [[ISO Certification Details]]\n   - **Other Relevant Certifications**: [[Other Certifications]]\n\n3. **Supplier Qualification Records**: \n   - Documentation demonstrating the qualification of suppliers, including audits and assessments conducted to verify their capability to provide compliant materials.\n\n4. **Certificates of Analysis**: \n   - Certificates of analysis for each raw material/component, confirming compliance with specified quality standards and specifications. These certificates should include:\n     - Batch number\n     - Test results\n     - Date of testing\n     - Signature of authorized personnel\n\n5. **Traceability**: \n   - All sourcing information must be traceable and linked to the respective components in the PXS ParagitPX System Traceability Matrix (refer to PX Annex 06 - Product Verification and Validation).\n\nThis documentation will be regularly updated to reflect any changes in suppliers or materials used, ensuring ongoing compliance with regulatory requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Document quality control measures for raw materials and components, including incoming inspection and testing procedures. This includes inspection protocols, test reports, and acceptance criteria.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided includes some quality control measures, particularly in the PX Quality Plan v1.5 (Draft) which outlines control points and acceptance criteria for packaging and labeling. However, it lacks comprehensive details on incoming inspection and testing procedures for raw materials and components. The test reports and inspection protocols are not sufficiently detailed or clearly defined, leading to a partly compliant status.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Incoming Inspection Procedures",
+                            "description": "The documentation does not provide clear and comprehensive incoming inspection procedures for raw materials and components, which is critical for ensuring quality control.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5 (Draft)"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Detailed Test Reports",
+                            "description": "The test reports provided do not include sufficient detail regarding the testing methods, acceptance criteria, and results for raw materials and components.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports v2.0 (Published)"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check if quality control measures for raw materials and components are documented, including incoming inspection and testing procedures. This includes inspection protocols, test reports, and acceptance criteria. If the measures are comprehensive and clear, it is compliant. If the measures are vague or incomplete, it is partly compliant. If no measures are provided, it is non-compliant.",
+                    "examples": [
+                        "Inspection protocols",
+                        "Test reports",
+                        "Acceptance criteria"
+                    ],
+                    "relevant_documents": [
+                        "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                        "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                            "short_name": "PX Quality Plan v1.5 (Draft)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                            "short_name": "PX Test Reports v2.0 (Published)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Design Verification/PX PXS-VEPROT001 v2.0 (Published).pdf",
+                            "short_name": "PX PXS-VEPROT001 v2.0 (Published)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Design Verification/PX LVE240424 Label Verification Evidence v2.0 (Published).pdf",
+                            "short_name": "PX LVE240424 Label Verification Evidence v2.0 (Published)"
+                        },
+                        {
+                            "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Design Verification/PX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "PX VER240403-01 Verification Plan v2.0 (Published)"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Incoming Inspection Procedures",
+                            "description": "Create detailed incoming inspection procedures for all raw materials and components, ensuring that they include specific protocols for inspection, testing methods, and acceptance criteria.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 03 - Design And Manufacturing Information/PX Quality Plan v1.5 (Draft).pdf",
+                                    "short_name": "PX Quality Plan v1.5 (Draft)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Incoming Inspection Procedures for Raw Materials and Components\n\n1. **Objective**: To ensure that all raw materials and components meet specified quality standards before they are accepted for use in production.\n\n2. **Scope**: This procedure applies to all incoming raw materials and components used in the manufacture of [[description of the device]].\n\n3. **Inspection Protocols**:\n   - **Visual Inspection**: All incoming materials must undergo a visual inspection to check for any physical damage or irregularities. This includes checking for proper labeling and packaging integrity.\n   - **Documentation Review**: Verify that all incoming materials are accompanied by the necessary documentation, including certificates of analysis, material safety data sheets, and compliance certificates.\n   - **Sampling Plan**: A sampling plan shall be established based on the risk associated with the material. For high-risk materials, 100% inspection may be required, while lower-risk materials may follow a statistical sampling approach.\n\n4. **Testing Methods**:\n   - **Chemical Analysis**: Conduct chemical analysis for materials that require verification of composition. Testing methods shall be in accordance with [[specific standards or methods]].\n   - **Physical Testing**: Perform physical tests such as tensile strength, hardness, or other relevant tests as per the specifications outlined in the product requirements.\n   - **Microbiological Testing**: For materials that will come into contact with the human body, microbiological testing must be performed to ensure sterility and absence of harmful microorganisms.\n\n5. **Acceptance Criteria**:\n   - Materials must meet the specifications outlined in the [[relevant specifications or standards]].\n   - Any deviations from the acceptance criteria must be documented and investigated. Non-conforming materials shall be quarantined and not used until resolved.\n\n6. **Record Keeping**:\n   - All inspection and testing records must be maintained for a minimum of [[number of years]] years and be readily available for review.\n   - Records should include details of the inspection results, any deviations, and actions taken.\n\n7. **Responsibilities**:\n   - The Quality Control team is responsible for conducting inspections and tests, while the Purchasing department must ensure that all suppliers provide the necessary documentation.\n\n8. **Review and Update**:\n   - This procedure shall be reviewed annually and updated as necessary to ensure continued compliance with regulatory requirements and internal quality standards."
+                        },
+                        {
+                            "title": "Enhance Test Report Details",
+                            "description": "Revise the test reports to include comprehensive details regarding the testing methods, acceptance criteria, and results for raw materials and components.",
+                            "associated_documents": [
+                                {
+                                    "path": "./PX Annex 06 - Product Verification and Validation/PXS System/PX Design Verification/PX Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "PX Test Reports v2.0 (Published)"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the test report details, the following text should be added to the PX Test Reports v2.0 (Published):\n\n\"The test reports for raw materials and components shall include the following comprehensive details:\n1. **Testing Methods**: A detailed description of the testing methods used, including any relevant standards or protocols followed.\n2. **Acceptance Criteria**: Clearly defined acceptance criteria for each test, specifying the minimum acceptable performance levels.\n3. **Results**: A summary of the results obtained from each test, including any deviations from the expected outcomes and their implications.\n4. **Traceability**: Documentation of the traceability of test results to specific batches of raw materials or components, ensuring that all materials can be linked back to their respective test reports.\n5. **Signatures and Dates**: Each report must be signed and dated by the responsible personnel to ensure accountability and traceability of the testing process.\"\n\nThis addition will ensure that the test reports meet the requirements set forth in the MDR and provide a clear and comprehensive overview of the testing conducted."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is non-compliant (NC) due to missing critical documentation for raw materials and components, insufficient detail on material properties, lack of sourcing information, and inadequate quality control measures."
+        }
+    ]
+}

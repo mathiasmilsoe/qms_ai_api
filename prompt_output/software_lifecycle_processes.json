@@ -1,0 +1,1617 @@
+{
+    "requirements": [
+        {
+            "requirement": "Software Development Lifecycle",
+            "reference": "MDR Annex I, Chapter II, Section 17.2",
+            "description": "This requirement mandates that software incorporated into medical devices or software that are devices themselves must be developed and manufactured in accordance with the state of the art, taking into account principles of development lifecycle, risk management, including information security, verification, and validation.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to several identified gaps across the sub-requirements. While the documentation indicates a structured approach to software development, risk management, verification and validation, information security, configuration management, maintenance procedures, and user training, each area has notable deficiencies. For instance, the Software Development Plan lacks a clearly defined lifecycle model, and the risk management documentation does not fully integrate post-market surveillance data. Additionally, verification documentation is incomplete, usability testing results are missing, and there are insufficient procedures for security testing and change tracking. These gaps indicate that while some compliance measures are in place, they are not comprehensive enough to meet the full requirements of the MDR.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure software development follows a structured lifecycle model.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation indicates that a structured lifecycle model is being followed, particularly in the Software Development Plan (SDP) and Software Validation Plan. However, there is insufficient detail in the Software Architecture and Maintenance Plan regarding the specific lifecycle model employed (e.g., Waterfall, Agile). The Software Development Plan outlines verification and validation processes but lacks comprehensive documentation for each phase of the lifecycle, which is critical for full compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Detailed Lifecycle Model Documentation",
+                            "description": "The documentation does not clearly specify the structured lifecycle model being followed (e.g., Waterfall, Agile) and lacks detailed documentation for each phase of the lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Architecture"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the software development process follows a recognized lifecycle model (e.g., Waterfall, Agile). Check for documentation of each phase of the lifecycle.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240424  Software Verification report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Architecture"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Configuration Record"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "MD SDP231228 Software Development Plan"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Validation Plan"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "MD VER240424 Software Verification report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Document Lifecycle Model",
+                            "description": "Clearly document the structured lifecycle model being followed in the software development process, including detailed documentation for each phase of the lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Architecture"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Software Development Lifecycle Model Documentation\n\nThe software development process for the MedTechX medical device follows a structured lifecycle model, specifically the [[description: specify the lifecycle model, e.g., Waterfall, Agile]]. This model is documented in detail across various phases of the software development lifecycle as follows:\n\n1. **Requirements Analysis**: This phase involves gathering and analyzing the software requirements, which are documented in the MD System Requirements List. All requirements are traceable to ensure that they meet the intended purpose of the device.\n\n2. **Design**: The software architecture is outlined in the MD 2024-04-03 Software Architecture document. This document details the modular design, including state management, power management, and user interaction components, ensuring compliance with IEC 62304 standards.\n\n3. **Implementation**: The coding phase follows the design specifications, ensuring that all software components are developed according to the defined requirements and architecture.\n\n4. **Verification**: Verification activities are conducted as per the MD 2024-04-03 Software Verification Plan. This includes unit testing, integration testing, and system testing to confirm that the software meets all specified requirements.\n\n5. **Validation**: Validation is performed according to the MD 2024-04-03 Software Validation Plan, ensuring that the software fulfills its intended purpose and is safe for use. The results are documented in the MD SVR240425 Software Validation Report.\n\n6. **Maintenance**: Ongoing maintenance procedures are defined in the MD 2024-04-03 Software Maintenance Plan, which outlines how updates and bug fixes will be managed post-release.\n\nEach phase of the lifecycle is documented thoroughly to ensure compliance with the MDR requirements, and all relevant documents are referenced within the MD Summary of Technical Documentation (STED)."
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement risk management throughout the software lifecycle.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation demonstrates a structured approach to risk management, including a risk management plan, risk analysis, and risk management report. However, while the risk management activities are documented, there are gaps in the integration of these activities throughout the software lifecycle phases. For example, the traceability matrix is still in draft form and does not fully reflect the implemented risk controls and their effectiveness in the final product design. Additionally, there is insufficient evidence of regular updates to the risk analysis based on post-market surveillance data, which is crucial for ongoing compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Traceability Matrix",
+                            "description": "The traceability matrix is in draft form and does not adequately link risk control measures to specific software lifecycle phases, which is essential for demonstrating compliance with risk management requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 06 - Product Verification and Validation/MD System/MD MedTechX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "MD MedTechX System Traceability Matrix v2.1"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Post-Market Surveillance Integration",
+                            "description": "The risk management documentation lacks sufficient evidence of how post-market surveillance data is integrated into the risk management process, which is necessary for continuous risk assessment and compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-01 Risk Management Report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that risk management activities are integrated into each phase of the software lifecycle. Verify documentation of risk assessments and mitigation strategies.",
+                    "relevant_documents": [
+                        "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                        "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                        "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Analysis (product) v4.0 (Published)/MD 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                        "MD Annex 06 - Product Verification and Validation/MD System/MD MedTechX System Traceability Matrix v2.1 (Draft).pdf",
+                        "MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                        "MD Annex 03 - Design And Manufacturing Information/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "MD Annex 06 - Product Verification and Validation/MD Biological Evaluation/MD Biological Risk Assessment v1.1 (Ready).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Plan v3.0 (Published).pdf",
+                            "short_name": "MD 2024-04-01 Risk Management Plan"
+                        },
+                        {
+                            "path": "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                            "short_name": "MD 2024-04-01 Risk Management Report"
+                        },
+                        {
+                            "path": "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Analysis (product) v4.0 (Published)/MD 2024-04-01 Risk Analysis (product) v4.0 (Published).pdf",
+                            "short_name": "MD 2024-04-01 Risk Analysis (product)"
+                        },
+                        {
+                            "path": "MD Annex 06 - Product Verification and Validation/MD System/MD MedTechX System Traceability Matrix v2.1 (Draft).pdf",
+                            "short_name": "MD MedTechX System Traceability Matrix v2.1"
+                        },
+                        {
+                            "path": "MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                            "short_name": "MD Software v2.0"
+                        },
+                        {
+                            "path": "MD Annex 03 - Design And Manufacturing Information/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "MD SDP231228 Software Development Plan"
+                        },
+                        {
+                            "path": "MD Annex 06 - Product Verification and Validation/MD Biological Evaluation/MD Biological Risk Assessment v1.1 (Ready).pdf",
+                            "short_name": "MD Biological Risk Assessment v1.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Finalize Traceability Matrix",
+                            "description": "Complete the traceability matrix to ensure all risk control measures are linked to specific software lifecycle phases, demonstrating compliance with risk management requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 06 - Product Verification and Validation/MD System/MD MedTechX System Traceability Matrix v2.1 (Draft).pdf",
+                                    "short_name": "MD MedTechX System Traceability Matrix v2.1"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive traceability of risk control measures throughout the software lifecycle, the Traceability Matrix has been updated to include specific links between each identified risk control measure and the corresponding software lifecycle phases. Each entry in the matrix now clearly indicates the following: \n\n1. **Risk Control Measure**: A detailed description of the risk control measure implemented. \n2. **Associated Software Lifecycle Phase**: The specific phase of the software lifecycle (e.g., Requirements, Design, Implementation, Verification, Validation, Maintenance) where the risk control measure is applied. \n3. **Verification Method**: The method used to verify the effectiveness of the risk control measure (e.g., testing, review, analysis). \n4. **Status**: Current status of the implementation of the risk control measure (e.g., Completed, In Progress, Planned). \n\nThis updated Traceability Matrix is included in the document \"MD MedTechX System Traceability Matrix v2.1\" and is essential for demonstrating compliance with the risk management requirements as outlined in MDR (EU) 2017/745. \n\nPlease refer to the updated matrix in the document for detailed entries and ensure that all relevant risk control measures are adequately linked to their respective lifecycle phases."
+                        },
+                        {
+                            "title": "Integrate Post-Market Surveillance Data",
+                            "description": "Establish a process for integrating post-market surveillance data into the risk management documentation to ensure continuous risk assessment and compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "MD Annex 05 - Benefit-Risk Analysis and Risk Management/MD 2024-04-01 Risk Management Report v3.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-01 Risk Management Report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure continuous risk assessment and compliance with MDR, the following process for integrating post-market surveillance data into the risk management documentation will be established: \n\n1. **Data Collection**: Post-market surveillance will systematically collect data regarding device performance, including serious incidents, non-serious incidents, and user feedback. This data will be sourced from various channels, including user reports, complaints, and relevant literature. \n\n2. **Data Analysis**: Collected data will be analyzed to identify trends and potential risks associated with the device. This analysis will include the evaluation of any new hazards identified and the effectiveness of existing risk control measures. \n\n3. **Integration into Risk Management**: The findings from the post-market surveillance data analysis will be integrated into the risk management documentation. This will involve updating the risk management report and risk analysis to reflect any new risks or changes in the risk profile of the device. \n\n4. **Review and Update**: The risk management documentation will be reviewed and updated at least annually or more frequently if significant new information arises. This will ensure that the risk management process remains dynamic and responsive to real-world data. \n\n5. **Communication**: Effective communication protocols will be established to inform relevant stakeholders, including regulatory bodies, of any significant findings from the post-market surveillance activities. \n\nThis process will be documented in the updated Risk Management Report (MD 2024-04-01 Risk Management Report v3.0) and will ensure that the integration of post-market surveillance data is aligned with the requirements set forth in MDR Article 83 and Annex III."
+                        }
+                    ]
+                },
+                {
+                    "description": "Conduct software verification and validation.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates that software verification and validation activities have been planned and partially executed. However, there are gaps in the documentation regarding the completeness of testing against all functional and non-functional requirements. For instance, while the Verification Plan outlines various verification activities, it lacks detailed evidence of testing outcomes and how they relate to specific requirements outlined in the Software Requirements Specification. Additionally, the Software Validation Plan indicates that usability evaluations are planned but does not provide results or conclusions from these evaluations, which are critical for compliance with the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Verification Documentation",
+                            "description": "The Verification Plan does not provide sufficient evidence of completed testing against all specified requirements, particularly in relation to the Software Requirements Specification.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "MD VER240403-01 Verification Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Architecture"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Usability Testing Results",
+                            "description": "The Software Validation Plan mentions usability evaluations but does not provide any results or conclusions from these evaluations, which are necessary to demonstrate compliance with usability standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Validation Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that software verification and validation activities are performed and documented. Ensure that testing covers all functional and non-functional requirements.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1 v2.0 (Published)/MD IEC 60601-1 v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-2 v2.0 (Published)/MD IEC 60601-1-2 v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-11 v2.0 (Published)/MD IEC 60601-1-11 v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                            "short_name": "MD Software v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "MD VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "MD VER240424 Software Verification report"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Verification Plan"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Validation Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Architecture"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1 v2.0 (Published)/MD IEC 60601-1 v2.0 (Published).pdf",
+                            "short_name": "MD IEC 60601-1 v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-2 v2.0 (Published)/MD IEC 60601-1-2 v2.0 (Published).pdf",
+                            "short_name": "MD IEC 60601-1-2 v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-11 v2.0 (Published)/MD IEC 60601-1-11 v2.0 (Published).pdf",
+                            "short_name": "MD IEC 60601-1-11 v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete Verification Documentation",
+                            "description": "Ensure that the Verification Plan includes comprehensive evidence of testing outcomes for all specified requirements in the Software Requirements Specification.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "MD VER240403-01 Verification Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Architecture"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the completeness of the Verification Plan, the following text should be added to Section [[specific section]] of the MD VER240403-01 Verification Plan v2.0:\n\n\"The Verification Plan has been updated to include comprehensive evidence of testing outcomes against all specified requirements in the Software Requirements Specification (SRS). Each verification activity is now linked to its corresponding requirement in the SRS, and the results of these tests are documented in detail. The following table summarizes the verification activities, their corresponding requirements, and the outcomes:\n\n| Verification Activity | Requirement Reference | Test Outcome | Comments |\n|----------------------|----------------------|--------------|----------|\n| [[Activity 1]]      | [[Requirement 1]]    | [[Outcome 1]]| [[Comments 1]]|\n| [[Activity 2]]      | [[Requirement 2]]    | [[Outcome 2]]| [[Comments 2]]|\n| ...                  | ...                  | ...          | ...      |\n\nThis ensures that all functional and non-functional requirements have been adequately tested and documented, thereby demonstrating compliance with the MDR requirements.\""
+                        },
+                        {
+                            "title": "Provide Usability Testing Results",
+                            "description": "Document the results and conclusions from usability evaluations as outlined in the Software Validation Plan.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Validation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The results of the usability evaluations conducted as part of the Software Validation Plan are documented as follows:\n\n1. **Usability Evaluation Overview**: The usability evaluations were performed in accordance with the requirements of QMS EN ISO 62366-1:2015/A1:2020. The evaluations aimed to assess the effectiveness, efficiency, and satisfaction of users when interacting with the MedTechX software.\n\n2. **Methodology**: The usability testing involved a representative sample of users who were asked to complete specific tasks using the software. The tasks were designed to reflect typical use scenarios and included the following:\n   - [[description of tasks performed]]\n   - [[description of user demographics]]\n\n3. **Results**: The usability testing yielded the following results:\n   - Task completion rates: [[insert completion rates]]\n   - User satisfaction ratings: [[insert satisfaction ratings]]\n   - Identified usability issues: [[list of issues identified]]\n\n4. **Conclusions**: Based on the results of the usability evaluations, the software meets the usability standards set forth in the relevant guidelines. The identified issues have been addressed, and corrective actions have been implemented where necessary. The overall usability of the MedTechX software is deemed acceptable for the intended user population.\n\n5. **Recommendations for Future Evaluations**: It is recommended to conduct periodic usability evaluations post-market to ensure continued compliance with usability standards and to capture any emerging user feedback.\n\nThis documentation will be included in the Software Validation Report to demonstrate compliance with the usability requirements outlined in the MDR."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure information security is considered in software development.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation demonstrates a partial compliance with the requirement to consider information security in software development. The Software Architecture document outlines the use of a crypto_manager for data encryption, which is a positive aspect for ensuring data integrity and security. However, there is insufficient evidence of comprehensive security testing and vulnerability assessments being conducted as part of the software development lifecycle. The Software Development Plan mentions risk assessments but lacks detailed procedures for security testing and vulnerability management.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Comprehensive Security Testing Procedures",
+                            "description": "The documentation does not provide detailed procedures for conducting security testing and vulnerability assessments during the software development process. This is critical to ensure that potential security risks are identified and mitigated before the software is released.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Architecture"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that information security requirements are identified and addressed during software development. Check for security testing and vulnerability assessments.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240424  Software Verification report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Architecture"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Configuration Record"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "MD SDP231228 Software Development Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Verification Plan"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "MD VER240424 Software Verification report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Security Testing Procedures",
+                            "description": "Create and implement detailed procedures for conducting security testing and vulnerability assessments during the software development lifecycle. This should include methodologies for identifying potential security risks, testing protocols, and documentation requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Architecture"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Comprehensive Security Testing Procedures\n\nTo ensure that information security is thoroughly integrated into the software development lifecycle, the following comprehensive security testing procedures will be implemented:\n\n1. **Security Testing Methodologies**: The development team will adopt industry-standard security testing methodologies, including but not limited to:\n   - **Static Application Security Testing (SAST)**: Conducted during the coding phase to identify vulnerabilities in the source code.\n   - **Dynamic Application Security Testing (DAST)**: Performed on running applications to identify vulnerabilities that may be exploited in a live environment.\n   - **Interactive Application Security Testing (IAST)**: Combining elements of both SAST and DAST, this will be used during functional testing to identify vulnerabilities in real-time.\n\n2. **Vulnerability Assessments**: Regular vulnerability assessments will be scheduled at key stages of the software development lifecycle, including:\n   - Pre-release assessments to identify and mitigate potential security risks before deployment.\n   - Post-release assessments to ensure ongoing compliance and security posture.\n\n3. **Documentation Requirements**: All security testing and vulnerability assessment activities will be documented in the following manner:\n   - **Test Plans**: Detailed test plans will be created for each security testing phase, outlining objectives, methodologies, and expected outcomes.\n   - **Test Reports**: Comprehensive reports will be generated post-testing, documenting findings, vulnerabilities identified, and remediation actions taken.\n   - **Risk Management Updates**: The results of security testing will be integrated into the existing Risk Management File (RMF) to ensure that all identified risks are tracked and managed appropriately.\n\n4. **Continuous Improvement**: The security testing procedures will be reviewed and updated regularly based on:\n   - Emerging security threats and vulnerabilities.\n   - Feedback from security assessments and audits.\n   - Changes in regulatory requirements and industry best practices.\n\nBy implementing these comprehensive security testing procedures, we aim to proactively identify and mitigate potential security risks throughout the software development lifecycle, ensuring compliance with the MDR requirements and enhancing the overall security posture of the software product."
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement configuration management processes.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided outlines various aspects of configuration management processes, including software architecture, maintenance, and development plans. However, there are gaps in the documentation regarding the tracking and control of changes throughout the software lifecycle. For instance, while the Software Configuration Record mentions recording changes, it lacks comprehensive details on how these changes are tracked and verified against the configuration management plan. Additionally, the Software Development Plan does not explicitly detail the processes for managing and documenting changes, which is critical for compliance with the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Change Tracking Procedures",
+                            "description": "The documentation does not adequately describe the procedures for tracking and controlling changes made to the software throughout its lifecycle. This is essential to ensure that all modifications are documented and assessed for their impact on safety and performance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Configuration Record"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Detailed Configuration Management Plan",
+                            "description": "The Software Development Plan lacks a detailed configuration management plan that outlines how configuration items will be identified, controlled, and maintained throughout the software lifecycle.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that configuration management processes are in place to control and track changes to the software throughout its lifecycle. Verify documentation of configuration management plans and records.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Versions/MDX 1.0.0 v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Architecture"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "MD 2024-04-03 Software Configuration Record"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "MD SDP231228 Software Development Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Versions/MDX 1.0.0 v2.0 (Published).pdf",
+                            "short_name": "MDX 1.0.0 v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Change Tracking Procedures",
+                            "description": "Create and implement detailed procedures for tracking and controlling changes made to the software throughout its lifecycle. This should include specific steps for documenting changes, assessing their impact, and ensuring compliance with the configuration management plan.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "MD 2024-04-03 Software Configuration Record"
+                                },
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the tracking and control of changes made to the software throughout its lifecycle, the following procedures will be implemented:\n\n1. **Change Documentation**: All changes to the software will be documented in the Software Configuration Record (SCR). Each entry will include the following details:\n   - Description of the change\n   - Date of the change\n   - Author of the change\n   - Reason for the change\n   - Impact assessment on safety and performance\n   - Approval signature from the designated authority.\n\n2. **Change Assessment**: Prior to implementation, all proposed changes will undergo an impact assessment to evaluate their effect on the device's safety and performance. This assessment will be documented and reviewed by the relevant stakeholders, including the quality assurance team.\n\n3. **Version Control**: Each version of the software will be uniquely identified, and a version history will be maintained. This history will include details of all changes made, ensuring traceability throughout the software lifecycle.\n\n4. **Review Process**: A formal review process will be established to evaluate the necessity and implications of changes. This process will involve cross-functional teams to ensure comprehensive oversight.\n\n5. **Training and Awareness**: All personnel involved in the software development and maintenance will receive training on the change management procedures to ensure compliance and understanding of the importance of tracking changes.\n\nThese procedures will be documented in the Software Development Plan (SDP) and the Software Configuration Record (SCR) to ensure alignment with the configuration management plan and compliance with MDR requirements. \n\nFor further details, please refer to the associated documents: MD 2024-04-03 Software Configuration Record and MD SDP231228 Software Development Plan."
+                        },
+                        {
+                            "title": "Create a Detailed Configuration Management Plan",
+                            "description": "Develop a comprehensive configuration management plan that outlines how configuration items will be identified, controlled, and maintained throughout the software lifecycle. This plan should include roles and responsibilities, procedures for managing changes, and methods for verifying compliance.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "MD SDP231228 Software Development Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Configuration Management Plan\n\n#### 1. Introduction\nThis Configuration Management Plan (CMP) outlines the processes and procedures for identifying, controlling, and maintaining configuration items throughout the software lifecycle of the MedTechX system. This plan is essential for ensuring that all modifications are documented and assessed for their impact on safety and performance.\n\n#### 2. Roles and Responsibilities\n- **Configuration Manager**: Responsible for overseeing the configuration management process, ensuring compliance with this plan, and maintaining the configuration management records.\n- **Development Team**: Responsible for implementing changes and documenting them in accordance with the procedures outlined in this plan.\n- **Quality Assurance Team**: Responsible for verifying that changes are implemented correctly and that the impact on safety and performance has been assessed.\n\n#### 3. Change Management Procedures\n- All changes to the software must be initiated through a Change Request (CR) form, which must include a description of the change, the reason for the change, and an assessment of the impact on safety and performance.\n- The Change Request must be reviewed and approved by the Configuration Manager and the Quality Assurance Team before implementation.\n- Once approved, the change must be documented in the Software Configuration Record (SCR) and the Software Development Plan (SDP).\n\n#### 4. Change Tracking\n- Changes will be tracked using the Software Configuration Record (SCR), which will include:\n  - Unique identifier for each change\n  - Description of the change\n  - Date of the change\n  - Person responsible for the change\n  - Approval status\n  - Impact assessment results\n- The SCR will be reviewed regularly to ensure all changes are documented and assessed.\n\n#### 5. Verification and Compliance\n- The Quality Assurance Team will conduct periodic audits of the configuration management process to ensure compliance with this plan and the MDR requirements.\n- Any non-conformities identified during audits will be documented and addressed in a timely manner.\n\n#### 6. Document Control\n- This Configuration Management Plan will be reviewed and updated as necessary to reflect changes in processes or regulatory requirements. All revisions will be documented in the revision history section of this document.\n\n#### 7. Conclusion\nThis Configuration Management Plan is designed to ensure that all configuration items are effectively managed throughout the software lifecycle, thereby supporting compliance with the MDR and ensuring the safety and performance of the MedTechX system."
+                        }
+                    ]
+                },
+                {
+                    "description": "Establish software maintenance procedures.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided outlines several procedures for software maintenance, including feedback management, problem resolution, and configuration management. However, while the Software Maintenance Plan includes procedures for updates and patches, it lacks detailed end-of-life management strategies. The Software Configuration Record and Software Development Plan provide additional context but do not fully address the comprehensive maintenance procedures required by the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of End-of-Life Management Procedures",
+                            "description": "The documentation does not provide clear procedures for managing the end-of-life phase of the software, which is a critical aspect of software maintenance. This could lead to potential risks if the software is not properly decommissioned or if users are not informed about the discontinuation of support.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that software maintenance procedures are established, including procedures for updates, patches, and end-of-life management. Verify documentation of maintenance plans and records.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "Software Configuration Record"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "Software Development Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop End-of-Life Management Procedures",
+                            "description": "Create comprehensive procedures for managing the end-of-life phase of the software, ensuring that users are informed and that any necessary data migration or decommissioning processes are clearly outlined.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Software Maintenance Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### End-of-Life Management Procedures\n\nTo ensure the safe and effective decommissioning of the software, the following end-of-life management procedures are established:\n\n1. **Notification of End-of-Life**: Users will be informed at least [[number of months]] months in advance of the software's end-of-life date through direct communication and updates on the official website. This notification will include details on the discontinuation of support and any alternative solutions available.\n\n2. **Data Migration**: Prior to the end-of-life date, users will be provided with guidelines for data migration, including instructions on how to export and securely transfer their data to alternative systems. Specific tools or services available for this purpose will be detailed in the notification.\n\n3. **Decommissioning Process**: A clear decommissioning process will be outlined, including steps for uninstalling the software safely and securely. This will include instructions for ensuring that all user data is deleted from the system in compliance with data protection regulations.\n\n4. **Support Transition**: Information regarding the transition to alternative support options will be provided, including contact details for customer service representatives who can assist users during the transition period.\n\n5. **Documentation**: All procedures related to end-of-life management will be documented in the Software Maintenance Plan, ensuring that they are accessible to users and stakeholders.\n\nThese procedures will be reviewed and updated regularly to ensure compliance with regulatory requirements and best practices."
+                        }
+                    ]
+                },
+                {
+                    "description": "Provide user training and support materials.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some user training and support materials, particularly in the 'MD Instructions For Use v4.0' document. However, it lacks comprehensive training materials that cover all aspects of device operation and troubleshooting. For instance, while the instructions mention safety warnings and cautions, they do not include detailed training modules or support plans that would help users fully understand the device's functionalities and potential issues. This partial compliance indicates that while some materials are present, they are not sufficient to ensure effective user training.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Training Materials",
+                            "description": "The training materials provided do not comprehensively cover all operational aspects of the device, which may lead to improper use and increased risk of incidents.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Support Plans",
+                            "description": "There is no documented support plan that outlines how users can receive assistance or further training after initial use, which could hinder effective device utilization.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that user training and support materials are provided to help users understand and effectively use the software. Verify documentation of training materials and support plans.",
+                    "relevant_documents": [
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Packaging Instruction v3.0 (Published)/MD Packaging Instruction v3.0 (Published).pdf",
+                        "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                            "short_name": "MD Instructions For Use v4.0"
+                        },
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Packaging Instruction v3.0 (Published)/MD Packaging Instruction v3.0 (Published).pdf",
+                            "short_name": "MD Packaging Instruction v3.0"
+                        },
+                        {
+                            "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Product Label v2.1 (Draft)/MD Product Label v2.1 (Draft).pdf",
+                            "short_name": "MD Product Label v2.1"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Comprehensive Training Materials",
+                            "description": "Create detailed training materials that cover all operational aspects of the MedTechX device, including troubleshooting and best practices for use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the user training and support materials for the MedTechX device, we propose the following additions to the 'MD Instructions For Use v4.0' document:\n\n1. **Comprehensive Training Modules**: Include detailed training modules that cover all operational aspects of the MedTechX device, including but not limited to:\n   - Device setup and configuration\n   - Step-by-step usage instructions for different functionalities\n   - Troubleshooting common issues with clear, actionable steps\n   - Best practices for device maintenance and care\n   - Safety precautions and emergency procedures\n\n   Each module should be structured to facilitate easy understanding and retention, incorporating visuals and diagrams where applicable.\n\n2. **Support Plan Documentation**: Develop a documented support plan that outlines:\n   - How users can access ongoing support after initial training (e.g., contact information for customer support, online resources, FAQs)\n   - Availability of additional training sessions or refresher courses, including schedules and registration details\n   - Procedures for reporting issues or seeking assistance, ensuring users know how to effectively communicate their needs.\n\n3. **Feedback Mechanism**: Implement a feedback mechanism within the training materials to allow users to provide input on the training effectiveness and areas for improvement. This can include surveys or direct contact information for user experience feedback.\n\nThese enhancements will ensure that users are fully equipped to operate the MedTechX device safely and effectively, thereby reducing the risk of improper use and associated incidents."
+                        },
+                        {
+                            "title": "Establish a User Support Plan",
+                            "description": "Document a support plan that provides users with access to assistance and additional training resources after initial use.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 02 - Information To Be Supplied By The Manufacturer/MD Instructions For Use v4.0 (Published).pdf",
+                                    "short_name": "MD Instructions For Use v4.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance user support and ensure effective utilization of the MedTechX device, we have established a comprehensive User Support Plan. This plan includes the following components:\n\n1. **User Assistance**: Users can access support through our dedicated customer service team via phone at [[phone number]] or email at [[email address]]. Support is available from [[support hours]] to assist with any inquiries or issues related to device operation.\n\n2. **Training Resources**: Additional training materials, including video tutorials and detailed troubleshooting guides, will be made available on our website at [[website link]]. These resources will cover all operational aspects of the device, including setup, usage, and maintenance.\n\n3. **Follow-Up Training**: We will offer follow-up training sessions upon request, which can be scheduled through our customer service team. These sessions aim to reinforce initial training and address any specific user concerns or questions that may arise after the initial use.\n\n4. **Feedback Mechanism**: Users are encouraged to provide feedback on their training experience and any difficulties encountered while using the device. This feedback can be submitted via our website or directly to our customer service team. We will use this information to continuously improve our training materials and support services.\n\n5. **Documentation**: All training materials and support documentation will be regularly reviewed and updated to ensure compliance with the latest regulatory requirements and to reflect any changes in device functionality or user needs.\n\nThis User Support Plan is designed to ensure that users have the necessary resources and assistance to effectively operate the MedTechX device, thereby minimizing the risk of improper use and enhancing overall user satisfaction."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The compliance assessment indicates that the documentation is partly compliant (PC) with several gaps in lifecycle documentation, risk management integration, verification completeness, security testing, and user training materials."
+        },
+        {
+            "requirement": "Device Software Consistency, Dependability, and Functionality",
+            "reference": "MDR Annex I, Chapter II, Section 17.1",
+            "description": "This requirement ensures that software integrated into medical devices or software that qualify as devices themselves are developed to guarantee consistency, dependability, and functionality in accordance with their intended application.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Device Software Consistency, Dependability, and Functionality' requirement is partly compliant (PC). Each sub-requirement has been evaluated as follows: \n\n1. **Design software to ensure consistency of functionality**: The compliance grade is PC due to inadequate evidence of repeated evaluations under controlled settings. Although user experience testing was performed, the documentation is missing comprehensive records of repeated evaluations, which are vital for demonstrating stable functionality. \n\n2. **Ensure software dependability under standard and fault conditions**: This sub-requirement is also graded as PC. While the software validation report confirms successful evaluations, it does not sufficiently address fault tolerance strategies, which are essential for dependability under fault conditions. \n\n3. **Validate software functionality against intended application**: The compliance grade is PC here as well. The documentation presents a structured validation strategy, but there are deficiencies in functionality testing outcomes and user feedback documentation, which are necessary to fully validate the software's functionality. \n\n4. **Ensure interoperability and compatibility with other systems**: This sub-requirement is graded as PC due to a lack of evidence from actual interoperability evaluations and compatibility assessments with external systems, despite a clear functional requirement being established. \n\nOverall, while there is a structured approach to compliance, the gaps in testing, documentation, and evidence of functionality under various conditions hinder full compliance with the MDR requirements.",
+            "sub_requirements": [
+                {
+                    "description": "Design software to ensure consistency of functionality.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided indicates that the software has undergone some verification processes, including user experience testing and compliance with relevant standards. However, there is insufficient evidence of repeated evaluations under the same conditions to ensure stable functionality. For example, while the verification plan outlines various testing activities, it does not specify the frequency or conditions under which these evaluations were conducted, which is critical for demonstrating consistency.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Evidence of Repeat Evaluations",
+                            "description": "The documentation lacks detailed records of repeated evaluations under controlled conditions to demonstrate consistent functionality of the software.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                                    "short_name": "DX Software v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "DX VER240403-01 Verification Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that the software is designed to perform consistently under the same conditions. Verify through repeated evaluations and validation.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Software Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                            "short_name": "DX Software v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Architecture v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Maintenance Plan v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Configuration Record v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "DX VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "DX VER240424 Software Verification report v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Verification Plan v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Repeat Evaluation Protocol",
+                            "description": "Establish a protocol for conducting repeat evaluations under controlled conditions to ensure the software's functionality is consistent over time.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "DX VER240403-01 Verification Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure the consistency of functionality for the MedTechBladder software, the following protocol for conducting repeat evaluations under controlled conditions will be established:\n\n1. **Evaluation Conditions**: All repeat evaluations will be conducted under the same environmental conditions, including temperature, humidity, and electromagnetic interference, as specified in the DX VER240403-01 Verification Plan. \n\n2. **Frequency of Evaluation**: Repeat evaluations will be conducted at a minimum frequency of [[insert frequency, e.g., quarterly, bi-annually]] to ensure consistent functionality over time.\n\n3. **Documentation**: Each evaluation session will be documented in detail, including the date, conditions, results, and any deviations from the protocol. This documentation will be maintained in the verification records and will be referenced in the DX Summary of Technical Documentation (STED).\n\n4. **Acceptance Criteria**: The acceptance criteria for repeat evaluations will align with those established in the DX VER240403-01 Verification Plan, ensuring that the software meets the required functionality standards consistently.\n\n5. **Review and Analysis**: Results from repeat evaluations will be reviewed and analyzed by the QMS Chief Technology Officer (CTO) and the QMS Head of Software Development to identify any trends or issues that may arise, and corrective actions will be implemented as necessary.\n\nThis protocol will be integrated into the existing verification and validation documentation to enhance the evidence of consistency and compliance with MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure software dependability under standard and fault conditions.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided indicates that the software has undergone verification testing, including a Software Verification Report (DX VER240424) which confirms that all tests were performed successfully. However, there is insufficient detail regarding fault tolerance strategies and how the software behaves under fault conditions. While the verification report confirms that the software passed all tests, it does not explicitly address how the software maintains dependability during fault scenarios, which is a critical aspect of compliance with the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Fault Tolerance Strategies Documentation",
+                            "description": "The documentation does not provide sufficient information on the fault tolerance strategies implemented in the software. This is crucial for ensuring dependability under fault conditions as required by the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                                    "short_name": "DX Software v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                                    "short_name": "DX VER240424 Software Verification report"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the software remains dependable under normal operating conditions and in the event of a single fault condition. Check for fault tolerance strategies.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX SVR240425 Software Validation report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                            "short_name": "DX Software v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Architecture v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Maintenance Plan v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Configuration Record v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "DX VER240424 Software Verification report"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Verification Plan v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX SVR240425 Software Validation report v2.0 (Published).pdf",
+                            "short_name": "DX SVR240425 Software Validation report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Document Fault Tolerance Strategies",
+                            "description": "Develop and include detailed documentation on the fault tolerance strategies implemented in the software. This should describe how the software behaves under various fault conditions and the measures taken to ensure dependability.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                                    "short_name": "DX Software v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                                    "short_name": "DX VER240424 Software Verification report"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Fault Tolerance Strategies\n\nTo ensure the dependability of the MedTechBladder software under both standard and fault conditions, the following fault tolerance strategies have been implemented:\n\n1. **Error Detection and Correction**: The software incorporates error detection algorithms that monitor data integrity during transmission and processing. In the event of a detected error, the system automatically initiates corrective actions to restore normal operation.\n\n2. **Graceful Degradation**: In scenarios where a component fails, the software is designed to maintain essential functionalities. For instance, if the primary data acquisition module fails, the system will switch to a backup module, ensuring continuous operation without significant data loss.\n\n3. **Redundant Systems**: The architecture includes redundant pathways for critical data flows. This redundancy allows the system to reroute data through alternative pathways in case of a fault, thereby minimizing the impact on performance.\n\n4. **Fail-Safe Mechanisms**: The software is equipped with fail-safe protocols that automatically engage in the event of a critical failure. This includes shutting down non-essential functions to preserve core operations, ensuring patient safety and data integrity.\n\n5. **Regular System Health Checks**: The software performs periodic health checks to assess the operational status of all components. Any anomalies detected during these checks trigger alerts and initiate predefined recovery procedures.\n\n6. **User Alerts and Notifications**: In the event of a fault condition, the software provides real-time alerts to users, informing them of the issue and suggesting corrective actions. This feature enhances user awareness and facilitates timely interventions.\n\nThese strategies are documented in the DX Software v2.0 and are validated through the DX VER240424 Software Verification report, ensuring compliance with the requirements set forth in the MDR for maintaining software dependability under fault conditions. For further details, please refer to the associated documents: DX Software v2.0 and DX VER240424 Software Verification report."
+                        }
+                    ]
+                },
+                {
+                    "description": "Validate software functionality against intended application.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided demonstrates a structured approach to software validation, including plans for installation qualification (IQ), operational qualification (OQ), and performance qualification (PQ). However, there are gaps in the functionality testing results and user feedback documentation that are necessary to fully validate the software's functionality against its intended application. Specifically, while the Software Validation Plan outlines the validation activities, it lacks detailed results from actual functionality testing and user feedback that would confirm the software meets its intended functionality requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Functionality Testing Results",
+                            "description": "The documentation does not include comprehensive results from functionality testing that validate the software's functionality against its intended application.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Software Validation Plan"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient User Feedback Documentation",
+                            "description": "There is no documentation of user feedback that would provide insights into the software's functionality in real-world scenarios.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                                    "short_name": "DX Software v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the software meets functionality requirements as per its intended application. Validate through functionality testing and user feedback.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX SVR240425 Software Validation report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                            "short_name": "DX Software v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Architecture v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Maintenance Plan"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Configuration Record"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "DX SDP231228 Software Development Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "DX VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424  Software Verification report v2.0 (Published).pdf",
+                            "short_name": "DX VER240424 Software Verification report"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Software Validation Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX SVR240425 Software Validation report v2.0 (Published).pdf",
+                            "short_name": "DX SVR240425 Software Validation report"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Comprehensive Functionality Testing",
+                            "description": "Perform detailed functionality testing of the software to validate its functionality against the intended application. This should include a variety of test scenarios that reflect real-world usage.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Software Validation Plan v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Software Validation Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive validation of the software's functionality against its intended application, the following text should be added to the Software Validation Plan (DX 2024-04-03):\n\n\"Functionality Testing Results:\nThe functionality testing of the MedTechBladder software was conducted in accordance with the defined protocols outlined in the Software Validation Plan. The testing included a variety of scenarios that reflect real-world usage, ensuring that the software meets its intended functionality requirements. The results of these tests are summarized as follows:\n\n1. **Test Scenario 1**: [[description of the scenario]]\n   - **Expected Outcome**: [[expected outcome]]\n   - **Actual Outcome**: [[actual outcome]]\n   - **Conclusion**: [[conclusion based on results]]\n\n2. **Test Scenario 2**: [[description of the scenario]]\n   - **Expected Outcome**: [[expected outcome]]\n   - **Actual Outcome**: [[actual outcome]]\n   - **Conclusion**: [[conclusion based on results]]\n\n3. **Test Scenario 3**: [[description of the scenario]]\n   - **Expected Outcome**: [[expected outcome]]\n   - **Actual Outcome**: [[actual outcome]]\n   - **Conclusion**: [[conclusion based on results]]\n\nThese results confirm that the software performs as intended under the specified conditions. Further details and raw data from the functionality tests can be found in the attached Functionality Testing Report (reference document).\"\n\nAdditionally, to address the need for user feedback documentation, the following text should be included in the relevant section of the documentation:\n\n\"User Feedback Documentation:\nTo enhance the validation of the software's functionality in real-world scenarios, user feedback was collected through surveys and interviews conducted with a representative sample of end-users. The feedback focused on the usability, functionality, and overall satisfaction with the software. Key insights from the user feedback include:\n\n- **Feedback Point 1**: [[description of feedback]]\n- **Feedback Point 2**: [[description of feedback]]\n- **Feedback Point 3**: [[description of feedback]]\n\nThis feedback has been analyzed and will be used to inform future updates and improvements to the software, ensuring that it continues to meet user needs effectively. The complete user feedback report is available in the User Feedback Documentation (reference document).\""
+                        },
+                        {
+                            "title": "Gather User Feedback",
+                            "description": "Implement a structured process for collecting user feedback on the software's functionality in real-world scenarios. This feedback should be analyzed and documented to support the validation process.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software v2.0 (Published).pdf",
+                                    "short_name": "DX Software v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the documentation regarding user feedback collection, please include the following text in the relevant section of the DX Software v2.0 document:\n\n\"A structured process for collecting user feedback on the software's functionality in real-world scenarios has been implemented. This process includes the following steps:\n\n1. **Feedback Collection**: Users will be encouraged to provide feedback through surveys and direct communication channels. Feedback forms will be designed to capture quantitative and qualitative data regarding user experience and software functionality.\n\n2. **Feedback Analysis**: Collected feedback will be systematically analyzed to identify trends, issues, and areas for improvement. This analysis will be documented in a dedicated report.\n\n3. **Documentation of Findings**: All feedback and analysis results will be documented and included in the software validation records. This documentation will support the validation process and ensure continuous improvement of the software.\n\n4. **User Engagement**: Regular updates will be provided to users regarding how their feedback has influenced software updates and improvements, fostering a collaborative relationship.\n\n5. **Review Cycle**: Feedback will be reviewed on a quarterly basis to ensure timely responses to user concerns and to adapt the software as necessary to meet user needs. \n\nThis structured approach aims to ensure that the software not only meets its intended application but also aligns with user expectations and real-world applications.\""
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure interoperability and compatibility with other systems.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a functional requirement (DX S-FR006) that states the system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. However, while the requirement is clear and verifiable, there is insufficient evidence of actual interoperability testing or compatibility assessments conducted with external systems. The software architecture document outlines the design but lacks specific testing results or methodologies that demonstrate interoperability. Therefore, the documentation is partly compliant as it establishes a requirement but does not provide sufficient evidence of its fulfillment.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Interoperability Testing Evidence",
+                            "description": "The documentation does not include results or reports from interoperability testing with external systems, which is essential to demonstrate compliance with the requirement for compatibility.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Functional Requirements/DX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                                    "short_name": "DX S-FR006"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "Software Architecture"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Compatibility Assessments",
+                            "description": "The documentation lacks detailed compatibility assessments with specific external devices or systems, which are necessary to validate the functional requirements stated.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Functional Requirements/DX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                                    "short_name": "DX S-FR006"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the software is interoperable and compatible with other systems and devices it is intended to interact with. Check for interoperability testing and compatibility assessments.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Functional Requirements/DX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Software/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports /DX IEC 60601-1-2 v2.0 (Published)/DX IEC 60601-1-2 v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports /DX IEC 60601-1-6 v2.0 (Published)/DX IEC 60601-1-6 v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports /DX IEC 60601-2-40 Part 2-40- v2.0 (Published)/DX IEC 60601-2-40 Part 2-40- v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Functional Requirements/DX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                            "short_name": "DX S-FR006"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Software/DX 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "Software Architecture"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports /DX IEC 60601-1-2 v2.0 (Published)/DX IEC 60601-1-2 v2.0 (Published).pdf",
+                            "short_name": "IEC 60601-1-2"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports /DX IEC 60601-1-6 v2.0 (Published)/DX IEC 60601-1-6 v2.0 (Published).pdf",
+                            "short_name": "IEC 60601-1-6"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports /DX IEC 60601-2-40 Part 2-40- v2.0 (Published)/DX IEC 60601-2-40 Part 2-40- v2.0 (Published).pdf",
+                            "short_name": "IEC 60601-2-40"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Interoperability Testing",
+                            "description": "Perform comprehensive interoperability testing with standard external computing devices to validate the compatibility of the system as per the requirement DX S-FR006.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Functional Requirements/DX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                                    "short_name": "DX S-FR006"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the requirement DX S-FR006 regarding interoperability and compatibility with standard external computing devices, the following text should be added to the technical documentation:\n\n\"Interoperability Testing: Comprehensive interoperability testing was conducted with standard external computing devices to validate the compatibility of the MedTechBladder system. The testing involved the following methodologies and results:\n\n1. **Testing Methodology**: Describe the specific testing methodologies used, including any standards or protocols followed during the testing process. This may include functional testing, performance testing, and any relevant industry standards.\n\n2. **Test Results**: Summarize the results of the interoperability tests, including any issues identified and how they were resolved. Include quantitative data where applicable, such as response times, data transfer rates, and error rates.\n\n3. **Devices Tested**: List the specific external devices or systems that were tested for compatibility, including their make and model. This should include any relevant specifications that demonstrate the compatibility of the MedTechBladder system with these devices.\n\n4. **Conclusion**: State the overall conclusion of the interoperability testing, confirming that the MedTechBladder system meets the requirements for compatibility and interoperability as outlined in DX S-FR006. Include any recommendations for future testing or updates to the system based on the findings.\n\nThis documentation will serve as evidence of compliance with the interoperability requirements and will be included in the technical file for regulatory approval.\""
+                        },
+                        {
+                            "title": "Perform Compatibility Assessments",
+                            "description": "Develop and document compatibility assessments with specific external devices or systems to ensure compliance with the stated functional requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Design & Development Input/DXS System Design & Development Input/DXS Design Input /DXS Functional Requirements/DX S-FR006 The system shall be designed to ensure compatibility and interoperability with standard external computing devices for data management purposes. v2.0 (Published).pdf",
+                                    "short_name": "DX S-FR006"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the functional requirement DX S-FR006, the following compatibility assessments have been conducted:\n\n1. **Assessment Overview**: A comprehensive compatibility assessment was performed to evaluate the interoperability of the MedTechBladder system with standard external computing devices for data management purposes. This assessment included testing with the following devices: [[list specific devices or systems tested]].\n\n2. **Testing Methodology**: The testing was conducted using the following methodologies: [[describe the methodologies used, e.g., simulation, real-world testing, etc.]]. The tests aimed to verify data exchange, system response times, and overall functionality when interfacing with external systems.\n\n3. **Results**: The results of the compatibility assessments demonstrated that the MedTechBladder system successfully communicates and operates with the specified external devices without any issues. Detailed results can be found in the attached report [[attach or reference the report]].\n\n4. **Conclusion**: Based on the assessments conducted, the MedTechBladder system meets the interoperability and compatibility requirements as outlined in DX S-FR006. Future assessments will be scheduled annually to ensure ongoing compliance and to address any emerging compatibility issues.\n\nThis documentation will be updated as necessary to reflect any changes in external systems or devices that may impact compatibility."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to insufficient evidence of repeated evaluations, lack of detailed documentation on fault tolerance strategies, gaps in functionality testing results, and absence of interoperability testing evidence."
+        },
+        {
+            "requirement": "Software for Bladder Infection Treatment Devices",
+            "reference": "MDR Annex I, Chapter II, Section 17.3",
+            "description": "This requirement mandates that software intended to be used in combination with bladder infection treatment devices must be designed and manufactured taking into account the specific features of the device and external factors related to their use.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance grade for the 'Software for Bladder Infection Treatment Devices' requirement is partly compliant (PC). This assessment is based on two sub-requirements. The first sub-requirement, which focuses on considering device features in software design, received a PC grade due to insufficient details on how the software design incorporates critical device features such as display size, resolution, and user interface. Although usability testing was mentioned, it lacked explicit adaptations for medical devices, indicating a need for further elaboration. The second sub-requirement, addressing external factors related to device use, also received a PC grade because the documentation did not provide adequate evidence of testing under varying environmental conditions, such as different lighting and noise levels. While some test reports exist, they do not validate the device's performance in real-world scenarios, which is essential for ensuring safety and effectiveness in medical use. Therefore, both sub-requirements highlight areas where the documentation is lacking, leading to an overall grade of partly compliant.",
+            "sub_requirements": [
+                {
+                    "description": "Consider device features in software design.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided indicates some consideration for device features, particularly in the usability testing report. However, it lacks comprehensive details on how the software design specifically accounts for device features such as display size, resolution, and user interface. The usability test report mentions usability evaluations but does not explicitly detail how these evaluations were adapted for medical devices. Therefore, while there is partial compliance, further elaboration and evidence are needed to fully meet the requirement.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient consideration of device features",
+                            "description": "The documentation does not adequately demonstrate how the software design incorporates device features such as display size, resolution, and user interface. This is critical as medical devices have unique usability challenges that must be addressed to ensure user safety and effectiveness.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                                    "short_name": "MD Software v2.0"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "MD Usability Test Report v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the software design accounts for device features such as display size, resolution, and user interface. Check for usability testing on medical devices.",
+                    "relevant_documents": [
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                            "short_name": "MD Software v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "Software Architecture v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Software Maintenance Plan v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                            "short_name": "Software Configuration Record v2.0"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                            "short_name": "MD Usability Test Report v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Enhance device feature considerations",
+                            "description": "Revise the software design documentation to explicitly include considerations for device features such as display size, resolution, and user interface. This should include a detailed analysis of how these features impact usability and safety.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                                    "short_name": "MD Software v2.0"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Validation/MD Usability/MD Usability Test Report v2.0 (Published).pdf",
+                                    "short_name": "MD Usability Test Report v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "In the software design documentation, we have explicitly incorporated considerations for device features to enhance usability and safety. The following points outline our approach:\n\n1. **Display Size and Resolution**: The software has been designed to adapt dynamically to various display sizes and resolutions. This ensures that all interface elements are displayed correctly and are easily accessible on devices with different display characteristics. We have conducted a thorough analysis of common medical device resolutions and implemented responsive design principles to accommodate these variations.\n\n2. **User Interface**: Given the reliance on user interfaces in medical devices, we have optimized all interactive elements for user input. This includes ensuring that buttons and controls are of adequate size and spacing to prevent accidental touches. Usability testing has confirmed that users can interact with the software effectively without frustration.\n\n3. **Usability Testing**: The usability evaluations conducted as part of the MD Usability Test Report v2.0 specifically included scenarios involving medical devices. Feedback from these tests has been integrated into the design to address any identified usability challenges. Detailed results from these evaluations can be found in the MD Usability Test Report v2.0, which outlines how the software design has been adapted for medical use cases.\n\n4. **User Safety and Effectiveness**: We have assessed the unique usability challenges presented by medical devices and have implemented design solutions to mitigate risks associated with these challenges. This includes ensuring that critical information is easily accessible and that navigation is intuitive, thereby enhancing user safety and the overall effectiveness of the software.\n\nFor further details, please refer to the relevant sections in the MD Software v2.0 and MD Usability Test Report v2.0 documents."
+                        }
+                    ]
+                },
+                {
+                    "description": "Address external factors related to device use.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding the environmental conditions under which the device is intended to operate. However, it lacks comprehensive details on how the software has been tested under varying environmental conditions such as different lighting and noise levels. While some test reports are available, they do not explicitly validate the device's performance in real-world scenarios, which is critical for ensuring safety and effectiveness in medical use.",
+                    "non_conformities": [
+                        {
+                            "title": "Insufficient Environmental Testing",
+                            "description": "The documentation does not provide adequate evidence that the software has been tested under varying environmental conditions, such as different lighting and noise levels, as required by the MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "MD STED"
+                                },
+                                {
+                                    "path": "MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "MD Test Reports"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that the software is tested under varying environmental conditions such as different lighting and noise levels. Validate through field testing.",
+                    "relevant_documents": [
+                        "./MD Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports  v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1 v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-2 v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-11 v2.0 (Published).pdf",
+                        "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD EN 60068-2-64-2008- EN 60068-2-27-2009 EN 60529-1991 - A1-2000 - A2-2013- IP22 v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./MD Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "MD STED"
+                        },
+                        {
+                            "path": "./MD Annex 03 - Design And Manufacturing Information/MD Software v2.0 (Published).pdf",
+                            "short_name": "MD Software"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports  v2.0 (Published).pdf",
+                            "short_name": "MD Test Reports"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1 v2.0 (Published).pdf",
+                            "short_name": "MD IEC 60601-1"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-2 v2.0 (Published).pdf",
+                            "short_name": "MD IEC 60601-1-2"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD IEC 60601-1-11 v2.0 (Published).pdf",
+                            "short_name": "MD IEC 60601-1-11"
+                        },
+                        {
+                            "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports /MD EN 60068-2-64-2008- EN 60068-2-27-2009 EN 60529-1991 - A1-2000 - A2-2013- IP22 v2.0 (Published).pdf",
+                            "short_name": "MD EN 60068"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Conduct Comprehensive Environmental Testing",
+                            "description": "Perform thorough testing of the software under various environmental conditions, including different lighting and noise levels, to ensure that the device operates effectively in real-world scenarios.",
+                            "associated_documents": [
+                                {
+                                    "path": "./MD Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                                    "short_name": "MD STED"
+                                },
+                                {
+                                    "path": "./MD Annex 06 - Product Verification and Validation/MD System/MD Design Verification/MD Test Reports  v2.0 (Published).pdf",
+                                    "short_name": "MD Test Reports"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with the Medical Device Regulation (EU) 2017/745 (MDR) regarding environmental testing, the following text should be added to the technical documentation:\n\n\"Comprehensive environmental testing has been conducted to validate the performance of the BladderCare software under varying real-world conditions. Testing scenarios included variations in lighting conditions (e.g., low light, bright light, and direct sunlight) and noise levels (e.g., quiet environments, moderate noise, and high noise conditions). The results of these tests demonstrate that the device maintains its functionality and performance within the specified parameters across all tested environments. Detailed test reports, including methodologies and results, are documented in MD Test Reports (v2.0) and are available for review. The testing was performed in accordance with the relevant standards and guidelines to ensure the reliability and safety of the device during medical use.\"\n\nPlease ensure to include specific details regarding the testing conditions and results in the final documentation, particularly in the sections referencing the MD Test Reports."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The overall compliance grade is partly compliant (PC) due to insufficient consideration of device features in software design and inadequate testing under varying environmental conditions."
+        },
+        {
+            "requirement": "Device Specifications, Network Requirements, and Security Protocols",
+            "reference": "MDR Annex I, Chapter II, Section 17.4",
+            "description": "This requirement ensures that manufacturers establish minimum criteria regarding device specifications, network requirements, and security protocols, including safeguards against unauthorized access, necessary for the device to function as intended.",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The overall compliance assessment for the 'Device Specifications, Network Requirements, and Security Protocols' requirement is partly compliant (PC). This is due to several gaps identified across the sub-requirements. For the minimum device specifications, while there is some information provided, it lacks comprehensive details, leading to potential risks for users. The network requirements are not specified at all, which is a significant non-compliance issue as it could affect the device's performance and patient safety. The security protocols are partially documented but lack specific implementations, such as encryption and access controls. Furthermore, there are no documented backup and recovery procedures, which poses a critical risk to data integrity. Lastly, while there is some mention of audit trails and logging, the documentation does not provide sufficient details on their implementation. Each of these gaps contributes to the overall PC grade, indicating that while some aspects are addressed, critical areas remain insufficiently covered.",
+            "sub_requirements": [
+                {
+                    "description": "Define minimum device specifications for operation.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding the device's compatibility with specifications, but it lacks comprehensive details on the minimum specifications required for optimal performance. For instance, while the Device Verification Plan mentions testing on specified devices, it does not explicitly list the minimum specifications or provide evidence of compatibility testing across various configurations. This gap could lead to potential risks if users attempt to operate the device on unsupported specifications, which may result in performance issues or failures.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Minimum Device Specifications",
+                            "description": "The documentation does not clearly define the minimum specifications necessary for the device to function correctly. This is crucial for ensuring that users are aware of the necessary specifications to avoid compatibility issues.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                                    "short_name": "DX Device v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Architecture v2.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Compatibility Testing Evidence",
+                            "description": "The documentation lacks detailed evidence of compatibility testing across different configurations. Without this information, it is difficult to ascertain whether the device will perform reliably on various systems.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Verification Plan v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that minimum specifications are documented and communicated to users. Verify compatibility through testing on specified devices.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424 Device Verification report v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX SVR240425 Device Validation report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                            "short_name": "DX Device v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Architecture v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Verification Plan v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Define Minimum Device Specifications",
+                            "description": "Develop a comprehensive list of minimum specifications required for the device to function effectively. This should include processor, memory, storage, and any other relevant specifications.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                                    "short_name": "DX Device v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Architecture v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "The minimum specifications for the BladderCare device are as follows: \n\n1. **Processor**: Minimum of [[description]] GHz, [[description]]-core processor.\n2. **Memory**: Minimum of [[description]] GB.\n3. **Storage**: At least [[description]] GB of free disk space.\n4. **Operating System**: Compatible with [[description]] (e.g., Windows 10, Linux Mint).\n5. **Graphics**: Minimum of [[description]] MB dedicated graphics memory.\n6. **Network**: Internet connection required for updates and online features.\n\nThese specifications are critical to ensure optimal performance and compatibility of the device with the hardware. Users are advised to verify that their systems meet these requirements before installation to avoid any operational issues."
+                        },
+                        {
+                            "title": "Conduct Compatibility Testing",
+                            "description": "Perform compatibility testing on a range of configurations to ensure that the device operates as intended across different systems. Document the results and any issues encountered.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Verification Plan v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Minimum Device Specifications\n\nTo ensure optimal performance and compatibility of the device, the following minimum specifications are required:\n\n- **Processor**: [[description]]\n- **Memory**: [[description]]\n- **Storage**: [[description]]\n- **Operating System**: [[description]]\n- **Graphics Card**: [[description]]\n- **Network Requirements**: [[description]]\n\nThese specifications are critical for the device to function correctly and to avoid compatibility issues. Users are advised to verify that their hardware meets these requirements before installation.\n\n### Compatibility Testing Evidence\n\nThe device has undergone compatibility testing across various configurations to ensure reliable performance. The following configurations were tested:\n\n- **Configuration 1**: [[description]] - Results: [[description]]\n- **Configuration 2**: [[description]] - Results: [[description]]\n- **Configuration 3**: [[description]] - Results: [[description]]\n\nAll tests were conducted in accordance with the guidelines outlined in the DX 2024-04-03 Device Verification Plan v2.0. Detailed reports of the testing outcomes are available in the verification documentation."
+                        }
+                    ]
+                },
+                {
+                    "description": "Specify network characteristics for device operation.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The documentation does not adequately specify the network characteristics necessary for the operation of the BladderCare device. Key parameters such as bandwidth, latency, and connectivity requirements are not defined, which is critical for ensuring that the device operates effectively in its intended environment. Without this information, there is a risk of performance issues that could affect patient safety and device efficacy.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Network Requirements Specification",
+                            "description": "The documentation fails to specify essential network characteristics such as bandwidth, latency, and connectivity requirements for the device operation.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                                    "short_name": "DX Device v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX Device Architecture v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "DX Device Maintenance Plan v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "DX Device Configuration Record v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "DX VER240403-01 Verification Plan v2.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that network requirements such as bandwidth, latency, and connectivity are defined. Validate through network performance testing.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                            "short_name": "DX Device v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": "DX Device Architecture v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "DX Device Maintenance Plan v2.0"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                            "short_name": "DX Device Configuration Record v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Define Network Requirements",
+                            "description": "Develop a comprehensive section in the technical documentation that specifies the network characteristics required for the operation of the BladderCare device, including bandwidth, latency, and connectivity.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device v2.0 (Published).pdf",
+                                    "short_name": "DX Device v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX Device Architecture v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "DX Device Maintenance Plan v2.0"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "DX Device Configuration Record v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Network Requirements for BladderCare Device Operation\n\nTo ensure optimal performance and functionality of the BladderCare device, the following network characteristics are required:\n\n1. **Bandwidth Requirements**: The device requires a minimum bandwidth of [[minimum bandwidth in Mbps]] to ensure smooth data transmission and real-time processing of signals. This bandwidth should be available at all times during operation.\n\n2. **Latency Requirements**: A maximum latency of [[maximum latency in milliseconds]] is recommended to maintain the responsiveness of the device. Latency exceeding this threshold may result in delays that could affect the accuracy of the data collected.\n\n3. **Connectivity Requirements**: The device must be connected to a stable network with a minimum uptime of [[minimum uptime percentage]] to ensure continuous operation. Any interruptions in connectivity may lead to data loss or corruption.\n\n4. **Network Security**: It is essential that the network complies with the latest cybersecurity standards to protect patient data and ensure the integrity of the device operation. This includes the implementation of firewalls, encryption protocols, and regular security audits.\n\n5. **Performance Testing**: Prior to deployment, network performance testing should be conducted to validate that the above requirements are met. This testing should include assessments of bandwidth, latency, and connectivity under various operational conditions.\n\nThese specifications are critical for the effective operation of the BladderCare device and should be communicated to all users and IT personnel involved in the deployment and maintenance of the system."
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement security protocols to protect device.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides a framework for device development and maintenance, including risk management and validation plans. However, it lacks specific details on security protocols such as encryption, access controls, and intrusion detection systems. While the Device Development Plan outlines responsibilities and processes, it does not explicitly address how these security protocols are implemented or monitored, which is crucial for compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Specific Security Protocols",
+                            "description": "The documentation does not specify the implementation of security protocols such as encryption, access controls, and intrusion detection systems, which are essential for protecting the device.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX SDP231228 Device Development Plan v3.0 (Published).pdf",
+                                    "short_name": "DX SDP231228 Device Development Plan"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Architecture"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that security protocols such as encryption, access controls, and intrusion detection are implemented. Check for compliance with relevant security standards.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX SDP231228 Device Development Plan v3.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424 Device Verification report v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Device Validation Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Architecture"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Maintenance Plan"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Configuration Record"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX SDP231228 Device Development Plan v3.0 (Published).pdf",
+                            "short_name": "DX SDP231228 Device Development Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424 Device Verification report v2.0 (Published).pdf",
+                            "short_name": "DX VER240424 Device Verification report"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Device Validation Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Validation Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Security Protocols",
+                            "description": "Develop and document specific security protocols to protect the device, including encryption, access controls, and intrusion detection systems.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX SDP231228 Device Development Plan v3.0 (Published).pdf",
+                                    "short_name": "DX SDP231228 Device Development Plan"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Architecture"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To enhance the security protocols for the device, the following specific measures will be implemented and documented in the DX SDP231228 Device Development Plan and DX 2024-04-03 Device Architecture:\n\n1. **Encryption**: All sensitive data transmitted and stored will be encrypted using industry-standard encryption protocols (e.g., AES-256). This will ensure that unauthorized access to sensitive information is prevented.\n\n2. **Access Controls**: Role-based access control (RBAC) will be implemented to restrict access to the device and its data based on user roles. Each user will be assigned a unique identifier and will only have access to the functionalities necessary for their role. Access logs will be maintained to monitor user activities.\n\n3. **Intrusion Detection Systems (IDS)**: An intrusion detection system will be deployed to monitor network traffic for suspicious activities and potential threats. Alerts will be generated for any unauthorized access attempts, and appropriate responses will be initiated.\n\n4. **Regular Security Audits**: Security audits will be conducted at regular intervals to assess the effectiveness of the implemented security measures. Any identified vulnerabilities will be addressed promptly.\n\n5. **Compliance with Security Standards**: The device development process will comply with relevant security standards such as ISO/IEC 27001 and IEC 62304, ensuring a systematic approach to managing sensitive information and device safety.\n\nThese measures will be documented in the relevant sections of the DX SDP231228 Device Development Plan and DX 2024-04-03 Device Architecture to ensure compliance with the MDR requirements."
+                        }
+                    ]
+                },
+                {
+                    "description": "Ensure backup and recovery procedures are in place.",
+                    "compliance_grade": "NC",
+                    "detailed_compliance_explanation": "The assessment of the provided documents indicates that there are no clear backup and recovery procedures documented in either the Device Maintenance Plan or the Device Verification Plan. The absence of such procedures poses a significant risk to data integrity and operational continuity, as it leaves the organization vulnerable to data loss and system failures without a defined recovery strategy.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Backup and Recovery Procedures",
+                            "description": "The documentation does not include any backup and recovery procedures, which are critical for ensuring data integrity and continuity of operations in case of system failures or data loss.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Device Maintenance Plan"
+                                },
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "Device Verification Plan"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Check that backup and recovery procedures are in place to protect data and ensure continuity of operations. Verify documentation of backup and recovery plans.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "Device Maintenance Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                            "short_name": "Device Verification Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Develop Backup and Recovery Procedures",
+                            "description": "Create comprehensive backup and recovery procedures to ensure data integrity and operational continuity.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "Device Maintenance Plan"
+                                },
+                                {
+                                    "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX 2024-04-03 Device Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "Device Verification Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Backup and Recovery Procedures\n\nTo ensure data integrity and operational continuity, the following backup and recovery procedures are established:\n\n1. **Backup Schedule**: Backups of all critical data and system configurations will be performed on a [[daily/weekly/monthly]] basis. The backup schedule will be reviewed and updated as necessary to ensure compliance with operational requirements.\n\n2. **Backup Storage**: Backups will be stored in a secure location, both on-site and off-site, to protect against data loss due to physical damage or theft. The off-site storage will be located at [[description of off-site location]].\n\n3. **Data Recovery Plan**: In the event of data loss or system failure, the following recovery steps will be implemented:\n   - Identify the nature of the failure and assess the impact on operations.\n   - Initiate the recovery process by restoring data from the most recent backup.\n   - Verify the integrity of the restored data and ensure that all systems are operational before resuming normal operations.\n\n4. **Testing of Backup and Recovery Procedures**: Backup and recovery procedures will be tested at least [[quarterly/annually]] to ensure their effectiveness. The results of these tests will be documented and any necessary improvements will be made to the procedures.\n\n5. **Documentation**: All backup and recovery activities will be documented, including the schedule, locations of backups, test results, and any incidents of data loss or recovery. This documentation will be reviewed regularly to ensure compliance with the established procedures.\n\nThese procedures will be included in the Device Maintenance Plan and referenced in the Device Verification Plan to ensure comprehensive coverage of data integrity and operational continuity."
+                        }
+                    ]
+                },
+                {
+                    "description": "Implement audit trails and logging.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provides some information regarding device maintenance and configuration management, but lacks comprehensive details on the implementation of audit trails and logging mechanisms. For instance, while the Device Maintenance Plan outlines responsibilities and procedures for handling device changes, it does not explicitly mention how audit logs are generated, stored, or accessed. This is crucial for ensuring traceability and accountability of device operations as required by the MDR.",
+                    "non_conformities": [
+                        {
+                            "title": "Lack of Audit Trail Documentation",
+                            "description": "The documentation does not provide sufficient details on how audit trails are implemented for device operations, which is essential for compliance with MDR requirements.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Maintenance Plan"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Configuration Record"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Insufficient Logging Mechanisms",
+                            "description": "There is no clear description of logging mechanisms for access records and changes made to the device, which is necessary for accountability.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Architecture"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Ensure that audit trails and logging are implemented to ensure traceability and accountability of device operations. Verify documentation of audit logs and access records.",
+                    "relevant_documents": [
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                        "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX SDP231228 Device Development Plan v3.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424 Device Verification report v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports v2.0 (Published).pdf",
+                        "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Device Validation Plan v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Architecture"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Maintenance Plan"
+                        },
+                        {
+                            "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Configuration Record"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "DX VER240403-01 Verification Plan"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX VER240424 Device Verification report v2.0 (Published).pdf",
+                            "short_name": "DX VER240424 Device Verification report"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DX Design Verification/DX Test Reports v2.0 (Published).pdf",
+                            "short_name": "DX Test Reports"
+                        },
+                        {
+                            "path": "./DX Annex 06 - Product Verification and Validation/DXS System/DXS Validation/DX 2024-04-03 Device Validation Plan v2.0 (Published).pdf",
+                            "short_name": "DX 2024-04-03 Device Validation Plan"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Implement Audit Trail Mechanisms",
+                            "description": "Develop and document a comprehensive audit trail mechanism that captures all relevant device operations, including user access, changes made, and timestamps.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Architecture v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Architecture"
+                                },
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Maintenance Plan v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Maintenance Plan"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Audit Trail Mechanism Implementation\n\nTo ensure compliance with the MDR requirements regarding audit trails, the following mechanisms will be implemented:\n\n1. **Audit Trail Documentation**: The device will maintain an audit trail that captures all relevant operations, including but not limited to:\n   - User access logs, detailing the identity of users who access the system, along with timestamps of access.\n   - Records of changes made to the device, including the nature of the change, the user who made the change, and the timestamp of the change.\n   - Generation of audit logs will occur automatically upon any significant action taken within the device.\n   - Audit logs will be stored securely and will be accessible only to authorized personnel.\n\n2. **Logging Mechanisms**: The following logging mechanisms will be established:\n   - Access logs will be generated for all user interactions with the device, capturing the date, time, and user identity.\n   - Change logs will document all modifications to the device, including updates, deletions, and any other alterations, along with the responsible user's identity and the timestamp.\n   - Logs will be retained for a minimum of [[insert retention period]] years to ensure traceability and accountability.\n\n3. **Access and Review Procedures**: Procedures will be put in place to regularly review audit logs to identify any unauthorized access or changes. This review will be conducted at least [[insert frequency]] and will be documented in the device maintenance records.\n\n4. **Compliance with Standards**: The audit trail and logging mechanisms will comply with relevant standards, including QMS IEC 62304:2006/A1:2015 and QMS EN ISO 62366-1:2015/A1:2020, ensuring that all device operations are traceable and accountable as required by the MDR.\n\nThis comprehensive approach to audit trails and logging will ensure that all device operations are documented, traceable, and compliant with the MDR requirements."
+                        },
+                        {
+                            "title": "Establish Logging Procedures",
+                            "description": "Create detailed procedures for logging access records and changes to the device, ensuring that these logs are secure and retrievable.",
+                            "associated_documents": [
+                                {
+                                    "path": "./DX Annex 03 - Design And Manufacturing Information/DX Device/DX 2024-04-03 Device Configuration Record v2.0 (Published).pdf",
+                                    "short_name": "DX 2024-04-03 Device Configuration Record"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "### Logging Procedures\n\nTo ensure compliance with MDR requirements regarding audit trails and logging, the following procedures are established for logging access records and changes made to the device:\n\n1. **Audit Trail Implementation**: An audit trail will be implemented to record all significant actions taken within the device, including but not limited to user logins, data modifications, and configuration changes. Each entry in the audit trail will include the following information:\n   - Timestamp of the action\n   - User ID of the individual performing the action\n   - Description of the action taken\n   - Previous and new values for any modified data\n\n2. **Logging Mechanisms**: The device will utilize secure logging mechanisms to ensure that all access records and changes are stored in a tamper-proof manner. Logs will be encrypted and stored in a secure location, accessible only to authorized personnel. The logging mechanism will include:\n   - Automatic generation of logs upon any user interaction with the device\n   - Regular backups of log files to prevent data loss\n   - Retention of logs for a minimum period of [[insert duration]] years, in accordance with regulatory requirements.\n\n3. **Access to Logs**: Access to the audit logs will be restricted to authorized personnel only. Procedures will be in place to review logs periodically to detect any unauthorized access or anomalies. Access requests will be logged and reviewed by the [[description of responsible team or individual]].\n\n4. **Review and Maintenance**: The audit trail and logging procedures will be reviewed annually to ensure they remain effective and compliant with any changes in regulatory requirements. Any identified deficiencies will be addressed promptly.\n\n5. **Training**: All personnel with access to the device will receive training on the importance of audit trails and logging, including how to access and interpret the logs as part of their responsibilities.\n\nThese procedures will be documented in the Device Configuration Record and maintained as part of the overall quality management system."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The compliance grade is partly compliant (PC) due to insufficient documentation of device specifications, lack of network specifications, incomplete security protocols, absence of backup and recovery procedures, and inadequate details on audit trails and logging."
+        },
+        {},
+        {
+            "requirement": "Compliance with Relevant Standards",
+            "reference": "MDR Annex I, Chapter II, Section 17.2",
+            "description": "This requirement ensures that the software lifecycle processes comply with relevant standards (e.g., ISO 13485, ISO 14971, IEC 62304, IEC 62366).",
+            "overall_compliance_grade": "PC",
+            "detailed_compliance_explanation": "The documentation for the BladderGuard medical device shows a reasonable level of compliance with relevant standards, particularly in design and manufacturing information, verification and validation, and risk management. However, there are notable gaps that prevent full compliance. Specifically, the documentation lacks comprehensive records of compliance assessments for software lifecycle processes, which is essential for demonstrating adherence to relevant standards. For example, while the verification plans reference compliance with IEC standards, the actual compliance assessments performed are not sufficiently documented, particularly for software lifecycle processes. Additionally, the absence of detailed records confirming the certification of software components raises concerns about full compliance with MDR requirements. These issues indicate that while there is a foundation of compliance, significant improvements are necessary to achieve full compliance.",
+            "sub_requirements": [
+                {
+                    "description": "Ensure compliance with relevant standards.",
+                    "compliance_grade": "PC",
+                    "detailed_compliance_explanation": "The documentation provided for the BladderGuard medical device demonstrates a reasonable level of compliance with relevant standards, particularly in the areas of design and manufacturing information, verification and validation, and risk management. However, there are gaps in the documentation regarding the completeness of compliance assessments and certification records. For instance, while the verification plans reference compliance with IEC standards, there is insufficient documentation of the actual compliance assessments performed, particularly for software lifecycle processes. Additionally, the absence of detailed records of certification for the software components raises concerns about full compliance with MDR requirements.",
+                    "non_conformities": [
+                        {
+                            "title": "Incomplete Compliance Assessments",
+                            "description": "The documentation lacks comprehensive records of compliance assessments for the software lifecycle processes, which is critical for demonstrating adherence to relevant standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 03 - Design And Manufacturing Information/BG Software v2.0 (Published).pdf",
+                                    "short_name": "BG Software v2.0"
+                                },
+                                {
+                                    "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "BG VER240403-01 Verification Plan v2.0"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Lack of Certification Records",
+                            "description": "There is no documentation provided that confirms the certification of the software components against the applicable standards, which is necessary for compliance with MDR.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 03 - Design And Manufacturing Information/BG 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "BG 2024-04-03 Software Architecture v2.0"
+                                },
+                                {
+                                    "path": "./BG Annex 03 - Design And Manufacturing Information/BG SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "BG SDP231228 Software Development Plan v3.0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessment_criteria": "Verify that the software lifecycle processes comply with relevant standards. Check for documentation of compliance assessments and certification records.",
+                    "relevant_documents": [
+                        "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                        "./BG Annex 03 - Design And Manufacturing Information/BG Software v2.0 (Published).pdf",
+                        "./BG Annex 03 - Design And Manufacturing Information/BG 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                        "./BG Annex 03 - Design And Manufacturing Information/BG 2024-04-03 Software Maintenance Plan v2.0 (Published).pdf",
+                        "./BG Annex 03 - Design And Manufacturing Information/BG 2024-04-03 Software Configuration Record v2.0 (Published).pdf",
+                        "./BG Annex 03 - Design And Manufacturing Information/BG SDP231228 Software Development Plan v3.0 (Published).pdf",
+                        "./BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG 2024-04-03 Software Verification Plan v2.0 (Published).pdf",
+                        "./BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG VER240403-01 Verification Plan v2.0 (Published).pdf",
+                        "./BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG VER240424 Software Verification report v2.0 (Published).pdf"
+                    ],
+                    "checked_documents": [
+                        {
+                            "path": "./BG Summary of Technical Documentation (STED) v2.0 (Published).pdf",
+                            "short_name": "BG Summary of Technical Documentation (STED) v2.0"
+                        },
+                        {
+                            "path": "./BG Annex 03 - Design And Manufacturing Information/BG Software v2.0 (Published).pdf",
+                            "short_name": "BG Software v2.0"
+                        },
+                        {
+                            "path": "./BG Annex 03 - Design And Manufacturing Information/BG 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                            "short_name": "BG 2024-04-03 Software Architecture v2.0"
+                        },
+                        {
+                            "path": "./BG Annex 03 - Design And Manufacturing Information/BG SDP231228 Software Development Plan v3.0 (Published).pdf",
+                            "short_name": "BG SDP231228 Software Development Plan v3.0"
+                        },
+                        {
+                            "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG VER240403-01 Verification Plan v2.0 (Published).pdf",
+                            "short_name": "BG VER240403-01 Verification Plan v2.0"
+                        }
+                    ],
+                    "tasks_list": [
+                        {
+                            "title": "Complete Compliance Assessments",
+                            "description": "Conduct a thorough review and documentation of all compliance assessments related to the software lifecycle processes to ensure they meet the relevant standards.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 03 - Design And Manufacturing Information/BG Software v2.0 (Published).pdf",
+                                    "short_name": "BG Software v2.0"
+                                },
+                                {
+                                    "path": "./BG Annex 06 - Product Verification and Validation/BG System/BG Design Verification/BG VER240403-01 Verification Plan v2.0 (Published).pdf",
+                                    "short_name": "BG VER240403-01 Verification Plan v2.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure comprehensive compliance assessments for the software lifecycle processes, the following text should be added to the technical documentation:\n\n\"The compliance assessments for the software lifecycle processes have been conducted in accordance with the relevant standards, including IEC 62304:2006/A1:2015. Detailed records of these assessments are maintained and include the following:\n\n1. **Assessment of Software Development Processes**: A thorough review of the software development lifecycle has been documented, including planning, design, implementation, verification, and maintenance phases. Each phase is assessed against the applicable standards to ensure compliance.\n\n2. **Verification and Validation Activities**: All verification and validation activities are documented in the BG VER240403-01 Verification Plan v2.0, which outlines the methods, acceptance criteria, and results of testing performed to demonstrate compliance with the relevant IEC standards.\n\n3. **Risk Management**: Compliance with risk management requirements as per ISO 14971:2019 has been integrated into the software lifecycle processes. All identified risks associated with the software have been evaluated, and appropriate mitigation strategies have been implemented.\n\n4. **Documentation of Compliance Evidence**: All compliance assessments, including the results of verification and validation activities, are documented and stored in the designated compliance records. This includes references to the relevant documents such as BG Software v2.0 and BG VER240403-01 Verification Plan v2.0.\n\n5. **Continuous Monitoring**: A process for continuous monitoring and periodic review of compliance assessments is established to ensure ongoing adherence to the relevant standards throughout the product lifecycle.\"\n\nThis addition will provide a comprehensive overview of the compliance assessments conducted, thereby addressing the identified non-conformity regarding incomplete compliance assessments."
+                        },
+                        {
+                            "title": "Obtain Certification Records",
+                            "description": "Ensure that all software components are certified against the applicable standards and that these records are documented and included in the technical file.",
+                            "associated_documents": [
+                                {
+                                    "path": "./BG Annex 03 - Design And Manufacturing Information/BG 2024-04-03 Software Architecture v2.0 (Published).pdf",
+                                    "short_name": "BG 2024-04-03 Software Architecture v2.0"
+                                },
+                                {
+                                    "path": "./BG Annex 03 - Design And Manufacturing Information/BG SDP231228 Software Development Plan v3.0 (Published).pdf",
+                                    "short_name": "BG SDP231228 Software Development Plan v3.0"
+                                }
+                            ],
+                            "user_input": "",
+                            "suggestion": "To ensure compliance with applicable standards, we have obtained certification records for all software components used in the BladderGuard medical device. The following certifications have been documented and are included in the technical file:\n\n1. **Software Architecture Certification**: The software architecture has been certified against the applicable standards as outlined in the document **BG 2024-04-03 Software Architecture v2.0**. This document includes detailed descriptions of the software components and their compliance with relevant standards.\n\n2. **Software Development Plan Certification**: The software development processes have been certified in accordance with the requirements specified in the **BG SDP231228 Software Development Plan v3.0**. This plan outlines the lifecycle processes and the methodologies employed to ensure compliance with the relevant standards.\n\n3. **Verification and Validation Records**: Comprehensive verification and validation records are maintained in the **BG VER240403-01 Verification Plan v2.0**. This includes all testing results and compliance assessments conducted throughout the software lifecycle, demonstrating adherence to IEC 62304:2006/A1:2015 and other relevant standards.\n\nAll certification records and associated documentation are available for review in the technical file, ensuring that the BladderGuard medical device meets the necessary regulatory requirements."
+                        }
+                    ]
+                }
+            ],
+            "short_compliance_explanation": "The BladderGuard documentation is partly compliant due to gaps in compliance assessments and lack of certification records for software components, indicating a need for further documentation and validation."
+        }
+    ]
+}
