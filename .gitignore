@@ -16,6 +16,8 @@ client/.pnp.js
 # Testing
 client/coverage/
 
+client/src/firebase.js
+
 # Environment variables
 client/.env
 client/.env.local
