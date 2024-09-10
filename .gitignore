@@ -7,6 +7,8 @@ client/node_modules/
 # Build directory
 client/build/
 
+client/src/firebase.js
+
 # Dependency directories
 client/.pnp
 client/.pnp.js
