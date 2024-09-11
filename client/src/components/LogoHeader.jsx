@@ -1,9 +1,6 @@
-// src/components/LogoHeader.jsx
-
 import React, { useState } from "react";
 import { Layout, Button, message } from "antd";
-import { CheckCircleOutlined, FilePdfOutlined } from "@ant-design/icons";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // Import useLocation
 import logo from "../logo.svg";
 import useStore from "../store";
 import MyDoc from './MyDoc';  // Import your PDF document component
@@ -12,7 +9,7 @@ import TaskModal from "./TaskModal";
 
 const { Header: AntHeader } = Layout;
 
-const Header = ({ showReportRef }) => {
+const Header = ({ showReportRef, isDemo }) => {
     const token = useStore((state) => state.token);
     const signOut = useStore((state) => state.signOut);
     const reportData = useStore((state) => state.reportData);
@@ -50,17 +47,21 @@ const Header = ({ showReportRef }) => {
     };
 
     return (
-        <AntHeader className="pa3 bg-white br3 mr3 ml3 mt1" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", background: "#fff", padding: "0 20px" }}>
-            <img src={logo} alt="Logo" style={{ height: "40px" }} />
+        <AntHeader className="pa3 bg-white br3 mr2 ml2 mt2 mb2" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", background: "#fff", padding: "0 20px" }}>
+            <div style={{ display: "flex", alignItems: "center" }}>
+                <img src={logo} alt="Logo" style={{ height: "40px" }} />
+
+                {/* Show the demo message if the user is on /d */}
+
+            </div>
+            <div className="w-100 flex justify-center">{isDemo && (
+                <span className="blue f5 ml4 b">
+                    You are viewing a demo report for a fictional product and company
+                </span>
+            )}</div>
 
             {token ? (
                 <div>
-                    {/* <Button disabled={isPreparingPdf} icon={<FilePdfOutlined />} onClick={downloadPDF}>
-                        Export to PDF
-                    </Button> */}
-                    {/* <Button className="ml2" icon={<CheckCircleOutlined />} onClick={() => setIsModalVisible(true)} style={{ marginRight: 10 }}>
-                        Task list
-                    </Button> */}
                     <Button type="primary" onClick={handleSignOut}>
                         Sign Out
                     </Button>

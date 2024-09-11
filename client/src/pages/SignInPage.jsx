@@ -5,6 +5,8 @@ import { Input, Button, message, Typography } from "antd";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 import useStore from "../store";
+import { analytics } from "../firebase"
+import { logEvent } from "firebase/analytics";
 
 const { Title, Text } = Typography;
 
@@ -31,13 +33,21 @@ const SignInPage = () => {
             setToken(token);
             setUserId(userCredential.user.uid); // Store the user's UUID in Zustand
             setStoreReportId(reportId);
+            logEvent(analytics, 'sign_in_completed', {
+                user_id: reportId,
+            });
             message.success("Successfully signed in!");
             navigate(`/show_report`);
         } catch (error) {
+            logEvent(analytics, 'sign_in_failed', {
+                report_id: reportId,
+            });
             message.error("Password does not match report ID.");
         }
         setIsLoading(false);
     };
+
+    logEvent(analytics, 'sign_in_page_loaded');
 
     return (
         <div className="mw6 h6 center mt5 pl5 pr5 pb5 pt3 tc bg-white br3">

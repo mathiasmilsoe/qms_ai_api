@@ -89,29 +89,48 @@ const App = () => {
             />
           </Affix>
         )}
-        <Affix offsetTop={0}>
-          <div>
-            <Header showReportRef={showReportRef} style={{ height: '60px', lineHeight: '60px' }} />
-          </div>
-        </Affix>
 
-        <Layout>
-          <Content style={{ padding: '10px', flexGrow: 1 }}>
-            <Routes>
-              <Route path="/signin" element={<SignInPage />} />
-              <Route path="/show_report" element={
+        {/* Render the Header only on non-signin routes */}
+        <Routes>
+          <Route path="/signin" element={<SignInPage />} />
+          <Route
+            path="/show_report"
+            element={
+              <>
+                <Affix offsetTop={0}>
+                  <Header showReportRef={showReportRef} isDemo={false} />
+                </Affix>
                 <ShowReportPage
                   ref={showReportRef}
-                  expandedSections={expandedSections} // Pass the state
-                  setExpandedSections={setExpandedSections} // Pass the state updater
+                  expandedSections={expandedSections}
+                  setExpandedSections={setExpandedSections}
                   collapseAllSections={collapseAllSections}
                   openAllSections={openAllSections}
-                />} />
-              <Route path="/" element={<SignInPage />} />
-              <Route path="*" element={<NotFoundPage />} /> {/* Handle non-matching routes */}
-            </Routes>
-          </Content>
-        </Layout>
+                />
+              </>
+            }
+          />
+          <Route
+            path="/d"
+            element={
+              <>
+                <Affix offsetTop={0}>
+                  <Header showReportRef={showReportRef} isDemo={true} />
+                </Affix>
+                <ShowReportPage
+                  ref={showReportRef}
+                  expandedSections={expandedSections}
+                  setExpandedSections={setExpandedSections}
+                  collapseAllSections={collapseAllSections}
+                  openAllSections={openAllSections}
+                  demoReportId="49Ymd6vvIqhOZChldJ8GUcAjbcv1"
+                />
+              </>
+            }
+          />
+          <Route path="/" element={<SignInPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
       </Layout>
     </Router>
   );

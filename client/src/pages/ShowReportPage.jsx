@@ -1,6 +1,6 @@
 import React, { useEffect, forwardRef, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { message, Collapse, Anchor, Tooltip, Affix, Button } from "antd"; // Import Tooltip
+import { message, Collapse, Anchor, Tooltip, Affix, Button, Spin } from "antd"; // Import Tooltip
 import { collection, getDocs, doc, getDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import useStore from "../store";
@@ -8,9 +8,15 @@ import TaskProgress from '../components/TaskProgress';
 import TaskModal from '../components/TaskModal';
 import { ToTopOutlined, MenuUnfoldOutlined, ShrinkOutlined } from '@ant-design/icons'; // Import relevant icons
 import "../app.css"
+import { LoadingOutlined } from '@ant-design/icons';
+import { analytics } from "../firebase"
+import { logEvent } from "firebase/analytics";
+
+
 const { Link } = Anchor; // Destructure Link from Anchor
 
-const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, collapseAllSections, openAllSections }, ref) => {
+
+const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, collapseAllSections, openAllSections, demoReportId }, ref) => {
     const token = useStore((state) => state.token);
     const userId = useStore((state) => state.userId);
     const setReportData = useStore((state) => state.setReportData);
@@ -20,6 +26,10 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
     const setActiveRequirement = useStore((state) => state.setActiveRequirement);
     const setReportAbstract = useStore((state) => state.setReportAbstract);
     const reportAbstract = useStore((state) => state.reportAbstract);
+
+    const isDemoReport = !!demoReportId;
+    const [loading, setLoading] = useState(true); // Loading state
+    const [percent, setPercent] = useState(0);
 
     const sectionsRef = useRef([]);
     const requirementsRef = useRef([]);
@@ -38,12 +48,6 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
     };
 
     useEffect(() => {
-        if (!token || !userId) {
-            message.error("You must sign in first.");
-            navigate(`/signin`);
-            return;
-        }
-
         const sectionOrder = [
             "device_description_and_specification",
             "information_supplied_by_manufacturer",
@@ -61,9 +65,11 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
             "supply_chain_traceability"
         ];
 
-        const fetchReport = async () => {
+        let failledFetch = [];
+
+        const fetchReport = async (reportUserId) => {
             try {
-                const sectionsRef = collection(db, "reports", userId, "sections");
+                const sectionsRef = collection(db, "reports", reportUserId, "sections");
                 const querySnapshot = await getDocs(sectionsRef);
                 let sections = querySnapshot.docs.map((doc) => ({
                     id: doc.id,
@@ -75,15 +81,23 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
                     return sectionOrder.indexOf(a.id) - sectionOrder.indexOf(b.id);
                 });
 
+                if (!sections || sections.length === 0) {
+                    failledFetch.push("report");
+                } else {
+                    logEvent(analytics, 'fetched_report', {
+                        user_id: reportUserId,
+                    });
+                }
+
                 setReportData(sections);
             } catch (error) {
-                message.error("Failed to fetch report.");
+                failledFetch.push("report");
             }
         };
 
-        const fetchReportAbstract = async () => {
+        const fetchReportAbstract = async (reportUserId) => {
             try {
-                const abstractRef = collection(db, "report_abstracts", userId, "abstracts");
+                const abstractRef = collection(db, "report_abstracts", reportUserId, "abstracts");
                 const abstractSnapshot = await getDocs(abstractRef);
 
                 // Convert array of abstracts to object with id as key and data as value
@@ -92,20 +106,61 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
                     return acc;
                 }, {});
 
-                if (abstracts) {
-                    console.log("Converted object:", abstracts);
-                    setReportAbstract(abstracts);
+                if (!abstracts || Object.keys(abstracts).length === 0) {
+                    failledFetch.push("abstracts");
                 } else {
-                    console.log("No such document!");
+                    logEvent(analytics, 'fetched_abstracts', {
+                        user_id: reportUserId,
+                    });
                 }
+
+                setReportAbstract(abstracts);
             } catch (error) {
-                message.error("Failed to fetch report abstract.");
+                failledFetch.push("abstracts");
             }
         };
 
-        fetchReport();
-        fetchReportAbstract();
+        const showLoader = () => {
+            setLoading(true);
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 20;
+                setPercent(progress);
+
+                if (progress >= 100) {
+                    clearInterval(interval);
+                }
+            }, 100);
+        };
+
+        const fetchData = async (reportUserId) => {
+            showLoader(); // Start the loader
+
+            await Promise.all([fetchReport(reportUserId), fetchReportAbstract(reportUserId)]);
+
+            if (failledFetch.length > 0) {
+                message.error("Failed to fetch report");
+                logEvent(analytics, 'report_fetch_failed', {
+                    user_id: reportUserId,
+                    content_type: failledFetch,
+                });
+            }
+
+            setLoading(false); // Stop the loader
+        };
+
+        if (isDemoReport) {
+            fetchData(demoReportId); // Fetch demo report data
+        } else {
+            if (!token || !userId) {
+                message.error("You must sign in first.");
+                navigate(`/signin`);
+                return;
+            }
+            fetchData(userId); // Fetch user report data
+        }
     }, [token, userId, setReportData, setReportAbstract, navigate]);
+
 
     const formatSectionId = (id) => {
         if (id) {
@@ -289,8 +344,14 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
         return totalNCs;
     };
 
+    if (loading) {
+        return (
+            <Spin spinning={loading} tip={`Loading ${percent}%`} fullscreen />
+        );
+    }
 
     return (
+
         <div ref={ref} className="flex" style={{ display: 'flex', alignItems: 'flex-start' }}>
             {/* Anchor Sidebar */}
             <Affix offsetTop={67}>
@@ -353,7 +414,7 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
                     <div id="report-abstract" className="bg-white br3 pa3 ml2 mr2 mt1">
                         <span className="f5 b">Report abstract</span>
                         <div className="mb3">
-                            <p className="f7 mb3 lh-copy">{reportAbstract?.report_abstract.report_abstract}</p>
+                            <p className="f7 mb3 lh-copy">{reportAbstract?.report_abstract?.report_abstract}</p>
                         </div>
                     </div>
 

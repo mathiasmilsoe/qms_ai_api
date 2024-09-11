@@ -1,18 +1,52 @@
+import os
 import firebase_admin
 from firebase_admin import credentials, auth, firestore
+from google.cloud.firestore import Client
+from google.auth.credentials import AnonymousCredentials
 import random
 import string
-import os
 import json
-from base_variables import product_name, model, report_format_version, top_p, temperature  # Importing product_name and model from base_variables
+from base_variables import product_name, model, report_format_version, top_p, temperature
 from datetime import datetime
 
-# Initialize Firebase Admin SDK
-cred = credentials.Certificate('/Users/mathiasmilsostephensen/Documents/qms_ai_api/lumidocs-firebase-adminsdk-u1zng-28193d06db.json')  # Update with your Firebase credentials file path
-firebase_admin.initialize_app(cred)
+# Initialize Firebase Admin SDK based on environment input
+def initialize_firebase(environment):
+    if environment.lower() == 'p':
+        # Production environment
+        cred = credentials.Certificate('/Users/mathiasmilsostephensen/Documents/qms_ai_api/lumidocs-firebase-adminsdk-u1zng-28193d06db.json') 
+
+        # Initialize the Firebase app for production
+        if not firebase_admin._apps:
+            print("initializing firebase cloud")
+            firebase_admin.initialize_app(cred)
+        else:
+            print("Firebase app already initialized in production.")
+    else:
+        # Development environment (emulator)
+        os.environ["FIRESTORE_EMULATOR_HOST"] = "localhost:8080"
+        os.environ["FIREBASE_AUTH_EMULATOR_HOST"] = "localhost:9099"
+
+        # Initialize Firebase Admin SDK without credentials but with a project ID for the emulator
+        if not firebase_admin._apps:
+            firebase_admin.initialize_app(options={'projectId': 'lumidocs'})  # Replace with a dummy project ID for the emulator
+        else:
+            print("Firebase app already initialized in development (emulator).")
+
+        print("Using Firebase Emulator for Firestore and Auth.")
+
+# Initialize Firestore client based on environment input
+def get_firestore_client(environment):
+    if environment.lower() == 'p':
+        db = firestore.client()
+        return db
+    else:
+        # Development environment (emulator)
+        project_id = "lumidocs"  # You can use any project ID here
+        credentials = AnonymousCredentials()
+        return Client(project=project_id, credentials=credentials)
 
 # Initialize Firestore
-db = firestore.client()
+db = None
 
 def generate_random_string(length=6):
     """Generate a random string of given length."""
@@ -38,6 +72,10 @@ def create_user():
 
 def store_metadata_in_firestore(user_id):
     """Store metadata in Firestore."""
+    if db is None:
+        print("Firestore is not initialized. Cannot store metadata.")
+        return
+    
     print("Storing metadata information...")
     comments = input("Comments: ").strip()
 
@@ -59,6 +97,10 @@ def store_metadata_in_firestore(user_id):
 
 def store_report_in_firestore(user_id, reports_path):
     """Store the report JSON files in Firestore."""
+    if db is None:
+        print("Firestore is not initialized. Cannot store report.")
+        return
+
     print("Storing report in Firestore...")
     reports_dir = reports_path
     report_files = [f for f in os.listdir(reports_dir) if f.endswith('.json')]
@@ -77,6 +119,10 @@ def store_report_in_firestore(user_id, reports_path):
 
 def store_report_abstracts_in_firestore(user_id):
     """Store the report abstracts JSON files in Firestore."""
+    if db is None:
+        print("Firestore is not initialized. Cannot store report abstracts.")
+        return
+
     print("Storing report abstracts in Firestore...")
     individual_abstracts_path = '/Users/mathiasmilsostephensen/Documents/qms_ai_api/prompt_output/abstracts/individual_abstracts.json'
     consolidated_abstract_path = '/Users/mathiasmilsostephensen/Documents/qms_ai_api/prompt_output/abstracts/report_abstract.json'
@@ -104,7 +150,7 @@ def store_report_abstracts_in_firestore(user_id):
     except Exception as e:
         print(f"Failed to store consolidated abstract in Firestore. Error: {e}")
 
-def save_sign_in_details(username, password, product_name, output_dir):
+def save_sign_in_detail(username, password, product_name, output_dir):
     """Save the sign-in details to a text file."""
     print("Saving sign-in information...")
     sign_in_info = (
@@ -126,6 +172,20 @@ def save_sign_in_details(username, password, product_name, output_dir):
     os.system(f"open {output_path}")
 
 def main():
+    # Step 0: Ask for environment type
+    environment = input("Enter environment ('P' for production, 'd' for development) [default: d]: ").strip() or 'd'
+
+    # Initialize Firebase for the selected environment
+    initialize_firebase(environment)
+
+    # Initialize Firestore
+    global db
+    db = get_firestore_client(environment)
+
+    if db is None:
+        print("Firestore client initialization failed. Exiting...")
+        return
+    
     # Step 1: Create user
     username, password, user_id = create_user()
     
@@ -141,7 +201,7 @@ def main():
     
     # Step 5: Save sign-in details to txt file
     output_dir = '/Users/mathiasmilsostephensen/Documents/qms_ai_api/sign_in_secrets'
-    save_sign_in_details(username, password, product_name, output_dir)
+    save_sign_in_detail(username, password, product_name, output_dir)
 
 if __name__ == "__main__":
     main()
