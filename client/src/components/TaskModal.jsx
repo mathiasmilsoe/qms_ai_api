@@ -5,6 +5,8 @@ import useStore from "../store";
 import PropTypes from "prop-types";
 import { updateTaskStatus } from "../api";
 import SuggestionModal from "./SuggestionModal";
+import { analytics } from "../firebase"
+import { logEvent } from "firebase/analytics";
 
 const { Text } = Typography;
 
@@ -33,6 +35,11 @@ const TaskModal = ({ isVisible, onClose, sectionId = null, requirementIndex = nu
     const handleTaskUpdate = async (sectionId, requirementIndex, subRequirementIndex, taskTitle, status) => {
         const buttonKey = `${sectionId}-${requirementIndex}-${subRequirementIndex}-${taskTitle}-${status}`;
         setLoadingButtons((prev) => ({ ...prev, [buttonKey]: true }));
+        logEvent(analytics, 'task_clicked', {
+            type: status,
+            title: taskTitle,
+            user_id: userId,
+        });
         try {
             await updateTaskStatus(userId, sectionId, requirementIndex, subRequirementIndex, taskTitle, status);
         } finally {

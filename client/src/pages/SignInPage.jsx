@@ -1,11 +1,11 @@
 // src/components/SignInPage.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Input, Button, message, Typography } from "antd";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebase";
 import useStore from "../store";
-import { analytics } from "../firebase"
+import { analytics } from "../firebase";
 import { logEvent } from "firebase/analytics";
 
 const { Title, Text } = Typography;
@@ -18,6 +18,14 @@ const SignInPage = () => {
     const setStoreReportId = useStore((state) => state.setReportId);
     const navigate = useNavigate();
     const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(() => {
+        // Check if the event has already been logged in this session
+        if (!sessionStorage.getItem('sign_in_page_loaded')) {
+            logEvent(analytics, 'sign_in_page_loaded');
+            sessionStorage.setItem('sign_in_page_loaded', 'true');
+        }
+    }, []);
 
     const handleSignIn = async () => {
         if (!reportId) {
@@ -46,8 +54,6 @@ const SignInPage = () => {
         }
         setIsLoading(false);
     };
-
-    logEvent(analytics, 'sign_in_page_loaded');
 
     return (
         <div className="mw6 h6 center mt5 pl5 pr5 pb5 pt3 tc bg-white br3">

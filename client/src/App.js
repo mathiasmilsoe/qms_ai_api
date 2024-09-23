@@ -60,7 +60,7 @@ const App = () => {
         allKeys.push(`checked-documents-${reqIndex}`); // Add documents key
         allKeys.push(`non-conformities-${reqIndex}`); // Add non-conformities key
 
-        requirement.sub_requirements.forEach((subRequirement, subReqIndex) => {
+        requirement?.sub_requirements?.forEach((subRequirement, subReqIndex) => {
           allKeys.push(`${requirement.requirement}-sub-${subReqIndex}`); // Add sub-requirement key
         });
       });

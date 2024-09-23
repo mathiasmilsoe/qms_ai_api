@@ -265,6 +265,27 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
         setExpandedSections(key);
     };
 
+    const logSectionExpandEvent = (sectionId) => {
+        logEvent(analytics, 'section_expanded', {
+            section_id: sectionId,
+        });
+    };
+
+    const logRequirementExpandEvent = (sectionId, requirement) => {
+        logEvent(analytics, 'requirement_expanded', {
+            section_id: sectionId,
+            requirement: requirement.requirement,
+        });
+    };
+
+    const logSubRequirementExpandEvent = (sectionId, requirement, subRequirement) => {
+        logEvent(analytics, 'subrequirement_expanded', {
+            section_id: sectionId,
+            requirement: requirement.requirement,
+            sub_requirement: subRequirement.description,
+        });
+    };
+
 
     const handleAnchorClick = (e, targetId, parentSectionId = null) => {
         e.preventDefault();  // Prevent the default anchor behavior initially
@@ -439,6 +460,7 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
                                     key={section.id}
                                     id={section.id}
                                     className="bg-white br3 pa3 ml2 mr2 mt3"
+                                    onClick={() => logSectionExpandEvent(section.id)}
                                 >
                                     <div className="mb3">
                                         <div className="f7 mb3 lh-copy">{reportAbstract?.[section.id]?.section_abstract}</div>
@@ -461,6 +483,7 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
                                                     key={`${requirement.requirement}`}
                                                     id={`${requirement.requirement}`}
                                                     className="bg-white br2 pa2 "
+                                                    onClick={() => logRequirementExpandEvent(section.id, requirement)}
                                                 >
                                                     <div className="mb3">
                                                         <p className="f7 mb3 lh-copy">
@@ -475,6 +498,7 @@ const ShowReportPage = forwardRef(({ expandedSections, setExpandedSections, coll
                                                                 header={<span className="dark-blue fw6 mb2 f7">
                                                                     {getUniqueCheckedDocuments(requirement).length} documents were checked
                                                                 </span>}
+                                                                onClick={() => logSubRequirementExpandEvent(section.id, requirement, requirement)}
                                                                 key={`checked-documents-${reqIndex}`}
                                                             >
                                                                 <div className="ml3">

@@ -1,19 +1,40 @@
 rules_version = '2';
-
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // This rule allows anyone with your Firestore database reference to view, edit,
-    // and delete all data in your Firestore database. It is useful for getting
-    // started, but it is configured to expire after 30 days because it
-    // leaves your app open to attackers. At that time, all client
-    // requests to your Firestore database will be denied.
-    //
-    // Make sure to write security rules for your app before that time, or else
-    // all client requests to your Firestore database will be denied until you Update
-    // your rules
-    match /{document=**} {
-      allow read, write: if request.time < timestamp.date(2024, 9, 27);
+    // Rule for report_abstract collection
+    match /report_abstracts/{documentId} {
+      allow read, write: if isUserDocument(documentId) || isDemoReport(documentId);
+      
+      // Allow access to subcollections like "abstracts"
+      match /{subCollection=**} {
+        allow read, write: if isUserDocument(documentId) || isDemoReport(documentId);
+      }
+    }
+
+    // Rule for metaData collection
+    match /metaData/{documentId} {
+      allow read, write: if isUserDocument(documentId) || isDemoReport(documentId);
+    }
+
+    // Rule for reports collection
+    match /reports/{documentId} {
+      allow read, write: if isUserDocument(documentId) || isDemoReport(documentId);
+      
+      // Allow access to subcollections like "sections"
+      match /{subCollection=**} {
+        allow read, write: if isUserDocument(documentId) || isDemoReport(documentId);
+      }
+    }
+
+    // Helper function to check if the document belongs to the user
+    function isUserDocument(documentId) {
+      return request.auth != null && documentId == request.auth.uid;
+    }
+    
+    // Helper function to check if the document is the demo report
+    function isDemoReport(documentId) {
+      return documentId == '49Ymd6vvIqhOZChldJ8GUcAjbcv1';
     }
   }
 }

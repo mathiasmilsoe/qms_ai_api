@@ -1,13 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Modal, Button, Typography, message } from "antd";
 import { CopyOutlined } from "@ant-design/icons";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw"; // Import rehype-raw to allow raw HTML
 import PropTypes from "prop-types";
+import useStore from "../store";
+import { analytics } from "../firebase"
+import { logEvent } from "firebase/analytics";
 
 const { Text } = Typography;
 
 const SuggestionModal = ({ isVisible, onClose, task }) => {
+    const userId = useStore((state) => state.userId);
+
+    useEffect(() => {
+        if (isVisible && task.suggestion) {
+            logEvent(analytics, 'suggestion_rendered', {
+                task: task.title,
+                user_id: userId,
+            });
+        }
+    }, [isVisible, task, userId]);
+
     if (!task) return null;
 
     // Function to copy suggestion to clipboard and show message
@@ -15,6 +29,10 @@ const SuggestionModal = ({ isVisible, onClose, task }) => {
         if (task.suggestion) {
             navigator.clipboard.writeText(task.suggestion)
                 .then(() => {
+                    logEvent(analytics, 'suggestion_copied', {
+                        task: task,
+                        user_id: userId,
+                    });
                     message.success('The suggestion has been copied to your clipboard.');
                 })
                 .catch(() => {
